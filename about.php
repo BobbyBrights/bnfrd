@@ -37,15 +37,40 @@
 
 	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="style/style.css" media="all">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" media="all">
+	<!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" media="all"> -->
 
 
 </head>
 
 <body>
-  <p> Hi my name is ben </p>
+	<?php include("header.php"); ?>
+	<div class="row headerfix full-height white-bg">
+		<div class="c6 project align-center">
+			<h3 class="about-me black-secondary">Enjoys 39¢ wings. Name sounds like a president from the 1800’s. Cooks by the book. Spends too much time playing pinball. Attempts to write music. Full name is Benjamin Harrison Ford. Is now a cat person. Terrible plant owner. Is a hypochondriac.<br><br><br>I’m currently based in Seattle as a Product Designer at Starbucks. Previously at Deloitte Digital.</h3>
+		</div>
+		<div class="c3"></div>
+	</div>
 
+	<div class="row white-bg">
+		<div class="c3"></div>
+		<div class="c6 project">
+			<h3 class="black-secondary pt8 pb8 text-center">One of the world’s most iconic brands, Starbucks is known for its commitment to global responsibility and consistent customer experience.</h3>
+		</div>
+		<div class="c3"></div>
+	</div>
 
+	<div class="row full-height">
+		<div class="c3"></div>
+		<div class="c3 align-center">
+			<img class="store-photo" src="img/test.png" alt="picture" />
+		</div>
+		<div class="c3 project align-center pl2 pt2 pb2">
+			<h5 class="pb1 black-secondary">ORDERING AHEAD</h5>
+			<h2 class="pb2">Targeting customers on the go</h2>
+			<p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</h5>
+		</div>
+			<div class="c3 align-center"></div>
+	</div>
 
 
 
