@@ -80,23 +80,27 @@ Alignments
 Grid
 ---------------------------------------- */
 
-.c1 {flex-basis:8.33%;}
-.c2 {flex-basis:16.66%;}
-.c3 {flex-basis:25%;}
-.c4 {flex-basis:33.333%;}
-.c5 {flex-basis:41.66%;}
-.c6 {flex-basis:50%;}
-.c7 {flex-basis:58.33%;}
-.c8 {flex-basis:66.66%;}
-.c9 {flex-basis:75%;}
-.c10 {flex-basis:83.33%;}
-.c11 {flex-basis:91.66%;}
-.c12 {flex-basis:100%;}
+.container {
+	max-width: 1520px;
+}
 
 .row {
   display: flex;
   flex-wrap: wrap;
 }
+
+.c1 {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
+.c2 {flex-basis:16.66%; -ms-flex-preferred-size: 16.667%}
+.c3 {flex-basis:25%; -ms-flex-preferred-size: 25%}
+.c4 {flex-basis:33.333%; -ms-flex-preferred-size: 33.333%}
+.c5 {flex-basis:41.66%; -ms-flex-preferred-size: 41.66%}
+.c6 {flex-basis:50%; -ms-flex-preferred-size: 50%;}
+.c7 {flex-basis:58.33%; -ms-flex-preferred-size:58.33%;}
+.c8 {flex-basis:66.66%; -ms-flex-preferred-size: 66.66%;}
+.c9 {flex-basis:75%; -ms-flex-preferred-size: 75%;}
+.c10 {flex-basis:83.33%; -ms-flex-preferred-size: 83.33%;}
+.c11 {flex-basis:91.66%; -ms-flex-preferred-size: 91.66%;}
+.c12 {flex-basis:100%; -ms-flex-preferred-size: 100%;}
 
 .full-height {
   height: 100vh;
@@ -149,7 +153,7 @@ Bnfrd Customs
 .store-photo {
 	max-height:656px;
 	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-	border-radius: 32px;
+	border-radius: 1rem;
 }
 
 .about-me {
@@ -303,16 +307,20 @@ Spacing
 /* ----------------------------------------
 Colors
 ---------------------------------------- */
+
+/* Backgrounds */
+.white-bg { background: #fff; }
+.grey-bg { background: #f7f7f7; }
+.orange-bg { background-color: #FFB95A; }
+.black-bg { background-color: #000}
+
+
+/* Type */
 .white { color: rgba(255,255,255,1); }
 .white-secondary { color: rgba(255,255,255,.6); }
-.white-bg { background: #fff; }
-
 .black { color: rgba(0,0,0,.8); }
 .black-secondary { color: rgba(0,0,0,.5); }
 
-
-.grey-bg { background: #f7f7f7; }
-.orange-bg { background-color: orange; }
 
 
 /* ----------------------------------------
@@ -381,10 +389,48 @@ Media Queries
 ---------------------------------------- */
 /* Media query for 1024 Screens */
 @media only screen and (max-width:1024px){
+
+	/* ----------------------------------------
+	Grid
+	---------------------------------------- */
+
+
+.c1m {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
+.c2m {flex-basis:16.66%; -ms-flex-preferred-size: 16.667%}
+.c3m {flex-basis:25%; -ms-flex-preferred-size: 25%}
+.c4m {flex-basis:33.333%; -ms-flex-preferred-size: 33.333%}
+.c5m {flex-basis:41.66%; -ms-flex-preferred-size: 41.66%}
+.c6m {flex-basis:50%; -ms-flex-preferred-size: 50%;}
+.c7m {flex-basis:58.33%; -ms-flex-preferred-size:58.33%;}
+.c8m {flex-basis:66.66%; -ms-flex-preferred-size: 66.66%;}
+.c9m {flex-basis:75%; -ms-flex-preferred-size: 75%;}
+.c10m {flex-basis:83.33%; -ms-flex-preferred-size: 83.33%;}
+.c11m {flex-basis:91.66%; -ms-flex-preferred-size: 91.66%;}
+.c12m {flex-basis:100%; -ms-flex-preferred-size: 100%;}
+
 }
 
 /* Media query for 960 Screens*/
 @media only screen and (max-width:960px){
+
+	/* ----------------------------------------
+	Grid
+	---------------------------------------- */
+
+
+.c1s {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
+.c2s {flex-basis:16.66%; -ms-flex-preferred-size: 16.667%}
+.c3s {flex-basis:25%; -ms-flex-preferred-size: 25%}
+.c4s {flex-basis:33.333%; -ms-flex-preferred-size: 33.333%}
+.c5s {flex-basis:41.66%; -ms-flex-preferred-size: 41.66%}
+.c6s {flex-basis:50%; -ms-flex-preferred-size: 50%;}
+.c7s {flex-basis:58.33%; -ms-flex-preferred-size:58.33%;}
+.c8s {flex-basis:66.66%; -ms-flex-preferred-size: 66.66%;}
+.c9s {flex-basis:75%; -ms-flex-preferred-size: 75%;}
+.c10s {flex-basis:83.33%; -ms-flex-preferred-size: 83.33%;}
+.c11s {flex-basis:91.66%; -ms-flex-preferred-size: 91.66%;}
+.c12s {flex-basis:100%; -ms-flex-preferred-size: 100%;}
+
 }
 
 /* Media query for iPad and tablets */
@@ -405,5 +451,23 @@ Media Queries
 	.about-me {
 		padding-left: 0px;
 	}
+
+	/* ----------------------------------------
+	Grid
+	---------------------------------------- */
+
+
+.c1xs {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
+.c2xs {flex-basis:16.66%; -ms-flex-preferred-size: 16.667%}
+.c3xs {flex-basis:25%; -ms-flex-preferred-size: 25%}
+.c4xs {flex-basis:33.333%; -ms-flex-preferred-size: 33.333%}
+.c5xs {flex-basis:41.66%; -ms-flex-preferred-size: 41.66%}
+.c6xs {flex-basis:50%; -ms-flex-preferred-size: 50%;}
+.c7xs {flex-basis:58.33%; -ms-flex-preferred-size:58.33%;}
+.c8xs {flex-basis:66.66%; -ms-flex-preferred-size: 66.66%;}
+.c9xs {flex-basis:75%; -ms-flex-preferred-size: 75%;}
+.c10xs {flex-basis:83.33%; -ms-flex-preferred-size: 83.33%;}
+.c11xs {flex-basis:91.66%; -ms-flex-preferred-size: 91.66%;}
+.c12xs {flex-basis:100%; -ms-flex-preferred-size: 100%;}
 
 }
