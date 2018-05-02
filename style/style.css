@@ -82,11 +82,42 @@ Grid
 
 .container {
 	max-width: 1520px;
+	margin: auto;
 }
 
 .row {
+  display: -ms-flexbox;
+  display: -webkit-box;
   display: flex;
+  -ms-flex: 0 1 auto;
+  -webkit-box-flex: 0;
+  flex: 0 1 auto;
+  -ms-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+}
+
+.c1,
+.c2,
+.c3,
+.c4,
+.c5,
+.c6,
+.c7,
+.c8,
+.c9,
+.c10,
+.c11,
+.c12 {
+	box-sizing: border-box;
+  -ms-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .c1 {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
@@ -395,7 +426,7 @@ Media Queries
 	---------------------------------------- */
 
 
-.c1m {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
+/* .c1m {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
 .c2m {flex-basis:16.66%; -ms-flex-preferred-size: 16.667%}
 .c3m {flex-basis:25%; -ms-flex-preferred-size: 25%}
 .c4m {flex-basis:33.333%; -ms-flex-preferred-size: 33.333%}
@@ -406,7 +437,7 @@ Media Queries
 .c9m {flex-basis:75%; -ms-flex-preferred-size: 75%;}
 .c10m {flex-basis:83.33%; -ms-flex-preferred-size: 83.33%;}
 .c11m {flex-basis:91.66%; -ms-flex-preferred-size: 91.66%;}
-.c12m {flex-basis:100%; -ms-flex-preferred-size: 100%;}
+.c12m {flex-basis:100%; -ms-flex-preferred-size: 100%;} */
 
 }
 
@@ -417,7 +448,7 @@ Media Queries
 	Grid
 	---------------------------------------- */
 
-
+/*
 .c1s {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
 .c2s {flex-basis:16.66%; -ms-flex-preferred-size: 16.667%}
 .c3s {flex-basis:25%; -ms-flex-preferred-size: 25%}
@@ -429,7 +460,7 @@ Media Queries
 .c9s {flex-basis:75%; -ms-flex-preferred-size: 75%;}
 .c10s {flex-basis:83.33%; -ms-flex-preferred-size: 83.33%;}
 .c11s {flex-basis:91.66%; -ms-flex-preferred-size: 91.66%;}
-.c12s {flex-basis:100%; -ms-flex-preferred-size: 100%;}
+.c12s {flex-basis:100%; -ms-flex-preferred-size: 100%;} */
 
 }
 
@@ -457,7 +488,7 @@ Media Queries
 	---------------------------------------- */
 
 
-.c1xs {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
+/* .c1xs {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
 .c2xs {flex-basis:16.66%; -ms-flex-preferred-size: 16.667%}
 .c3xs {flex-basis:25%; -ms-flex-preferred-size: 25%}
 .c4xs {flex-basis:33.333%; -ms-flex-preferred-size: 33.333%}
@@ -468,6 +499,6 @@ Media Queries
 .c9xs {flex-basis:75%; -ms-flex-preferred-size: 75%;}
 .c10xs {flex-basis:83.33%; -ms-flex-preferred-size: 83.33%;}
 .c11xs {flex-basis:91.66%; -ms-flex-preferred-size: 91.66%;}
-.c12xs {flex-basis:100%; -ms-flex-preferred-size: 100%;}
+.c12xs {flex-basis:100%; -ms-flex-preferred-size: 100%;} */
 
 }
