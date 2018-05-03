@@ -70,7 +70,7 @@ Grid
 ---------------------------------------- */
 
 .container {
-	max-width: 1680px;
+	max-width: 1440px;
 	margin: auto;
 }
 
@@ -138,7 +138,7 @@ Grid
   height: 100vh;
 }
 
-/* Column Alignment (Apply to Rows) */
+/* Column Alignment (Apply to Row/parents) */
 
 .hstart {
   -ms-flex-pack: start;
@@ -190,7 +190,7 @@ Grid
   justify-content: space-between;
 }
 
-/* Column Alignment (Apply to Columns) */
+/* Column Alignment (Apply to Columns/children) */
 
 .first {
   -ms-flex-order: -1;
@@ -220,9 +220,9 @@ Grid
 /* Squares */
 
 .s1 {width: 8.333vw; height: 8.333vw;}
-.s2 {width: 16.667vw; height: 16.667vw;}
-.s3 {width: 25vw; height: 25vw;}
-.s4 {width: 33.333vw; height: 33.333vw;}
+.s2 {width: 240px; height: 240px;}
+.s3 {width: 360px; height: 360px;}
+.s4 {width: 479.984px; height: 479.984px;}
 .s5 {width: 41.667vw; height: 41.667vw;}
 .s6 {width: 50vw; height: 50vw;}
 
@@ -524,11 +524,18 @@ Bnfrd Customs
 Media Queries
 ---------------------------------------- */
 /* Media query for 1024 Screens */
-@media only screen and (max-width:1024px){
+@media only screen and (max-width:1440px){
 
 	/* .header {
 		background-color: yellow;
 	} */
+
+	.s1 {width: 8.333vw; height: 8.333vw;}
+	.s2 {width: 16.667vw; height: 16.667vw;}
+	.s3 {width: 25vw; height: 25vw;}
+	.s4 {width: 33.333vw; height: 33.333vw;}
+	.s5 {width: 41.667vw; height: 41.667vw;}
+	.s6 {width: 50vw; height: 50vw;}
 
 	/* ----------------------------------------
 	Grid
