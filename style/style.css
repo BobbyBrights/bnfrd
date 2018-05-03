@@ -70,8 +70,10 @@ Grid
 ---------------------------------------- */
 
 .container {
-	max-width: 1440px;
-	margin: auto;
+	/* max-width: 1680px; */
+	margin: 0 6rem;
+	/* margin: auto; */
+
 }
 
 .row {
@@ -478,9 +480,8 @@ Bnfrd Customs
 .header {
 	height: 164px;
 	justify-content: space-between;
-	padding: 0 80px;
 	z-index: 100;
-	max-width: 1680px;
+	/* max-width: 1680px; */
 }
 
 .project {
@@ -665,8 +666,13 @@ Media Queries
 
 	.header {
 		height: 72px;
-		padding: 0 16px;
 	}
+
+	.container {
+		/* max-width: 1680px; */
+		margin: 0 1rem;
+	}
+
 	.headerfix {
 		margin-top:-72px;
 	}

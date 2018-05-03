@@ -43,18 +43,17 @@
 </head>
 
 <body>
-	<?php include("header.php"); ?>
   <div class="container">
+		<?php include("header.php"); ?>
 		<div class="row">
-  		<div class="kitty-1 c-offset-1 c-offset-0xs row end s4 s12xs">
+  		<div class="kitty-1 c-offset-0xs row end s4 s12xs">
 				<h2 class="vstart white">This is a Kitty</h2>
-				</div>
 			</div>
     </div>
 		<div class="row">
 			<div class="kitty-2 c-offset-7 c-offset-0xs row s2 white-bg s12xs">
 				<h2 class="white vend">Her name is Roux</h2>
-				</div>
+			</div>
 		</div>
 		<div class="row">
 			<div class="kitty-3 c-offset-4 c-offset-0xs row s3 s12xs orange-bg">
