@@ -44,6 +44,7 @@
 
 <body>
   <div class="container">
+		<?php include("header.php"); ?>
     <div class="row">
   		<div class="c1 orange-bg">a</div>
       <div class="c1 grey-bg">a</div>
@@ -57,6 +58,11 @@
       <div class="c1 grey-bg">a</div>
       <div class="c1 orange-bg">a</div>
       <div class="c1 black-bg">a</div>
+    </div>
+		<div class="row around">
+  		<div class="s1 orange-bg">a</div>
+			<div class="s1 blue-bg last">a</div>
+
     </div>
   </div>
 

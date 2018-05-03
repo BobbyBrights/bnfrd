@@ -2,7 +2,7 @@
  * V-1.0
  *
  * Ben Ford Design Site
- * Special thanks to Andrew Nedimeyer for the boilerplate
+ * Special thanks to Andrew Nedimeyer for the boilerplate &
  */
 
 
@@ -66,22 +66,11 @@ Clearfixes
 
 
 /* ----------------------------------------
-Alignments
----------------------------------------- */
-/* .centered{float: none; margin: auto;}
-.left {float: left;}*/
-.right {margin-left: auto;}
-.text-left {text-align: left;}
-.text-right {text-align: right;}
-.text-center {text-align: center;}
-
-
-/* ----------------------------------------
 Grid
 ---------------------------------------- */
 
 .container {
-	max-width: 1520px;
+	max-width: 1680px;
 	margin: auto;
 }
 
@@ -133,69 +122,109 @@ Grid
 .c11 {flex-basis:91.66%; -ms-flex-preferred-size: 91.66%;}
 .c12 {flex-basis:100%; -ms-flex-preferred-size: 100%;}
 
+.c-offset-1 {margin-left: 8.333%;}
+.c-offset-2 {margin-left: 16.667%;}
+.c-offset-3 {margin-left: 25%;}
+.c-offset-4 {margin-left: 33.333%;}
+.c-offset-5 {margin-left: 41.667%;}
+.c-offset-6 {margin-left: 50%;}
+.c-offset-7 {margin-left: 58.333%;}
+.c-offset-8 {margin-left: 66.667%;}
+.c-offset-9 {margin-left: 75%;}
+.c-offset-10 {margin-left: 83.333%;}
+.c-offset-11 {margin-left: 91.66%;}
+
 .full-height {
   height: 100vh;
 }
 
-/* ----------------------------------------
-Flex -- Parent
----------------------------------------- */
-/* .align-center {
-	align-items: center;
-} */
+/* Column Alignment (Apply to Rows) */
+
+.start {
+  -ms-flex-pack: start;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  /* text-align: start; */
+}
+
+.center {
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  /* text-align: center; */
+}
+
+.end {
+  -ms-flex-pack: end;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  /* text-align: end; */
+}
+
+.top {
+  -ms-flex-align: start;
+  -webkit-box-align: start;
+  align-items: flex-start;
+}
+
+.middle {
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.bottom {
+  -ms-flex-align: end;
+  -webkit-box-align: end;
+  align-items: flex-end;
+}
+
+.around {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
 .between {
-	justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
 }
 
-.flex {
-	display: flex;
+/* Column Alignment (Apply to Columns) */
+
+.first {
+  -ms-flex-order: -1;
+  -webkit-box-ordinal-group: 0;
+  order: -1;
 }
 
-.inline {
-	display: inline;
+.last {
+  -ms-flex-order: 1;
+  -webkit-box-ordinal-group: 2;
+  order: 1;
 }
+
+/* Squares */
+
+.s1 {width: 8.333vw; height: 8.333vw;}
+.s2 {width: 16.667vw; height: 16.667vw;}
+.s3 {width: 25vw; height: 25vw;}
+.s4 {width: 33.333vw; height: 33.333vw;}
+.s5 {width: 41.667vw; height: 41.667vw;}
+.s6 {width: 50vw; height: 50vw;}
+
+
+
+/* ----------------------------------------
+Column Alignment
+---------------------------------------- */
+
 /* ----------------------------------------
 Flex -- Children
 ---------------------------------------- */
 .align-center {
 	align-self: center;
 }
-
-
-/* ----------------------------------------
-Bnfrd Customs
----------------------------------------- */
-
-.header {
-	height: 164px;
-	padding: 0 80px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.project {
-
-}
-
-.headerfix {
-	margin-top:-164px;
-}
-
-.store-photo {
-	max-height:656px;
-	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-	border-radius: 1rem;
-}
-
-.about-me {
-	padding-left: 80px;
-}
-
-.square {
-	width: 25vw;
-	height: 25vw;
-}
-
 
 
 /* ----------------------------------------
@@ -358,6 +387,10 @@ Colors
 /* ----------------------------------------
 Typography
 ---------------------------------------- */
+:root {
+font-size: 16px;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-weight: none;
 	font-style: normal;
@@ -390,13 +423,20 @@ a {
 a:hover {color: #000000; }
 a:focus {color: #000000; outline: none; }
 
-p { /*margin-bottom: 10px;*/ padding:0; font-size: 18px; line-height: 28px; }
+p { /*margin-bottom: 10px;*/ padding:0; font-size: 1rem; line-height: 37px; }
 p span {color: #46aae3; }
 p a, p a:visited {line-height: inherit; }
 
 i { font-style: italic; line-height: inherit; }
 strong, b { /*font-weight: bold; line-height: inherit;*/color: rgba(0,0,0,.5);  }
 small { font-size: 70%; line-height: inherit; }
+
+
+/* Type Alignment */
+.right {margin-left: auto;}
+.text-left {text-align: left;}
+.text-right {text-align: right;}
+.text-center {text-align: center;}
 
 
 /* ----------------------------------------
@@ -415,6 +455,43 @@ img { display: block; max-width: 100%; height: auto; }
 
 
 
+/* ----------------------------------------
+Bnfrd Customs
+---------------------------------------- */
+
+.header {
+	height: 164px;
+	padding: 0 80px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.project {
+
+}
+
+.headerfix {
+	margin-top:-164px;
+}
+
+.store-photo {
+	max-height:656px;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	border-radius: 1rem;
+}
+
+.about-me {
+	padding-left: 80px;
+}
+
+.square {
+	width: 25vw;
+	height: 25vw;
+}
+
+
+
+
 
 /* ----------------------------------------
 Media Queries
@@ -426,8 +503,27 @@ Media Queries
 	Grid
 	---------------------------------------- */
 
+.c1m,
+.c2m,
+.c3m,
+.c4m,
+.c5m,
+.c6m,
+.c7m,
+.c8m,
+.c9m,
+.c10m,
+.c11m,
+.c12m {
+	box-sizing: border-box;
+  -ms-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
 
-/* .c1m {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
+.c1m {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
 .c2m {flex-basis:16.66%; -ms-flex-preferred-size: 16.667%}
 .c3m {flex-basis:25%; -ms-flex-preferred-size: 25%}
 .c4m {flex-basis:33.333%; -ms-flex-preferred-size: 33.333%}
@@ -438,7 +534,19 @@ Media Queries
 .c9m {flex-basis:75%; -ms-flex-preferred-size: 75%;}
 .c10m {flex-basis:83.33%; -ms-flex-preferred-size: 83.33%;}
 .c11m {flex-basis:91.66%; -ms-flex-preferred-size: 91.66%;}
-.c12m {flex-basis:100%; -ms-flex-preferred-size: 100%;} */
+.c12m {flex-basis:100%; -ms-flex-preferred-size: 100%;}
+
+.c-offset-1m {margin-left: 8.333%;}
+.c-offset-2m {margin-left: 16.667%;}
+.c-offset-3m {margin-left: 25%;}
+.c-offset-4m {margin-left: 33.333%;}
+.c-offset-5m {margin-left: 41.667%;}
+.c-offset-6m {margin-left: 50%;}
+.c-offset-7m {margin-left: 58.333%;}
+.c-offset-8m {margin-left: 66.667%;}
+.c-offset-9m {margin-left: 75%;}
+.c-offset-10m {margin-left: 83.333%;}
+.c-offset-11m {margin-left: 91.66%;}
 
 }
 
@@ -449,7 +557,26 @@ Media Queries
 	Grid
 	---------------------------------------- */
 
-/*
+.c1s,
+.c2s,
+.c3s,
+.c4s,
+.c5s,
+.c6s,
+.c7s,
+.c8s,
+.c9s,
+.c10s,
+.c11s,
+.c12s {
+	box-sizing: border-box;
+  -ms-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
 .c1s {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
 .c2s {flex-basis:16.66%; -ms-flex-preferred-size: 16.667%}
 .c3s {flex-basis:25%; -ms-flex-preferred-size: 25%}
@@ -457,11 +584,23 @@ Media Queries
 .c5s {flex-basis:41.66%; -ms-flex-preferred-size: 41.66%}
 .c6s {flex-basis:50%; -ms-flex-preferred-size: 50%;}
 .c7s {flex-basis:58.33%; -ms-flex-preferred-size:58.33%;}
-.c8s {flex-basis:66.66%; -ms-flex-preferred-size: 66.66%;}
+.c8 {flex-basis:66.66%; -ms-flex-preferred-size: 66.66%;}
 .c9s {flex-basis:75%; -ms-flex-preferred-size: 75%;}
 .c10s {flex-basis:83.33%; -ms-flex-preferred-size: 83.33%;}
 .c11s {flex-basis:91.66%; -ms-flex-preferred-size: 91.66%;}
-.c12s {flex-basis:100%; -ms-flex-preferred-size: 100%;} */
+.c12s {flex-basis:100%; -ms-flex-preferred-size: 100%;}
+
+.c-offset-1s {margin-left: 8.333%;}
+.c-offset-2s {margin-left: 16.667%;}
+.c-offset-3s {margin-left: 25%;}
+.c-offset-4s {margin-left: 33.333%;}
+.c-offset-5s {margin-left: 41.667%;}
+.c-offset-6s {margin-left: 50%;}
+.c-offset-7s {margin-left: 58.333%;}
+.c-offset-8s {margin-left: 66.667%;}
+.c-offset-9s {margin-left: 75%;}
+.c-offset-10s {margin-left: 83.333%;}
+.c-offset-11s {margin-left: 91.66%;}
 
 }
 
@@ -488,8 +627,27 @@ Media Queries
 	Grid
 	---------------------------------------- */
 
+.c1xs,
+.c2xs,
+.c3xs
+.c4xs,
+.c5xs,
+.c6xs,
+.c7xs,
+.c8xs,
+.c9xs,
+.c10xs,
+.c11xs,
+.c12xs {
+	box-sizing: border-box;
+  -ms-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
 
-/* .c1xs {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
+.c1xs {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
 .c2xs {flex-basis:16.66%; -ms-flex-preferred-size: 16.667%}
 .c3xs {flex-basis:25%; -ms-flex-preferred-size: 25%}
 .c4xs {flex-basis:33.333%; -ms-flex-preferred-size: 33.333%}
@@ -500,6 +658,18 @@ Media Queries
 .c9xs {flex-basis:75%; -ms-flex-preferred-size: 75%;}
 .c10xs {flex-basis:83.33%; -ms-flex-preferred-size: 83.33%;}
 .c11xs {flex-basis:91.66%; -ms-flex-preferred-size: 91.66%;}
-.c12xs {flex-basis:100%; -ms-flex-preferred-size: 100%;} */
+.c12xs {flex-basis:100%; -ms-flex-preferred-size: 100%;}
+
+.c-offset-1xs {margin-left: 8.333%;}
+.c-offset-2xs {margin-left: 16.667%;}
+.c-offset-3xs {margin-left: 25%;}
+.c-offset-4xs {margin-left: 33.333%;}
+.c-offset-5xs {margin-left: 41.667%;}
+.c-offset-6xs {margin-left: 50%;}
+.c-offset-7xs {margin-left: 58.333%;}
+.c-offset-8xs {margin-left: 66.667%;}
+.c-offset-9xs {margin-left: 75%;}
+.c-offset-10xs {margin-left: 83.333%;}
+.c-offset-11xs {margin-left: 91.66%;}
 
 }
