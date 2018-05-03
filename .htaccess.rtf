@@ -7,7 +7,9 @@
 \pard\pardeftab720\sl364\partightenfactor0
 
 \f0\fs36\fsmilli18200 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 RewriteEngine On\
+\outl0\strokewidth0 \strokec2 Options +MultiViews\
+RewriteEngine On\
+RewriteCond %\{REQUEST_FILENAME\} !-d\
 RewriteCond %\{REQUEST_FILENAME\} !-f\
 RewriteRule ^([^\\.]+)$ $1.php [NC,L]
 \f1\fs56 \
