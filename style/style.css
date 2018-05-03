@@ -404,12 +404,26 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	font-weight: inherit;
 	text-decoration:none;
 }
+
+
+/* Large Heading */
 h1 {font-size: 18px; line-height: 24px;}
+
+/* Medium Heading */
 h2 {font-size: 32px; line-height: 42px; font-weight: bold}
+
+/* Small Heading */
 h3 {font-size: 24px; line-height: 36px;}
+
+/* Subhead */
 h4 {font-size: 10px; line-height: 32px; letter-spacing: 1px;}
+
+/* Label */
 h5 {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold}
-h6 {font-size: 18px; line-height: 27px;}
+/* h6 {font-size: 18px; line-height: 27px;} */
+
+/* Small Body */
+.small-type {font-size: 12px; line-height: 36px;}
 
 a {
     text-decoration: none;
