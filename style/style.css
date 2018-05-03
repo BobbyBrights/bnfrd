@@ -140,21 +140,21 @@ Grid
 
 /* Column Alignment (Apply to Rows) */
 
-.start {
+.hstart {
   -ms-flex-pack: start;
   -webkit-box-pack: start;
   justify-content: flex-start;
   /* text-align: start; */
 }
 
-.center {
+.hcenter {
   -ms-flex-pack: center;
   -webkit-box-pack: center;
   justify-content: center;
   /* text-align: center; */
 }
 
-.end {
+.hend {
   -ms-flex-pack: end;
   -webkit-box-pack: end;
   justify-content: flex-end;
@@ -204,6 +204,19 @@ Grid
   order: 1;
 }
 
+.vstart {
+	align-self: flex-start;
+}
+
+.vcenter {
+	align-self: center;
+}
+
+.vend {
+	align-self: flex-end;
+}
+
+
 /* Squares */
 
 .s1 {width: 8.333vw; height: 8.333vw;}
@@ -214,17 +227,6 @@ Grid
 .s6 {width: 50vw; height: 50vw;}
 
 
-
-/* ----------------------------------------
-Column Alignment
----------------------------------------- */
-
-/* ----------------------------------------
-Flex -- Children
----------------------------------------- */
-.align-center {
-	align-self: center;
-}
 
 
 /* ----------------------------------------
@@ -461,9 +463,10 @@ Bnfrd Customs
 
 .header {
 	height: 164px;
-	padding: 0 80px;
-	display: flex;
 	justify-content: space-between;
+	padding: 0 80px;
+	z-index: 100;
+	max-width: 1680px;
 }
 
 .project {
@@ -489,6 +492,30 @@ Bnfrd Customs
 	height: 25vw;
 }
 
+.kitty-1 {
+	background-image: url('kitty1.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.kitty-2 {
+	background-image: url('kitty2.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.kitty-3 {
+	background-image: url('kitty3.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.kitty-4 {
+	background-image: url('kitty4.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
 
 
 
@@ -498,6 +525,10 @@ Media Queries
 ---------------------------------------- */
 /* Media query for 1024 Screens */
 @media only screen and (max-width:1024px){
+
+	/* .header {
+		background-color: yellow;
+	} */
 
 	/* ----------------------------------------
 	Grid
@@ -552,6 +583,10 @@ Media Queries
 
 /* Media query for 960 Screens*/
 @media only screen and (max-width:960px){
+
+/* .header {
+	background-color: blue;
+} */
 
 	/* ----------------------------------------
 	Grid
@@ -660,6 +695,7 @@ Media Queries
 .c11xs {flex-basis:91.66%; -ms-flex-preferred-size: 91.66%;}
 .c12xs {flex-basis:100%; -ms-flex-preferred-size: 100%;}
 
+.c-offset-0xs {margin-left: 0;}
 .c-offset-1xs {margin-left: 8.333%;}
 .c-offset-2xs {margin-left: 16.667%;}
 .c-offset-3xs {margin-left: 25%;}
@@ -671,5 +707,7 @@ Media Queries
 .c-offset-9xs {margin-left: 75%;}
 .c-offset-10xs {margin-left: 83.333%;}
 .c-offset-11xs {margin-left: 91.66%;}
+
+.s12xs {width: 100vw; height: 100vw; margin-bottom: 1rem;}
 
 }

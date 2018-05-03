@@ -43,28 +43,49 @@
 </head>
 
 <body>
-  <div class="container">
-		<?php include("header.php"); ?>
-    <div class="row">
-  		<div class="c1 orange-bg">a</div>
-      <div class="c1 grey-bg">a</div>
-      <div class="c1 orange-bg">a</div>
-      <div class="c1 grey-bg">a</div>
-      <div class="c1 orange-bg">a</div>
-      <div class="c1 grey-bg">a</div>
-      <div class="c1 orange-bg">a</div>
-      <div class="c1 grey-bg">a</div>
-      <div class="c1 orange-bg">a</div>
-      <div class="c1 grey-bg">a</div>
-      <div class="c1 orange-bg">a</div>
-      <div class="c1 black-bg">a</div>
-    </div>
-		<div class="row around">
-  		<div class="s1 orange-bg">a</div>
-			<div class="s1 blue-bg last">a</div>
+	<!-- <div class="header">
+	    <h1 class="align-center flex"><a href="home.html">Ben Ford</a></h1>
+	    <h1 class="align-center flex black-secondary"><a href="about.html">About</a></h1>
+	  </div>
+	</div> -->
+	<?php include("header.php"); ?>
+	<div class="row headerfix full-height">
+		<div class="c6"></div>
+		<div class="c3 project align-center">
+			<h5 class="pb2 black-secondary">APP DESIGN | iOS & ANDROID APPS</h5>
+			<p>After building the Starbucks Design System and replatforming the entire backend of Starbucks’ digital products, stores was the first feature slated for the redesign.</h5>
+		</div>
+		<div class="c3"></div>
+	</div>
 
-    </div>
-  </div>
+	<div class="row white-bg">
+		<div class="c3"></div>
+		<div class="c6 project">
+			<h3 class="black-secondary pt8 pb8 text-center">One of the world’s most iconic brands, Starbucks is known for its commitment to global responsibility and consistent customer experience.</h3>
+		</div>
+		<div class="c3"></div>
+	</div>
+
+	<div class="row full-height">
+		<div class="c3"></div>
+		<div class="c3 align-center">
+			<img class="store-photo" src="img/test.png" alt="picture" />
+		</div>
+		<div class="c3 project align-center pl2 pt2 pb2">
+			<h5 class="pb1 black-secondary">ORDERING AHEAD</h5>
+			<h2 class="pb2">Targeting customers on the go</h2>
+			<p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</h5>
+		</div>
+			<div class="c3 align-center"></div>
+	</div>
+
+	<div class="row white-bg">
+		<div class="c1 orange-bg"></div>
+		<div class="square">
+			<h3 class="black-secondary">Hi I work</h3>
+		</div>
+		<div class="c8 orange-bg"></div>
+	</div>
 
 
 
