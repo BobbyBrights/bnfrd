@@ -22,7 +22,7 @@ body {
 	-webkit-font-smoothing: antialiased !important;
 	text-shadow: none;
 	font-family: avenir, gotham, times new roman;
-	background-color: #f7f7f7;
+	background-color: #fff;
 }
 
 
@@ -31,6 +31,8 @@ Text Select
 ---------------------------------------- */
 ::selection { background-color: rgba(0,168,98,.15); color: #000; }
 ::-moz-selection { background-color: rgba(0,168,98,.15); color: #000;}
+
+mark {background-color: rgba(0,168,98,.15); color: inherit;}
 
 
 /* ----------------------------------------
@@ -70,7 +72,7 @@ Grid
 ---------------------------------------- */
 
 .container {
-	/* max-width: 1680px; */
+	max-width: 1488px;
 	margin: 0 6rem;
 	/* margin: auto; */
 
