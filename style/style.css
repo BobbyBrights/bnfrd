@@ -91,6 +91,7 @@ Grid
   flex-direction: row;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+	position: relative;
 }
 
 .c1,
@@ -369,6 +370,22 @@ Spacing
 .pl13 {padding-left: 104px;}
 .pl14 {padding-left: 112px;}
 .pl15 {padding-left: 120px;}
+.py0 {padding-top: 4px; padding-bottom: 4px;}
+.py1 {padding-top: 8px; padding-bottom: 8px;}
+.py2 {padding-top: 16px; padding-bottom: 16px;}
+.py3 {padding-top: 24px; padding-bottom: 24px;}
+.py4 {padding-top: 32px; padding-bottom: 32px;}
+.py5 {padding-top: 40px; padding-bottom: 40px;}
+.py6 {padding-top: 48px; padding-bottom: 48px;}
+.py7 {padding-top: 56px; padding-bottom: 56px;}
+.py8 {padding-top: 64px; padding-bottom: 64px;}
+.py9 {padding-top: 72px; padding-bottom: 72px;}
+.py10 {padding-top: 80px; padding-bottom: 80px;}
+.py11 {padding-top: 88px; padding-bottom: 88px;}
+.py12 {padding-top: 96px; padding-bottom: 96px;}
+.py13 {padding-top: 104px; padding-bottom: 104px;}
+.py14 {padding-top: 112px; padding-bottom: 112px;}
+.py15 {padding-top: 120px; padding-bottom: 120px;}
 
 /* ----------------------------------------
 Colors
@@ -420,7 +437,7 @@ h2 {font-size: 32px; line-height: 42px; font-weight: bold}
 h3 {font-size: 24px; line-height: 36px;}
 
 /* Subhead */
-h4 {font-size: 10px; line-height: 32px; letter-spacing: 1px;}
+h4 {font-size: 24px; line-height: 36px;}
 
 /* Label */
 h5 {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold}
@@ -443,7 +460,7 @@ a {
 a:hover {color: #000000; }
 a:focus {color: #000000; outline: none; }
 
-p { /*margin-bottom: 10px;*/ padding:0; font-size: 1rem; line-height: 37px; }
+p { /*margin-bottom: 10px;*/ padding:0; font-size: 1rem; line-height: 24px; }
 p span {color: #46aae3; }
 p a, p a:visited {line-height: inherit; }
 
@@ -471,7 +488,7 @@ ol li ul, ol li ol { margin-bottom: 0; }
 /* ----------------------------------------
 Images
 ---------------------------------------- */
-img { display: block; max-width: 100%; height: auto; }
+img { display: block; max-width: auto; height: 100%; }
 
 
 
@@ -482,7 +499,8 @@ Bnfrd Customs
 .header {
 	height: 164px;
 	justify-content: space-between;
-	z-index: 100;
+	z-index: 100000000;
+	position:relative;
 	/* max-width: 1680px; */
 }
 
@@ -495,9 +513,7 @@ Bnfrd Customs
 }
 
 .store-photo {
-	max-height:656px;
-	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-	border-radius: 1rem;
+	max-height: 656px;
 }
 
 .about-me {
@@ -668,6 +684,8 @@ Media Queries
 
 	.header {
 		height: 72px;
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 
 	.container {

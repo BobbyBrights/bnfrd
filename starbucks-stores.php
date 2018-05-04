@@ -43,49 +43,36 @@
 </head>
 
 <body>
-	<!-- <div class="header">
-	    <h1 class="align-center flex"><a href="home.html">Ben Ford</a></h1>
-	    <h1 class="align-center flex black-secondary"><a href="about.html">About</a></h1>
-	  </div>
-	</div> -->
-	<?php include("header.php"); ?>
-	<div class="row headerfix full-height">
-		<div class="c6"></div>
-		<div class="c3 project align-center">
-			<h5 class="pb2 black-secondary">APP DESIGN | iOS & ANDROID APPS</h5>
-			<p>After building the Starbucks Design System and replatforming the entire backend of Starbucks’ digital products, stores was the first feature slated for the redesign.</h5>
-		</div>
-		<div class="c3"></div>
-	</div>
-
-	<div class="row white-bg">
-		<div class="c3"></div>
-		<div class="c6 project">
-			<h3 class="black-secondary pt8 pb8 text-center">One of the world’s most iconic brands, Starbucks is known for its commitment to global responsibility and consistent customer experience.</h3>
-		</div>
-		<div class="c3"></div>
-	</div>
-
-	<div class="row">
-		<div class="c3"></div>
-		<div class="align-center">
-			<img class="store-photo" src="img/test.png" alt="picture" />
-		</div>
-		<div class="c3 project align-center pl2 pt2 pb2">
-			<h5 class="pb1 black-secondary">ORDERING AHEAD</h5>
-			<h2 class="pb2">Targeting customers on the go</h2>
-			<p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</h5>
-		</div>
-			<div class="c3 align-center"></div>
-	</div>
-
-	<div class="row white-bg">
-		<div class="c1 orange-bg"></div>
-		<div class="square">
-			<h3 class="black-secondary">Hi I work</h3>
-		</div>
-		<div class="c8 orange-bg"></div>
-	</div>
+  <div class="container">
+		<?php include("header.php"); ?>
+		<div class="row">
+  		<div class="row full-height headerfix">
+				<div class="c4 c12xs c-offset-6 c-offset-0xs vcenter">
+					<h5 class="black-secondary pb1">APP DESIGN   |   iOS & ANDROID APPS</h5>
+					<p class="black-secondary ">With apps in 23 of its 80 markets, Starbucks’ digital reach was expansive but inconsistent. With no unified design language and apps being designed by different agencies in every market, they needed a way to bring their well-known brand experience to the digital space.</p>
+				</div>
+			</div>
+			<div class="row grey-bg hcenter">
+				<div class="c6 text-center py6">
+					<h4 class="black-secondary">One of the world’s most iconic brands, Starbucks is known for its commitment to global responsibility and consistent customer experience.</h4>
+				</div>
+			</div>
+			<div class="row hcenter full-height">
+				<div class="c4 row vcenter hcenter">
+					<img class="store-photo" src="img/test.png" alt="picture" />
+				</div>
+				<div class="c4 c6m vcenter">
+					<h5 class="black-secondary">ORDERING AHEAD</h5>
+					<h2 class="black pb1">Targeting customers on the go</h2>
+					<p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
+				</div>
+			</div>
+			<div class="c12 row grey-bg full-height hcenter">
+				<div class="c3 white-bg mr4"></div>
+				<div class="c3 white-bg mr4"></div>
+				<div class="c3 white-bg"></div>
+			</div>
+  </div>
 
 
 

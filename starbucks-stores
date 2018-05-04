@@ -43,49 +43,29 @@
 </head>
 
 <body>
-	<!-- <div class="header">
-	    <h1 class="align-center flex"><a href="home.html">Ben Ford</a></h1>
-	    <h1 class="align-center flex black-secondary"><a href="about.html">About</a></h1>
-	  </div>
-	</div> -->
-	<?php include("header.php"); ?>
-	<div class="row headerfix full-height">
-		<div class="c6"></div>
-		<div class="c3 project align-center">
-			<h5 class="pb2 black-secondary">APP DESIGN | iOS & ANDROID APPS</h5>
-			<p>After building the Starbucks Design System and replatforming the entire backend of Starbucks’ digital products, stores was the first feature slated for the redesign.</h5>
+  <div class="container">
+		<?php include("header.php"); ?>
+		<div class="row">
+  		<div class="kitty-1 c-offset-0xs row end s4 s12xs">
+				<h2 class="vstart white">This is a Kitty</h2>
+			</div>
+    </div>
+		<div class="row">
+			<div class="kitty-2 c-offset-7 c-offset-0xs row s2 white-bg s12xs">
+				<h2 class="white vend">Her name is Roux</h2>
+			</div>
 		</div>
-		<div class="c3"></div>
-	</div>
-
-	<div class="row white-bg">
-		<div class="c3"></div>
-		<div class="c6 project">
-			<h3 class="black-secondary pt8 pb8 text-center">One of the world’s most iconic brands, Starbucks is known for its commitment to global responsibility and consistent customer experience.</h3>
+		<div class="row">
+			<div class="kitty-3 c-offset-4 c-offset-0xs row s3 s12xs orange-bg">
+				<h2 class="white vend">She is the best kitty</h2>
+			</div>
 		</div>
-		<div class="c3"></div>
-	</div>
-
-	<div class="row">
-		<div class="c3"></div>
-		<div class="align-center">
-			<img class="store-photo" src="img/test.png" alt="picture" />
+		<div class="row">
+			<div class="kitty-4 s4 s12xs blue-bg row">
+				<h2 class="vend black">That is all.</h2>
+			</div>
 		</div>
-		<div class="c3 project align-center pl2 pt2 pb2">
-			<h5 class="pb1 black-secondary">ORDERING AHEAD</h5>
-			<h2 class="pb2">Targeting customers on the go</h2>
-			<p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</h5>
-		</div>
-			<div class="c3 align-center"></div>
-	</div>
-
-	<div class="row white-bg">
-		<div class="c1 orange-bg"></div>
-		<div class="square">
-			<h3 class="black-secondary">Hi I work</h3>
-		</div>
-		<div class="c8 orange-bg"></div>
-	</div>
+  </div>
 
 
 
