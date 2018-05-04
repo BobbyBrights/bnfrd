@@ -52,12 +52,14 @@
 					<p class="black-secondary ">With apps in 23 of its 80 markets, Starbucks’ digital reach was expansive but inconsistent. With no unified design language and apps being designed by different agencies in every market, they needed a way to bring their well-known brand experience to the digital space.</p>
 				</div>
 			</div>
+
 			<div class="row grey-bg hcenter">
 				<div class="c6 c12xs text-center py6">
 					<h4 class="black-secondary">One of the world’s most iconic brands, Starbucks is known for its commitment to global responsibility and consistent customer experience.</h4>
 				</div>
 			</div>
-			<div class="row py5 hcenter">
+
+			<div class="row full-height py5 hcenter">
 				<div class="c4 c12xs py2 c3xs row vcenter hcenter">
 					<img class="store-photo img-resize" src="img/test.png" alt="picture" />
 				</div>
@@ -67,7 +69,8 @@
 					<p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
 				</div>
 			</div>
-			<div class="c12 row grey-bg full-height hcenter">
+
+			<div class="row c12 grey-bg full-height hcenter">
 				<div class="c3 white-bg"></div>
 				<div class="c3 blue-bg"></div>
 				<div class="c3 white-bg"></div>
