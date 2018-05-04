@@ -672,7 +672,7 @@ Media Queries
 
 	.container {
 		/* max-width: 1680px; */
-		margin: 0 1rem;
+		margin: 0;
 	}
 
 	.headerfix {
