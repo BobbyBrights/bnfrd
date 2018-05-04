@@ -45,7 +45,7 @@
 <body>
   <div class="container">
 		<?php include("header.php"); ?>
-		<div class="row">
+		<div class="row orange-bg">
   		<div class="kitty-1 c-offset-0xs row end s4 s12xs">
 				<h2 class="vstart white">This is a Kitty</h2>
 			</div>
