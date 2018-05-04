@@ -47,21 +47,21 @@
 		<?php include("header.php"); ?>
 		<div class="row">
   		<div class="row full-height headerfix">
-				<div class="c4 c-offset-6 c-offset-0xs vcenter">
+				<div class="c4 c12xs c-offset-6 c-offset-0xs vcenter">
 					<h5 class="black-secondary pb1">APP DESIGN   |   iOS & ANDROID APPS</h5>
 					<p class="black-secondary ">With apps in 23 of its 80 markets, Starbucks’ digital reach was expansive but inconsistent. With no unified design language and apps being designed by different agencies in every market, they needed a way to bring their well-known brand experience to the digital space.</p>
 				</div>
 			</div>
 			<div class="row grey-bg hcenter">
-				<div class="c6 text-center py6">
+				<div class="c6 c12xs text-center py6">
 					<h4 class="black-secondary">One of the world’s most iconic brands, Starbucks is known for its commitment to global responsibility and consistent customer experience.</h4>
 				</div>
 			</div>
-			<div class="row py6 hcenter">
-				<div class="c4 py2 row vcenter hcenter">
-					<img class="store-photo" src="img/test.png" alt="picture" />
+			<div class="row py5 hcenter">
+				<div class="c4 c12xs py2 c3xs row vcenter hcenter">
+					<img class="store-photo img-resize" src="img/test.png" alt="picture" />
 				</div>
-				<div class="c4 c6m py2 vcenter">
+				<div class="c4 c12xs c6m py2 vcenter">
 					<h5 class="black-secondary">ORDERING AHEAD</h5>
 					<h2 class="black pb1">Targeting customers on the go</h2>
 					<p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>

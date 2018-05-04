@@ -492,6 +492,7 @@ img { display: block; max-width: auto; height: 100%; }
 
 
 
+
 /* ----------------------------------------
 Bnfrd Customs
 ---------------------------------------- */
@@ -688,6 +689,10 @@ Media Queries
 		padding-right: 2rem;
 	}
 
+	.img-resize {
+	    max-height: 500px;
+	}
+
 	.container {
 		/* max-width: 1680px; */
 		margin: 0;
@@ -697,7 +702,7 @@ Media Queries
 		margin-top:-72px;
 	}
 	.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12{
-	flex-basis:100%;
+	/* flex-basis:100%; */
 	padding-right: 2rem;
 	padding-left: 2rem;
 }
@@ -730,8 +735,8 @@ Media Queries
   -ms-flex: 0 0 auto;
   -webkit-box-flex: 0;
   flex: 0 0 auto;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 .c1xs {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
@@ -759,6 +764,29 @@ Media Queries
 .c-offset-9xs {margin-left: 75%;}
 .c-offset-10xs {margin-left: 83.333%;}
 .c-offset-11xs {margin-left: 91.66%;}
+
+/* ----------------------------------------
+Typography
+---------------------------------------- */
+
+/* Large Heading */
+h1 {font-size: 18px; line-height: 24px;}
+
+/* Medium Heading */
+h2 {font-size: 32px; line-height: 42px; font-weight: bold}
+
+/* Small Heading */
+h3 {font-size: 24px; line-height: 36px;}
+
+/* Subhead */
+h4 {font-size: 20px; line-height: 30px;}
+
+/* Label */
+h5 {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold}
+/* h6 {font-size: 18px; line-height: 27px;} */
+
+/* Small Body */
+.small-type {font-size: 12px; line-height: 36px;}
 
 .s12xs {width: 100vw; height: 100vw; margin-bottom: 1rem;}
 
