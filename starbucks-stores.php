@@ -47,7 +47,7 @@
 		<?php include("header.php"); ?>
 
 			<div class="row full-height headerfix">
-				<div class="c3 c12xs c-offset-6 c-offset-0xs vcenter">
+				<div class="c4 c12xs c-offset-6 c-offset-0xs vcenter">
 					<h5 class="black-secondary pb1">APP DESIGN   |   iOS & ANDROID APPS</h5>
 					<p class="black-secondary ">With apps in 23 of its 80 markets, Starbucks’ digital reach was expansive but inconsistent. With no unified design language and apps being designed by different agencies in every market, they needed a way to bring their well-known brand experience to the digital space.</p>
 				</div>
@@ -60,7 +60,7 @@
 			</div>
 
 			<div class="row hcenter">
-				<div class="row c10 c11m c12s c12xs py5 hcenter">
+				<div class="row c10 c11m c12s c12xs0 py5 hcenter">
 					<div class="c4 c5s c12xs c5m py2 vcenter">
 						<h5 class="black-secondary">ORDERING AHEAD</h5>
 						<h2 class="black pb1">Targeting customers on the go</h2>

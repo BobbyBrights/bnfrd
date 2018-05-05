@@ -12,7 +12,7 @@
 HTML RESET
 ---------------------------------------- */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-	margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; font: inherit; vertical-align: baseline; overflow-x: hidden;
+	margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; font: inherit; vertical-align: baseline;
 }
 
 body {
@@ -222,13 +222,19 @@ Grid
 
 /* Squares */
 
-.s1 {width: 8.333vw; height: 8.333vw;}
-.s2 {width: 240px; height: 240px;}
-.s3 {width: 360px; height: 360px;}
-.s4 {width: 479.984px; height: 479.984px;}
+/* .s1 {width: 8.333vw; height: 8.333vw;}
+.s2 {width: 16.667vw; height: 16.667vw;}
+.s3 {width: 25vw; height: 25vw;}
+.s4 {width: 33.333vw; height: 33.333vw;}
 .s5 {width: 41.667vw; height: 41.667vw;}
-.s6 {width: 50vw; height: 50vw;}
+.s6 {width: 50vw; height: 50vw;} */
 
+.s1 {width: calc(8.333vw - 1rem); height: calc(8.333vw - 1rem);}
+.s2 {width: calc(16.667vw - 2rem); height: calc(16.667vw - 2rem)}
+.s3 {width: calc(25vw - 3rem); height: calc(25vw - 3rem)}
+.s4 {width: calc(33.333vw - 4rem); height: calc(33.333vw - 4rem)}
+.s5 {width: calc(41.667vw - 5rem); height: calc(41.667vw - 5rem)}
+.s6 {width: calc(50vw - 6rem); height: calc(50vw - 6rem)}
 
 
 
@@ -495,6 +501,8 @@ img { display: block; /*max-width: auto; height: 100%;*/ }
 
 
 
+
+
 /* ----------------------------------------
 Bnfrd Customs
 ---------------------------------------- */
@@ -700,9 +708,9 @@ Media Queries
 		margin: 0 2rem;
 	}
 
-	.iphone-xs {
+	/* .iphone-xs {
 	    max-height: 624px;
-	}
+	} */
 
 	.container {
 		margin: auto;
@@ -718,6 +726,10 @@ Media Queries
 
 	.about-me {
 		padding-left: 0px;
+	}
+
+	.image-noshrink {
+		object-fit: none;
 	}
 
 	/* ----------------------------------------
@@ -742,6 +754,11 @@ Media Queries
   flex: 0 0 auto;
   padding-right: 2rem;
   padding-left: 2rem;
+}
+
+.c12xs0 {
+	padding-left:0;
+	padding-right:0;
 }
 
 
