@@ -54,13 +54,13 @@
 			</div>
 
 			<div class="row grey-bg hcenter">
-				<div class="c6 c12xs text-center py6">
+				<div class="c6 c10m c12xs text-center py6">
 					<h4 class="black-secondary">One of the world’s most iconic brands, Starbucks is known for its commitment to global responsibility and consistent customer experience.</h4>
 				</div>
 			</div>
 
 			<div class="row hcenter">
-				<div class="row c10 c11m c12s py5 hcenter">
+				<div class="row c10 c11m c12s c12xs py5 hcenter">
 					<div class="c4 c5s c12xs c5m py2 vcenter">
 						<h5 class="black-secondary">ORDERING AHEAD</h5>
 						<h2 class="black pb1">Targeting customers on the go</h2>

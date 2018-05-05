@@ -567,7 +567,7 @@ Media Queries
 	}
 
 	.header {
-		background-color: yellow;
+		/* background-color: yellow; */
 	}
 
 	.s1 {width: 8.333vw; height: 8.333vw;}
@@ -637,7 +637,7 @@ Media Queries
 }
 
 .header {
-	background-color: red;
+	/* background-color: red; */
 }
 
 	/* ----------------------------------------
@@ -696,9 +696,8 @@ Media Queries
 
 	.header {
 		height: 72px;
-		padding-left: 2rem;
-		padding-right: 2rem;
-		background-color: blue;
+		/* background-color: blue; */
+		margin: 0 2rem;
 	}
 
 	.iphone-xs {
@@ -712,11 +711,6 @@ Media Queries
 	.headerfix {
 		margin-top:-72px;
 	}
-	.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12{
-	/* flex-basis:100%; */
-	padding-right: 2rem;
-	padding-left: 2rem;
-}
 
 	/* .row {
 		padding-bottom: 2rem;
@@ -749,6 +743,7 @@ Media Queries
   padding-right: 2rem;
   padding-left: 2rem;
 }
+
 
 .c1xs {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
 .c2xs {flex-basis:16.66%; -ms-flex-preferred-size: 16.667%}
