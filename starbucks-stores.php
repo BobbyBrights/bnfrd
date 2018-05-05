@@ -61,7 +61,7 @@
 
 			<div class="row py5 hcenter">
 				<div class="c4 c12xs py2 c3xs row vcenter hcenter">
-					<img class="store-photo img-resize" src="img/test.png" alt="picture" />
+					<img class="iphone-img iphone-xs" src="img/test.png" alt="picture" />
 				</div>
 				<div class="c4 c12xs c6m py2 vcenter">
 					<h5 class="black-secondary">ORDERING AHEAD</h5>

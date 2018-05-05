@@ -488,7 +488,7 @@ ol li ul, ol li ol { margin-bottom: 0; }
 /* ----------------------------------------
 Images
 ---------------------------------------- */
-img { display: block; max-width: auto; height: 100%; }
+img { display: block; /*max-width: auto; height: 100%;*/ }
 
 
 
@@ -513,7 +513,7 @@ Bnfrd Customs
 	margin-top:-164px;
 }
 
-.store-photo {
+.iphone-img {
 	max-height: 656px;
 }
 
@@ -689,9 +689,9 @@ Media Queries
 		padding-right: 2rem;
 	}
 
-	/* .img-resize {
-	    max-height: 500px;
-	} */
+	.iphone-xs {
+	    max-height: 90vh;
+	}
 
 	.container {
 		/* max-width: 1680px; */
