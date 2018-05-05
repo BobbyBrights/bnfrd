@@ -21,13 +21,11 @@ RewriteCond %{REQUEST_URI} !/$
 RewriteRule (.*) $1\.php [L]
 
 
-AuthUserFile /home/fordben90/.htpasswd
-AuthGroupFile /dev/null
-AuthName "about.php"
-AuthType Basic
-require valid-user
 
-AuthUserFile /home/fordben90/.htpasswd
-AuthName "benford.xyz/about"
 AuthType Basic
-  require valid-user
+AuthName "Password Protection"
+AuthBasicProvider file
+AuthUserFile /home/fordben90/.htpasswd
+<FilesMatch “[about.php]”>
+Require valid-user
+</FilesMatch>
