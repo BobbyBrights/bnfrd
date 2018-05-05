@@ -689,9 +689,9 @@ Media Queries
 		padding-right: 2rem;
 	}
 
-	.img-resize {
-	    max-height: 400px;
-	}
+	/* .img-resize {
+	    max-height: 500px;
+	} */
 
 	.container {
 		/* max-width: 1680px; */

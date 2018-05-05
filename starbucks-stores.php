@@ -59,7 +59,7 @@
 				</div>
 			</div>
 
-			<div class="row full-height py5 hcenter">
+			<div class="row py5 hcenter">
 				<div class="c4 c12xs py2 c3xs row vcenter hcenter">
 					<img class="store-photo img-resize" src="img/test.png" alt="picture" />
 				</div>
