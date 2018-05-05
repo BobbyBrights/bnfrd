@@ -12,7 +12,7 @@
 HTML RESET
 ---------------------------------------- */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-	margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; font: inherit; vertical-align: baseline;
+	margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; font: inherit; vertical-align: baseline; overflow-x: hidden;
 }
 
 body {
@@ -72,10 +72,8 @@ Grid
 ---------------------------------------- */
 
 .container {
-	max-width: 1488px;
+	max-width: 1680px;
 	margin: 0 6rem;
-	/* margin: auto; */
-
 }
 
 .row {
@@ -490,6 +488,10 @@ Images
 ---------------------------------------- */
 img { display: block; /*max-width: auto; height: 100%;*/ }
 
+.image-shrink {
+	object-fit: contain;
+}
+
 
 
 
@@ -501,7 +503,7 @@ Bnfrd Customs
 	height: 164px;
 	justify-content: space-between;
 	z-index: 100000000;
-	position:relative;
+	position: relative;
 	/* max-width: 1680px; */
 }
 
@@ -553,16 +555,20 @@ Bnfrd Customs
 
 
 
-
 /* ----------------------------------------
 Media Queries
 ---------------------------------------- */
 /* Media query for 1024 Screens */
 @media only screen and (max-width:1440px){
 
-	/* .header {
+	.container {
+		margin: 0 5rem;
+		/* margin: auto; */
+	}
+
+	.header {
 		background-color: yellow;
-	} */
+	}
 
 	.s1 {width: 8.333vw; height: 8.333vw;}
 	.s2 {width: 16.667vw; height: 16.667vw;}
@@ -625,9 +631,14 @@ Media Queries
 /* Media query for 960 Screens*/
 @media only screen and (max-width:960px){
 
-/* .header {
-	background-color: blue;
-} */
+.container {
+	margin: 0 4rem;
+	/* margin: auto; */
+}
+
+.header {
+	background-color: red;
+}
 
 	/* ----------------------------------------
 	Grid
@@ -687,15 +698,15 @@ Media Queries
 		height: 72px;
 		padding-left: 2rem;
 		padding-right: 2rem;
+		background-color: blue;
 	}
 
 	.iphone-xs {
-	    max-height: 90vh;
+	    max-height: 624px;
 	}
 
 	.container {
-		/* max-width: 1680px; */
-		margin: 0;
+		margin: auto;
 	}
 
 	.headerfix {

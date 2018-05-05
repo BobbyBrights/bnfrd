@@ -45,27 +45,33 @@
 <body>
   <div class="container">
 		<?php include("header.php"); ?>
-		<div class="row pl10">
-  		<a href="starbucks-stores"><div class="kitty-1 c-offset-0xs row end s4 s12xs">
-				<h2 class="vstart white">This is a Kitty</h2>
-			</div>
-			</a>
-    </div>
-		<div class="row">
-			<div class="kitty-2 c-offset-7 c-offset-0xs row s2 white-bg s12xs">
-				<h2 class="white vend">Her name is Roux</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="kitty-3 c-offset-4 c-offset-0xs row s3 s12xs orange-bg">
-				<h2 class="white vend">She is the best kitty</h2>
+
+		<div class="row hcenter full-height headerfix">
+			<div class="row c10 c11m c12s hcenter">
+				<div class="c4 c5s c12xs c5m vcenter">
+					<h5 class="black-secondary">ORDERING AHEAD</h5>
+					<h2 class="black pb1">Targeting customers on the go</h2>
+					<p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
+				</div>
+				<div class="c5 c6s c12xs row vcenter hcenter">
+					<img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="kitty-4 c-offset-8 s4 s12xs blue-bg row">
-				<h2 class="vend black">That is all.</h2>
+
+		<div class="row hcenter">
+			<div class="row c10 c11m c12s py5 hcenter">
+				<div class="c5 c6s c12xs py2 row vcenter hcenter">
+					<img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
+				</div>
+				<div class="c4 c5s c12xs c5m py2 vcenter">
+					<h5 class="black-secondary">ORDERING AHEAD</h5>
+					<h2 class="black pb1">Targeting customers on the go</h2>
+					<p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
+				</div>
 			</div>
 		</div>
+
   </div>
 
 

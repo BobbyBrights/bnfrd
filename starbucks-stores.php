@@ -45,9 +45,9 @@
 <body>
   <div class="container">
 		<?php include("header.php"); ?>
-		<div class="row">
-  		<div class="row full-height headerfix">
-				<div class="c4 c12xs c-offset-6 c-offset-0xs vcenter">
+
+			<div class="row full-height headerfix">
+				<div class="c3 c12xs c-offset-6 c-offset-0xs vcenter">
 					<h5 class="black-secondary pb1">APP DESIGN   |   iOS & ANDROID APPS</h5>
 					<p class="black-secondary ">With apps in 23 of its 80 markets, Starbucks’ digital reach was expansive but inconsistent. With no unified design language and apps being designed by different agencies in every market, they needed a way to bring their well-known brand experience to the digital space.</p>
 				</div>
@@ -59,14 +59,16 @@
 				</div>
 			</div>
 
-			<div class="row py5 hcenter">
-				<div class="c4 c12xs py2 c3xs row vcenter hcenter">
-					<img class="iphone-img iphone-xs" src="img/test.png" alt="picture" />
-				</div>
-				<div class="c4 c12xs c6m py2 vcenter">
-					<h5 class="black-secondary">ORDERING AHEAD</h5>
-					<h2 class="black pb1">Targeting customers on the go</h2>
-					<p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
+			<div class="row hcenter">
+				<div class="row c10 c11m c12s py5 hcenter">
+					<div class="c4 c5s c12xs c5m py2 vcenter">
+						<h5 class="black-secondary">ORDERING AHEAD</h5>
+						<h2 class="black pb1">Targeting customers on the go</h2>
+						<p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
+					</div>
+					<div class="c5 c6s c12xs py2 row vcenter hcenter">
+						<img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
+					</div>
 				</div>
 			</div>
 
