@@ -19,3 +19,11 @@ RewriteRule (.*)/ $1 [R=301]
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteCond %{REQUEST_URI} !/$
 RewriteRule (.*) $1\.php [L]
+
+
+
+
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile /home/fordben90/.htpasswds/.htpasswd
+require valid-user
