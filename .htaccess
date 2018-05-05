@@ -26,7 +26,6 @@ RewriteRule (.*) $1\.php [L]
 AuthType Basic
 AuthName "restricted area"
 AuthUserFile /home/fordben90/.htpasswds/.htpasswd
-
 <Files "about.php">
-  require valid-user
+require valid-user
 </Files>
