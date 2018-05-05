@@ -22,7 +22,8 @@ RewriteRule (.*) $1\.php [L]
 
 
 AuthUserFile /home/fordben90/.htpasswd
-AuthGroupFile /dev/null
-AuthName "benford.xyz/about"
-AuthType Basic
+AuthName "NDA Area"
+AuthType basic
+<"about.php">
 require valid-user
+</files>
