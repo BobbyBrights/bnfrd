@@ -51,7 +51,8 @@
           <h3 class="black-secondary">Enjoys 39¢ wings. Name sounds like a president from the 1800’s. Cooks by the book. Spends too much time playing pinball. Attempts to write music. Full name is Benjamin Harrison Ford. Is now a cat person. Terrible plant owner. <br><br><br>I’m currently based in Seattle as a Product Designer at <a href="http://app.starbucks.com"><i><mark>Starbucks</mark></a></i>. Previously at Deloitte Digital.</h3>
         </div>
         <div class="c6 order1 orange-bg vcenter">
-          <img class="iphone-img iphone-xs image-shrink" src="img/polaroids.png" alt="picture" />
+          <img class="polaroid iphone-img iphone-xs image-shrink" src="img/polaroids.png" alt="picture" />
+          <img class="polaroidxs iphone-img iphone-xs image-shrink" src="img/polaroids-xs.png" alt="picture" />
         </div>
       </div>
   </div>

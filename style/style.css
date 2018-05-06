@@ -575,6 +575,10 @@ Bnfrd Customs
 	background-size: contain;
 }
 
+.polaroidxs {
+	display: none;
+}
+
 
 
 
@@ -745,6 +749,14 @@ Media Queries
 
 	.image-noshrink {
 		object-fit: none;
+	}
+
+	.polaroidxs {
+		display: block;
+	}
+
+	.polaroid {
+		display: none;
 	}
 
 	/* ----------------------------------------
