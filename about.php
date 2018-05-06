@@ -42,17 +42,19 @@
 
 </head>
 
-<body>
-	<div class="container">
-	<?php include("header.php"); ?>
-	<div class="row headerfix full-height white-bg">
-		<div class="c6 project vcenter">
-			<h3 class="about-me black-secondary">Enjoys 39¢ wings. Name sounds like a president from the 1800’s. Cooks by the book. Spends too much time playing pinball. Attempts to write music. Full name is Benjamin Harrison Ford. Is now a cat person. Terrible plant owner. Is a hypochondriac.<br><br><br>I’m currently based in Seattle as a Product Designer at <mark>Starbucks</mark>. Previously at Deloitte Digital.</h3>
-		</div>
-		<div class="c3"></div>
-	</div>
-</div>
-
+<body class="grey-bg">
+  <div class="container">
+		<?php include("header.php"); ?>
+    <div class="row hcenter">
+      <div class="row c10 c12m">
+        <div class="c6 order2 pt10">
+          <h3 class="black-secondary">Enjoys 39¢ wings. Name sounds like a president from the 1800’s. Cooks by the book. Spends too much time playing pinball. Attempts to write music. Full name is Benjamin Harrison Ford. Is now a cat person. Terrible plant owner. <br><br><br>I’m currently based in Seattle as a Product Designer at <a href="http://app.starbucks.com"><i><mark>Starbucks</mark></a></i>. Previously at Deloitte Digital.</h3>
+        </div>
+        <div class="c6 order1 orange-bg vcenter">
+          <img class="iphone-img iphone-xs image-shrink" src="img/polaroids.png" alt="picture" />
+        </div>
+      </div>
+  </div>
 
 
 

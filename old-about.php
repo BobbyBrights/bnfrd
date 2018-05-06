@@ -43,29 +43,16 @@
 </head>
 
 <body>
-  <div class="container">
-		<?php include("header.php"); ?>
-		<div class="row">
-  		<div class="kitty-1 c-offset-0xs row end s4 s12xs">
-				<h2 class="vstart white">This is a Kitty</h2>
-			</div>
-    </div>
-		<div class="row">
-			<div class="kitty-2 c-offset-4 c-offset-0xs row s2 white-bg s12xs">
-				<h2 class="white vend">Her name is Roux</h2>
-			</div>
+	<div class="container">
+	<?php include("header.php"); ?>
+	<div class="row headerfix full-height white-bg">
+		<div class="c6 project vcenter">
+			<h3 class="about-me black-secondary">Enjoys 39¢ wings. Name sounds like a president from the 1800’s. Cooks by the book. Spends too much time playing pinball. Attempts to write music. Full name is Benjamin Harrison Ford. Is now a cat person. Terrible plant owner. Is a hypochondriac.<br><br><br>I’m currently based in Seattle as a Product Designer at <mark>Starbucks</mark>. Previously at Deloitte Digital.</h3>
 		</div>
-		<div class="row">
-			<div class="kitty-3 c-offset-4 c-offset-0xs row s3 s12xs orange-bg">
-				<h2 class="white vend">She is the best kitty</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="kitty-4 c-offset-4 c-offset-0xs s4 s12xs blue-bg row">
-				<h2 class="vend black">That is all.</h2>
-			</div>
-		</div>
-  </div>
+		<div class="c3"></div>
+	</div>
+</div>
+
 
 
 

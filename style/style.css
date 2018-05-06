@@ -92,6 +92,18 @@ Grid
 	position: relative;
 }
 
+/* Clears padding on nested rows */
+
+.row.c10 {
+	padding-right: 0;
+  padding-left: 0;
+}
+
+.row.c12m {
+	padding-right: 0;
+  padding-left: 0;
+}
+
 .c1,
 .c2,
 .c3,
@@ -193,6 +205,10 @@ Grid
   justify-content: space-between;
 }
 
+.nowrap {
+	flex-wrap: nowrap;
+}
+
 /* Column Alignment (Apply to Columns/children) */
 
 .first {
@@ -218,6 +234,7 @@ Grid
 .vend {
 	align-self: flex-end;
 }
+
 
 
 /* Squares */
@@ -398,9 +415,9 @@ Colors
 /* Backgrounds */
 .white-bg { background: #fff; }
 .grey-bg { background: #f7f7f7; }
-.orange-bg { background-color: #FFB95A; }
+.orange-bg { background-color: #FFF6F6; }
 .black-bg { background-color: #000}
-.blue-bg { background-color: #8AC2FF}
+.blue-bg { background-color: #F0FFFD}
 
 
 /* Type */
@@ -492,7 +509,7 @@ ol li ul, ol li ol { margin-bottom: 0; }
 /* ----------------------------------------
 Images
 ---------------------------------------- */
-img { display: block; /*max-width: auto; height: 100%;*/ }
+img { display: block; /*max-width: auto;*/ width: 100%; }
 
 .image-shrink {
 	object-fit: contain;
@@ -512,6 +529,7 @@ Bnfrd Customs
 	justify-content: space-between;
 	z-index: 100000000;
 	position: relative;
+	padding: 0 1rem;
 	/* max-width: 1680px; */
 }
 
@@ -525,10 +543,7 @@ Bnfrd Customs
 
 .iphone-img {
 	max-height: 656px;
-}
-
-.about-me {
-	padding-left: 80px;
+	width: 100%;
 }
 
 .square {
@@ -705,7 +720,7 @@ Media Queries
 	.header {
 		height: 72px;
 		/* background-color: blue; */
-		margin: 0 2rem;
+		padding: 0 2rem;
 	}
 
 	/* .iphone-xs {
@@ -754,6 +769,42 @@ Media Queries
   flex: 0 0 auto;
   padding-right: 2rem;
   padding-left: 2rem;
+}
+
+.c12xs0 {
+	padding-left:0;
+	padding-right:0;
+}
+
+.order1 {
+  order: 1;
+}
+
+.order2 {
+  order: 2;
+}
+
+
+.c1,
+.c2,
+.c3
+.c4,
+.c5,
+.c6,
+.c7,
+.c8,
+.c9,
+.c10,
+.c11,
+.c12 {
+	box-sizing: border-box;
+  -ms-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+	flex-basis:100%;
+	-ms-flex-preferred-size: 100%;
 }
 
 .c12xs0 {
