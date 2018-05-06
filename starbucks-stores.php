@@ -46,10 +46,20 @@
   <div class="container">
 		<?php include("header.php"); ?>
 
-			<div class="row full-height headerfix">
-				<div class="c4 c12xs c-offset-6 c-offset-0xs vcenter">
-					<h5 class="black-secondary pb1">APP DESIGN   |   iOS & ANDROID APPS</h5>
-					<p class="black-secondary ">With apps in 23 of its 80 markets, Starbucks’ digital reach was expansive but inconsistent. With no unified design language and apps being designed by different agencies in every market, they needed a way to bring their well-known brand experience to the digital space.</p>
+			<!-- <div class="row full-height headerfix">
+				<div class="c4 vcenter">
+					<h5 class="black-secondary pb1">STARBUCKS STORES  |  APP DESIGN</h5>
+					<p class="black-secondary">With apps in 23 of its 80 markets, Starbucks’ digital reach was expansive but inconsistent. With no unified design language and apps being designed by different agencies in every market, they needed a way to bring their well-known brand experience to the digital space.</p>
+				</div>
+			</div> -->
+			<div class="row full-height headerfix hcenter">
+				<div class="row c10 c11m c12s c12xs0 py5 hcenter">
+					<div class="c6 c6m c7s c12xs py2 vcenter">
+						<h5 class="black-secondary pb1">STARBUCKS STORES  |  APP DESIGN</h5>
+						<p class="black-secondary">With apps in 23 of its 80 markets, Starbucks’ digital reach was expansive but inconsistent. With no unified design language and apps being designed by different agencies in every market, they needed a way to bring their well-known brand experience to the digital space.</p>
+					</div>
+					<div class="c3 c4m c4s c12xs py2 vcenter hcenter">
+					</div>
 				</div>
 			</div>
 
@@ -61,22 +71,17 @@
 
 			<div class="row hcenter">
 				<div class="row c10 c11m c12s c12xs0 py5 hcenter">
-					<div class="c4 c5s c12xs c5m py2 vcenter">
+					<div class="c4 c5m c6s c12xs py2 vcenter">
 						<h5 class="black-secondary">ORDERING AHEAD</h5>
 						<h2 class="black pb1">Targeting customers on the go</h2>
 						<p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
 					</div>
-					<div class="c5 c6s c12xs py2 row vcenter hcenter">
+					<div class="c5 cm4 c5s c12xs py2 vcenter hcenter">
 						<img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
 					</div>
 				</div>
 			</div>
 
-			<div class="row c12 grey-bg full-height hcenter">
-				<div class="c3 white-bg"></div>
-				<div class="c3 blue-bg"></div>
-				<div class="c3 white-bg"></div>
-			</div>
   </div>
 
 

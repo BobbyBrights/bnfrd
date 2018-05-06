@@ -94,15 +94,62 @@ Grid
 
 /* Clears padding on nested rows */
 
-.row.c10 {
-	padding-right: 0;
-  padding-left: 0;
-}
+.row.c1 { padding-right: 0; padding-left: 0;}
+.row.c2 { padding-right: 0; padding-left: 0;}
+.row.c3 { padding-right: 0; padding-left: 0;}
+.row.c4 { padding-right: 0; padding-left: 0;}
+.row.c5 { padding-right: 0; padding-left: 0;}
+.row.c6 { padding-right: 0; padding-left: 0;}
+.row.c7 { padding-right: 0; padding-left: 0;}
+.row.c8 { padding-right: 0; padding-left: 0;}
+.row.c9 { padding-right: 0; padding-left: 0;}
+.row.c10 { padding-right: 0; padding-left: 0;}
+.row.c11 { padding-right: 0; padding-left: 0;}
+.row.c12 { padding-right: 0; padding-left: 0;}
 
-.row.c12m {
-	padding-right: 0;
-  padding-left: 0;
-}
+.row.c1m { padding-right: 0; padding-left: 0;}
+.row.c2m { padding-right: 0; padding-left: 0;}
+.row.c3m { padding-right: 0; padding-left: 0;}
+.row.c4m { padding-right: 0; padding-left: 0;}
+.row.c5m { padding-right: 0; padding-left: 0;}
+.row.c6m { padding-right: 0; padding-left: 0;}
+.row.c7m { padding-right: 0; padding-left: 0;}
+.row.c8m { padding-right: 0; padding-left: 0;}
+.row.c9m { padding-right: 0; padding-left: 0;}
+.row.c10m { padding-right: 0; padding-left: 0;}
+.row.c11m { padding-right: 0; padding-left: 0;}
+.row.c12m { padding-right: 0; padding-left: 0;}
+
+.row.c1s { padding-right: 0; padding-left: 0;}
+.row.c2s { padding-right: 0; padding-left: 0;}
+.row.c3s { padding-right: 0; padding-left: 0;}
+.row.c4s { padding-right: 0; padding-left: 0;}
+.row.c5s { padding-right: 0; padding-left: 0;}
+.row.c6s { padding-right: 0; padding-left: 0;}
+.row.c7s { padding-right: 0; padding-left: 0;}
+.row.c8s { padding-right: 0; padding-left: 0;}
+.row.c9s { padding-right: 0; padding-left: 0;}
+.row.c10s { padding-right: 0; padding-left: 0;}
+.row.c11s { padding-right: 0; padding-left: 0;}
+.row.c12s { padding-right: 0; padding-left: 0;}
+
+.row.c1xs { padding-right: 0; padding-left: 0;}
+.row.c2xs { padding-right: 0; padding-left: 0;}
+.row.c3xs { padding-right: 0; padding-left: 0;}
+.row.c4xs { padding-right: 0; padding-left: 0;}
+.row.c5xs { padding-right: 0; padding-left: 0;}
+.row.c6xs { padding-right: 0; padding-left: 0;}
+.row.c7xs { padding-right: 0; padding-left: 0;}
+.row.c8xs { padding-right: 0; padding-left: 0;}
+.row.c9xs { padding-right: 0; padding-left: 0;}
+.row.c10xs { padding-right: 0; padding-left: 0;}
+.row.c11xs { padding-right: 0; padding-left: 0;}
+.row.c12xs { padding-right: 0; padding-left: 0;}
+
+
+
+
+/* //////////////////////////////*/
 
 .c1,
 .c2,
@@ -415,7 +462,7 @@ Colors
 /* Backgrounds */
 .white-bg { background: #fff; }
 .grey-bg { background: #f7f7f7; }
-.orange-bg { background-color: #FFF6F6; }
+.orange-bg { background-color: #FFE6E6; }
 .black-bg { background-color: #000}
 .blue-bg { background-color: #F0FFFD}
 
@@ -659,7 +706,7 @@ Media Queries
 @media only screen and (max-width:960px){
 
 .container {
-	margin: 0 4rem;
+	margin: 0 2rem;
 	/* margin: auto; */
 }
 
