@@ -43,52 +43,66 @@
 </head>
 
 <body>
-  <div class="container">
-		<?php include("header.php"); ?>
+  <div class="master-container">
+    <div class="container orange-bg">
+      		<?php include("header.php"); ?>
+      <div class="row hcenter">
+        <div class="row c12 c11m grey-bg hcenter">
+          <div class="c1 py5 orange-bg">d</div>
+          <div class="c1 py5 white-bg">d</div>
+          <div class="c1 py5 orange-bg">d</div>
+          <div class="c1 py5 white-bg">d</div>
+          <div class="c1 py5 orange-bg">d</div>
+          <div class="c1 py5 white-bg">d</div>
+          <div class="c1 py5 orange-bg">d</div>
+          <div class="c1 py5 white-bg">d</div>
+          <div class="c1 py5 orange-bg">d</div>
+          <div class="c1 py5 white-bg">d</div>
+          <div class="c1 py5 orange-bg">d</div>
+          <div class="c1 py5 white-bg">d</div>
+        </div>
+      </div>
 
-			<!-- <div class="row full-height headerfix">
-				<div class="c4 vcenter">
-					<h5 class="black-secondary pb1">STARBUCKS STORES  |  APP DESIGN</h5>
-					<p class="black-secondary">With apps in 23 of its 80 markets, Starbucks’ digital reach was expansive but inconsistent. With no unified design language and apps being designed by different agencies in every market, they needed a way to bring their well-known brand experience to the digital space.</p>
-				</div>
-			</div> -->
-			<div class="row full-height headerfix hcenter">
-				<div class="row c10 c11m c12s c12xs0 py5 hcenter">
-					<div class="c6 c6m c7s c12xs py2 vcenter">
-						<h5 class="black-secondary pb1">STARBUCKS STORES  |  APP DESIGN</h5>
-						<p class="black-secondary">With apps in 23 of its 80 markets, Starbucks’ digital reach was expansive but inconsistent. With no unified design language and apps being designed by different agencies in every market, they needed a way to bring their well-known brand experience to the digital space.</p>
-					</div>
-					<div class="c3 c4m c4s c12xs py2 vcenter hcenter">
-					</div>
-				</div>
-			</div>
+      <div class="row hcenter">
+        <div class="row c12 c11m blue-bg hcenter">
+          <div class="c2 py5 orange-bg">d</div>
+          <div class="c2 py5 white-bg">d</div>
+          <div class="c2 py5 orange-bg">d</div>
+          <div class="c2 py5 white-bg">d</div>
+          <div class="c2 py5 orange-bg">d</div>
+          <div class="c2 py5 white-bg">d</div>
+        </div>
+      </div>
 
-			<div class="row grey-bg hcenter clip-svg-inline">
-				<div class="c6 c10m c12xs text-center py4">
-					<h4 class="black-secondary">One of the world’s most iconic brands, Starbucks is known for its commitment to global responsibility and consistent customer experience.</h4>
-				</div>
-			</div>
+      <div class="row hcenter">
+        <div class="row c12 c11m grey-bg hcenter">
+          <div class="c3 py5 orange-bg">Lets hope this doesn't wrap a shit ton</div>
+          <div class="c3 py5 white-bg">d</div>
+          <div class="c3 py5 orange-bg">d</div>
+          <div class="c3 py5 white-bg">d</div>
+        </div>
+      </div>
 
-			<div class="row hcenter">
-				<div class="row c10 c11m c12s c12xs0 py5 hcenter">
-					<div class="c4 c5m c6s c12xs py2 vcenter">
-						<h5 class="black-secondary">ORDERING AHEAD</h5>
-						<h2 class="black pb1">Targeting customers on the go</h2>
-						<p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
-					</div>
-					<div class="c5 cm4 c5s c12xs py2 vcenter hcenter">
-						<img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
-					</div>
-				</div>
-			</div>
+      <div class="row hcenter">
+        <div class="row c12 c11m blue-bg hcenter">
+          <div class="c4 py5 orange-bg">d</div>
+          <div class="c4 py5 white-bg">d</div>
+          <div class="c4 py5 orange-bg">d</div>
+        </div>
+      </div>
 
-			<svg class="clip-svg">
-				<defs>
-					<clipPath id="clip-polygon">
-						<path d="M0 21.546C92.443 14.8 195.092 11.427 307.946 11.427c294.674 0 460.576 26.2 809.97 26.2 214.01 0 401.371-12.276 562.084-36.827v318.173c-232.13-12.7-442.434-14.202-630.91-4.506C847.424 324.841 316.244 345.48 0 338.638V21.546z"/>
-					</clipPath>
-				</defs>
-			</svg>
+      <div class="row hcenter">
+        <div class="row c12 c11m grey-bg hcenter">
+          <div class="c6 py5 orange-bg">d</div>
+          <div class="c6 py5 white-bg">d</div>
+        </div>
+      </div>
+
+      <div class="row hcenter">
+        <div class="row c12 c11m grey-bg hcenter">
+          <div class="c12 py5 blue-bg">d</div>
+        </div>
+      </div>
 
   </div>
 

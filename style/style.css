@@ -71,9 +71,13 @@ Clearfixes
 Grid
 ---------------------------------------- */
 
+.master-container {
+	margin: auto;
+}
+
 .container {
-	max-width: 1680px;
-	margin: 0 6rem;
+	max-width: 1200px;
+	margin: auto;
 }
 
 .row {
@@ -146,10 +150,8 @@ Grid
 .row.c11xs { padding-right: 0; padding-left: 0;}
 .row.c12xs { padding-right: 0; padding-left: 0;}
 
-
-
-
 /* //////////////////////////////*/
+
 
 .c1,
 .c2,
@@ -286,19 +288,20 @@ Grid
 
 /* Squares */
 
-/* .s1 {width: 8.333vw; height: 8.333vw;}
-.s2 {width: 16.667vw; height: 16.667vw;}
-.s3 {width: 25vw; height: 25vw;}
-.s4 {width: 33.333vw; height: 33.333vw;}
-.s5 {width: 41.667vw; height: 41.667vw;}
-.s6 {width: 50vw; height: 50vw;} */
-
 .s1 {width: calc(8.333vw - 1rem); height: calc(8.333vw - 1rem);}
 .s2 {width: calc(16.667vw - 2rem); height: calc(16.667vw - 2rem)}
 .s3 {width: calc(25vw - 3rem); height: calc(25vw - 3rem)}
 .s4 {width: calc(33.333vw - 4rem); height: calc(33.333vw - 4rem)}
 .s5 {width: calc(41.667vw - 5rem); height: calc(41.667vw - 5rem)}
 .s6 {width: calc(50vw - 6rem); height: calc(50vw - 6rem)}
+
+
+/* .s1 {width: 8.333vw; height: 8.333vw;}
+.s2 {width: 16.667vw; height: 16.667vw;}
+.s3 {width: 25vw; height: 25vw;}
+.s4 {width: 33.333vw; height: 33.333vw;}
+.s5 {width: 41.667vw; height: 41.667vw;}
+.s6 {width: 50vw; height: 50vw;} */
 
 
 
@@ -372,6 +375,22 @@ Spacing
 .ml13 {margin-left: 104px;}
 .ml14 {margin-left: 112px;}
 .ml15 {margin-left: 120px;}
+.my0 {margin-top: 4px; margin-bottom: 4px;}
+.my1 {margin-top: 8px; margin-bottom: 8px;}
+.my2 {margin-top: 16px; margin-bottom: 16px;}
+.my3 {margin-top: 24px; margin-bottom: 24px;}
+.my4 {margin-top: 32px; margin-bottom: 32px;}
+.my5 {margin-top: 40px; margin-bottom: 40px;}
+.my6 {margin-top: 48px; margin-bottom: 48px;}
+.my7 {margin-top: 56px; margin-bottom: 56px;}
+.my8 {margin-top: 64px; margin-bottom: 64px;}
+.my9 {margin-top: 72px; margin-bottom: 72px;}
+.my10 {margin-top: 80px; margin-bottom: 80px;}
+.my11 {margin-top: 88px; margin-bottom: 88px;}
+.my12 {margin-top: 96px; margin-bottom: 96px;}
+.my13 {margin-top: 104px; margin-bottom: 104px;}
+.my14 {margin-top: 112px; margin-bottom: 112px;}
+.my15 {margin-top: 120px; margin-bottom: 120px;}
 
 /* Padding */
 .pt0 {padding-top: 4px;}
@@ -463,7 +482,7 @@ Colors
 .white-bg { background: #fff; }
 .grey-bg { background: #f7f7f7; }
 .orange-bg { background-color: #FFE6E6; }
-.black-bg { background-color: #000}
+.black-bg { background-color: #292929}
 .blue-bg { background-color: #F0FFFD}
 
 
@@ -564,9 +583,6 @@ img { display: block; /*max-width: auto;*/ width: 100%; }
 
 
 
-
-
-
 /* ----------------------------------------
 Bnfrd Customs
 ---------------------------------------- */
@@ -576,7 +592,8 @@ Bnfrd Customs
 	justify-content: space-between;
 	z-index: 100000000;
 	position: relative;
-	padding: 0 1rem;
+	padding-left: 1rem!important;
+	padding-right: 1rem!important;
 	/* max-width: 1680px; */
 }
 
@@ -626,6 +643,24 @@ Bnfrd Customs
 	display: none;
 }
 
+.clip-svg-inline {
+  -webkit-clip-path: url("#clip-polygon");
+  clip-path: url("#clip-polygon");
+	position: relative;
+	max-width:100%;
+	max-height:100%;
+	z-index: -1;
+}
+
+.wide-background {
+	width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
 
 
 
@@ -633,15 +668,10 @@ Bnfrd Customs
 Media Queries
 ---------------------------------------- */
 /* Media query for 1024 Screens */
-@media only screen and (max-width:1440px){
-
-	.container {
-		margin: 0 5rem;
-		/* margin: auto; */
-	}
+@media only screen and (max-width:1280px){
 
 	.header {
-		/* background-color: yellow; */
+		height: 152px;
 	}
 
 	.s1 {width: 8.333vw; height: 8.333vw;}
@@ -705,13 +735,9 @@ Media Queries
 /* Media query for 960 Screens*/
 @media only screen and (max-width:960px){
 
-.container {
-	margin: 0 2rem;
-	/* margin: auto; */
-}
 
 .header {
-	/* background-color: red; */
+	height: 104px
 }
 
 	/* ----------------------------------------
@@ -771,16 +797,13 @@ Media Queries
 	.header {
 		height: 72px;
 		/* background-color: blue; */
-		padding: 0 2rem;
+		padding: 0 2rem !important;
 	}
 
 	/* .iphone-xs {
 	    max-height: 624px;
 	} */
 
-	.container {
-		margin: auto;
-	}
 
 	.headerfix {
 		margin-top:-72px;
@@ -807,6 +830,29 @@ Media Queries
 	}
 
 	/* ----------------------------------------
+	Typography
+	---------------------------------------- */
+
+	/* Large Heading */
+	h1 {font-size: 16px; line-height: 22px;}
+
+	/* Medium Heading */
+	h2 {font-size: 30px; line-height: 40px; font-weight: bold}
+
+	/* Small Heading */
+	h3 {font-size: 24px; line-height: 36px;}
+
+	/* Subhead */
+	h4 {font-size: 20px; line-height: 30px;}
+
+	/* Label */
+	h5 {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold}
+	/* h6 {font-size: 18px; line-height: 27px;} */
+
+	/* Small Body */
+	.small-type {font-size: 12px; line-height: 36px;}
+
+	/* ----------------------------------------
 	Grid
 	---------------------------------------- */
 
@@ -826,8 +872,8 @@ Media Queries
   -ms-flex: 0 0 auto;
   -webkit-box-flex: 0;
   flex: 0 0 auto;
-  padding-right: 2rem;
-  padding-left: 2rem;
+  /* padding-right: 2rem;
+  padding-left: 2rem; */
 }
 
 .c12xs0 {
@@ -846,7 +892,7 @@ Media Queries
 
 .c1,
 .c2,
-.c3
+.c3,
 .c4,
 .c5,
 .c6,
@@ -862,9 +908,11 @@ Media Queries
   flex: 0 0 auto;
   padding-right: 2rem;
   padding-left: 2rem;
+	padding-top: 1rem;
 	flex-basis:100%;
 	-ms-flex-preferred-size: 100%;
 }
+
 
 .c12xs0 {
 	padding-left:0;
@@ -903,10 +951,10 @@ Typography
 ---------------------------------------- */
 
 /* Large Heading */
-h1 {font-size: 14px; line-height: 20px;}
+h1 {font-size: 16px; line-height: 22px;}
 
 /* Medium Heading */
-h2 {font-size: 32px; line-height: 42px; font-weight: bold}
+h2 {font-size: 28px; line-height: 38px; font-weight: bold}
 
 /* Small Heading */
 h3 {font-size: 24px; line-height: 36px;}
