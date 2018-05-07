@@ -42,20 +42,45 @@
 
 </head>
 
-<body class="grey-bg">
-  <div class="container">
-		<?php include("header.php"); ?>
-    <div class="row hcenter">
-      <div class="row c10 c12m">
-        <div class="c6 order2 pt10">
-          <h3 class="black-secondary">Enjoys 39¢ wings. Name sounds like a president from the 1800’s. Cooks by the book. Spends too much time playing pinball. Attempts to write music. Full name is Benjamin Harrison Ford. Is now a cat person. Terrible plant owner. <br><br><br>I’m currently based in Seattle as a Product Designer at <a href="http://app.starbucks.com"><i><mark>Starbucks</mark></a></i>. Previously at Deloitte Digital.</h3>
+<body>
+
+  <div class="master-container">
+
+    <div class="row">
+      <div class="container c12 row">
+        <!-- ////// -->
+        <div class="row c12 hcenter">
+          <div class="row c12 c11m header middle">
+              <div class="first"><h1><a href="index">Ben Ford</h1></div>
+              <div class="last black-secondary"><h1 class="text-right"><a href="about">About</a></h1></div>
+          </div>
         </div>
-        <div class="c6 order1 vcenter">
-          <img class="polaroid iphone-img iphone-xs image-shrink" src="img/polaroids.png" alt="picture" />
-          <img class="polaroidxs iphone-img iphone-xs image-shrink" src="img/polaroids-xs.png" alt="picture" />
-        </div>
+          <!-- ////// -->
       </div>
+    </div>
+
+    <div class="row">
+      <div class="container row">
+        <!-- ////// -->
+        <div class="row hcenter">
+          <div class="row c12 c11m hcenter">
+            <div class="c6 c12s order2 vcenter">
+              <h3 class="black-secondary">Enjoys 39¢ wings. Name sounds like a president from the 1800’s. Cooks by the book. Spends too much time playing pinball. Attempts to write music. Full name is Benjamin Harrison Ford. Is now a cat person. Terrible plant owner. <br><br><br>I’m currently based in Seattle as a Product Designer at <a href="http://app.starbucks.com"><i><mark>Starbucks</mark></a></i>. Previously at Deloitte Digital.</h3>
+            </div>
+            <div class="c6 c10s order1 vcenter">
+              <img class="polaroid iphone-img order1 iphone-xs image-shrink" src="img/polaroids.png" alt="picture" />
+              <img class="polaroidxs iphone-img order1 iphone-xs image-shrink" src="img/polaroids-xs.png" alt="picture" />
+            </div>
+          </div>
+        </div>
+        <!-- ////// -->
+      </div>
+    </div>
+
   </div>
+
+
+
 
 
 
