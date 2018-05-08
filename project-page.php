@@ -44,56 +44,53 @@
 
 <body>
 
+	<div class="row header middle">
+	    <div class="first"> <h1><a href="index">Ben Ford&nbsp;</a><strong>is a product designer</strong></h1></div>
+	    <div class="last"> <h1 class="black-secondary"><a href="about">About</a></h1></div>
+	</div>
+
   <div class="master-container">
 
-    <div class="row orange-bg">
-      <div class="row c12 container blue-bg">
+    <div class="row grey-bg">
+      <div class="row c12 blue-bg full-height headerfix"> <!-- Full bleed -->
+				<div class="row c12 hcenter container orange-bg"> <!-- Container -->
         <!-- ////// -->
-        <div class="row c12 hcenter">
-          <div class="row c12 c11m header middle">
-              <div class="first"><h1><a href="index">Ben Ford</h1></div>
-              <div class="last black-secondary"><h1 class="text-right"><a href="about">About</a></h1></div>
-          </div>
-        </div>
-          <!-- ////// -->
-      </div>
-    </div>
 
-    <div class="row grey-bg full-height headerfix">
-      <div class="row container">
-        <!-- ////// -->
-        <div class="row c12 hcenter">
-          <div class="row c12 c11m grey-bg">
-            <div class="c6 vcenter">
+          <div class="row c10 c12l">
+            <div class="c12 vcenter">
               <h5 class="black-secondary pb1">STARBUCKS STORES  |  APP DESIGN</h5>
-              <p class="black-secondary">With apps in 23 of its 80 markets, Starbucks’ digital reach was expansive but inconsistent. With no unified design language and apps being designed by different agencies in every market, they needed a way to bring their well-known brand experience to the digital space.</p>
+              <h2 class="large black-secondary">Starbucks Stores</h2>
             </div>
           </div>
-        </div>
+
         <!-- ////// -->
+				</div>
       </div>
     </div>
 
     <div class="row white-bg">
-      <div class="row container">
+      <div class="row c12"> <!-- Full bleed -->
+				<div class="row c12 hcenter container orange-bg"> <!-- Container -->
         <!-- ////// -->
-        <div class="row hcenter">
-          <div class="row c12 c11m hcenter">
-            <div class="c7 py6">
+
+          <div class="row c12 c11l hcenter">
+            <div class="c9 py6">
               <h4 class="black-secondary text-center">One of the world’s most iconic brands, Starbucks is known
                 for its commitment to global responsibility and consistent customer experience.</h4>
             </div>
           </div>
-        </div>
+
         <!-- ////// -->
+				</div>
       </div>
     </div>
 
     <div class="row grey-bg">
-      <div class="container row">
+      <div class="row c12"> <!-- Full bleed -->
+				<div class="row c12 hcenter container orange-bg"> <!-- Container -->
         <!-- ////// -->
-        <div class="row hcenter">
-          <div class="row c12 c11m hcenter py10">
+
+          <div class="row c12 c11l hcenter py10">
             <div class="c5 c6s vcenter pb1">
               <h5 class="black-secondary">ORDERING AHEAD</h5>
               <h2 class="black pb1">Targeting customers on the go</h2>
@@ -103,30 +100,34 @@
               <img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
             </div>
           </div>
-        </div>
+
         <!-- ////// -->
+				</div>
       </div>
     </div>
 
     <div class="row white-bg">
-      <div class="row container">
+      <div class="row c12"> <!-- Full bleed -->
+				<div class="row c12 py13 hcenter container orange-bg"> <!-- Container -->
         <!-- ////// -->
-        <div class="row c12 py13 hcenter">
-          <div class="row c12 c11m hcenter">
+
+          <div class="row c12 c11l hcenter">
             <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
             <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
             <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
           </div>
-        </div>
+
         <!-- ////// -->
+				</div>
       </div>
     </div>
 
     <div class="row grey-bg">
-      <div class="row container">
+      <div class="row c12"> <!-- Full bleed -->
+				<div class="row hcenter container orange-bg"> <!-- Container -->
         <!-- ////// -->
-        <div class="row hcenter">
-          <div class="row c12 c11m hcenter py10">
+
+          <div class="row c12 c11l hcenter py10">
             <div class="c5 c6s pt6">
               <img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
             </div>
@@ -136,15 +137,18 @@
               <p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
             </div>
           </div>
-        </div>
+
         <!-- ////// -->
+				</div>
       </div>
     </div>
 
-    <div class="row white-bg">
-        <!-- ////// -->
-        <div class="row hcenter">
-          <div class="row hcenter c11 c11m py10">
+		<div class="row">
+      <div class="row c12 orange-bg"><!-- Full bleed / No container -->
+        <div class="row c12 hcenter sm-padding">
+				<!-- ////// -->
+
+          <div class="row hcenter c11 c11l c12m py10">
             <div class="c6 c10s pt6">
               <img class="image-shrink" src="img/phone-website.png" alt="picture" />
             </div>
@@ -155,10 +159,11 @@
                 top of the list so placing an order is even more convenient.</p>
             </div>
           </div>
-        </div>
-        <!-- ////// -->
-    </div>
 
+        <!-- ////// -->
+				</div>
+			</div>
+		</div>
 
   </div>
 

@@ -21,7 +21,7 @@ body {
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	text-shadow: none;
-	font-family: avenir, gotham, times new roman;
+	font-family: cosmicabook,avenir, gotham;
 	background-color: #fff;
 }
 
@@ -76,7 +76,7 @@ Grid
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 1280px;
 	margin: auto;
 }
 
@@ -530,6 +530,9 @@ h4 {font-size: 24px; line-height: 36px;}
 h5 {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold}
 /* h6 {font-size: 18px; line-height: 27px;} */
 
+
+.large {font-size: 48px; line-height: 42px; font-weight: bold}
+
 /* Small Body */
 .small-type {font-size: 12px; line-height: 36px;}
 
@@ -588,12 +591,12 @@ Bnfrd Customs
 ---------------------------------------- */
 
 .header {
-	height: 164px;
+	padding-top: 4rem;
 	justify-content: space-between;
 	z-index: 100000000;
 	position: relative;
-	padding-left: 1rem!important;
-	padding-right: 1rem!important;
+	padding-left: 4rem!important;
+	padding-right: 4rem!important;
 	/* max-width: 1680px; */
 }
 
@@ -602,7 +605,7 @@ Bnfrd Customs
 }
 
 .headerfix {
-	margin-top:-164px;
+	margin-top:-88px;
 }
 
 .iphone-img {
@@ -661,6 +664,10 @@ Bnfrd Customs
   margin-right: -50vw;
 }
 
+.circle-img {
+	border-radius: 500px;
+}
+
 
 
 
@@ -671,12 +678,75 @@ Media Queries
 @media only screen and (max-width:1280px){
 
 	.header {
-		height: 152px;
+		/* height: 152px; */
+	}
+
+	.container {
+		max-width: 1280px;
+		padding: 0 3rem !important;
+
 	}
 
 	/* ----------------------------------------
 	Grid
 	---------------------------------------- */
+
+	.c1l,
+	.c2l,
+	.c3l,
+	.c4l,
+	.c5l,
+	.c6l,
+	.c7l,
+	.c8l,
+	.c9l,
+	.c10l,
+	.c11l,
+	.c12l {
+		box-sizing: border-box;
+	  -ms-flex: 0 0 auto;
+	  -webkit-box-flex: 0;
+	  flex: 0 0 auto;
+	  padding-right: 1rem;
+	  padding-left: 1rem;
+	}
+
+	.c1l {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
+	.c2l {flex-basis:16.66%; -ms-flex-preferred-size: 16.667%}
+	.c3l {flex-basis:25%; -ms-flex-preferred-size: 25%}
+	.c4l {flex-basis:33.333%; -ms-flex-preferred-size: 33.333%}
+	.c5l {flex-basis:41.66%; -ms-flex-preferred-size: 41.66%}
+	.c6l {flex-basis:50%; -ms-flex-preferred-size: 50%;}
+	.c7l {flex-basis:58.33%; -ms-flex-preferred-size:58.33%;}
+	.c8l {flex-basis:66.66%; -ms-flex-preferred-size: 66.66%;}
+	.c9l {flex-basis:75%; -ms-flex-preferred-size: 75%;}
+	.c10l {flex-basis:83.33%; -ms-flex-preferred-size: 83.33%;}
+	.c11l {flex-basis:91.66%; -ms-flex-preferred-size: 91.66%;}
+	.c12l {flex-basis:100%; -ms-flex-preferred-size: 100%;}
+
+	.c-offset-1l {margin-left: 8.333%;}
+	.c-offset-2l {margin-left: 16.667%;}
+	.c-offset-3l {margin-left: 25%;}
+	.c-offset-4l {margin-left: 33.333%;}
+	.c-offset-5l {margin-left: 41.667%;}
+	.c-offset-6l {margin-left: 50%;}
+	.c-offset-7l {margin-left: 58.333%;}
+	.c-offset-8l {margin-left: 66.667%;}
+	.c-offset-9l {margin-left: 75%;}
+	.c-offset-10l {margin-left: 83.333%;}
+	.c-offset-11l {margin-left: 91.66%;}
+
+	.s1 {width: 8.333vw; height: 8.333vw;}
+	.s2 {width: 16.667vw; height: 16.667vw;}
+	.s3 {width: 25vw; height: 25vw;}
+	.s4 {width: 33.333vw; height: 33.333vw;}
+	.s5 {width: 41.667vw; height: 41.667vw;}
+	.s6 {width: 50vw; height: 50vw;}
+
+}
+
+/* Media query for 960 Screens*/
+@media only screen and (max-width:960px){
 
 	.c1m,
 	.c2m,
@@ -723,22 +793,6 @@ Media Queries
 	.c-offset-10m {margin-left: 83.333%;}
 	.c-offset-11m {margin-left: 91.66%;}
 
-	.s1 {width: 8.333vw; height: 8.333vw;}
-	.s2 {width: 16.667vw; height: 16.667vw;}
-	.s3 {width: 25vw; height: 25vw;}
-	.s4 {width: 33.333vw; height: 33.333vw;}
-	.s5 {width: 41.667vw; height: 41.667vw;}
-	.s6 {width: 50vw; height: 50vw;}
-
-}
-
-/* Media query for 960 Screens*/
-@media only screen and (max-width:960px){
-
-
-
-
-
 
 
 
@@ -748,7 +802,7 @@ Media Queries
 @media handheld, only screen and (max-width: 768px), only screen and (max-device-width: 768px) and (orientation:portrait){
 
 	.header {
-		height: 104px
+		/* height: 104px */
 	}
 
 	/* ----------------------------------------
@@ -800,6 +854,15 @@ Media Queries
 .c-offset-10s {margin-left: 83.333%;}
 .c-offset-11s {margin-left: 91.66%;}
 
+.container {
+	padding: 0 1rem !important;
+
+}
+
+.header {
+	padding: 2rem 2rem !important;
+
+}
 
 .polaroidxs {
 	display: block;
@@ -823,10 +886,17 @@ Media Queries
 @media handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px) and (orientation:portrait){
 	body{font-size:90%}
 
-	.header {
-		height: 72px;
-		/* background-color: blue; */
+	.container {
 		padding: 0 2rem !important;
+	}
+
+	.header {
+		padding: 2rem 2rem !important;
+	}
+
+	.sm-padding {
+			padding-left: 2rem !important;
+			padding-right: 2rem !important;
 	}
 
 	/* .iphone-xs {
@@ -835,7 +905,7 @@ Media Queries
 
 
 	.headerfix {
-		margin-top:-72px;
+		margin-top:-86px;
 	}
 
 	/* .row {
@@ -920,9 +990,8 @@ h5 {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold}
   -ms-flex: 0 0 auto;
   -webkit-box-flex: 0;
   flex: 0 0 auto;
-  padding-right: 2rem;
-  padding-left: 2rem;
-	padding-top: 1rem;
+  padding-right: 0rem;
+  padding-left: 0rem;
 	flex-basis:100%;
 	-ms-flex-preferred-size: 100%;
 }
