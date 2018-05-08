@@ -47,7 +47,7 @@
   <div class="master-container">
 
     <div class="row">
-      <div class="container c12 row">
+      <div class="row container c12">
         <!-- ////// -->
         <div class="row c12 hcenter">
           <div class="row c12 c11m header middle">
@@ -60,7 +60,7 @@
     </div>
 
     <div class="row">
-      <div class="container row">
+      <div class="row container">
         <!-- ////// -->
         <div class="row hcenter">
           <div class="row c12 c11m hcenter">

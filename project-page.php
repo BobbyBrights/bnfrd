@@ -47,7 +47,7 @@
   <div class="master-container">
 
     <div class="row orange-bg">
-      <div class="container c12 row blue-bg">
+      <div class="row c12 container blue-bg">
         <!-- ////// -->
         <div class="row c12 hcenter">
           <div class="row c12 c11m header middle">
@@ -60,7 +60,7 @@
     </div>
 
     <div class="row grey-bg full-height headerfix">
-      <div class="container row">
+      <div class="row container">
         <!-- ////// -->
         <div class="row c12 hcenter">
           <div class="row c12 c11m grey-bg">
@@ -75,7 +75,7 @@
     </div>
 
     <div class="row white-bg">
-      <div class="container row">
+      <div class="row container">
         <!-- ////// -->
         <div class="row hcenter">
           <div class="row c12 c11m hcenter">
@@ -109,7 +109,7 @@
     </div>
 
     <div class="row white-bg">
-      <div class="container row">
+      <div class="row container">
         <!-- ////// -->
         <div class="row c12 py13 hcenter">
           <div class="row c12 c11m hcenter">
@@ -123,7 +123,7 @@
     </div>
 
     <div class="row grey-bg">
-      <div class="container row">
+      <div class="row container">
         <!-- ////// -->
         <div class="row hcenter">
           <div class="row c12 c11m hcenter py10">
@@ -144,11 +144,11 @@
     <div class="row white-bg">
         <!-- ////// -->
         <div class="row hcenter">
-          <div class="row hcenter c12 c11m py10">
+          <div class="row hcenter c11 c11m py10">
             <div class="c6 c10s pt6">
               <img class="image-shrink" src="img/phone-website.png" alt="picture" />
             </div>
-            <div class="c5 cm4 c10s vcenter">
+            <div class="c5 c4m c10s vcenter">
               <h5 class="black-secondary">MULTI PLATFORM</h5>
               <h2 class="black pb1">Access the stores feature from all platforms</h2>
               <p class="black-secondary">Have a couple different Starbucks stores that you go to regularly? Favoriting your stores will filter them to the
