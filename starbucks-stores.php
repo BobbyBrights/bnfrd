@@ -42,55 +42,236 @@
 
 </head>
 
-<body>
-  <div class="container">
-		<?php include("header.php"); ?>
+<body class="grey-bg">
 
-			<!-- <div class="row full-height headerfix">
-				<div class="c4 vcenter">
-					<h5 class="black-secondary pb1">STARBUCKS STORES  |  APP DESIGN</h5>
-					<p class="black-secondary">With apps in 23 of its 80 markets, Starbucks’ digital reach was expansive but inconsistent. With no unified design language and apps being designed by different agencies in every market, they needed a way to bring their well-known brand experience to the digital space.</p>
-				</div>
-			</div> -->
-			<div class="row full-height headerfix hcenter">
-				<div class="row c10 c11m c12s c12xs0 py5 hcenter">
-					<div class="c6 c6m c7s c12xs py2 vcenter">
-						<h5 class="black-secondary pb1">STARBUCKS STORES  |  APP DESIGN</h5>
-						<p class="black-secondary">With apps in 23 of its 80 markets, Starbucks’ digital reach was expansive but inconsistent. With no unified design language and apps being designed by different agencies in every market, they needed a way to bring their well-known brand experience to the digital space.</p>
-					</div>
-					<div class="c3 c4m c4s c12xs py2 vcenter hcenter">
-					</div>
-				</div>
-			</div>
+	<div class="row header middle">
+	    <div class="first"> <h1><a href="index">Ben Ford</div>
+	    <div class="last"> <h1 class="black-secondary"><a href="about">About</a></h1></div>
+	</div>
 
-			<div class="row grey-bg hcenter clip-svg-inline">
-				<div class="c6 c10m c12xs text-center py4">
-					<h4 class="black-secondary">One of the world’s most iconic brands, Starbucks is known for its commitment to global responsibility and consistent customer experience.</h4>
-				</div>
-			</div>
+  <div class="master-container">
 
-			<div class="row hcenter">
-				<div class="row c10 c11m c12s c12xs0 py5 hcenter">
-					<div class="c4 c5m c6s c12xs py2 vcenter">
-						<h5 class="black-secondary">ORDERING AHEAD</h5>
-						<h2 class="black pb1">Targeting customers on the go</h2>
-						<p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
-					</div>
-					<div class="c5 cm4 c5s c12xs py2 vcenter hcenter">
-						<img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
-					</div>
-				</div>
-			</div>
+    <div class="row">
+      <div class="row c12 full-height headerfix grey-bg"> <!-- Full bleed -->
+				<div class="row c12 hcenter container"> <!-- Container -->
+        <!-- ////// -->
 
-			<svg class="clip-svg">
-				<defs>
-					<clipPath id="clip-polygon">
-						<path d="M0 21.546C92.443 14.8 195.092 11.427 307.946 11.427c294.674 0 460.576 26.2 809.97 26.2 214.01 0 401.371-12.276 562.084-36.827v318.173c-232.13-12.7-442.434-14.202-630.91-4.506C847.424 324.841 316.244 345.48 0 338.638V21.546z"/>
-					</clipPath>
-				</defs>
-			</svg>
+          <div class="row c12 c12l">
+            <div class="c12 vcenter">
+              <h5 class="black-secondary pb1">APP DESIGN   |   iOS & ANDROID APPS</h5>
+              <h2 class="large black">Starbucks Stores</h2>
+            </div>
+          </div>
+
+        <!-- ////// -->
+				</div>
+      </div>
+    </div>
+
+    <div class="row white-bg">
+      <div class="row c12"> <!-- Full bleed -->
+				<div class="row c12 hcenter container"> <!-- Container -->
+        <!-- ////// -->
+
+          <div class="row c12 c11l hcenter">
+            <div class="c9 py6">
+              <h4 class="black-secondary text-center">Starbucks stores was the first feature we tackled after finishing the Starbucks Digital Design System. The existing feature got very low traffic in the app (x% of visits). There was a ton of work to do to improve it. </h4>
+            </div>
+          </div>
+
+        <!-- ////// -->
+				</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="row c12 grey-bg"> <!-- Full bleed -->
+				<div class="row c12 hcenter container"> <!-- Container -->
+        <!-- ////// -->
+
+          <div class="row c12 c12l hcenter py10">
+            <div class="c5 c6l c6m c6s vcenter pb1">
+              <h5 class="black-secondary">ORDERING AHEAD</h5>
+              <h2 class="black pb1">Targeting customers on the go</h2>
+              <p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
+            </div>
+            <div class="c5 c5l c5m c5s pt6">
+              <img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
+            </div>
+          </div>
+
+        <!-- ////// -->
+				</div>
+      </div>
+    </div>
+
+    <div class="row white-bg">
+      <div class="row c12"> <!-- Full bleed -->
+				<div class="row c12 py13 hcenter container"> <!-- Container -->
+        <!-- ////// -->
+
+          <div class="row c12 c11l hcenter py12">
+            <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+            <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+            <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+          </div>
+
+        <!-- ////// -->
+				</div>
+      </div>
+    </div>
+
+    <div class="row grey-bg">
+      <div class="row c12"> <!-- Full bleed -->
+				<div class="row c12 hcenter container"> <!-- Container -->
+        <!-- ////// -->
+
+          <div class="row c12 c12l hcenter py10">
+            <div class="c5 c5l c5m c5s pt6">
+              <img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
+            </div>
+            <div class="c5 c6l c6m c6s vcenter pb1">
+              <h5 class="black-secondary">PREVIOUS & FAVORITES</h5>
+              <h2 class="black pb1">Have a store you frequent? Make it a Favorite.</h2>
+              <p class="black-secondary">Have a couple different Starbucks stores that you go to regularly? Favoriting your stores will filter them to the top of the list so placing an order is even more convenient.</p>
+            </div>
+          </div>
+
+        <!-- ////// -->
+				</div>
+      </div>
+    </div>
+
+    <div class="row white-bg">
+      <div class="row c12"> <!-- Full bleed -->
+				<div class="row c12 hcenter container"> <!-- Container -->
+        <!-- ////// -->
+
+          <div class="row c12 c11l hcenter">
+            <div class="c9 py6">
+              <h4 class="black-secondary text-center">Starbucks stores was the first feature we tackled after finishing the Starbucks Digital Design System. The existing feature got very low traffic in the app (x% of visits). There was a ton of work to do to improve it. </h4>
+            </div>
+          </div>
+
+        <!-- ////// -->
+				</div>
+      </div>
+    </div>
+    <div class="row grey-bg">
+      <div class="row c12"> <!-- Full bleed -->
+				<div class="row c12 hcenter container"> <!-- Container -->
+        <!-- ////// -->
+
+          <div class="row c12 c12l hcenter py10">
+            <div class="c5 c6l c6m c6s vcenter pb1">
+              <h5 class="black-secondary">FILTERING</h5>
+              <h2 class="black pb1">Trying to find that new Limited product?</h2>
+              <p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
+            </div>
+            <div class="c5 c5l c5m c5s pt6">
+              <img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
+            </div>
+          </div>
+
+        <!-- ////// -->
+				</div>
+      </div>
+    </div>
+
+    <div class="row white-bg">
+      <div class="row c12"> <!-- Full bleed -->
+				<div class="row c12 hcenter container"> <!-- Container -->
+        <!-- ////// -->
+
+          <div class="row c12 c11l hcenter py12">
+            <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+            <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+            <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+          </div>
+
+        <!-- ////// -->
+				</div>
+      </div>
+    </div>
+
+    <div class="row grey-bg">
+      <div class="row c12"> <!-- Full bleed -->
+        <div class="row c12 hcenter container"> <!-- Container -->
+        <!-- ////// -->
+
+          <div class="row c12 c12l hcenter py10">
+            <div class="c5 c5l c5m c5s pt6">
+              <img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
+            </div>
+            <div class="c5 c6l c6m c6s vcenter pb1">
+              <h5 class="black-secondary">SEARCH</h5>
+              <h2 class="black pb1">Wondering if there's a store on the way to your appt?</h2>
+              <p class="black-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non arcu dui. Etiam nec ligula sodales, laoreet lectus et, tempus urna. Morbi vel porttitor diam, ac mollis dui.</p>
+            </div>
+          </div>
+
+        <!-- ////// -->
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row white-bg">
+      <div class="row c12"> <!-- Full bleed -->
+        <div class="row c12 py13 hcenter container"> <!-- Container -->
+        <!-- ////// -->
+
+          <div class="row c12 c11l hcenter py12">
+            <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+            <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+            <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+          </div>
+
+        <!-- ////// -->
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="row c12"><!-- Full bleed / No container -->
+        <div class="row c12 hcenter sm-padding">
+        <!-- ////// -->
+
+          <div class="row hcenter c11 c11l c12m c12s py10">
+            <div class="c6 c7l c6m c11s pt6">
+              <img class="image-shrink" src="img/phone-website.png" alt="picture" />
+            </div>
+            <div class="c4 c4l c5m c11s vcenter">
+              <h5 class="black-secondary">MULTI PLATFORM</h5>
+              <h2 class="black pb1">Access the stores feature from all platforms</h2>
+              <p class="black-secondary">Have a couple different Starbucks stores that you go to regularly? Favoriting your stores will filter them to the
+                top of the list so placing an order is even more convenient.</p>
+            </div>
+          </div>
+
+        <!-- ////// -->
+        </div>
+      </div>
+    </div>
+
+  	<div class="breakpoint-xl">
+  		<h3 class="black">X-Large</h3>
+  	</div>
+  	<div class="breakpoint-l">
+  		<h3 class="black">Large</h3>
+  	</div>
+  	<div class="breakpoint-m">
+  		<h3 class="black">Medium</h3>
+  	</div>
+  	<div class="breakpoint-s">
+  		<h3 class="black">Small</h3>
+  	</div>
+  	<div class="breakpoint-xs">
+  		<h3 class="black">X-Small</h3>
+  	</div>
 
   </div>
+
 
 
 

@@ -78,6 +78,7 @@ Grid
 .container {
 	max-width: 1280px;
 	margin: auto;
+	padding: 0 3rem !important;
 }
 
 .row {
@@ -585,6 +586,13 @@ img { display: block; /*max-width: auto;*/ width: 100%; }
 }
 
 
+.breakpoint-xl {
+	position: fixed;
+	bottom:0;
+	right:0;
+	padding: 1rem;
+}
+
 
 /* ----------------------------------------
 Bnfrd Customs
@@ -675,17 +683,12 @@ Bnfrd Customs
 Media Queries
 ---------------------------------------- */
 /* Media query for 1024 Screens */
-@media only screen and (max-width:1280px){
+@media only screen and (max-width:1380px){
 
 	.header {
 		/* height: 152px; */
 	}
 
-	.container {
-		max-width: 1280px;
-		padding: 0 3rem !important;
-
-	}
 
 	/* ----------------------------------------
 	Grid
@@ -736,12 +739,47 @@ Media Queries
 	.c-offset-10l {margin-left: 83.333%;}
 	.c-offset-11l {margin-left: 91.66%;}
 
+	/* ----------------------------------------
+	Typography
+	---------------------------------------- */
+
+	/* Large Heading */
+	h1 {font-size: 16px; line-height: 22px;}
+
+	/* Medium Heading */
+	h2 {font-size: 30px; line-height: 40px; font-weight: bold}
+
+	/* Small Heading */
+	h3 {font-size: 22px; line-height: 36px;}
+
+	/* Subhead */
+	h4 {font-size: 20px; line-height: 30px;}
+
+	/* Label */
+	h5 {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold}
+	/* h6 {font-size: 18px; line-height: 27px;} */
+
+	/* Small Body */
+	.small-type {font-size: 12px; line-height: 36px;}
+
 	.s1 {width: 8.333vw; height: 8.333vw;}
 	.s2 {width: 16.667vw; height: 16.667vw;}
 	.s3 {width: 25vw; height: 25vw;}
 	.s4 {width: 33.333vw; height: 33.333vw;}
 	.s5 {width: 41.667vw; height: 41.667vw;}
 	.s6 {width: 50vw; height: 50vw;}
+
+
+	.breakpoint-xl {
+		display: none;
+	}
+
+	.breakpoint-l {
+		position: fixed;
+		bottom:0;
+		right:0;
+		padding: 1rem;
+	}
 
 }
 
@@ -793,7 +831,39 @@ Media Queries
 	.c-offset-10m {margin-left: 83.333%;}
 	.c-offset-11m {margin-left: 91.66%;}
 
+	/* ----------------------------------------
+	Typography
+	---------------------------------------- */
 
+	/* Large Heading */
+	h1 {font-size: 16px; line-height: 22px;}
+
+	/* Medium Heading */
+	h2 {font-size: 30px; line-height: 40px; font-weight: bold}
+
+	/* Small Heading */
+	h3 {font-size: 20px; line-height: 36px;}
+
+	/* Subhead */
+	h4 {font-size: 20px; line-height: 30px;}
+
+	/* Label */
+	h5 {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold}
+	/* h6 {font-size: 18px; line-height: 27px;} */
+
+	/* Small Body */
+	.small-type {font-size: 12px; line-height: 36px;}
+
+	.breakpoint-l {
+		display:none;
+	}
+
+	.breakpoint-m {
+		position: fixed;
+		bottom:0;
+		right:0;
+		padding: 1rem;
+	}
 
 
 }
@@ -854,9 +924,42 @@ Media Queries
 .c-offset-10s {margin-left: 83.333%;}
 .c-offset-11s {margin-left: 91.66%;}
 
+/* ----------------------------------------
+Typography
+---------------------------------------- */
+
+/* Large Heading */
+h1 {font-size: 16px; line-height: 22px;}
+
+/* Medium Heading */
+h2 {font-size: 28px; line-height: 40px; font-weight: bold}
+
+/* Small Heading */
+h3 {font-size: 20px; line-height: 36px;}
+
+/* Subhead */
+h4 {font-size: 18px; line-height: 30px;}
+
+/* Label */
+h5 {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold}
+/* h6 {font-size: 18px; line-height: 27px;} */
+
+/* Small Body */
+.small-type {font-size: 12px; line-height: 36px;}
+
 .container {
 	padding: 0 1rem !important;
+}
 
+.breakpoint-m {
+	display:none;
+}
+
+.breakpoint-s {
+	position: fixed;
+	bottom:0;
+	right:0;
+	padding: 1rem;
 }
 
 .header {
@@ -899,6 +1002,17 @@ Media Queries
 			padding-right: 2rem !important;
 	}
 
+	.breakpoint-s {
+		display:none;
+	}
+
+	.breakpoint-xs {
+		position: fixed;
+		bottom:0;
+		right:0;
+		padding: 1rem;
+	}
+
 	/* .iphone-xs {
 	    max-height: 624px;
 	} */
@@ -921,28 +1035,6 @@ Media Queries
 	}
 
 
-	/* ----------------------------------------
-	Typography
-	---------------------------------------- */
-
-/* Large Heading */
-h1 {font-size: 16px; line-height: 22px;}
-
-/* Medium Heading */
-h2 {font-size: 30px; line-height: 40px; font-weight: bold}
-
-/* Small Heading */
-h3 {font-size: 24px; line-height: 36px;}
-
-/* Subhead */
-h4 {font-size: 20px; line-height: 30px;}
-
-/* Label */
-h5 {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold}
-/* h6 {font-size: 18px; line-height: 27px;} */
-
-/* Small Body */
-.small-type {font-size: 12px; line-height: 36px;}
 
 	/* ----------------------------------------
 	Grid
@@ -1037,17 +1129,18 @@ Typography
 h1 {font-size: 16px; line-height: 22px;}
 
 /* Medium Heading */
-h2 {font-size: 28px; line-height: 38px; font-weight: bold}
+h2 {font-size: 26px; line-height: 38px; font-weight: bold}
 
 /* Small Heading */
-h3 {font-size: 24px; line-height: 36px;}
+h3 {font-size: 20px; line-height: 36px;}
 
 /* Subhead */
-h4 {font-size: 20px; line-height: 30px;}
+h4 {font-size: 16px; line-height: 30px;}
 
 /* Label */
 h5 {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold}
-/* h6 {font-size: 18px; line-height: 27px;} */
+
+h6 {font-size: 18px; line-height: 27px;}
 
 /* Small Body */
 .small-type {font-size: 12px; line-height: 36px;}

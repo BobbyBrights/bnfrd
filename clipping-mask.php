@@ -43,34 +43,54 @@
 </head>
 
 <body>
+  <div class="container">
+		<?php include("header.php"); ?>
 
-	<div class="row header middle">
-			<div class="first"> <h1><a href="index">Ben Ford&nbsp;</a><strong>is a product designer</strong></h1></div>
-			<div class="last"> <h1 class="black-secondary"><a href="about">About</a></h1></div>
-	</div>
+			<!-- <div class="row full-height headerfix">
+				<div class="c4 vcenter">
+					<h5 class="black-secondary pb1">STARBUCKS STORES  |  APP DESIGN</h5>
+					<p class="black-secondary">With apps in 23 of its 80 markets, Starbucks’ digital reach was expansive but inconsistent. With no unified design language and apps being designed by different agencies in every market, they needed a way to bring their well-known brand experience to the digital space.</p>
+				</div>
+			</div> -->
+			<div class="row full-height headerfix hcenter">
+				<div class="row c10 c11m c12s c12xs0 py5 hcenter">
+					<div class="c6 c6m c7s c12xs py2 vcenter">
+						<h5 class="black-secondary pb1">STARBUCKS STORES  |  APP DESIGN</h5>
+						<p class="black-secondary">With apps in 23 of its 80 markets, Starbucks’ digital reach was expansive but inconsistent. With no unified design language and apps being designed by different agencies in every market, they needed a way to bring their well-known brand experience to the digital space.</p>
+					</div>
+					<div class="c3 c4m c4s c12xs py2 vcenter hcenter">
+					</div>
+				</div>
+			</div>
 
-  <div class="master-container">
+			<div class="row grey-bg hcenter clip-svg-inline">
+				<div class="c6 c10m c12xs text-center py4">
+					<h4 class="black-secondary">One of the world’s most iconic brands, Starbucks is known for its commitment to global responsibility and consistent customer experience.</h4>
+				</div>
+			</div>
 
-    <div class="row">
-      <div class="row container">
-        <!-- ////// -->
-        <div class="row hcenter">
-          <div class="row c12 c12l hcenter full-height headerfix">
-            <div class="c7 c7l c12s vcenter order2">
-              <h3 class="black-secondary">Enjoys 39¢ wings. Name sounds like a president from the 1800’s. Cooks by the book. Spends too much time playing pinball. Attempts to write music. Full name is Benjamin Harrison Ford. Is now a cat person. Terrible plant owner. <br><br><br>I’m currently based in Seattle as a Product Designer at <a href="http://app.starbucks.com"><i><mark>Starbucks</mark></a></i>. Previously at Deloitte Digital.</h3>
-            </div>
-            <div class="c5 c5l c10s vcenter order1">
-              <img class="polaroid iphone-img circle-img iphone-xs image-shrink" src="img/portrait.jpg" alt="picture" />
-              <img class="polaroidxs iphone-img circle-img iphone-xs image-shrink" src="img/portrait.jpg" alt="picture" />
-            </div>
-          </div>
-        </div>
-        <!-- ////// -->
-      </div>
-    </div>
+			<div class="row hcenter">
+				<div class="row c10 c11m c12s c12xs0 py5 hcenter">
+					<div class="c4 c5m c6s c12xs py2 vcenter">
+						<h5 class="black-secondary">ORDERING AHEAD</h5>
+						<h2 class="black pb1">Targeting customers on the go</h2>
+						<p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
+					</div>
+					<div class="c5 cm4 c5s c12xs py2 vcenter hcenter">
+						<img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
+					</div>
+				</div>
+			</div>
+
+			<svg class="clip-svg">
+				<defs>
+					<clipPath id="clip-polygon">
+						<path d="M0 21.546C92.443 14.8 195.092 11.427 307.946 11.427c294.674 0 460.576 26.2 809.97 26.2 214.01 0 401.371-12.276 562.084-36.827v318.173c-232.13-12.7-442.434-14.202-630.91-4.506C847.424 324.841 316.244 345.48 0 338.638V21.546z"/>
+					</clipPath>
+				</defs>
+			</svg>
 
   </div>
-
 
 
 

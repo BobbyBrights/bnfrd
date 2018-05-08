@@ -45,7 +45,7 @@
 <body>
 
 	<div class="row header middle">
-	    <div class="first"> <h1><a href="index">Ben Ford&nbsp;</a><strong>is a product designer</strong></h1></div>
+	    <div class="first"> <h1><a href="index">Ben Ford</div>
 	    <div class="last"> <h1 class="black-secondary"><a href="about">About</a></h1></div>
 	</div>
 
@@ -56,7 +56,7 @@
 				<div class="row c12 hcenter container orange-bg"> <!-- Container -->
         <!-- ////// -->
 
-          <div class="row c10 c12l">
+          <div class="row c12 c12l">
             <div class="c12 vcenter">
               <h5 class="black-secondary pb1">STARBUCKS STORES  |  APP DESIGN</h5>
               <h2 class="large black-secondary">Starbucks Stores</h2>
