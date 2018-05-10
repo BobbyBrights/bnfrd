@@ -49,210 +49,163 @@
 	    <div class="last"> <h1 class="black-secondary"><a href="about">About</a></h1></div>
 	</div>
 
-  <div class="master-container">
-
-    <div class="row">
-      <div class="row c12 full-height headerfix grey-bg"> <!-- Full bleed -->
-				<div class="row c12 hcenter container"> <!-- Container -->
-        <!-- ////// -->
-
-          <div class="row c12 c12l">
-            <div class="c12 vcenter">
-              <h5 class="black-secondary pb1">APP DESIGN   |   iOS & ANDROID APPS</h5>
-              <h2 class="large black">Starbucks Stores</h2>
-            </div>
-          </div>
-
-        <!-- ////// -->
-				</div>
-      </div>
-    </div>
-
-    <div class="row white-bg">
-      <div class="row c12"> <!-- Full bleed -->
-				<div class="row c12 hcenter container"> <!-- Container -->
-        <!-- ////// -->
-
-          <div class="row c12 c11l hcenter">
-            <div class="c9 py6">
-              <h4 class="black-secondary text-center">Starbucks stores was the first feature we tackled after finishing the Starbucks Digital Design System. The existing feature got very low traffic in the app (x% of visits). There was a ton of work to do to improve it. </h4>
-            </div>
-          </div>
-
-        <!-- ////// -->
-				</div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="row c12 grey-bg"> <!-- Full bleed -->
-				<div class="row c12 hcenter container"> <!-- Container -->
-        <!-- ////// -->
-
-          <div class="row c12 c12l hcenter py10">
-            <div class="c5 c6l c6m c6s vcenter pb1">
-              <h5 class="black-secondary">ORDERING AHEAD</h5>
-              <h2 class="black pb1">Targeting customers on the go</h2>
-              <p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
-            </div>
-            <div class="c5 c5l c5m c5s pt6">
-              <img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
-            </div>
-          </div>
-
-        <!-- ////// -->
-				</div>
-      </div>
-    </div>
-
-    <div class="row white-bg">
-      <div class="row c12"> <!-- Full bleed -->
-				<div class="row c12 py13 hcenter container"> <!-- Container -->
-        <!-- ////// -->
-
-          <div class="row c12 c11l hcenter py12">
-            <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
-            <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
-            <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
-          </div>
-
-        <!-- ////// -->
-				</div>
-      </div>
-    </div>
-
-    <div class="row grey-bg">
-      <div class="row c12"> <!-- Full bleed -->
-				<div class="row c12 hcenter container"> <!-- Container -->
-        <!-- ////// -->
-
-          <div class="row c12 c12l hcenter py10">
-            <div class="c5 c5l c5m c5s pt6">
-              <img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
-            </div>
-            <div class="c5 c6l c6m c6s vcenter pb1">
-              <h5 class="black-secondary">PREVIOUS & FAVORITES</h5>
-              <h2 class="black pb1">Have a store you frequent? Make it a Favorite.</h2>
-              <p class="black-secondary">Have a couple different Starbucks stores that you go to regularly? Favoriting your stores will filter them to the top of the list so placing an order is even more convenient.</p>
-            </div>
-          </div>
-
-        <!-- ////// -->
-				</div>
-      </div>
-    </div>
-
-    <div class="row white-bg">
-      <div class="row c12"> <!-- Full bleed -->
-				<div class="row c12 hcenter container"> <!-- Container -->
-        <!-- ////// -->
-
-          <div class="row c12 c11l hcenter">
-            <div class="c9 py6">
-              <h4 class="black-secondary text-center">Starbucks stores was the first feature we tackled after finishing the Starbucks Digital Design System. The existing feature got very low traffic in the app (x% of visits). There was a ton of work to do to improve it. </h4>
-            </div>
-          </div>
-
-        <!-- ////// -->
-				</div>
-      </div>
-    </div>
-    <div class="row grey-bg">
-      <div class="row c12"> <!-- Full bleed -->
-				<div class="row c12 hcenter container"> <!-- Container -->
-        <!-- ////// -->
-
-          <div class="row c12 c12l hcenter py10">
-            <div class="c5 c6l c6m c6s vcenter pb1">
-              <h5 class="black-secondary">FILTERING</h5>
-              <h2 class="black pb1">Trying to find that new Limited product?</h2>
-              <p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
-            </div>
-            <div class="c5 c5l c5m c5s pt6">
-              <img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
-            </div>
-          </div>
-
-        <!-- ////// -->
-				</div>
-      </div>
-    </div>
-
-    <div class="row white-bg">
-      <div class="row c12"> <!-- Full bleed -->
-				<div class="row c12 hcenter container"> <!-- Container -->
-        <!-- ////// -->
-
-          <div class="row c12 c11l hcenter py12">
-            <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
-            <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
-            <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
-          </div>
-
-        <!-- ////// -->
-				</div>
-      </div>
-    </div>
-
-    <div class="row grey-bg">
-      <div class="row c12"> <!-- Full bleed -->
-        <div class="row c12 hcenter container"> <!-- Container -->
-        <!-- ////// -->
-
-          <div class="row c12 c12l hcenter py10">
-            <div class="c5 c5l c5m c5s pt6">
-              <img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
-            </div>
-            <div class="c5 c6l c6m c6s vcenter pb1">
-              <h5 class="black-secondary">SEARCH</h5>
-              <h2 class="black pb1">Wondering if there's a store on the way to your appt?</h2>
-              <p class="black-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non arcu dui. Etiam nec ligula sodales, laoreet lectus et, tempus urna. Morbi vel porttitor diam, ac mollis dui.</p>
-            </div>
-          </div>
-
-        <!-- ////// -->
+  <div class="grid-100 orange-bg">
+    <div class="grid-1280 c12">
+      <!-- ////// -->
+      <div class="row c12 full-height headerfix"> <!-- Full bleed -->
+        <div class="c12 vcenter">
+          <h5 class="black-secondary pb1">APP DESIGN   |   iOS & ANDROID APPS</h5>
+          <h2 class="large black">Starbucks Stores</h2>
         </div>
       </div>
+      <!-- ////// -->
     </div>
+  </div>
 
-
-    <div class="row white-bg">
-      <div class="row c12"> <!-- Full bleed -->
-        <div class="row c12 py13 hcenter container"> <!-- Container -->
-        <!-- ////// -->
-
-          <div class="row c12 c11l hcenter py12">
-            <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
-            <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
-            <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+  <div class="grid-100 white-bg">
+    <div class="grid-1280">
+      <!-- ////// -->
+        <div class="row c12 c11l hcenter">
+          <div class="c9 py6">
+            <h4 class="black-secondary text-center">Starbucks stores was the first feature we tackled after finishing the Starbucks Digital Design System. The existing feature got very low traffic in the app (x% of visits). There was a ton of work to do to improve it. </h4>
           </div>
+        </div>
+      <!-- ////// -->
+    </div>
+  </div>
 
-        <!-- ////// -->
+  <div class="grid-100">
+    <div class="grid-1280">
+      <!-- ////// -->
+        <div class="row c12 c12l hcenter py10">
+          <div class="c5 c6l c6m c6s vcenter pb1">
+            <h5 class="black-secondary">ORDERING AHEAD</h5>
+            <h2 class="black pb1">Targeting customers on the go</h2>
+            <p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
+          </div>
+          <div class="c5 c5l c5m c5s pt6">
+            <img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
+          </div>
+        </div>
+      <!-- ////// -->
+    </div>
+  </div>
+
+  <div class="grid-100 white-bg">
+    <div class="grid-1280">
+      <!-- ////// -->
+      <div class="row c12 c11l hcenter py12">
+        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+      </div>
+      <!-- ////// -->
+    </div>
+  </div>
+
+  <div class="grid-100 grey-bg">
+    <div class="grid-1280">
+      <!-- ////// -->
+      <div class="row c12 c12l hcenter py10">
+        <div class="c5 c5l c5m c5s pt6">
+          <img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
+        </div>
+        <div class="c5 c6l c6m c6s vcenter pb1">
+          <h5 class="black-secondary">PREVIOUS & FAVORITES</h5>
+          <h2 class="black pb1">Have a store you frequent? Make it a Favorite.</h2>
+          <p class="black-secondary">Have a couple different Starbucks stores that you go to regularly? Favoriting your stores will filter them to the top of the list so placing an order is even more convenient.</p>
         </div>
       </div>
+      <!-- ////// -->
     </div>
+  </div>
 
-    <div class="row">
-      <div class="row c12"><!-- Full bleed / No container -->
-        <div class="row c12 hcenter sm-padding">
-        <!-- ////// -->
-
-          <div class="row hcenter c11 c11l c12m c12s py10">
-            <div class="c6 c7l c6m c11s pt6">
-              <img class="image-shrink" src="img/phone-website.png" alt="picture" />
-            </div>
-            <div class="c4 c4l c5m c11s vcenter">
-              <h5 class="black-secondary">MULTI PLATFORM</h5>
-              <h2 class="black pb1">Access the stores feature from all platforms</h2>
-              <p class="black-secondary">Have a couple different Starbucks stores that you go to regularly? Favoriting your stores will filter them to the
-                top of the list so placing an order is even more convenient.</p>
-            </div>
-          </div>
-
-        <!-- ////// -->
+  <div class="grid-100 white-bg">
+    <div class="grid-1280">
+      <!-- ////// -->
+      <div class="row c12 c11l hcenter">
+        <div class="c9 py6">
+          <h4 class="black-secondary text-center">Starbucks stores was the first feature we tackled after finishing the Starbucks Digital Design System. The existing feature got very low traffic in the app (x% of visits). There was a ton of work to do to improve it. </h4>
         </div>
       </div>
+      <!-- ////// -->
     </div>
+  </div>
+
+  <div class="grid-100 grey-bg">
+    <div class="grid-1280">
+      <!-- ////// -->
+      <div class="row c12 c12l hcenter py10">
+        <div class="c5 c6l c6m c6s vcenter pb1">
+          <h5 class="black-secondary">FILTERING</h5>
+          <h2 class="black pb1">Trying to find that new Limited product?</h2>
+          <p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
+        </div>
+        <div class="c5 c5l c5m c5s pt6">
+          <img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
+        </div>
+      </div>
+      <!-- ////// -->
+    </div>
+  </div>
+
+  <div class="grid-100 white-bg">
+    <div class="grid-1280">
+      <!-- ////// -->
+      <div class="row c12 c11l hcenter py12">
+        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+      </div>
+      <!-- ////// -->
+    </div>
+  </div>
+
+  <div class="grid-100 grey-bg">
+    <div class="grid-1280">
+      <!-- ////// -->
+      <div class="row c12 c12l hcenter py10">
+        <div class="c5 c5l c5m c5s pt6">
+          <img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
+        </div>
+        <div class="c5 c6l c6m c6s vcenter pb1">
+          <h5 class="black-secondary">SEARCH</h5>
+          <h2 class="black pb1">Wondering if there's a store on the way to your appt?</h2>
+          <p class="black-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non arcu dui. Etiam nec ligula sodales, laoreet lectus et, tempus urna. Morbi vel porttitor diam, ac mollis dui.</p>
+        </div>
+      </div>
+      <!-- ////// -->
+    </div>
+  </div>
+
+  <div class="grid-100 white-bg">
+    <div class="grid-1280">
+      <!-- ////// -->
+      <div class="row c12 c11l hcenter py12">
+        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+      </div>
+      <!-- ////// -->
+    </div>
+  </div>
+
+  <div class="grid-100 grey-bg hcenter">
+    <!-- ////// -->
+    <div class="row c11 c11l c12m c12s py10 hcenter">
+      <div class="c6 c7l c6m c11s pt6">
+        <img class="image-shrink" src="img/phone-website.png" alt="picture" />
+      </div>
+      <div class="c4 c4l c5m c11s vcenter">
+        <h5 class="black-secondary">MULTI PLATFORM</h5>
+        <h2 class="black pb1">Access the stores feature from all platforms</h2>
+        <p class="black-secondary">Have a couple different Starbucks stores that you go to regularly? Favoriting your stores will filter them to the
+          top of the list so placing an order is even more convenient.</p>
+      </div>
+    </div>
+    <!-- ////// -->
+  </div>
+
 
   	<div class="breakpoint-xl">
   		<h3 class="black">X-Large</h3>
@@ -269,10 +222,6 @@
   	<div class="breakpoint-xs">
   		<h3 class="black">X-Small</h3>
   	</div>
-
-  </div>
-
-
 
 
 

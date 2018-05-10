@@ -56,7 +56,7 @@
 				<div class="row c12 hcenter container orange-bg"> <!-- Container -->
         <!-- ////// -->
 
-          <div class="row c12 c12l">
+          <div class="row c12 c11l">
             <div class="c12 vcenter">
               <h5 class="black-secondary pb1">STARBUCKS STORES  |  APP DESIGN</h5>
               <h2 class="large black-secondary">Starbucks Stores</h2>
