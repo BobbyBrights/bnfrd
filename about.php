@@ -49,27 +49,23 @@
 			<div class="last"> <h1 class="black-secondary"><a href="about">About</a></h1></div>
 	</div>
 
-  <div class="master-container">
-
-    <div class="row">
-      <div class="row container">
-        <!-- ////// -->
-        <div class="row hcenter">
-          <div class="row c12 c12l hcenter full-height headerfix">
-            <div class="c7 c7l c12s vcenter order2">
-              <h3 class="black-secondary">Enjoys 39¢ wings. Name sounds like a president from the 1800’s. Cooks by the book. Spends too much time playing pinball. Attempts to write music. Full name is Benjamin Harrison Ford. Is now a cat person. Terrible plant owner. <br><br><br>I’m currently based in Seattle as a Product Designer at <a href="http://app.starbucks.com"><i><mark>Starbucks</mark></a></i>. Previously at Deloitte Digital.</h3>
-            </div>
-            <div class="c5 c5l c10s vcenter order1">
-              <img class="polaroid iphone-img circle-img iphone-xs image-shrink" src="img/portrait.jpg" alt="picture" />
-              <img class="polaroidxs iphone-img circle-img iphone-xs image-shrink" src="img/portrait.jpg" alt="picture" />
-            </div>
-          </div>
-        </div>
-        <!-- ////// -->
+	<div class="grid-100">
+    <div class="grid-1280 c12">
+      <!-- ////// -->
+      <div class="row c12 c12l hcenter full-height headerfix"> <!-- Full bleed -->
+				<div class="c7 c7l c12s vcenter order2">
+					<h3 class="black-secondary">Enjoys 39¢ wings. Name sounds like a president from the 1800’s. Cooks by the book. Spends too much time playing pinball. Attempts to write music. Full name is Benjamin Harrison Ford. Is now a cat person. Terrible plant owner. <br><br><br>I’m currently based in Seattle as a Product Designer at <a href="http://app.starbucks.com"><i><mark>Starbucks</mark></a></i>. Previously at Deloitte Digital.</h3>
+				</div>
+				<div class="c5 c5l c10s vcenter order1">
+					<img class="polaroid iphone-img circle-img iphone-xs image-shrink" src="img/portrait.jpg" alt="picture" />
+					<img class="polaroidxs iphone-img circle-img iphone-xs image-shrink" src="img/portrait.jpg" alt="picture" />
+				</div>
       </div>
+      <!-- ////// -->
     </div>
-
   </div>
+
+
 
 
 
