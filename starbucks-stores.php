@@ -42,39 +42,53 @@
 
 </head>
 
-<body class="grey-bg">
+<body>
 
-	<div class="row header middle">
+	<div class="row header grey-bg middle">
 	    <div class="first"> <h1><a href="index">Ben Ford</div>
 	    <div class="last"> <h1 class="black-secondary"><a href="about">About</a></h1></div>
 	</div>
 
-  <div class="grid-100">
+  <div class="grid-100 grey-bg">
     <div class="grid-1280 c12">
       <!-- ////// -->
       <div class="row full-height headerfix"> <!-- Full bleed -->
         <div class="c12 vcenter">
-          <h5 class="black-secondary pb1">APP DESIGN   |   iOS & ANDROID APPS</h5>
-          <h2 class="large black">Starbucks Stores</h2>
         </div>
       </div>
       <!-- ////// -->
     </div>
   </div>
 
-  <div class="grid-100 white-bg">
-    <div class="grid-1280">
-      <!-- ////// -->
-        <div class="row hcenter">
-          <div class="c9 py6">
-            <h4 class="black-secondary text-center">Starbucks stores was the first feature we tackled after finishing the Starbucks Digital Design System. The existing feature got very low traffic in the app (x% of visits). There was a ton of work to do to improve it. </h4>
-          </div>
-        </div>
-      <!-- ////// -->
-    </div>
-  </div>
+	<div class="grid-100 grey-bg">
+	  <div class="grid-1280">
+	    <!-- ////// -->
+	      <div class="row c12 between py10">
+		        <div class="c5 c9m first">
+			          <h2 class="black">Starbucks Stores</h2>
+			          <p class="black-secondary pt2">After creating the Starbucks Digital Design System, stores was one of the features to be redesigned. The main goal was to improve the user experience of the feature and align it to the Design system. <br><br>
+			We used tested patterns, improved search and filters, and added ordering capabilities to create an experience that greatly improved customer use.</p>
+		        </div>
+	          <div class="row c5 c12m last">
+		            <div class="c12 c3m c4s">
+		              <h5 class="black pt3">ROLE</h2>
+		              <p class="black-secondary">Product Design / UX Design</p>
+		            </div>
+		            <div class="c12 c3m c4s">
+		              <h5 class="black pt3">YEAR</h2>
+		              <p class="black-secondary">2017—Present</p>
+		            </div>
+		            <div class="c12 c3m c4s">
+		              <h5 class="black pt3">CREDITS</h2>
+		              <p class="black-secondary">Will Asrari, Bethel Heo, Steve Arredondo, David Hull </p>
+	            </div>
+		        </div>
+	      </div>
+	    <!-- ////// -->
+	  </div>
+	</div>
 
-  <div class="grid-100 white-bg">
+  <div class="grid-100 grey-bg stores-bckgrd">
     <div class="grid-1280 c12">
       <!-- ////// -->
         <div class="row hcenter py12">
@@ -84,20 +98,20 @@
             <p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
           </div>
           <div class="c5 c5l c5m c5s">
-            <img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
+            <img class="iphone-img iphone-xs image-shrink" src="img/stores-13.png" alt="picture" />
           </div>
         </div>
       <!-- ////// -->
     </div>
   </div>
 
-  <div class="grid-100 white-bg">
-    <div class="grid-1280  c12 hcenter">
+  <div class="grid-100 white-bg cell-shadow z-front">
+    <div class="grid-1280 c12 hcenter">
       <!-- ////// -->
       <div class="row c12 c11l py12">
-        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
-        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
-        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/stores-13.png" alt="picture" /></div>
+        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/stores-1.png" alt="picture" /></div>
+        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/stores-14.png" alt="picture" /></div>
       </div>
       <!-- ////// -->
     </div>
@@ -142,20 +156,20 @@
           <p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
         </div>
         <div class="c5 c5l c5m c5s">
-          <img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
+          <img class="iphone-img iphone-xs image-shrink" src="img/stores-9.png" alt="picture" />
         </div>
       </div>
       <!-- ////// -->
     </div>
   </div>
 
-  <div class="grid-100 white-bg">
+  <div class="grid-100 white-bg cell-shadow z-front">
     <div class="grid-1280 c12 hcenter">
       <!-- ////// -->
       <div class="row c12 c11l py12">
-        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
-        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
-        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/stores-11.png" alt="picture" /></div>
+        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/stores-9.png" alt="picture" /></div>
+        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/stores-12.png" alt="picture" /></div>
       </div>
       <!-- ////// -->
     </div>
@@ -166,11 +180,11 @@
       <!-- ////// -->
       <div class="row hcenter py12">
         <div class="c5 c5l c5m c5s">
-          <img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
+          <img class="iphone-img iphone-xs image-shrink" src="img/stores-3.png" alt="picture" />
         </div>
         <div class="c5 c6l c6m c6s vcenter">
           <h5 class="black-secondary">SEARCH</h5>
-          <h2 class="black pb1">Wondering if there's a store on the way to your appt?</h2>
+          <h2 class="black pb1">Going shopping at Nordstroms and want to find a Starbucks on the way?</h2>
           <p class="black-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non arcu dui. Etiam nec ligula sodales, laoreet lectus et, tempus urna. Morbi vel porttitor diam, ac mollis dui.</p>
         </div>
       </div>
@@ -178,13 +192,13 @@
     </div>
   </div>
 
-  <div class="grid-100 white-bg">
+  <div class="grid-100 white-bg cell-shadow z-front">
     <div class="grid-1280 c12">
       <!-- ////// -->
       <div class="row c12 c11l hcenter py12">
-        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
-        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
-        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" /></div>
+        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/stores-2.png" alt="picture" /></div>
+        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/stores-3.png" alt="picture" /></div>
+        <div class="c4"><img class="iphone-img iphone-xs image-shrink" src="img/stores-4.png" alt="picture" /></div>
       </div>
       <!-- ////// -->
     </div>
