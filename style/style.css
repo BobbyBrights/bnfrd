@@ -602,13 +602,11 @@ img { display: block; /*max-width: auto;*/ width: 100%; }
 	/* object-fit: contain; */
 }
 
-
-.breakpoint-xl {
-	position: fixed;
-	bottom:0;
-	right:0;
-	padding: 1rem;
-}
+.breakpoint-xs {display:none;}
+.breakpoint-s {display:none;}
+.breakpoint-m {display:none;}
+.breakpoint-l {display:none;}
+.breakpoint-xl {position: fixed; bottom:0; right:0; padding: 1rem; display: block;}
 
 
 /* ----------------------------------------
@@ -810,16 +808,11 @@ Media Queries
 	.s6 {width: 50vw; height: 50vw;}
 
 
-	.breakpoint-xl {
-		display: none;
-	}
-
-	.breakpoint-l {
-		position: fixed;
-		bottom:0;
-		right:0;
-		padding: 1rem;
-	}
+	.breakpoint-xs {display:none;}
+	.breakpoint-s {display:none;}
+	.breakpoint-m {display:none;}
+	.breakpoint-l {position: fixed; bottom:0; right:0; padding: 1rem; display: block;}
+	.breakpoint-xl {display:none;}
 
 }
 
@@ -894,16 +887,12 @@ Media Queries
 	/* Small Body */
 	.small-type {font-size: 12px; line-height: 36px;}
 
-	.breakpoint-l {
-		display:none;
-	}
 
-	.breakpoint-m {
-		position: fixed;
-		bottom:0;
-		right:0;
-		padding: 1rem;
-	}
+	.breakpoint-xs {display:none;}
+	.breakpoint-s {display:none;}
+	.breakpoint-m {position: fixed; bottom:0; right:0; padding: 1rem; display: block;}
+	.breakpoint-l {display:none;}
+	.breakpoint-xl {display:none;}
 
 
 }
@@ -1022,6 +1011,12 @@ h5 {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold}
 .order2 {
   order: 2;
 }
+
+.breakpoint-xs {display:none;}
+.breakpoint-s {position: fixed; bottom:0; right:0; padding: 1rem; display: block;}
+.breakpoint-m {display:none;}
+.breakpoint-l {display:none;}
+.breakpoint-xl {display:none;}
 
 }
 
@@ -1187,6 +1182,12 @@ h6 {font-size: 18px; line-height: 27px;}
 .small-type {font-size: 12px; line-height: 36px;}
 
 .s12xs {width: 100vw; height: 100vw; margin-bottom: 1rem;}
+
+.breakpoint-xs {position: fixed; bottom:0; right:0; padding: 1rem; display: block;}
+.breakpoint-s {display:none;}
+.breakpoint-m {display:none;}
+.breakpoint-l {display:none;}
+.breakpoint-xl {display:none;}
 
 
 }
