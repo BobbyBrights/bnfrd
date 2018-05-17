@@ -66,21 +66,21 @@
 	      <div class="row c12 between py10">
 		        <div class="c5 c9m first">
 			          <h2 class="black">Starbucks Stores</h2>
-			          <p class="black-secondary pt2">After creating the Starbucks Digital Design System, stores was one of the features to be redesigned. The main goal was to improve the user experience of the feature and align it to the Design system. <br><br>
+			          <p class="copy black-secondary pt2">After creating the Starbucks Digital Design System, stores was one of the features to be redesigned. The main goal was to improve the user experience of the feature and align it to the Design system. <br><br>
 			We used tested patterns, improved search and filters, and added ordering capabilities to create an experience that greatly improved customer use.</p>
 		        </div>
 	          <div class="row c5 c12m last">
 		            <div class="c12 c3m c4s">
-		              <h5 class="black pt3">ROLE</h2>
-		              <p class="black-secondary">Product Design / UX Design</p>
+		              <h3 class="label black pt3">ROLE</h2>
+		              <p class="copy black-secondary">Product Design / UX Design</p>
 		            </div>
 		            <div class="c12 c3m c4s">
-		              <h5 class="black pt3">YEAR</h2>
-		              <p class="black-secondary">2017—Present</p>
+		              <h3 class="label black pt3">YEAR</h2>
+		              <p class="copy black-secondary">2017—Present</p>
 		            </div>
 		            <div class="c12 c3m c4s">
-		              <h5 class="black pt3">CREDITS</h2>
-		              <p class="black-secondary">Will Asrari, Bethel Heo, Steve Arredondo, David Hull </p>
+		              <h3 class="label black pt3">CREDITS</h2>
+		              <p class="copy black-secondary">Will Asrari, Bethel Heo, Steve Arredondo, David Hull </p>
 	            </div>
 		        </div>
 	      </div>
@@ -93,9 +93,9 @@
       <!-- ////// -->
         <div class="row hcenter py12">
           <div class="c5 c6l c6m c6s vcenter">
-            <h5 class="black-secondary">ORDERING AHEAD</h5>
+            <h3 class="label black-secondary">ORDERING AHEAD</h3>
             <h2 class="black pb1">Targeting customers on the go</h2>
-            <p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
+            <p class="copy black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
           </div>
           <div class="c5 c5l c5m c5s">
             <img class="iphone-img iphone-xs image-shrink" src="img/stores-13.png" alt="picture" />
@@ -125,9 +125,9 @@
           <img class="iphone-img iphone-xs image-shrink" src="img/test.png" alt="picture" />
         </div>
         <div class="c5 c6l c6m c6s vcenter pb1">
-          <h5 class="black-secondary">PREVIOUS & FAVORITES</h5>
-          <h2 class="black pb1">Have a store you frequent? Make it a Favorite.</h2>
-          <p class="black-secondary">Have a couple different Starbucks stores that you go to regularly? Favoriting your stores will filter them to the top of the list so placing an order is even more convenient.</p>
+          <h3 class="label black-secondary">PREVIOUS & FAVORITES</h3>
+          <h2 class="large-headline black pb1">Have a store you frequent? Make it a Favorite.</h2>
+          <p class="copy black-secondary">Have a couple different Starbucks stores that you go to regularly? Favoriting your stores will filter them to the top of the list so placing an order is even more convenient.</p>
         </div>
       </div>
       <!-- ////// -->
@@ -151,9 +151,9 @@
       <!-- ////// -->
       <div class="row c12 c12l hcenter py12">
         <div class="c5 c6l c6m c6s vcenter">
-          <h5 class="black-secondary">FILTERING</h5>
-          <h2 class="black pb1">Trying to find that new Limited product?</h2>
-          <p class="black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
+          <h3 class="label black-secondary">FILTERING</h3>
+          <h2 class="large-headline black pb1">Trying to find that new Limited product?</h2>
+          <p class="copy black-secondary">Users can quickly find stores in their area, view prep time (helpful during rush hours), route & travel time information, and place an order.</p>
         </div>
         <div class="c5 c5l c5m c5s">
           <img class="iphone-img iphone-xs image-shrink" src="img/stores-9.png" alt="picture" />
@@ -183,9 +183,9 @@
           <img class="iphone-img iphone-xs image-shrink" src="img/stores-3.png" alt="picture" />
         </div>
         <div class="c5 c6l c6m c6s vcenter">
-          <h5 class="black-secondary">SEARCH</h5>
-          <h2 class="black pb1">Going shopping at Nordstroms and want to find a Starbucks on the way?</h2>
-          <p class="black-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non arcu dui. Etiam nec ligula sodales, laoreet lectus et, tempus urna. Morbi vel porttitor diam, ac mollis dui.</p>
+          <h3 class="label black-secondary">SEARCH</h3>
+          <h2 class="large-headline black pb1">Going shopping at Nordstroms and want to find a Starbucks on the way?</h2>
+          <p class="copy black-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non arcu dui. Etiam nec ligula sodales, laoreet lectus et, tempus urna. Morbi vel porttitor diam, ac mollis dui.</p>
         </div>
       </div>
       <!-- ////// -->
@@ -211,9 +211,9 @@
         <img class="image-shrink" src="img/phone-website.png" alt="picture" />
       </div>
       <div class="c4 c5m c11s vcenter">
-        <h5 class="black-secondary">MULTI PLATFORM</h5>
-        <h2 class="black pb1">Access the stores feature from all platforms</h2>
-        <p class="black-secondary">Have a couple different Starbucks stores that you go to regularly? Favoriting your stores will filter them to the
+        <h3 class="label black-secondary">MULTI PLATFORM</h3>
+        <h2 class="large-headline black pb1">Access the stores feature from all platforms</h2>
+        <p class="copy black-secondary">Have a couple different Starbucks stores that you go to regularly? Favoriting your stores will filter them to the
           top of the list so placing an order is even more convenient.</p>
       </div>
     </div>

@@ -75,7 +75,6 @@ Grid
 	margin: auto;
 	box-sizing: border-box;
 	display: flex;
-
 }
 
 .grid-1280 {
@@ -169,7 +168,6 @@ Grid
 .row.c12xs { padding-right: 0; padding-left: 0;}
 
 /* //////////////////////////////*/
-
 
 .c1,
 .c2,
@@ -531,6 +529,14 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	text-decoration:none;
 }
 
+.massive-headline {font-size: 60px; line-height: 24px;}
+
+.large-headline {font-size: 32px; line-height: 42px; font-weight: bold;}
+.medium-headline {font-size: 24px; line-height: 36px; font-weight: bold;}
+.label {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold;}
+.copy {font-size: 1rem; line-height: 24px;}
+.small-copy {font-size: 12px; line-height: 36px;}
+
 
 /* Large Heading */
 h1 {font-size: 16px; line-height: 24px;}
@@ -549,11 +555,6 @@ h5 {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold}
 /* h6 {font-size: 18px; line-height: 27px;} */
 
 
-.large {font-size: 48px; line-height: 42px; font-weight: bold}
-
-/* Small Body */
-.small-type {font-size: 12px; line-height: 36px;}
-
 a {
     text-decoration: none;
     line-height: inherit;
@@ -568,7 +569,7 @@ a {
 a:hover {color: #000000; }
 a:focus {color: #000000; outline: none; }
 
-p { /*margin-bottom: 10px;*/ padding:0; font-size: 1rem; line-height: 24px; }
+p { padding:0; }
 p span {color: #46aae3; }
 p a, p a:visited {line-height: inherit; }
 
@@ -602,6 +603,10 @@ img { display: block; /*max-width: auto;*/ width: 100%; }
 	/* object-fit: contain; */
 }
 
+/* ----------------------------------------
+Breakpoint Indicator
+---------------------------------------- */
+
 .breakpoint-xs {display:none;}
 .breakpoint-s {display:none;}
 .breakpoint-m {display:none;}
@@ -610,7 +615,7 @@ img { display: block; /*max-width: auto;*/ width: 100%; }
 
 
 /* ----------------------------------------
-Bnfrd Customs
+Project Customs
 ---------------------------------------- */
 
 .header {
@@ -623,10 +628,11 @@ Bnfrd Customs
 	/* max-width: 1680px; */
 }
 
-
 .headerfix {
 	margin-top:-88px;
 }
+
+/* Images */
 
 .iphone-img {
 	max-height: 590px;
@@ -635,11 +641,6 @@ Bnfrd Customs
 	margin: auto;
 	border-radius: 12%/5.5%;
 	box-shadow: 0px 10px 28px 9px rgba(0,0,0,.05);
-}
-
-.square {
-	width: 25vw;
-	height: 25vw;
 }
 
 .kitty-1 {
@@ -666,28 +667,6 @@ Bnfrd Customs
 	background-size: contain;
 }
 
-.polaroidxs {
-	display: none;
-}
-
-
-.wide-background {
-	width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-}
-
-.z-front {
-	z-index: 100000;
-	position: relative;
-}
-
-
-/* Images */
-
 .curl-1 {
 	background: url("../img/curls-stores-1.png") no-repeat center;
 	background-color: #f7f7f7;
@@ -710,9 +689,25 @@ Bnfrd Customs
 	border-radius: 500px;
 }
 
+
+/* Utilities */
 .cell-shadow {
 	box-shadow: 0px 0px 28px 5px rgba(0,0,0,.04);
 }
+
+.z-front {
+	z-index: 100000;
+	position: relative;
+}
+
+/* .wide-background {
+	width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+} */
 
 
 
@@ -721,178 +716,197 @@ Bnfrd Customs
 Media Queries
 ---------------------------------------- */
 /* Media query for 1024 Screens */
-@media only screen and (max-width:1380px){
+@media only screen and (max-width:1024px){
 
-	.header {
-		/* height: 152px; */
-	}
+/*	max-width:1380px  */
 
-
-	/* ----------------------------------------
-	Grid
-	---------------------------------------- */
-
-	.c1l,
-	.c2l,
-	.c3l,
-	.c4l,
-	.c5l,
-	.c6l,
-	.c7l,
-	.c8l,
-	.c9l,
-	.c10l,
-	.c11l,
-	.c12l {
-		box-sizing: border-box;
-	  -ms-flex: 0 0 auto;
-	  -webkit-box-flex: 0;
-	  flex: 0 0 auto;
-	  padding-right: 1rem;
-	  padding-left: 1rem;
-	}
-
-	.c1l {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
-	.c2l {flex-basis:16.66%; -ms-flex-preferred-size: 16.667%}
-	.c3l {flex-basis:25%; -ms-flex-preferred-size: 25%}
-	.c4l {flex-basis:33.333%; -ms-flex-preferred-size: 33.333%}
-	.c5l {flex-basis:41.66%; -ms-flex-preferred-size: 41.66%}
-	.c6l {flex-basis:50%; -ms-flex-preferred-size: 50%;}
-	.c7l {flex-basis:58.33%; -ms-flex-preferred-size:58.33%;}
-	.c8l {flex-basis:66.66%; -ms-flex-preferred-size: 66.66%;}
-	.c9l {flex-basis:75%; -ms-flex-preferred-size: 75%;}
-	.c10l {flex-basis:83.33%; -ms-flex-preferred-size: 83.33%;}
-	.c11l {flex-basis:91.66%; -ms-flex-preferred-size: 91.66%;}
-	.c12l {flex-basis:100%; -ms-flex-preferred-size: 100%;}
-
-	.c-offset-1l {margin-left: 8.333%;}
-	.c-offset-2l {margin-left: 16.667%;}
-	.c-offset-3l {margin-left: 25%;}
-	.c-offset-4l {margin-left: 33.333%;}
-	.c-offset-5l {margin-left: 41.667%;}
-	.c-offset-6l {margin-left: 50%;}
-	.c-offset-7l {margin-left: 58.333%;}
-	.c-offset-8l {margin-left: 66.667%;}
-	.c-offset-9l {margin-left: 75%;}
-	.c-offset-10l {margin-left: 83.333%;}
-	.c-offset-11l {margin-left: 91.66%;}
-
-	/* ----------------------------------------
-	Typography
-	---------------------------------------- */
-
-	/* Large Heading */
-	h1 {font-size: 16px; line-height: 22px;}
-
-	/* Medium Heading */
-	h2 {font-size: 30px; line-height: 40px; font-weight: bold}
-
-	/* Small Heading */
-	h3 {font-size: 22px; line-height: 36px;}
-
-	/* Subhead */
-	h4 {font-size: 20px; line-height: 30px;}
-
-	/* Label */
-	h5 {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold}
-	/* h6 {font-size: 18px; line-height: 27px;} */
-
-	/* Small Body */
-	.small-type {font-size: 12px; line-height: 36px;}
-
-	.s1 {width: 8.333vw; height: 8.333vw;}
-	.s2 {width: 16.667vw; height: 16.667vw;}
-	.s3 {width: 25vw; height: 25vw;}
-	.s4 {width: 33.333vw; height: 33.333vw;}
-	.s5 {width: 41.667vw; height: 41.667vw;}
-	.s6 {width: 50vw; height: 50vw;}
+.header {
+	/* height: 152px; */
+}
 
 
-	.breakpoint-xs {display:none;}
-	.breakpoint-s {display:none;}
-	.breakpoint-m {display:none;}
-	.breakpoint-l {position: fixed; bottom:0; right:0; padding: 1rem; display: block;}
-	.breakpoint-xl {display:none;}
+/* ----------------------------------------
+Grid
+---------------------------------------- */
+
+.c1l,
+.c2l,
+.c3l,
+.c4l,
+.c5l,
+.c6l,
+.c7l,
+.c8l,
+.c9l,
+.c10l,
+.c11l,
+.c12l {
+	box-sizing: border-box;
+  -ms-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c1l {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
+.c2l {flex-basis:16.66%; -ms-flex-preferred-size: 16.667%}
+.c3l {flex-basis:25%; -ms-flex-preferred-size: 25%}
+.c4l {flex-basis:33.333%; -ms-flex-preferred-size: 33.333%}
+.c5l {flex-basis:41.66%; -ms-flex-preferred-size: 41.66%}
+.c6l {flex-basis:50%; -ms-flex-preferred-size: 50%;}
+.c7l {flex-basis:58.33%; -ms-flex-preferred-size:58.33%;}
+.c8l {flex-basis:66.66%; -ms-flex-preferred-size: 66.66%;}
+.c9l {flex-basis:75%; -ms-flex-preferred-size: 75%;}
+.c10l {flex-basis:83.33%; -ms-flex-preferred-size: 83.33%;}
+.c11l {flex-basis:91.66%; -ms-flex-preferred-size: 91.66%;}
+.c12l {flex-basis:100%; -ms-flex-preferred-size: 100%;}
+
+.c-offset-1l {margin-left: 8.333%;}
+.c-offset-2l {margin-left: 16.667%;}
+.c-offset-3l {margin-left: 25%;}
+.c-offset-4l {margin-left: 33.333%;}
+.c-offset-5l {margin-left: 41.667%;}
+.c-offset-6l {margin-left: 50%;}
+.c-offset-7l {margin-left: 58.333%;}
+.c-offset-8l {margin-left: 66.667%;}
+.c-offset-9l {margin-left: 75%;}
+.c-offset-10l {margin-left: 83.333%;}
+.c-offset-11l {margin-left: 91.66%;}
+
+/* ----------------------------------------
+Typography
+---------------------------------------- */
+
+
+.massive-headline {font-size: 60px; line-height: 24px;}
+
+.large-headline {font-size: 32px; line-height: 42px; font-weight: bold;}
+.medium-headline {font-size: 24px; line-height: 36px; font-weight: bold;}
+.label {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold;}
+.copy {font-size: 1rem; line-height: 24px;}
+.small-copy {font-size: 12px; line-height: 36px;}
+
+/* Large Heading */
+h1 {font-size: 16px; line-height: 22px;}
+
+/* Medium Heading */
+h2 {font-size: 30px; line-height: 40px; font-weight: bold}
+
+/* Small Heading */
+h3 {font-size: 22px; line-height: 36px;}
+
+/* Subhead */
+h4 {font-size: 20px; line-height: 30px;}
+
+/* Label */
+h5 {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold}
+/* h6 {font-size: 18px; line-height: 27px;} */
+
+/* Small Body */
+.small-type {font-size: 12px; line-height: 36px;}
+
+.s1 {width: 8.333vw; height: 8.333vw;}
+.s2 {width: 16.667vw; height: 16.667vw;}
+.s3 {width: 25vw; height: 25vw;}
+.s4 {width: 33.333vw; height: 33.333vw;}
+.s5 {width: 41.667vw; height: 41.667vw;}
+.s6 {width: 50vw; height: 50vw;}
+
+
+.breakpoint-xs {display:none;}
+.breakpoint-s {display:none;}
+.breakpoint-m {display:none;}
+.breakpoint-l {position: fixed; bottom:0; right:0; padding: 1rem; display: block;}
+.breakpoint-xl {display:none;}
 
 }
 
 /* Media query for 960 Screens*/
 @media only screen and (max-width:960px){
 
-	.c1m,
-	.c2m,
-	.c3m,
-	.c4m,
-	.c5m,
-	.c6m,
-	.c7m,
-	.c8m,
-	.c9m,
-	.c10m,
-	.c11m,
-	.c12m {
-		box-sizing: border-box;
-	  -ms-flex: 0 0 auto;
-	  -webkit-box-flex: 0;
-	  flex: 0 0 auto;
-	  padding-right: 1rem;
-	  padding-left: 1rem;
-	}
+.c1m,
+.c2m,
+.c3m,
+.c4m,
+.c5m,
+.c6m,
+.c7m,
+.c8m,
+.c9m,
+.c10m,
+.c11m,
+.c12m {
+	box-sizing: border-box;
+  -ms-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
 
-	.c1m {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
-	.c2m {flex-basis:16.66%; -ms-flex-preferred-size: 16.667%}
-	.c3m {flex-basis:25%; -ms-flex-preferred-size: 25%}
-	.c4m {flex-basis:33.333%; -ms-flex-preferred-size: 33.333%}
-	.c5m {flex-basis:41.66%; -ms-flex-preferred-size: 41.66%}
-	.c6m {flex-basis:50%; -ms-flex-preferred-size: 50%;}
-	.c7m {flex-basis:58.33%; -ms-flex-preferred-size:58.33%;}
-	.c8m {flex-basis:66.66%; -ms-flex-preferred-size: 66.66%;}
-	.c9m {flex-basis:75%; -ms-flex-preferred-size: 75%;}
-	.c10m {flex-basis:83.33%; -ms-flex-preferred-size: 83.33%;}
-	.c11m {flex-basis:91.66%; -ms-flex-preferred-size: 91.66%;}
-	.c12m {flex-basis:100%; -ms-flex-preferred-size: 100%;}
+.c1m {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
+.c2m {flex-basis:16.66%; -ms-flex-preferred-size: 16.667%}
+.c3m {flex-basis:25%; -ms-flex-preferred-size: 25%}
+.c4m {flex-basis:33.333%; -ms-flex-preferred-size: 33.333%}
+.c5m {flex-basis:41.66%; -ms-flex-preferred-size: 41.66%}
+.c6m {flex-basis:50%; -ms-flex-preferred-size: 50%;}
+.c7m {flex-basis:58.33%; -ms-flex-preferred-size:58.33%;}
+.c8m {flex-basis:66.66%; -ms-flex-preferred-size: 66.66%;}
+.c9m {flex-basis:75%; -ms-flex-preferred-size: 75%;}
+.c10m {flex-basis:83.33%; -ms-flex-preferred-size: 83.33%;}
+.c11m {flex-basis:91.66%; -ms-flex-preferred-size: 91.66%;}
+.c12m {flex-basis:100%; -ms-flex-preferred-size: 100%;}
 
-	.c-offset-1m {margin-left: 8.333%;}
-	.c-offset-2m {margin-left: 16.667%;}
-	.c-offset-3m {margin-left: 25%;}
-	.c-offset-4m {margin-left: 33.333%;}
-	.c-offset-5m {margin-left: 41.667%;}
-	.c-offset-6m {margin-left: 50%;}
-	.c-offset-7m {margin-left: 58.333%;}
-	.c-offset-8m {margin-left: 66.667%;}
-	.c-offset-9m {margin-left: 75%;}
-	.c-offset-10m {margin-left: 83.333%;}
-	.c-offset-11m {margin-left: 91.66%;}
+.c-offset-1m {margin-left: 8.333%;}
+.c-offset-2m {margin-left: 16.667%;}
+.c-offset-3m {margin-left: 25%;}
+.c-offset-4m {margin-left: 33.333%;}
+.c-offset-5m {margin-left: 41.667%;}
+.c-offset-6m {margin-left: 50%;}
+.c-offset-7m {margin-left: 58.333%;}
+.c-offset-8m {margin-left: 66.667%;}
+.c-offset-9m {margin-left: 75%;}
+.c-offset-10m {margin-left: 83.333%;}
+.c-offset-11m {margin-left: 91.66%;}
 
-	/* ----------------------------------------
-	Typography
-	---------------------------------------- */
+/* ----------------------------------------
+Typography
+---------------------------------------- */
 
-	/* Large Heading */
-	h1 {font-size: 16px; line-height: 22px;}
+.massive-headline {font-size: 60px; line-height: 24px;}
 
-	/* Medium Heading */
-	h2 {font-size: 30px; line-height: 40px; font-weight: bold}
+.large-headline {font-size: 32px; line-height: 42px; font-weight: bold;}
+.medium-headline {font-size: 24px; line-height: 36px; font-weight: bold;}
+.label {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold;}
+.copy {font-size: 1rem; line-height: 24px;}
+.small-copy {font-size: 12px; line-height: 36px;}
 
-	/* Small Heading */
-	h3 {font-size: 20px; line-height: 36px;}
+/* Large Heading */
+h1 {font-size: 16px; line-height: 22px;}
 
-	/* Subhead */
-	h4 {font-size: 20px; line-height: 30px;}
+/* Medium Heading */
+h2 {font-size: 30px; line-height: 40px; font-weight: bold}
 
-	/* Label */
-	h5 {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold}
-	/* h6 {font-size: 18px; line-height: 27px;} */
+/* Small Heading */
+h3 {font-size: 20px; line-height: 36px;}
 
-	/* Small Body */
-	.small-type {font-size: 12px; line-height: 36px;}
+/* Subhead */
+h4 {font-size: 20px; line-height: 30px;}
+
+/* Label */
+h5 {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold}
+/* h6 {font-size: 18px; line-height: 27px;} */
+
+/* Small Body */
+.small-type {font-size: 12px; line-height: 36px;}
 
 
-	.breakpoint-xs {display:none;}
-	.breakpoint-s {display:none;}
-	.breakpoint-m {position: fixed; bottom:0; right:0; padding: 1rem; display: block;}
-	.breakpoint-l {display:none;}
-	.breakpoint-xl {display:none;}
+.breakpoint-xs {display:none;}
+.breakpoint-s {display:none;}
+.breakpoint-m {position: fixed; bottom:0; right:0; padding: 1rem; display: block;}
+.breakpoint-l {display:none;}
+.breakpoint-xl {display:none;}
 
 
 }
@@ -957,6 +971,14 @@ Media Queries
 Typography
 ---------------------------------------- */
 
+.massive-headline {font-size: 60px; line-height: 24px;}
+
+.large-headline {font-size: 32px; line-height: 42px; font-weight: bold;}
+.medium-headline {font-size: 24px; line-height: 36px; font-weight: bold;}
+.label {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold;}
+.copy {font-size: 1rem; line-height: 24px;}
+.small-copy {font-size: 12px; line-height: 36px;}
+
 /* Large Heading */
 h1 {font-size: 16px; line-height: 22px;}
 
@@ -996,10 +1018,6 @@ h5 {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold}
 
 }
 
-.polaroidxs {
-	display: block;
-}
-
 .polaroid {
 	display: none;
 }
@@ -1020,61 +1038,60 @@ h5 {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold}
 
 }
 
-/* Media query for iPad and tablets */
+/* Media query for iPhone */
 @media handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px) and (orientation:portrait){
 	body{font-size:90%}
 
-	.grid-1280 {
-		padding: 0 2rem !important;
-	}
+.grid-1280 {
+	padding: 0 2rem !important;
+}
+
+.header {
+	padding: 2rem 2rem;
+}
+
+.xs-padding {
+		padding-left: 2rem !important;
+		padding-right: 2rem !important;
+}
+
+.breakpoint-s {
+	display:none;
+}
+
+.breakpoint-xs {
+	position: fixed;
+	bottom:0;
+	right:0;
+	padding: 1rem;
+}
+
+/* .iphone-xs {
+    max-height: 624px;
+} */
 
 
-	.header {
-		padding: 2rem 2rem;
-	}
+.headerfix {
+	margin-top:-86px;
+}
 
-	.xs-padding {
-			padding-left: 2rem !important;
-			padding-right: 2rem !important;
-	}
+/* .row {
+	padding-bottom: 2rem;
+} */
 
-	.breakpoint-s {
-		display:none;
-	}
+.about-me {
+	padding-left: 0px;
+}
 
-	.breakpoint-xs {
-		position: fixed;
-		bottom:0;
-		right:0;
-		padding: 1rem;
-	}
-
-	/* .iphone-xs {
-	    max-height: 624px;
-	} */
-
-
-	.headerfix {
-		margin-top:-86px;
-	}
-
-	/* .row {
-		padding-bottom: 2rem;
-	} */
-
-	.about-me {
-		padding-left: 0px;
-	}
-
-	.image-noshrink {
-		object-fit: none;
-	}
+.image-noshrink {
+	object-fit: none;
+}
 
 
 
-	/* ----------------------------------------
-	Grid
-	---------------------------------------- */
+/* ----------------------------------------
+Grid
+---------------------------------------- */
 
 .c1xs,
 .c2xs,
@@ -1160,6 +1177,14 @@ h5 {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold}
 /* ----------------------------------------
 Typography
 ---------------------------------------- */
+
+.massive-headline {font-size: 60px; line-height: 24px;}
+
+.large-headline {font-size: 32px; line-height: 42px; font-weight: bold;}
+.medium-headline {font-size: 24px; line-height: 36px; font-weight: bold;}
+.label {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold;}
+.copy {font-size: 1rem; line-height: 24px;}
+.small-copy {font-size: 12px; line-height: 36px;}
 
 /* Large Heading */
 h1 {font-size: 16px; line-height: 22px;}
