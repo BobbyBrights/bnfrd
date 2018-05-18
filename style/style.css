@@ -685,8 +685,18 @@ Project Customs
 	background-size: cover;
 }
 
+.stores-hero {
+	background: url("../img/table-1.jpg") no-repeat center center;
+	background-color: #f7f7f7;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 .circle-img {
 	border-radius: 500px;
+	background: no-repeat;
 }
 
 
@@ -1020,6 +1030,7 @@ h5 {font-size: 10px; line-height: 32px; letter-spacing: 1px; font-weight: bold}
 
 .polaroid {
 	display: none;
+
 }
 
 .breakpoint-xs {display:none;}

@@ -44,15 +44,15 @@
 
 <body>
 
-	<div class="row header grey-bg middle">
-	    <div class="first"> <h1><a href="index">Ben Ford</div>
-	    <div class="last"> <h1 class="black-secondary"><a href="about">About</a></h1></div>
+	<div class="row header middle">
+	    <div class="first"> <h1 class="white"><a href="index">Ben Ford</div>
+	    <div class="last"> <h1 class="white"><a href="about">About</a></h1></div>
 	</div>
 
-  <div class="grid-100 grey-bg">
+  <div class="stores-hero grid-100 headerfix">
     <div class="grid-1280 c12">
       <!-- ////// -->
-      <div class="row full-height headerfix"> <!-- Full bleed -->
+      <div class="row full-height"> <!-- Full bleed -->
         <div class="c12 vcenter">
         </div>
       </div>
@@ -61,9 +61,9 @@
   </div>
 
 	<div class="grid-100 grey-bg">
-	  <div class="grid-1280">
+	  <div class="grid-1280 hcenter">
 	    <!-- ////// -->
-	      <div class="row c12 between py10 py6xs">
+	      <div class="row c11 between py10 py6xs">
 		        <div class="c5 c9m first">
 			          <h2 class="black">Starbucks Stores</h2>
 			          <p class="copy black-secondary pt2">After creating the Starbucks Digital Design System, stores was one of the features to be redesigned. The main goal was to improve the user experience of the feature and align it to the Design system. <br><br>
