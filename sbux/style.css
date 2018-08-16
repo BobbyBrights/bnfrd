@@ -411,6 +411,7 @@ Starbucks code
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .minus {
@@ -602,6 +603,21 @@ hr {
 	display: flex;
 	flex-flow: wrap;
 }
+
+/* .magic-translate {
+	-webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+	-webkit-transition: -webkit-transform 500ms ease;
+  -moz-transition: -moz-transform 500ms ease;
+  -ms-transition: -moz-transform 500ms ease;
+  -o-transition: -o-transform 500ms ease;
+  transition: transform 500ms ease;
+} */
+
+
 
 
 @media only screen and (min-width: 480px) {

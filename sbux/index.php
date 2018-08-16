@@ -319,14 +319,68 @@ $(".ghost").click(function() {
 // 	console.log("hi!");
 // });
 
+// .css({top:0});
+// scrollTop:  $("#elementtoScrollToID").offset().top
+// $(".minus").not($this)
+	// .opacity(0)
+	// .css({top:0});
+
+// $(".minus").click(function() {
+// 	$this = $(this);
+// 	$parent = $this.parents(".product-cell");
+// 	// var $productNext = $parent.next(".product-cell");
+// 	$productNext = $parent.parent().find(".product-cell").not($parent)[0]
+// 	// debugger;
+// 	$parent
+// 		.toggleClass("scale-out-center")
+// 		// .delay(200)
+// 		.slideUp(500)
+//  });
 
 $(".minus").click(function() {
-$(this).parents(".product-cell").toggleClass("scale-out-center").delay(200).queue(function() {
-                           $(this).remove();
-                           $(this).dequeue();
-                       });
-											 });
+	$(this)
+		.parents(".product-cell")
+		.toggleClass("scale-out-center")
+		// .delay(200)
+		.slideUp(500)
+ });
 
+
+ $("#button").click(function() {
+	 // $([document.documentElement, document.body]).animate({
+   $(".minus").animate({
+         scrollTop: $("#elementtoScrollToID").offset().top
+     }, 2000);
+ });
+
+
+											 // .queue( "steps", function( next ) {
+											 //         console.log( "Step 1" );
+											 //         next();
+											 //     } )
+											 //     .queue( "steps", function( next ) {
+											 //         console.log( "Step 2" );
+											 //         next();
+											 //     } )
+											 //     .dequeue( "steps" );
+											 //
+ // $(".minus").click(function() {
+ // $(this).parents(".product-cell").toggleClass("scale-out-center").delay(200).queue(function() {
+ //                            $(this).remove();
+ //                            $(this).dequeue();
+ //                        });
+ // 											 });
+ //
+ //
+ // 											 .queue( "steps", function( next ) {
+ // 											         console.log( "Step 1" );
+ // 											         next();
+ // 											     } )
+ // 											     .queue( "steps", function( next ) {
+ // 											         console.log( "Step 2" );
+ // 											         next();
+ // 											     } )
+ // 											     .dequeue( "steps" );
 
 // $(".minus").click(function() {
 // $(".jjk").fadeOut(300, function(){
