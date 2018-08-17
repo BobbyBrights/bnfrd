@@ -400,7 +400,7 @@ Starbucks code
 .heart {
   height: 48px;
   width: 48px;
-  margin-left: 96px;
+  margin-left: 84px;
 	border-radius: 500px;
 	cursor: pointer;
 }
@@ -821,7 +821,7 @@ a {
   }
 
   .heart {
-    margin-left: 128px;
+    margin-left: 116px;
   }
 
 	.birthday-row {
