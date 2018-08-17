@@ -90,7 +90,7 @@
 	              <div class="heart"><a href="#"></a>
 									<div class="heart-img"></div>
 	              </div>
-	              <div class="plus">
+	              <div class="plus"><a href="#"></a>
 									<div class="plus-img"></div>
 	              </div>
 	              <div class="minus">
@@ -133,7 +133,7 @@
 	              <div class="heart"><a href="#"></a>
 									<div class="heart-img"></div>
 	              </div>
-	              <div class="plus">
+	              <div class="plus"><a href="#"></a>
 									<div class="plus-img"></div>
 	              </div>
 	              <div class="minus">
@@ -172,7 +172,7 @@
 	              <div class="heart"><a href="#"></a>
 									<div class="heart-img"></div>
 	              </div>
-	              <div class="plus">
+	              <div class="plus"><a href="#"></a>
 									<div class="plus-img"></div>
 	              </div>
 	              <div class="minus">
@@ -218,7 +218,7 @@
 	              <div class="heart"><a href="#"></a>
 									<div class="heart-img"></div>
 	              </div>
-	              <div class="plus">
+	              <div class="plus"><a href="#"></a>
 									<div class="plus-img"></div>
 	              </div>
 	              <div class="minus">

@@ -23,8 +23,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 @font-face {
 	font-family: 'Gotham';
 	src: url('Fonts/Gotham-Book');
-	font-weight: normal;
-	font-style: normal;
 }
 
 body {
