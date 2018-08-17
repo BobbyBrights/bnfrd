@@ -393,35 +393,60 @@ Starbucks code
 }
 
 .heart {
-  height: 24px;
-  width: 24px;
-  margin: 12px;
+  height: 48px;
+  width: 48px;
   margin-left: 96px;
-  background-image: url("heart.png");
-  background-size: contain;
+	border-radius: 500px;
+	cursor: pointer;
+}
+
+.heart-img {
+	height: 24px;
+  width: 24px;
+  left: 12px;
+	top: 12px;
+	position: relative;
+	background-image: url("heart.png");
   background-repeat: no-repeat;
-  cursor: pointer;
+	background-size: contain;
 }
 
 .plus {
-  height: 24px;
-  width: 24px;
-  margin: 12px;
-  background-image: url("plus.png");
-  background-size: contain;
-  background-repeat: no-repeat;
+  height: 48px;
+  width: 48px;
   cursor: pointer;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+	border-radius: 500px;
+}
+
+.plus-img {
+  height: 24px;
+  width: 24px;
+  left: 12px;
+	top: 12px;
+	position: relative;
+	background-image: url("plus.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .minus {
-  height: 24px;
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+	border-radius: 500px;
+}
+
+.minus-img {
+	height: 24px;
   width: 24px;
-  margin: 12px;
-  background-image: url("minus.png");
+  left: 12px;
+	top: 12px;
+	position: relative;
+	background-image: url("minus.png");
   background-size: contain;
   background-repeat: no-repeat;
-  cursor: pointer;
 }
 
 .dot {
@@ -566,32 +591,45 @@ hr {
 	        animation: scale-out-center 0.2s ease-in both;
 }
 
+a {
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+.minus:active, .plus:active, .heart:active {
+  background-color: rgba(0,0,0,.12);
+}
+
 @-webkit-keyframes scale-out-center {
   0% {
-    -webkit-transform: scale(1);
+    				-webkit-transform: scale(1);
             transform: scale(1);
-    opacity: 1;
+    				opacity: 1;
   }
+	60% {
+						opacity: 0;
+		/* transform: translateY(-10px); */
+	}
   100% {
-    -webkit-transform: scale(0);
+    				-webkit-transform: scale(0);
             transform: scale(0);
-    opacity: 1;
+    				opacity: 0;
   }
 }
 
 @keyframes scale-out-center {
   0% {
-    -webkit-transform: scale(1);
+    				-webkit-transform: scale(1);
             transform: scale(1);
     				opacity: 1;
 						/* transform: translateY(0); */
   }
-	30% {
-		opacity: 0;
+	60% {
+						opacity: 0;
 		/* transform: translateY(-10px); */
 	}
   100% {
-    -webkit-transform: scale(0);
+    				-webkit-transform: scale(0);
             transform: scale(0);
 						opacity: 0;
 

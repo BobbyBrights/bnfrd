@@ -85,13 +85,16 @@
 	            <div class="warning">
 	            </div>
 	          </div>
-	          <div class="utility-row c12">
+						<div class="utility-row c12">
 	            <div class="utility-actions">
-	              <div class="heart">
+	              <div class="heart"><a href="#"></a>
+									<div class="heart-img"></div>
 	              </div>
 	              <div class="plus">
+									<div class="plus-img"></div>
 	              </div>
 	              <div class="minus">
+									<div class="minus-img"></div>
 	              </div>
 	            </div>
 	            <div class="total-price">$3.95
@@ -127,11 +130,14 @@
 						</div>
 	          <div class="utility-row c12">
 	            <div class="utility-actions">
-	              <div class="heart">
+	              <div class="heart"><a href="#"></a>
+									<div class="heart-img"></div>
 	              </div>
 	              <div class="plus">
+									<div class="plus-img"></div>
 	              </div>
 	              <div class="minus">
+									<div class="minus-img"></div>
 	              </div>
 	            </div>
 	            <div class="total-price">$3.95
@@ -161,13 +167,16 @@
 							<div class="descriptor">Costs 400<span class="gold">★</span>
 							</div>
 						</div>
-	          <div class="utility-row c12">
+						<div class="utility-row c12">
 	            <div class="utility-actions">
-	              <div class="heart">
+	              <div class="heart"><a href="#"></a>
+									<div class="heart-img"></div>
 	              </div>
 	              <div class="plus">
+									<div class="plus-img"></div>
 	              </div>
 	              <div class="minus">
+									<div class="minus-img"></div>
 	              </div>
 	            </div>
 	            <div class="total-price">$3.95
@@ -204,13 +213,16 @@
 							<div class="descriptor">Costs 150<span class="gold">★</span>
 							</div>
 						</div>
-	          <div class="utility-row c12">
+						<div class="utility-row c12">
 	            <div class="utility-actions">
-	              <div class="heart">
+	              <div class="heart"><a href="#"></a>
+									<div class="heart-img"></div>
 	              </div>
 	              <div class="plus">
+									<div class="plus-img"></div>
 	              </div>
 	              <div class="minus">
+									<div class="minus-img"></div>
 	              </div>
 	            </div>
 	            <div class="total-price">$3.95
@@ -342,16 +354,9 @@ $(".minus").click(function() {
 		.parents(".product-cell")
 		.toggleClass("scale-out-center")
 		// .delay(200)
-		.slideUp(500)
+		.slideUp(300)
  });
 
-
- $("#button").click(function() {
-	 // $([document.documentElement, document.body]).animate({
-   $(".minus").animate({
-         scrollTop: $("#elementtoScrollToID").offset().top
-     }, 2000);
- });
 
 
 											 // .queue( "steps", function( next ) {
