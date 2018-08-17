@@ -72,7 +72,7 @@
 	            <div class="descriptor">2 pumps vanilla
 	            </div>
 	            <div class="dot"></div>
-	            <div class="price">$0.50
+	            <div class="price">+$0.50
 	            </div>
 	          </div>
 						<div class="detail-row c12 pt1">
@@ -108,6 +108,7 @@
 	              </div>
 	              <div class="ghost"><span class="reward-action">Use</span> 150<span class="gold">★</span>
 	              </div>
+								<div class="reward-price">-$3.95</div>
 	            </div>
 	          </div>
 	        </div>
@@ -143,10 +144,11 @@
 	            <div class="total-price">$3.95
 	            </div>
 	          </div>
-						<div class="rewards-row">
+						<div class="rewards-row c12">
 	            <div class="birthday-row c12">
 	              <div class="ghost"><span class="reward-action">Use</span> 150<span class="gold">★</span>
 	              </div>
+								<div class="reward-price">-$3.95</div>
 	            </div>
 	          </div>
 	        </div>
@@ -182,10 +184,11 @@
 	            <div class="total-price">$3.95
 	            </div>
 	          </div>
-	          <div class="rewards-row">
+	          <div class="rewards-row c12">
 	            <div class="birthday-row c12">
 	              <div class="ghost"><span class="reward-action">Use</span> 400<span class="gold">★</span>
 	              </div>
+								<div class="reward-price">-$3.95</div>
 	            </div>
 	          </div>
 	        </div>
@@ -206,7 +209,7 @@
 	            <div class="descriptor">1 pump mocha sauce
 	            </div>
 	            <div class="dot"></div>
-	            <div class="price">$0.25
+	            <div class="price">+$0.25
 	            </div>
 	          </div>
 						<div class="detail-row c12 pt1 pb2">
@@ -228,10 +231,11 @@
 	            <div class="total-price">$3.95
 	            </div>
 	          </div>
-						<div class="rewards-row">
+						<div class="rewards-row c12">
 	            <div class="birthday-row c12">
 	              <div class="ghost"><span class="reward-action">Use</span> 150<span class="gold">★</span>
 	              </div>
+								<div class="reward-price">-$3.95</div>
 	            </div>
 	          </div>
 	        </div>
@@ -289,17 +293,11 @@
 
 <script>
 
-// $('.birthday-button').click( function() {
-//     $(".birthday-price").toggleClass("birthday-active");
-// } );
-
-// $('.birthday-button').click( function() {
-//     $(".birthday-price").toggleClass("hide");
-// } );
-
 
 $(".ghost").click(function() {
     $(".ghost").not(this).toggleClass("hide");
+		$(this).parents(".birthday-row").toggleClass("justify");
+		$(this).siblings(".reward-price").toggleClass("show");
 
     var rewardText = $(this).find('.reward-action').text();
     if (rewardText === "Use") {
@@ -316,43 +314,12 @@ $(".ghost").click(function() {
     }
 });
 
-// $(".minus").click(function() {
-//     $(".jjk").toggleClass("scale-out-center");
-// 		});
 
-// $(".minus").click(function() {
-//     $(".jjk").toggleClass("scale-out-center", function() {
-// 				$(this).remove();
-//     });
-// });
-//
-// $(".minus").click(function() {
-//   $(this).parents(".product-cell").toggleClass("scale-out-center").delay(1000).hide();
-// 	console.log("hi!");
-// });
-
-// .css({top:0});
-// scrollTop:  $("#elementtoScrollToID").offset().top
-// $(".minus").not($this)
-	// .opacity(0)
-	// .css({top:0});
-
-// $(".minus").click(function() {
-// 	$this = $(this);
-// 	$parent = $this.parents(".product-cell");
-// 	// var $productNext = $parent.next(".product-cell");
-// 	$productNext = $parent.parent().find(".product-cell").not($parent)[0]
-// 	// debugger;
-// 	$parent
-// 		.toggleClass("scale-out-center")
-// 		// .delay(200)
-// 		.slideUp(500)
-//  });
-
-$(".minus").click(function() {
+$("body").on("click", ".minus", function() {
 	$(this)
 		.parents(".product-cell")
-		.toggleClass("scale-out-center")
+		.removeClass("scale-in-center")
+		.addClass("scale-out-center")
 		// .delay(200)
 		.slideUp(300)
 
@@ -362,15 +329,28 @@ $(".minus").click(function() {
 			.slideUp(300)
  });
 
+ // $(".minus").click(function() {
+ // 	$(this)
+ // 		.parents(".product-cell")
+ // 		.toggleClass("scale-out-center")
+ // 		// .delay(200)
+ // 		.slideUp(300)
+ //
+ // 		$(this)
+ // 			.parents(".product-cell")
+ // 			.next()
+ // 			.slideUp(300)
+ //  });
 
- $(".plus").click(function() {
+
+ $("body").on("click", ".plus", function() {
 	 var x = $(this).parents(".product-cell").next()
-	 var clone = $(this).parents(".product-cell").clone();
+	 // var clone = $(this).parents(".product-cell").clone();
 
  	$(this)
 		.parents(".product-cell")
 		.clone()
-		.removeClass("scale-out-center")
+		// .removeClass("scale-out-center")
 		.insertAfter(x)
 		.hide()
 		.slideDown(200)
@@ -382,114 +362,11 @@ $(".minus").click(function() {
 		x.clone()
 		.insertAfter(x.next())
 
-
-
-
 });
 
 
 
 
-/*
- $(".plus").click(function() {
-	 var x = $(this).parents(".product-cell")
-
-	 var clone = $(this).parents(".product-cell").clone();
-
-	 clone
-	 	// .toggleClass("scale-out-center", false)
-	 	// .toggleClass("tester")
-	 	.removeClass("scale-out-center")
-
- 	$(this)
-		.parents(".product-cell")
-		.slideDown(300);
-
-		// clone.insertAfter(x)
-
-	// setTimeout(function () {
-	// 	clone.insertAfter(x);
-	//
-	// 	setTimeout(function () {
-	// 		clone.addClass("scale-out-center")
-	// 	}, 1000)
-	// }, 1000)
-});
-
-*/
-
-
-	 // $(".plus").click(function() {
-		//  var x = $(this).parents(".product-cell")
-	 // 	$(this)
-	 // 		.parents(".product-cell")
-	 // 		.clone()
-		// 	.insertAfter(x)
-	 //
-	 //  });
-
-
-
-											 // .queue( "steps", function( next ) {
-											 //         console.log( "Step 1" );
-											 //         next();
-											 //     } )
-											 //     .queue( "steps", function( next ) {
-											 //         console.log( "Step 2" );
-											 //         next();
-											 //     } )
-											 //     .dequeue( "steps" );
-											 //
- // $(".minus").click(function() {
- // $(this).parents(".product-cell").toggleClass("scale-out-center").delay(200).queue(function() {
- //                            $(this).remove();
- //                            $(this).dequeue();
- //                        });
- // 											 });
- //
- //
- // 											 .queue( "steps", function( next ) {
- // 											         console.log( "Step 1" );
- // 											         next();
- // 											     } )
- // 											     .queue( "steps", function( next ) {
- // 											         console.log( "Step 2" );
- // 											         next();
- // 											     } )
- // 											     .dequeue( "steps" );
-
-// $(".minus").click(function() {
-// $(".jjk").fadeOut(300, function(){
-//     $(this).remove();
-// });
-
-// $(".notificationClose").click(function() {
-//     $("#notification").fadeOut("normal", function() {
-//         $(this).remove();
-//     });
-// });
-
-
-
-
-
-// $(document).ready(function() {
-//   $('.birthday-button').click(myFunction);
-// });
-//
-// function myFunction() {
-//   alert('hi');
-// }
-//
-// function myFunction() {
-// 	alert('hi');
-//   var x = document.getElementsByClassName('');
-//   if (x.innerHTML === "Birthday Reward") {
-//     x.innerHTML = "Remove Birthday";
-//   } else {
-//     x.innerHTML = "Birthday Reward";
-//   }
-// }
 
 
 

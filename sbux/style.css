@@ -478,6 +478,8 @@ hr {
   font-size: 13px;
   color: #008248;
   align-self: flex-end;
+	padding-bottom: 10px;
+	display: none;
 }
 
 .total-price {
@@ -587,6 +589,14 @@ hr {
 
 .hide {
 	display:none;
+}
+
+.show {
+	display: block;
+}
+
+.justify {
+	justify-content: space-between;
 }
 
 .scale-out-center {
