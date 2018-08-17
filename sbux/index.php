@@ -93,7 +93,7 @@
 	              <div class="plus"><a href="#"></a>
 									<div class="plus-img"></div>
 	              </div>
-	              <div class="minus">
+	              <div class="minus"><a href="#"></a>
 									<div class="minus-img"></div>
 	              </div>
 	            </div>
@@ -136,7 +136,7 @@
 	              <div class="plus"><a href="#"></a>
 									<div class="plus-img"></div>
 	              </div>
-	              <div class="minus">
+	              <div class="minus"><a href="#"></a>
 									<div class="minus-img"></div>
 	              </div>
 	            </div>
@@ -175,7 +175,7 @@
 	              <div class="plus"><a href="#"></a>
 									<div class="plus-img"></div>
 	              </div>
-	              <div class="minus">
+	              <div class="minus"><a href="#"></a>
 									<div class="minus-img"></div>
 	              </div>
 	            </div>
@@ -221,7 +221,7 @@
 	              <div class="plus"><a href="#"></a>
 									<div class="plus-img"></div>
 	              </div>
-	              <div class="minus">
+	              <div class="minus"><a href="#"></a>
 									<div class="minus-img"></div>
 	              </div>
 	            </div>
