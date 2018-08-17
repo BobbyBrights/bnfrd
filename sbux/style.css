@@ -420,8 +420,6 @@ Starbucks code
   height: 48px;
   width: 48px;
   cursor: pointer;
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
-	-webkit-tap-highlight-color: transparent;
 	border-radius: 500px;
 }
 
