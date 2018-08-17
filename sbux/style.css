@@ -457,7 +457,7 @@ Starbucks code
 }
 
 hr {
-  margin: 0 -200px 0 -200px;
+  margin: 0 -16px 0 -16px;
   border-color: rgba(0,0,0,.12);
   border-top: none;
 }
@@ -591,6 +591,17 @@ hr {
 	        animation: scale-out-center 0.2s ease-in both;
 }
 
+.scale-in-center {
+	-webkit-animation: scale-in-center 0.2s ease-in both;
+	        animation: scale-in-center 0.2s ease-in both;
+					/* animation-delay: 0.1s; */
+}
+
+.tester {
+	opacity: 0;
+	scale: 0;
+}
+
 a {
     -webkit-tap-highlight-color: transparent;
 
@@ -624,7 +635,7 @@ a {
     				opacity: 1;
 						/* transform: translateY(0); */
   }
-	60% {
+	80% {
 						opacity: 0;
 		/* transform: translateY(-10px); */
 	}
@@ -633,6 +644,40 @@ a {
             transform: scale(0);
 						opacity: 0;
 
+  }
+}
+
+@-webkit-keyframes scale-in-center {
+  0% {
+    				-webkit-transform: scale(0);
+            transform: scale(0);
+    				opacity: 0;
+  }
+	80% {
+						opacity: 0;
+		/* transform: translateY(-10px); */
+	}
+  100% {
+    				-webkit-transform: scale(1);
+            transform: scale(1);
+    				opacity: 1;
+  }
+}
+
+@keyframes scale-in-center {
+	0% {
+    				-webkit-transform: scale(0);
+            transform: scale(0);
+    				opacity: 0;
+  }
+	60% {
+						opacity: 0;
+		/* transform: translateY(-10px); */
+	}
+  100% {
+    				-webkit-transform: scale(1);
+            transform: scale(1);
+    				opacity: 1;
   }
 }
 
@@ -676,6 +721,10 @@ a {
   .frap {
     margin-right:0;
   }
+
+	hr {
+	  margin: 0 -40px 0 -40px;
+	}
 
 
 }

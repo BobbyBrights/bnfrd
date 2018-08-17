@@ -355,7 +355,78 @@ $(".minus").click(function() {
 		.toggleClass("scale-out-center")
 		// .delay(200)
 		.slideUp(300)
+
+		$(this)
+			.parents(".product-cell")
+			.next()
+			.slideUp(300)
  });
+
+
+ $(".plus").click(function() {
+	 var x = $(this).parents(".product-cell").next()
+	 var clone = $(this).parents(".product-cell").clone();
+
+ 	$(this)
+		.parents(".product-cell")
+		.clone()
+		.removeClass("scale-out-center")
+		.insertAfter(x)
+		.hide()
+		.slideDown(200)
+		.addClass("scale-in-center")
+		.parents(".product-cell")
+		.next()
+		.clone()
+		.insertAfter(x)
+		x.clone()
+		.insertAfter(x.next())
+
+
+
+
+});
+
+
+
+
+/*
+ $(".plus").click(function() {
+	 var x = $(this).parents(".product-cell")
+
+	 var clone = $(this).parents(".product-cell").clone();
+
+	 clone
+	 	// .toggleClass("scale-out-center", false)
+	 	// .toggleClass("tester")
+	 	.removeClass("scale-out-center")
+
+ 	$(this)
+		.parents(".product-cell")
+		.slideDown(300);
+
+		// clone.insertAfter(x)
+
+	// setTimeout(function () {
+	// 	clone.insertAfter(x);
+	//
+	// 	setTimeout(function () {
+	// 		clone.addClass("scale-out-center")
+	// 	}, 1000)
+	// }, 1000)
+});
+
+*/
+
+
+	 // $(".plus").click(function() {
+		//  var x = $(this).parents(".product-cell")
+	 // 	$(this)
+	 // 		.parents(".product-cell")
+	 // 		.clone()
+		// 	.insertAfter(x)
+	 //
+	 //  });
 
 
 
