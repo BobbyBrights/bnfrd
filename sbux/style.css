@@ -414,6 +414,8 @@ Starbucks code
 	background-image: url("heart.png");
   background-repeat: no-repeat;
 	background-size: contain;
+	border-radius: 500px;
+	z-index: 1;
 }
 
 .plus {
@@ -426,12 +428,13 @@ Starbucks code
 .plus-img {
   height: 24px;
   width: 24px;
-  left: 12px;
+	left: 12px;
 	top: 12px;
 	position: relative;
 	background-image: url("plus.png");
   background-size: contain;
   background-repeat: no-repeat;
+	border-radius: 500px;
 }
 
 .minus {
@@ -444,12 +447,13 @@ Starbucks code
 .minus-img {
 	height: 24px;
   width: 24px;
-  left: 12px;
+	left: 12px;
 	top: 12px;
 	position: relative;
 	background-image: url("minus.png");
   background-size: contain;
   background-repeat: no-repeat;
+	border-radius: 500px;
 }
 
 .dot {
@@ -475,7 +479,7 @@ hr {
 .reward-price {
   font-family: Gotham;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 15px;
   color: #008248;
   align-self: flex-end;
 	padding-bottom: 10px;
@@ -536,7 +540,7 @@ hr {
 }
 
 .ghost, .ghost1 {
-  margin-top: 16px;
+  margin-top: 20px;
 }
 
 .warning {
@@ -621,11 +625,70 @@ a {
 }
 
 .minus:active, .plus:active, .heart:active {
-  background-color: rgba(0,0,0,.12);
+  /* background-color: rgba(0,0,0,.12); */
 }
 
-.plus:active {
-  background-color: rgba(0,0,0,.12);
+.minus-hover, .plus-hover, .heart-hover {
+	width: 40px;
+	height:40px;
+	left: 4px;
+	top: 4px;
+	position: relative;
+	border-radius: 500px;
+	transform: scale(.8);
+	transition: all .2s ease;
+}
+
+.minus:hover .minus-hover, .plus:hover .plus-hover, .heart:hover .heart-hover {
+	transform: scale(1);
+	background: rgba(0,0,0,.06);
+	transition: all .2s ease;
+}
+
+.minus:active .minus-hover, .plus:active .plus-hover, .heart:active .heart-hover {
+	background: rgba(0,0,0,.12);
+	transition: none;
+}
+
+.minus:hover .minus-img, .plus:hover .plus-img, .heart:hover .heart-img {
+	/* transform: scale(1.1); */
+	transition: all .2s ease;
+}
+
+.minus:active .minus-img, .plus:active .plus-img, .heart:active .heart-img {
+	transform: scale(1);
+}
+
+.minus-img, .plus-img, .heart-img {
+	transition: all .2s ease;
+}
+
+.minus, .plus, .heart {
+	transition: all .2s ease;
+}
+
+.minus-img, .plus-img, .heart-img {
+	margin-top: -40px;
+}
+
+.minus:active, .plus:active, .heart:active {
+	transform: scale(1);
+}
+
+.ghost:active {
+  background-color: rgba(0,0,0,.06);
+}
+
+.ghost:hover {
+	background-color: rgba(0,0,0,.06);
+	transition-timing-function: ease;
+	transition: .2s;
+}
+
+.ghost {
+	background-color: rgba(0,0,0,0);
+	transition-timing-function: ease;
+	transition: .2s;
 }
 
 @-webkit-keyframes scale-out-center {
@@ -704,20 +767,6 @@ a {
 	flex-flow: wrap;
 }
 
-/* .magic-translate {
-	-webkit-transform: translateY(-100%);
-  -moz-transform: translateY(-100%);
-  -ms-transform: translateY(-100%);
-  -o-transform: translateY(-100%);
-  transform: translateY(-100%);
-	-webkit-transition: -webkit-transform 500ms ease;
-  -moz-transition: -moz-transform 500ms ease;
-  -ms-transition: -moz-transform 500ms ease;
-  -o-transition: -o-transform 500ms ease;
-  transition: transform 500ms ease;
-} */
-
-
 
 
 @media only screen and (min-width: 480px) {
@@ -742,7 +791,6 @@ a {
 	hr {
 	  margin: 0 -40px 0 -40px;
 	}
-
 
 }
 

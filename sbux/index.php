@@ -65,11 +65,11 @@
 	            </div>
 	          </div>
 	          <div class="detail-row c12">
-	            <div class="descriptor">Grande
+	            <div class="descriptor">Tall
 	            </div>
 	          </div>
 	          <div class="detail-row c12 pt1">
-	            <div class="descriptor">2 pumps vanilla
+	            <div class="descriptor">2 Vanilla Syrup pumps
 	            </div>
 	            <div class="dot"></div>
 	            <div class="price">+$0.50
@@ -79,7 +79,7 @@
 							<div class="descriptor">Costs 125<span class="gold">★</span>
 							</div>
 						</div>
-	          <div class="detail-row c12 pt2">
+	          <div class="detail-row c12 pt2 pb0">
 	            <div class="descriptor red-text bold">Sold out at this store
 	            </div>
 	            <div class="warning">
@@ -87,14 +87,17 @@
 	          </div>
 						<div class="utility-row c12">
 	            <div class="utility-actions">
-	              <div class="heart"><a href="#"></a>
-									<div class="heart-img"></div>
+								<div class="heart"><a href="#"></a>
+									<div class="heart-hover"></div>
+										<div class="heart-img"></div>
 	              </div>
 	              <div class="plus"><a href="#"></a>
-									<div class="plus-img"></div>
+									<div class="plus-hover"></div>
+										<div class="plus-img"></div>
 	              </div>
 	              <div class="minus"><a href="#"></a>
-									<div class="minus-img"></div>
+									<div class="minus-hover"></div>
+										<div class="minus-img"></div>
 	              </div>
 	            </div>
 	            <div class="total-price">$3.95
@@ -121,24 +124,28 @@
 	              Double-Smoked Bacon, Cheddar & Egg Sandwich
 	            </div>
 	          </div>
-	          <div class="detail-row c12">
-	            <div class="descriptor">Warmed
-	            </div>
-	          </div>
+						<div class="detail-row c12 pt1">
+							<div class="descriptor">1 Sriracha packet
+							</div>
+						</div>
+
 						<div class="detail-row c12 pt1 pb2">
 							<div class="descriptor">Costs 150<span class="gold">★</span>
 							</div>
 						</div>
 	          <div class="utility-row c12">
 	            <div class="utility-actions">
-	              <div class="heart"><a href="#"></a>
-									<div class="heart-img"></div>
+								<div class="heart"><a href="#"></a>
+									<div class="heart-hover"></div>
+										<div class="heart-img"></div>
 	              </div>
 	              <div class="plus"><a href="#"></a>
-									<div class="plus-img"></div>
+									<div class="plus-hover"></div>
+										<div class="plus-img"></div>
 	              </div>
 	              <div class="minus"><a href="#"></a>
-									<div class="minus-img"></div>
+									<div class="minus-hover"></div>
+										<div class="minus-img"></div>
 	              </div>
 	            </div>
 	            <div class="total-price">$3.95
@@ -171,14 +178,17 @@
 						</div>
 						<div class="utility-row c12">
 	            <div class="utility-actions">
-	              <div class="heart"><a href="#"></a>
-									<div class="heart-img"></div>
+								<div class="heart"><a href="#"></a>
+									<div class="heart-hover"></div>
+										<div class="heart-img"></div>
 	              </div>
 	              <div class="plus"><a href="#"></a>
-									<div class="plus-img"></div>
+									<div class="plus-hover"></div>
+										<div class="plus-img"></div>
 	              </div>
 	              <div class="minus"><a href="#"></a>
-									<div class="minus-img"></div>
+									<div class="minus-hover"></div>
+										<div class="minus-img"></div>
 	              </div>
 	            </div>
 	            <div class="total-price">$3.95
@@ -202,14 +212,14 @@
 	            </div>
 	          </div>
 	          <div class="detail-row c12">
-	            <div class="descriptor">Venti
+	            <div class="descriptor">Grande
 	            </div>
 	          </div>
 	          <div class="detail-row c12 pt1">
-	            <div class="descriptor">1 pump mocha sauce
+	            <div class="descriptor">2 shots
 	            </div>
 	            <div class="dot"></div>
-	            <div class="price">+$0.25
+	            <div class="price">+$1.80
 	            </div>
 	          </div>
 						<div class="detail-row c12 pt1 pb2">
@@ -218,14 +228,17 @@
 						</div>
 						<div class="utility-row c12">
 	            <div class="utility-actions">
-	              <div class="heart"><a href="#"></a>
-									<div class="heart-img"></div>
+								<div class="heart"><a href="#"></a>
+									<div class="heart-hover"></div>
+										<div class="heart-img"></div>
 	              </div>
 	              <div class="plus"><a href="#"></a>
-									<div class="plus-img"></div>
+									<div class="plus-hover"></div>
+										<div class="plus-img"></div>
 	              </div>
 	              <div class="minus"><a href="#"></a>
-									<div class="minus-img"></div>
+									<div class="minus-hover"></div>
+										<div class="minus-img"></div>
 	              </div>
 	            </div>
 	            <div class="total-price">$3.95
