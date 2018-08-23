@@ -1192,6 +1192,12 @@ Ghost Buttons
 	transition: all .2s ease;
 }
 
+.ghost-text2:active .mini-box {
+	transform:scale(1);
+	background:rgba(0,0,0,.06);
+	transition: all .2s ease;
+}
+
 
 
 
