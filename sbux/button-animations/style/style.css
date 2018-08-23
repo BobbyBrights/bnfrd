@@ -1096,6 +1096,7 @@ Ghost Buttons
 	font-size: 14px;
 	font-weight: bold;
 	margin-top: 16px;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .ghost {
@@ -1133,6 +1134,7 @@ Ghost Buttons
 	font-size: 14px;
 	font-weight: bold;
 	margin-top: 16px;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .ghost2:hover {
