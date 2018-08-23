@@ -868,6 +868,7 @@ Buttons
   width: 48px;
 	border-radius: 500px;
 	cursor: pointer;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .heart-img2 {
@@ -888,6 +889,7 @@ Buttons
   width: 48px;
   cursor: pointer;
 	border-radius: 500px;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .plus-img2 {
@@ -907,6 +909,7 @@ Buttons
   width: 48px;
   cursor: pointer;
 	border-radius: 500px;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .minus-img2 {
@@ -1135,6 +1138,10 @@ Ghost Buttons
 	font-weight: bold;
 	margin-top: 16px;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.but2:focus {
+	outline: none;
 }
 
 .ghost2:hover {
