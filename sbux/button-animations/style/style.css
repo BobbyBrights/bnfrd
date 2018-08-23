@@ -18,7 +18,7 @@ body {
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	text-shadow: none;
-	font-family: GothamSSm;
+	font-family: Gotham;
 	background-color: #f7f7f7;
   color: rgba(0,0,0,.87)
 }
@@ -45,13 +45,19 @@ Fonts
 ---------------------------------------- */
 
 @font-face {
-    font-family: 'GothamSSm';
-    src: url('Fonts/GothamSSm-Book.otf');
+  /* Gotham 400, 1F0746AE386DF76B4.eot */
+  font-family: 'Gotham';
+  src: url('/fonts/gotham.woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Gotham';
-	src: url('Fonts/Gotham-Book');
+  /* Gotham 700, 6BB629FAC2C10DA4B.eot */
+  font-family: 'Gotham';
+  src: url('/fonts/gotham-bold.woff');
+  font-weight: bold;
+  font-style: normal;
 }
 
 
@@ -957,6 +963,158 @@ Buttons
 .minus2:active, .plus2:active, .heart2:active {
 	transform: scale(1);
 }
+
+
+/* Option 3 */
+
+.heart3 {
+  height: 48px;
+  width: 48px;
+	border-radius: 500px;
+	cursor: pointer;
+}
+
+.heart-img3 {
+	height: 24px;
+  width: 24px;
+	left: 12px;
+	top: 12px;
+	position: relative;
+	background-color: rgba(0,0,0,.58);
+  -webkit-mask-image: url('/sbux/button-animations/img/heart.svg'), url('/img/heart.svg');
+  mask-image: url('/sbux/button-animations/img/heart.svg'), url('/img/heart.svg');
+	background-size: cover;
+	z-index: 1;
+}
+
+.plus3 {
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+	border-radius: 500px;
+}
+
+.plus-img3 {
+  height: 24px;
+  width: 24px;
+	left: 12px;
+	top: 12px;
+	position: relative;
+	background-color: rgba(0,0,0,.58);
+  -webkit-mask-image: url('/sbux/button-animations/img/plus.svg'), url('/img/plus.svg');
+  mask-image: url('/sbux/button-animations/img/plus.svg'), url('/img/plus.svg');
+	background-size: cover;
+}
+
+.minus3 {
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+	border-radius: 500px;
+}
+
+.minus-img3 {
+	height: 24px;
+  width: 24px;
+	left: 12px;
+	top: 12px;
+	position: relative;
+	background-color: rgba(0,0,0,.58);
+  -webkit-mask-image: url('/sbux/button-animations/img/minus.svg'), url('/img/minus.svg');
+  mask-image: url('/sbux/button-animations/img/minus.svg'), url('/img/minus.svg');
+	background-size: cover;
+}
+
+.minus-hover3, .plus-hover3, .heart-hover3 {
+	width: 40px;
+	height:40px;
+	left: 4px;
+	top: 4px;
+	position: relative;
+	border-radius: 500px;
+	transform: scale(1);
+	transition: all .2s ease;
+}
+
+/* .minus2:hover .minus-hover2, .plus2:hover .plus-hover2, .heart2:hover .heart-hover2 {
+	transform: scale(1);
+	background: rgba(0,0,0,.06);
+	transition: all .2s ease;
+} */
+
+/* .minus2:active .minus-hover2, .plus2:active .plus-hover2, .heart2:active .heart-hover2 {
+	background: rgba(0,0,0,.12);
+	transition: none;
+} */
+
+.minus3:hover .minus-img3, .plus3:hover .plus-img3, .heart3:hover .heart-img3 {
+	/* transform: scale(1.1); */
+	transition: all .2s ease;
+	background-color: rgba(0,0,0,.87);
+	transform: scale(1.1);
+}
+
+.minus3:active .minus-img3, .plus3:active .plus-img3, .heart3:active .heart-img3 {
+	transform: scale(1);
+}
+
+.minus-img3, .plus-img3, .heart-img3 {
+	transition: all .2s ease;
+}
+
+.minus3, .plus3, .heart3 {
+	transition: all .2s ease;
+}
+
+.minus-img3, .plus-img3, .heart-img3 {
+	margin-top: -40px;
+}
+
+.minus3:active, .plus3:active, .heart3:active {
+	transform: scale(1);
+}
+
+
+button {
+  position: relative;
+  border: none;
+  outline:none;
+  cursor: pointer;
+  background: #89669b;
+  color: white;
+  padding: 18px 60px;
+  border-radius: 2px;
+  font-size: 22px;
+}
+
+.ripple{
+  overflow:hidden;
+}
+
+.ripple-effect{
+  position: absolute;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: white;
+
+
+  animation: ripple-animation 2s;
+}
+
+
+@keyframes ripple-animation {
+    from {
+      transform: scale(1);
+      opacity: 0.4;
+    }
+    to {
+      transform: scale(100);
+      opacity: 0;
+    }
+}
+
+
 
 
 
