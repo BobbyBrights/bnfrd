@@ -45,6 +45,9 @@ $(".material-ripple").click(function(event) {
 	}).addClass("animate");
 });
 
+
+var nofullhover = window.matchMedia("(hover:none), (hover:on-demand)").matches
+
 </script>
 
 
