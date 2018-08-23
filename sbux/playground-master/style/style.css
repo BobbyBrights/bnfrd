@@ -699,7 +699,8 @@ html {
 .sb-navbar-siren {
   width: 40px;
   height: 40px;
-  background-image: url('/bnfrd/sbux/playground-master/img/siren.png');
+  background-image: url('/sbux/playground-master/img/siren.png');
+	background-image: url('/img/siren.png');
   background-repeat: no-repeat;
   background-size: contain;
   min-width: 40px;
