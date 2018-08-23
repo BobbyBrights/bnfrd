@@ -80,6 +80,9 @@
 				<div class="card row cardCorner cardShadow colorWhite c12 mt3">
 					kfgmskdfn klsd fmksdlfnlksd fndslflkds fknsdf sdln lksdfn klsdnf lskdnfsd lkfnds lfnlkfndslk fkl dfjls dflksd fjkl fklsdfdsfdsfsdfdsfsdfdfsd
 				</div>
+				<div class="card row cardCorner cardShadow colorWhite c12 mt3">
+					kfgmskdfn klsd fmksdlfnlksd fndslflkds fknsdf sdln lksdfn klsdnf lskdnfsd lkfnds lfnlkfndslk fkl dfjls dflksd fjkl fklsdfdsfdsfsdfdsfsdfdfsd
+				</div>
 			</div>
     </div>
   </div>
