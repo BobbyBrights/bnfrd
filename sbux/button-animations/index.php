@@ -78,14 +78,33 @@
 		<!-- Right Crate -->
     <div class="sb-contentCrate">
 			<div class="sb-contentCrateContainer">
-				<div class="card row cardCorner cardShadow colorWhite c12">
-					kfgmskdfn klsd fmksdlfnlksd fndslflkds fknsdf sdln lksdfn klsdnf lskdnfsd lkfnds lfnlkfndslk fkl dfjls dflksd fjkl fklsdfdsfdsfsdfdsfsdfdfsd
+				<div class="card hcenter row cardCorner cardShadow colorWhite c12">
+					<div class="heart"><a href="#"></a>
+						<div class="heart-hover"></div>
+						<div class="heart-img"></div>
+          </div>
+          <div class="plus"><a href="#"></a>
+						<div class="plus-hover"></div>
+						<div class="plus-img"></div>
+          </div>
+          <div class="minus"><a href="#"></a>
+						<div class="minus-hover"></div>
+						<div class="minus-img"></div>
+          </div>
 				</div>
-				<div class="card row cardCorner cardShadow colorWhite c12 mt3">
-					kfgmskdfn klsd fmksdlfnlksd fndslflkds fknsdf sdln lksdfn klsdnf lskdnfsd lkfnds lfnlkfndslk fkl dfjls dflksd fjkl fklsdfdsfdsfsdfdsfsdfdfsd
-				</div>
-				<div class="card row cardCorner cardShadow colorWhite c12 mt3">
-					kfgmskdfn klsd fmksdlfnlksd fndslflkds fknsdf sdln lksdfn klsdnf lskdnfsd lkfnds lfnlkfndslk fkl dfjls dflksd fjkl fklsdfdsfdsfsdfdsfsdfdfsd
+				<div class="card hcenter mt3 row cardCorner cardShadow colorWhite c12">
+					<div class="heart2"><a href="#"></a>
+						<div class="heart-hover2"></div>
+						<div class="heart-img2"></div>
+          </div>
+          <div class="plus2"><a href="#"></a>
+						<div class="plus-hover2"></div>
+						<div class="plus-img2"></div>
+          </div>
+          <div class="minus2"><a href="#"></a>
+						<div class="minus-hover2"></div>
+						<div class="minus-img2"></div>
+          </div>
 				</div>
 			</div>
     </div>

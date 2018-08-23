@@ -732,6 +732,235 @@ html {
 
 
 
+/* ----------------------------------------
+Buttons
+---------------------------------------- */
+
+/* Option 1 */
+
+.heart {
+  height: 48px;
+  width: 48px;
+	border-radius: 500px;
+	cursor: pointer;
+}
+
+.heart-img {
+	height: 24px;
+  width: 24px;
+	left: 12px;
+	top: 12px;
+	position: relative;
+	background-color: rgba(0,0,0,.58);
+  -webkit-mask-image: url('/sbux/playground-master/img/heart.svg'), url('/img/heart.svg');
+  mask-image: url('/sbux/playground-master/img/heart.svg'), url('/img/heart.svg');
+	background-size: cover;
+	z-index: 1;
+}
+
+.plus {
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+	border-radius: 500px;
+}
+
+.plus-img {
+  height: 24px;
+  width: 24px;
+	left: 12px;
+	top: 12px;
+	position: relative;
+	background-color: rgba(0,0,0,.58);
+  -webkit-mask-image: url('/sbux/playground-master/img/plus.svg'), url('/img/plus.svg');
+  mask-image: url('/sbux/playground-master/img/plus.svg'), url('/img/plus.svg');
+	background-size: cover;
+}
+
+.minus {
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+	border-radius: 500px;
+}
+
+.minus-img {
+	height: 24px;
+  width: 24px;
+	left: 12px;
+	top: 12px;
+	position: relative;
+	background-color: rgba(0,0,0,.58);
+  -webkit-mask-image: url('/sbux/playground-master/img/minus.svg'), url('/img/minus.svg');
+  mask-image: url('/sbux/playground-master/img/minus.svg'), url('/img/minus.svg');
+	background-size: cover;
+}
+
+.minus-hover, .plus-hover, .heart-hover {
+	width: 40px;
+	height:40px;
+	left: 4px;
+	top: 4px;
+	position: relative;
+	border-radius: 500px;
+	transform: scale(.8);
+	transition: all .2s ease;
+}
+
+.minus:hover .minus-hover, .plus:hover .plus-hover, .heart:hover .heart-hover {
+	transform: scale(1);
+	background: rgba(0,0,0,.06);
+	transition: all .2s ease;
+}
+
+.minus:active .minus-hover, .plus:active .plus-hover, .heart:active .heart-hover {
+	background: rgba(0,0,0,.12);
+	transition: none;
+}
+
+.minus:hover .minus-img, .plus:hover .plus-img, .heart:hover .heart-img {
+	/* transform: scale(1.1); */
+	transition: all .2s ease;
+	background-color: rgba(0,0,0,.87)
+}
+
+.minus:active .minus-img, .plus:active .plus-img, .heart:active .heart-img {
+	transform: scale(1);
+}
+
+.minus-img, .plus-img, .heart-img {
+	transition: all .2s ease;
+}
+
+.minus, .plus, .heart {
+	transition: all .2s ease;
+}
+
+.minus-img, .plus-img, .heart-img {
+	margin-top: -40px;
+}
+
+.minus:active, .plus:active, .heart:active {
+	transform: scale(1);
+}
+
+
+
+
+
+
+/* Option 2 */
+
+.heart2 {
+  height: 48px;
+  width: 48px;
+	border-radius: 500px;
+	cursor: pointer;
+}
+
+.heart-img2 {
+	height: 24px;
+  width: 24px;
+	left: 12px;
+	top: 12px;
+	position: relative;
+	background-color: rgba(0,0,0,.58);
+  -webkit-mask-image: url('/sbux/playground-master/img/heart.svg'), url('/img/heart.svg');
+  mask-image: url('/sbux/playground-master/img/heart.svg'), url('/img/heart.svg');
+	background-size: cover;
+	z-index: 1;
+}
+
+.plus2 {
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+	border-radius: 500px;
+}
+
+.plus-img2 {
+  height: 24px;
+  width: 24px;
+	left: 12px;
+	top: 12px;
+	position: relative;
+	background-color: rgba(0,0,0,.58);
+  -webkit-mask-image: url('/sbux/playground-master/img/plus.svg'), url('/img/plus.svg');
+  mask-image: url('/sbux/playground-master/img/plus.svg'), url('/img/plus.svg');
+	background-size: cover;
+}
+
+.minus2 {
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+	border-radius: 500px;
+}
+
+.minus-img2 {
+	height: 24px;
+  width: 24px;
+	left: 12px;
+	top: 12px;
+	position: relative;
+	background-color: rgba(0,0,0,.58);
+  -webkit-mask-image: url('/sbux/playground-master/img/minus.svg'), url('/img/minus.svg');
+  mask-image: url('/sbux/playground-master/img/minus.svg'), url('/img/minus.svg');
+	background-size: cover;
+}
+
+.minus-hover2, .plus-hover2, .heart-hover2 {
+	width: 40px;
+	height:40px;
+	left: 4px;
+	top: 4px;
+	position: relative;
+	border-radius: 500px;
+	transform: scale(1);
+	transition: all .2s ease;
+}
+
+/* .minus2:hover .minus-hover2, .plus2:hover .plus-hover2, .heart2:hover .heart-hover2 {
+	transform: scale(1);
+	background: rgba(0,0,0,.06);
+	transition: all .2s ease;
+} */
+
+/* .minus2:active .minus-hover2, .plus2:active .plus-hover2, .heart2:active .heart-hover2 {
+	background: rgba(0,0,0,.12);
+	transition: none;
+} */
+
+.minus2:hover .minus-img2, .plus2:hover .plus-img2, .heart2:hover .heart-img2 {
+	/* transform: scale(1.1); */
+	transition: all .2s ease;
+	background-color: rgba(0,0,0,.87);
+	transform: scale(1.1);
+}
+
+.minus2:active .minus-img2, .plus2:active .plus-img2, .heart2:active .heart-img2 {
+	transform: scale(1);
+}
+
+.minus-img2, .plus-img2, .heart-img2 {
+	transition: all .2s ease;
+}
+
+.minus2, .plus2, .heart2 {
+	transition: all .2s ease;
+}
+
+.minus-img2, .plus-img2, .heart-img2 {
+	margin-top: -40px;
+}
+
+.minus2:active, .plus2:active, .heart2:active {
+	transform: scale(1);
+}
+
+
+
+
 
 /* ----------------------------------------
 Breakpoints
