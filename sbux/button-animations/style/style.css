@@ -674,6 +674,11 @@ html {
 	padding-top: 16px;
 } */
 
+
+.sb-navbar .row ul li:nth-child(4) {
+	display: none;
+}
+
 .sb-contentCrateContainer {
 	display: flex;
 	flex-direction: row;
@@ -1120,6 +1125,8 @@ button {
 
 
 
+
+
 /* ----------------------------------------
 Breakpoints
 ---------------------------------------- */
@@ -1130,6 +1137,10 @@ Breakpoints
 	.sb-contentCrateContainer {
 		padding-left: 40px;
 		padding-right: 40px;
+	}
+
+	.sb-navbar .row ul li:nth-child(4) {
+		display: block;
 	}
 
 }
