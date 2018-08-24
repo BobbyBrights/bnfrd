@@ -24,6 +24,7 @@
 						<div class="minus-hover"></div>
 						<div class="minus-img"></div>
 					</div>
+					<button class="but2 vcenter ghost-text3 ml2"><div class="mini-box"></div>Learn More </button>
 				</div>
 
 				<p class="text-noUnderline mt4 text-upper text-bold text-xxs mb2">Ripple & Scale</p>
