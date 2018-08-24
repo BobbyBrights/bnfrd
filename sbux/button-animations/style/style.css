@@ -1140,21 +1140,30 @@ Ghost Buttons
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-.but2:focus {
-	outline: none;
-}
-
 .ghost2:hover {
-	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
 }
 
 .ghost-filled2:hover {
-	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
 }
 
-/* .ghost-text2:hover {
-	background-color: rgba(0,0,0,.06);
-} */
+.ghost-text2:hover {
+	box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.ghost2:active {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.ghost-filled2:active {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.ghost-text2:active {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
 
 
 .ghost2 {
@@ -1173,7 +1182,9 @@ Ghost Buttons
 .ghost-text2 {
 	/* color: rgba(0,0,0,.87); */
 	border: none;
-	border-radius: 3px;
+	border-radius: 50px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0), 0 3px 6px rgba(0,0,0,0);
+	transition: all .1s ease;
 }
 
 .but2:active {
@@ -1193,24 +1204,20 @@ Ghost Buttons
 	/* transition: all .2s ease; */
 }
 
-.ghost-text2:hover .mini-box {
+
+
+
+.ghost-text3:hover .mini-box {
 	transform:scale(1);
 	background:rgba(0,0,0,.06);
 	transition: all .2s ease;
 }
 
-.ghost-text2:active .mini-box {
+.ghost-text3:active .mini-box {
 	transform:scale(1);
 	background:rgba(0,0,0,.06);
 	transition: all .2s ease;
 }
-
-ul li a:hover{
-    background: yellow;
-}
-
-html.can-touch .ghost-text2:hover .minibox {
-    background: none; /* disable hover effect on touch devices */
 
 
 
