@@ -1205,6 +1205,13 @@ Ghost Buttons
 	transition: all .2s ease;
 }
 
+ul li a:hover{
+    background: yellow;
+}
+
+html.can-touch .ghost-text2:hover .minibox {
+    background: none; /* disable hover effect on touch devices */
+
 
 
 
