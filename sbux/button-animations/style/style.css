@@ -858,9 +858,6 @@ Buttons
 
 
 
-
-
-
 /* Option 2 */
 
 .heart2 {
@@ -1082,6 +1079,144 @@ Buttons
 .minus3:active, .plus3:active, .heart3:active {
 	transform: scale(1);
 }
+
+
+/* Option 4 */
+
+.heart4 {
+  height: 48px;
+  width: 48px;
+	border-radius: 500px;
+	cursor: pointer;
+}
+
+.heart-img4 {
+	height: 24px;
+  width: 24px;
+	left: 12px;
+	top: 12px;
+	position: relative;
+	background-color: rgba(0,0,0,.58);
+  -webkit-mask-image: url('/sbux/button-animations/img/heart.svg'), url('/img/heart.svg');
+  mask-image: url('/sbux/button-animations/img/heart.svg'), url('/img/heart.svg');
+	background-size: cover;
+	z-index: 1;
+}
+
+.plus4 {
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+	border-radius: 500px;
+}
+
+.plus-img4 {
+  height: 24px;
+  width: 24px;
+	left: 12px;
+	top: 12px;
+	position: relative;
+	background-color: rgba(0,0,0,.58);
+  -webkit-mask-image: url('/sbux/button-animations/img/plus.svg'), url('/img/plus.svg');
+  mask-image: url('/sbux/button-animations/img/plus.svg'), url('/img/plus.svg');
+	background-size: cover;
+}
+
+.minus4 {
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+	border-radius: 500px;
+}
+
+.minus-img4 {
+	height: 24px;
+  width: 24px;
+	left: 12px;
+	top: 12px;
+	position: relative;
+	background-color: rgba(0,0,0,.58);
+  -webkit-mask-image: url('/sbux/button-animations/img/minus.svg'), url('/img/minus.svg');
+  mask-image: url('/sbux/button-animations/img/minus.svg'), url('/img/minus.svg');
+	background-size: cover;
+}
+
+.minus-hover4, .plus-hover4, .heart-hover4 {
+	width: 40px;
+	height:40px;
+	left: 4px;
+	top: 4px;
+	position: relative;
+	border-radius: 500px;
+	transform: scale(.4);
+	transition: all .2s ease;
+}
+
+.minus4:hover .minus-hover4, .plus4:hover .plus-hover4, .heart4:hover .heart-hover4 {
+	transform: scale(1);
+	background: rgba(0,0,0,.06);
+	transition: all .2s ease;
+}
+
+.minus4:active .minus-hover4, .plus4:active .plus-hover4, .heart4:active .heart-hover4 {
+	background: rgba(0,0,0,.12);
+	transition: none;
+	transform: scale(.)
+}
+
+.minus4:hover .minus-img4, .plus4:hover .plus-img4, .heart4:hover .heart-img4 {
+	/* transform: scale(1.1); */
+	transition: all .2s ease;
+	background-color: rgba(0,0,0,.87)
+}
+
+.minus4:active .minus-img4, .plus4:active .plus-img4, .heart4:active .heart-img4 {
+	transform: scale(1);
+}
+
+.minus-img4, .plus-img4, .heart-img4 {
+	transition: all .2s ease;
+}
+
+.minus4, .plus4, .heart4 {
+	transition: all .2s ease;
+}
+
+.minus-img4, .plus-img4, .heart-img4 {
+	margin-top: -40px;
+}
+
+.minus4:active, .plus4:active, .heart4:active {
+	transform: scale(.95);
+}
+
+.ghost-text4 {
+	/* color: rgba(0,0,0,.87); */
+	border: none;
+	border-radius: 50px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0), 0 3px 6px rgba(0,0,0,0);
+	transition: all .1s ease;
+	margin-top: 0!important;
+}
+
+.ghost-text4:hover .mini-box {
+	transform:scale(1);
+	background:rgba(0,0,0,.06);
+	transition: all .2s ease;
+}
+
+.ghost-text4:active .mini-box {
+	transform:scale(1);
+	background:rgba(0,0,0,.12);
+	transition: all .2s ease;
+}
+
+.ghost-text4:active {
+	transform: scale(1);
+}
+
+
+
 
 /* ----------------------------------------
 Ghost Buttons

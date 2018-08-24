@@ -27,6 +27,23 @@
 					<button class="but2 vcenter ghost-text3 ml2"><div class="mini-box"></div>Learn More </button>
 				</div>
 
+				<p class="text-noUnderline mt4 text-upper text-bold text-xxs mb2">Gmail-esque with scale</p>
+				<div class="card hcenter row cardCorner cardShadow colorWhite c12">
+					<div class="heart4"><a href="#"></a>
+						<div class="heart-hover4"></div>
+						<div class="heart-img4"></div>
+					</div>
+					<div class="plus4"><a href="#"></a>
+						<div class="plus-hover4"></div>
+						<div class="plus-img4"></div>
+					</div>
+					<div class="minus4"><a href="#"></a>
+						<div class="minus-hover4"></div>
+						<div class="minus-img4"></div>
+					</div>
+					<button class="but2 vcenter ghost-text4 ml2"><div class="mini-box"></div>Learn More </button>
+				</div>
+
 				<p class="text-noUnderline mt4 text-upper text-bold text-xxs mb2">Ripple & Scale</p>
 				<div class="card hcenter row cardCorner cardShadow colorWhite c12">
 					<div class="heart2 material-ripple ripple-color"><a href="#"></a>
