@@ -717,8 +717,23 @@ html {
   min-width: 40px;
 }
 
-.burger.vcenter {
-	margin-left: auto;
+.hamburger {
+  width: 44px;
+  height: 42px;
+  margin-left: auto;
+  display: flex;
+}
+
+.hamburger-img {
+  height: 24px;
+  width: 24px;
+  margin-left: auto;
+  align-self: center;
+  background-image: url('/sbux/button-animations/img/hamburger.png'), url('/img/hamburger.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-width: 24px;
+
 }
 
 .greeting {
@@ -733,10 +748,9 @@ html {
 Buttons
 ---------------------------------------- */
 
+/* Option 1 */
 
-/* Light Background */
-
-.heart, .plus, .minus, .close, .burger {
+.heart {
   height: 48px;
   width: 48px;
 	border-radius: 500px;
@@ -756,6 +770,13 @@ Buttons
 	z-index: 1;
 }
 
+.plus {
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+	border-radius: 500px;
+}
+
 .plus-img {
   height: 24px;
   width: 24px;
@@ -766,6 +787,13 @@ Buttons
   -webkit-mask-image: url('/sbux/button-animations/img/plus.svg'), url('/img/plus.svg');
   mask-image: url('/sbux/button-animations/img/plus.svg'), url('/img/plus.svg');
 	background-size: cover;
+}
+
+.minus {
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+	border-radius: 500px;
 }
 
 .minus-img {
@@ -780,31 +808,7 @@ Buttons
 	background-size: cover;
 }
 
-.close-img {
-	height: 24px;
-  width: 24px;
-	left: 12px;
-	top: 12px;
-	position: relative;
-	background-color: rgba(0,0,0,.58);
-  -webkit-mask-image: url('/sbux/button-animations/img/close.svg'), url('/img/close.svg');
-  mask-image: url('/sbux/button-animations/img/close.svg'), url('/img/close.svg');
-	background-size: cover;
-}
-
-.burger-img {
-	height: 24px;
-  width: 24px;
-	left: 12px;
-	top: 12px;
-	position: relative;
-	background-color: rgba(0,0,0,.58);
-  -webkit-mask-image: url('/sbux/button-animations/img/burger.svg'), url('/img/burger.svg');
-  mask-image: url('/sbux/button-animations/img/burger.svg'), url('/img/burger.svg');
-	background-size: cover;
-}
-
-.hover {
+.minus-hover, .plus-hover, .heart-hover {
 	width: 40px;
 	height:40px;
 	left: 4px;
@@ -815,117 +819,329 @@ Buttons
 	transition: all .2s ease;
 }
 
-.minus:hover .hover, .plus:hover .hover, .heart:hover .hover, .close:hover .hover, .burger:hover .hover {
+.minus:hover .minus-hover, .plus:hover .plus-hover, .heart:hover .heart-hover {
 	transform: scale(1);
 	background: rgba(0,0,0,.06);
 	transition: all .2s ease;
 }
 
-.minus:active .hover, .plus:active .hover, .heart:active .hover, .close:active .hover, .burger:active .hover {
+.minus:active .minus-hover, .plus:active .plus-hover, .heart:active .heart-hover {
 	background: rgba(0,0,0,.12);
 	transition: none;
-	transform: scale(.)
 }
 
-.minus:hover .minus-img, .plus:hover .plus-img, .heart:hover .heart-img, .close:hover .close-img,.burger:hover .burger-img {
+.minus:hover .minus-img, .plus:hover .plus-img, .heart:hover .heart-img {
 	/* transform: scale(1.1); */
 	transition: all .2s ease;
 	background-color: rgba(0,0,0,.87)
 }
 
-.minus:active .minus-img, .plus:active .plus-img, .heart:active .heart-img, .close:active .close-img, .burger:active .burger-img {
+.minus:active .minus-img, .plus:active .plus-img, .heart:active .heart-img {
 	transform: scale(1);
 }
 
-.minus-img, .plus-img, .heart-img, .close-img, .burger-img {
+.minus-img, .plus-img, .heart-img {
 	transition: all .2s ease;
 }
 
-.minus, .plus, .heart, .close, .burger {
+.minus, .plus, .heart {
 	transition: all .2s ease;
 }
 
-.minus-img, .plus-img, .heart-img, .close-img, .burger-img {
+.minus-img, .plus-img, .heart-img {
 	margin-top: -40px;
 }
 
-.minus:active, .plus:active, .heart:active, .close:active, .burger:active {
-	transform: scale(.95);
+.minus:active, .plus:active, .heart:active {
+	transform: scale(1);
 }
 
 
 
-/* Dark Background */
+/* Option 2 */
 
-.heart, .plus, .minus, .close, .burger {
+.heart2 {
   height: 48px;
   width: 48px;
 	border-radius: 500px;
 	cursor: pointer;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-.heart-img.dark {
+.heart-img2 {
 	height: 24px;
   width: 24px;
 	left: 12px;
 	top: 12px;
 	position: relative;
-	background-color: rgba(255,255,255,.87);
+	background-color: rgba(0,0,0,.58);
   -webkit-mask-image: url('/sbux/button-animations/img/heart.svg'), url('/img/heart.svg');
   mask-image: url('/sbux/button-animations/img/heart.svg'), url('/img/heart.svg');
 	background-size: cover;
 	z-index: 1;
 }
 
-.plus-img.dark {
+.plus2 {
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+	border-radius: 500px;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.plus-img2 {
   height: 24px;
   width: 24px;
 	left: 12px;
 	top: 12px;
 	position: relative;
-	background-color: rgba(255,255,255,.87);
+	background-color: rgba(0,0,0,.58);
   -webkit-mask-image: url('/sbux/button-animations/img/plus.svg'), url('/img/plus.svg');
   mask-image: url('/sbux/button-animations/img/plus.svg'), url('/img/plus.svg');
 	background-size: cover;
 }
 
-.minus-img.dark {
+.minus2 {
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+	border-radius: 500px;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.minus-img2 {
 	height: 24px;
   width: 24px;
 	left: 12px;
 	top: 12px;
 	position: relative;
-	background-color: rgba(255,255,255,.87);
+	background-color: rgba(0,0,0,.58);
   -webkit-mask-image: url('/sbux/button-animations/img/minus.svg'), url('/img/minus.svg');
   mask-image: url('/sbux/button-animations/img/minus.svg'), url('/img/minus.svg');
 	background-size: cover;
 }
 
-.close-img.dark {
+.minus-hover2, .plus-hover2, .heart-hover2 {
+	width: 40px;
+	height:40px;
+	left: 4px;
+	top: 4px;
+	position: relative;
+	border-radius: 500px;
+	transform: scale(1);
+	transition: all .2s ease;
+}
+
+/* .minus2:hover .minus-hover2, .plus2:hover .plus-hover2, .heart2:hover .heart-hover2 {
+	transform: scale(1);
+	background: rgba(0,0,0,.06);
+	transition: all .2s ease;
+} */
+
+/* .minus2:active .minus-hover2, .plus2:active .plus-hover2, .heart2:active .heart-hover2 {
+	background: rgba(0,0,0,.12);
+	transition: none;
+} */
+
+.minus2:hover .minus-img2, .plus2:hover .plus-img2, .heart2:hover .heart-img2 {
+	/* transform: scale(1.1); */
+	transition: all .2s ease;
+	background-color: rgba(0,0,0,.87);
+	transform: scale(1.1);
+}
+
+.minus2:active .minus-img2, .plus2:active .plus-img2, .heart2:active .heart-img2 {
+	transform: scale(1);
+}
+
+.minus-img2, .plus-img2, .heart-img2 {
+	transition: all .2s ease;
+}
+
+.minus2, .plus2, .heart2 {
+	transition: all .2s ease;
+}
+
+.minus-img2, .plus-img2, .heart-img2 {
+	margin-top: -40px;
+}
+
+.minus2:active, .plus2:active, .heart2:active {
+	transform: scale(1);
+}
+
+
+/* Option 3 */
+
+.heart3 {
+  height: 48px;
+  width: 48px;
+	border-radius: 500px;
+	cursor: pointer;
+}
+
+.heart-img3 {
 	height: 24px;
   width: 24px;
 	left: 12px;
 	top: 12px;
 	position: relative;
-	background-color: rgba(255,255,255,.87);
-  -webkit-mask-image: url('/sbux/button-animations/img/close.svg'), url('/img/close.svg');
-  mask-image: url('/sbux/button-animations/img/close.svg'), url('/img/close.svg');
+	background-color: rgba(0,0,0,.58);
+  -webkit-mask-image: url('/sbux/button-animations/img/heart.svg'), url('/img/heart.svg');
+  mask-image: url('/sbux/button-animations/img/heart.svg'), url('/img/heart.svg');
+	background-size: cover;
+	z-index: 1;
+}
+
+.plus3 {
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+	border-radius: 500px;
+}
+
+.plus-img3 {
+  height: 24px;
+  width: 24px;
+	left: 12px;
+	top: 12px;
+	position: relative;
+	background-color: rgba(0,0,0,.58);
+  -webkit-mask-image: url('/sbux/button-animations/img/plus.svg'), url('/img/plus.svg');
+  mask-image: url('/sbux/button-animations/img/plus.svg'), url('/img/plus.svg');
 	background-size: cover;
 }
 
-.burger-img.dark {
+.minus3 {
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+	border-radius: 500px;
+}
+
+.minus-img3 {
 	height: 24px;
   width: 24px;
 	left: 12px;
 	top: 12px;
 	position: relative;
-	background-color: rgba(255,255,255,.87);
-  -webkit-mask-image: url('/sbux/button-animations/img/burger.svg'), url('/img/burger.svg');
-  mask-image: url('/sbux/button-animations/img/burger.svg'), url('/img/burger.svg');
+	background-color: rgba(0,0,0,.58);
+  -webkit-mask-image: url('/sbux/button-animations/img/minus.svg'), url('/img/minus.svg');
+  mask-image: url('/sbux/button-animations/img/minus.svg'), url('/img/minus.svg');
 	background-size: cover;
 }
 
-.hover {
+.minus-hover3, .plus-hover3, .heart-hover3 {
+	width: 40px;
+	height:40px;
+	left: 4px;
+	top: 4px;
+	position: relative;
+	border-radius: 500px;
+	transform: scale(1);
+	transition: all .2s ease;
+}
+
+/* .minus2:hover .minus-hover2, .plus2:hover .plus-hover2, .heart2:hover .heart-hover2 {
+	transform: scale(1);
+	background: rgba(0,0,0,.06);
+	transition: all .2s ease;
+} */
+
+/* .minus2:active .minus-hover2, .plus2:active .plus-hover2, .heart2:active .heart-hover2 {
+	background: rgba(0,0,0,.12);
+	transition: none;
+} */
+
+.minus3:hover .minus-img3, .plus3:hover .plus-img3, .heart3:hover .heart-img3 {
+	/* transform: scale(1.1); */
+	transition: all .2s ease;
+	background-color: rgba(0,0,0,.87);
+	transform: scale(1.1);
+}
+
+.minus3:active .minus-img3, .plus3:active .plus-img3, .heart3:active .heart-img3 {
+	transform: scale(1);
+}
+
+.minus-img3, .plus-img3, .heart-img3 {
+	transition: all .2s ease;
+}
+
+.minus3, .plus3, .heart3 {
+	transition: all .2s ease;
+}
+
+.minus-img3, .plus-img3, .heart-img3 {
+	margin-top: -40px;
+}
+
+.minus3:active, .plus3:active, .heart3:active {
+	transform: scale(1);
+}
+
+
+/* Option 4 */
+
+.heart4 {
+  height: 48px;
+  width: 48px;
+	border-radius: 500px;
+	cursor: pointer;
+}
+
+.heart-img4 {
+	height: 24px;
+  width: 24px;
+	left: 12px;
+	top: 12px;
+	position: relative;
+	background-color: rgba(0,0,0,.58);
+  -webkit-mask-image: url('/sbux/button-animations/img/heart.svg'), url('/img/heart.svg');
+  mask-image: url('/sbux/button-animations/img/heart.svg'), url('/img/heart.svg');
+	background-size: cover;
+	z-index: 1;
+}
+
+.plus4 {
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+	border-radius: 500px;
+}
+
+.plus-img4 {
+  height: 24px;
+  width: 24px;
+	left: 12px;
+	top: 12px;
+	position: relative;
+	background-color: rgba(0,0,0,.58);
+  -webkit-mask-image: url('/sbux/button-animations/img/plus.svg'), url('/img/plus.svg');
+  mask-image: url('/sbux/button-animations/img/plus.svg'), url('/img/plus.svg');
+	background-size: cover;
+}
+
+.minus4 {
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+	border-radius: 500px;
+}
+
+.minus-img4 {
+	height: 24px;
+  width: 24px;
+	left: 12px;
+	top: 12px;
+	position: relative;
+	background-color: rgba(0,0,0,.58);
+  -webkit-mask-image: url('/sbux/button-animations/img/minus.svg'), url('/img/minus.svg');
+  mask-image: url('/sbux/button-animations/img/minus.svg'), url('/img/minus.svg');
+	background-size: cover;
+}
+
+.minus-hover4, .plus-hover4, .heart-hover4 {
 	width: 40px;
 	height:40px;
 	left: 4px;
@@ -936,42 +1152,67 @@ Buttons
 	transition: all .2s ease;
 }
 
-.minus.dark:hover .hover, .plus.dark:hover .hover, .heart.dark:hover .hover, .close.dark:hover .hover, .burger.dark:hover .hover {
+.minus4:hover .minus-hover4, .plus4:hover .plus-hover4, .heart4:hover .heart-hover4 {
 	transform: scale(1);
-	background: rgba(255,255,255,.12);
+	background: rgba(0,0,0,.06);
 	transition: all .2s ease;
 }
 
-.minus.dark:active .hover, .plus.dark:active .hover, .heart.dark:active .hover, .close.dark:active .hover, .burger.dark:active .hover {
-	background: rgba(255,255,255,.20);
+.minus4:active .minus-hover4, .plus4:active .plus-hover4, .heart4:active .heart-hover4 {
+	background: rgba(0,0,0,.12);
 	transition: none;
-	transform: scale(1)
+	transform: scale(.)
 }
 
-.minus.dark:hover .minus-img, .plus.dark:hover .plus-img, .heart.dark:hover .heart-img, .close.dark:hover .close-img,.burger.dark:hover .burger-img {
+.minus4:hover .minus-img4, .plus4:hover .plus-img4, .heart4:hover .heart-img4 {
 	/* transform: scale(1.1); */
 	transition: all .2s ease;
-	background-color: rgba(255,255,255,1)
+	background-color: rgba(0,0,0,.87)
 }
 
-.minus:active .minus-img, .plus:active .plus-img, .heart:active .heart-img, .close:active .close-img, .burger:active .burger-img {
+.minus4:active .minus-img4, .plus4:active .plus-img4, .heart4:active .heart-img4 {
 	transform: scale(1);
 }
 
-.minus-img, .plus-img, .heart-img, .close-img, .burger-img {
+.minus-img4, .plus-img4, .heart-img4 {
 	transition: all .2s ease;
 }
 
-.minus, .plus, .heart, .close, .burger {
+.minus4, .plus4, .heart4 {
 	transition: all .2s ease;
 }
 
-.minus-img, .plus-img, .heart-img, .close-img, .burger-img {
+.minus-img4, .plus-img4, .heart-img4 {
 	margin-top: -40px;
 }
 
-.minus:active, .plus:active, .heart:active, .close:active, .burger:active {
+.minus4:active, .plus4:active, .heart4:active {
 	transform: scale(.95);
+}
+
+.ghost-text4 {
+	/* color: rgba(0,0,0,.87); */
+	border: none;
+	border-radius: 50px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0), 0 3px 6px rgba(0,0,0,0);
+	transition: all .1s ease;
+	margin-top: 0!important;
+}
+
+.ghost-text4:hover .mini-box {
+	transform:scale(1);
+	background:rgba(0,0,0,.06);
+	transition: all .2s ease;
+}
+
+.ghost-text4:active .mini-box {
+	transform:scale(1);
+	background:rgba(0,0,0,.12);
+	transition: all .2s ease;
+}
+
+.ghost-text4:active {
+	transform: scale(1);
 }
 
 
@@ -983,97 +1224,65 @@ Ghost Buttons
 
 /* Option 1*/
 
-.ghost, .ghost-filled, .ghost-text {
-	border-radius: 500px;
+.but1 {
+  position: relative;
+  outline:none;
+  cursor: pointer;
+  transition: all .2s ease;
+  padding: 8px 16px;
+	font-family: gotham;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 16px;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-.gold {
-	background-color:rgba(194,166,97,1);
-	color: rgba(0,0,0,.87);
-}
-
-.gold:hover {
-	background-color:rgba(211,184,122,1);
-}
-
-.gold:active {
-	background-color:rgba(194,166,97,1);
-}
-
-.black {
-	background-color:rgba(0,0,0,.87);
-	color: rgba(255,255,255,1);
-}
-
-.black:hover {
-	background-color:rgba(77,77,77,1);
-}
-
-.green {
-	background-color:rgba(0,130,72,1);
-	color: rgba(255,255,255,1);
-}
-
-.green:hover {
-	background-color:rgba(72,159,99,1);
-}
-
-.white {
-	background-color:rgba(255,255,255,1);
-	color: rgba(0,0,0,.87);
-}
-
-.white:hover {
-	background-color:rgba(224,224,224,1);
-}
-
-.ghost.button {
-  padding: 7px 15px;
-}
-
-.ghost.black {
+.ghost {
 	color: rgba(0,0,0,.87);
 	border: solid 1px rgba(0,0,0,.87);
-	background-color:rgba(0,0,0,0);
+	border-radius: 500px;
+	box-sizing: border-box;
 }
 
-.ghost.black:hover {
-	background-color:rgba(0,0,0,.06);
+.ghost:hover {
+	/* color: rgba(255,255,255,1); */
+	background-color: rgba(0,0,0,0.06)
 }
 
-.green.ghost {
-	background-color:rgba(0,0,0,0);
-	color: rgba(0,130,72,1);
-	border: solid 1px rgba(0,130,72,1);
-}
 
-.green.ghost:hover {
-	background-color:rgba(0,168,98,.08);
-}
-
-.white.ghost {
-	background-color:rgba(0,0,0,0);
+.ghost-filled {
 	color: rgba(255,255,255,1);
-	border: solid 1px rgba(255,255,255,1);
+	border: solid 1px #008248;
+	background-color: #008248;
+	border-radius: 500px;
+	box-sizing: border-box;
 }
 
-.white.ghost:hover {
-	background-color:rgba(255,255,255,.12);
+.ghost-filled:hover {
+	background-color: #006337;
+	border: solid 1px #006337;
 }
 
-.green.ghost-text {
-	background-color:rgba(0,0,0,0);
-	color: rgba(0,130,72,1);
+.ghost-text {
+	color: rgba(0,0,0,.87);
+	border-radius: 300px;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	box-sizing: border-box;
+	outline:none !important;
 }
 
-.green.ghost-text:hover {
-	background-color:rgba(0,168,98,.08);
+.ghost-text:hover {
+	background-color: rgba(0,0,0,0.06);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
+.but1:active {
+	transform: scale(.97);
+}
 
 /* Option 2 */
 
-.button {
+.but2 {
   position: relative;
   outline:none;
   cursor: pointer;
@@ -1082,11 +1291,58 @@ Ghost Buttons
 	font-family: gotham;
 	font-size: 14px;
 	font-weight: bold;
-	margin: 16px;
+	margin-top: 16px;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-.button:active {
+.ghost2:hover {
+	box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
+}
+
+.ghost-filled2:hover {
+	box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
+}
+
+.ghost-text2:hover {
+	box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.ghost2:active {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.ghost-filled2:active {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.ghost-text2:active {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+
+.ghost2 {
+	color: rgba(0,0,0,.87);
+	border: solid 1px rgba(0,0,0,.87);
+	border-radius: 500px;
+}
+
+.ghost-filled2 {
+	color: rgba(255,255,255,1);
+	border: solid 1px #008248;
+	background-color: #008248;
+	border-radius: 500px;
+}
+
+.ghost-text2 {
+	/* color: rgba(0,0,0,.87); */
+	border: none;
+	border-radius: 50px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0), 0 3px 6px rgba(0,0,0,0);
+	transition: all .1s ease;
+}
+
+.but2:active {
 	transform: scale(.97);
 }
 
@@ -1105,7 +1361,100 @@ Ghost Buttons
 }
 
 
-input, button, submit { border:none; }
+.ghost-text3 {
+	/* color: rgba(0,0,0,.87); */
+	border: none;
+	border-radius: 50px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0), 0 3px 6px rgba(0,0,0,0);
+	transition: all .1s ease;
+	margin-top: 0;
+}
+
+.ghost-text3:hover .mini-box {
+	transform:scale(1);
+	background:rgba(0,0,0,.06);
+	transition: all .2s ease;
+}
+
+.ghost-text3:active .mini-box {
+	transform:scale(1);
+	background:rgba(0,0,0,.12);
+	transition: all .2s ease;
+}
+
+.ghost-text3:active {
+	transform: scale(1);
+}
+
+
+
+
+/* button:hover {
+  background: rgba(0,0,0,.06);
+} */
+
+
+/* ----------------------------------------
+Ripple Effect
+---------------------------------------- */
+
+.material-ripple {
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	user-select: none;
+}
+
+.material-ripple > span {
+  /* static positioned elements appear behind absolutely positioned siblings (.material-ink in this case)
+  so we will make the elements relatively positioned to bring them above .material-ink */
+  position: relative;
+  display: block;
+  padding: 15px 25px;
+}
+
+.ripple-color > .material-ink {
+  background-color: rgba(0,0,0,0.30);
+}
+
+.ripple-color-white > .material-ink {
+  background-color: rgba(255,255,255,0.70);
+}
+
+/*
+.ink styles - the elements which will create the ripple effect.
+The size and position of these elements will be set by the JS code.
+Initially these elements will be scaled down to 0% and later animated to large fading circles on user click.
+*/
+.material-ink {
+	position: absolute;
+	background: #bdc3c7;
+	border-radius: 50%;
+	transform: scale(0);
+	opacity: 0.4;
+}
+
+/* animation effect */
+.material-ink.animate {
+	animation: ripple 0.4s linear;
+}
+
+@keyframes ripple {
+	100% {
+		transform: scale(2.5);
+		opacity: 0;
+	}
+}
+
+button {
+	margin-top:0px;
+	outline: none;
+}
+
+html button {
+	margin-top:0px;
+	outline: none;
+}
 
 /* Material Design Card and Box Shadow by Samuel Thornton
 https://codepen.io/sdthornton/pen/wBZdXq */
@@ -1181,9 +1530,9 @@ Breakpoints
 
 	.sb-contentCrateContainer {
 		margin: auto;
-    /* max-width: 600px; */
-		padding-left: 16px;
-		padding-right: 16px;
+    max-width: 600px;
+		padding-left: 0;
+		padding-right: 0;
 	}
 
   .sb-navbar {

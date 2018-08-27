@@ -8,10 +8,9 @@
           <li class="py2 m1 pl2">Gift</li>
           <li class="py2 m1 pl2">Stores</li>
         </ul>
-        <div class="burger vcenter"><a href="#"></a>
-          <div class="hover"></div>
-          <div class="burger-img"></div>
-        </div>
+      <div class="hamburger vcenter colorWhite">
+        <div class="hamburger-img"></div>
+      </div>
     </nav>
   </div>
   <div class="greeting sb-heading sb-heading--large text-bold">Good Morning, Ben🍻</div>
