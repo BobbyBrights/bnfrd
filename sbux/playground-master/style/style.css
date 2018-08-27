@@ -18,7 +18,7 @@ body {
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	text-shadow: none;
-	font-family: GothamSSm;
+	font-family: Gotham;
 	background-color: #f7f7f7;
   color: rgba(0,0,0,.87)
 }
@@ -45,13 +45,19 @@ Fonts
 ---------------------------------------- */
 
 @font-face {
-    font-family: 'GothamSSm';
-    src: url('Fonts/GothamSSm-Book.otf');
+  /* Gotham 400, 1F0746AE386DF76B4.eot */
+  font-family: 'Gotham';
+  src: url('/fonts/gotham.woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Gotham';
-	src: url('Fonts/Gotham-Book');
+  /* Gotham 700, 6BB629FAC2C10DA4B.eot */
+  font-family: 'Gotham';
+  src: url('/fonts/gotham-bold.woff');
+  font-weight: bold;
+  font-style: normal;
 }
 
 
@@ -523,7 +529,8 @@ Flexbox
 
 .row {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+	flex-direction: row;
 }
 
 /* Grid */
@@ -645,10 +652,12 @@ html, body {
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
+input, button, submit { border:none; }
 
 .sb-headerCrate {
   box-shadow: 0 0 2px 0 rgba(0,0,0,.24), 0 4px 4px 0 rgba(0,0,0,.12);
@@ -659,14 +668,19 @@ html {
   flex-wrap: wrap;
 }
 
-/* .sb-contentCrate {
+.sb-contentCrate {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
   padding-left: 16px;
   padding-right: 16px;
 	padding-top: 16px;
-} */
+}
+
+
+.sb-navbar .row ul li:nth-child(4) {
+	display: none;
+}
 
 .sb-contentCrateContainer {
 	display: flex;
@@ -699,35 +713,93 @@ html {
 .sb-navbar-siren {
   width: 40px;
   height: 40px;
-  background-image: url('/sbux/playground-master/img/siren.png'), url('/img/siren.png');
+  background-image: url('/sbux/button-animations/img/siren.png'), url('/img/siren.png');
   background-repeat: no-repeat;
   background-size: contain;
   min-width: 40px;
 }
 
-.hamburger {
-  width: 44px;
-  height: 42px;
-  margin-left: auto;
-  display: flex;
-}
-
-.hamburger-img {
-  height: 24px;
-  width: 24px;
-  margin-left: auto;
-  align-self: center;
-  background-image: url('/sbux/playground-master/img/hamburger.png'), url('/img/hamburger.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  min-width: 24px;
-
+.burger.vcenter {
+	margin-left: auto;
 }
 
 .greeting {
   padding-left: 16px;
   padding-bottom: 16px;
 }
+
+.burger {
+  height: 48px;
+  width: 48px;
+	border-radius: 500px;
+	cursor: pointer;
+	transition: all .2s ease;
+}
+
+.burger-img {
+	height: 24px;
+  width: 24px;
+	left: 12px;
+	top: 12px;
+	position: relative;
+	background-color: rgba(0,0,0,.58);
+  -webkit-mask-image: url('/sbux/button-animations/img/burger.svg'), url('/img/burger.svg');
+  mask-image: url('/sbux/button-animations/img/burger.svg'), url('/img/burger.svg');
+	background-size: cover;
+	transition: all .2s ease;
+	margin-top: -40px;
+}
+
+.hover {
+	width: 40px;
+	height:40px;
+	left: 4px;
+	top: 4px;
+	position: relative;
+	border-radius: 500px;
+	transform: scale(.4);
+	transition: all .2s ease;
+}
+
+.burger:active {
+	transform: scale(.95);
+}
+
+.burger:hover .hover {
+	transform: scale(1);
+	background: rgba(0,0,0,.06);
+	transition: all .2s ease;
+}
+
+.burger:active .hover {
+	background: rgba(0,0,0,.12);
+	transition: none;
+	transform: scale(.)
+}
+
+.burger:hover .burger-img {
+	/* transform: scale(1.1); */
+	transition: all .2s ease;
+	background-color: rgba(0,0,0,.87)
+}
+
+.burger:active .burger-img {
+	transform: scale(1);
+}
+
+
+
+
+/* ----------------------------------------
+Start Coding Here 👇🏼
+---------------------------------------- */
+
+
+
+
+
+
+
 
 
 
@@ -744,6 +816,11 @@ Breakpoints
 		padding-left: 40px;
 		padding-right: 40px;
 	}
+
+	.sb-navbar .row ul li:nth-child(4) {
+		display: block;
+	}
+
 
 }
 
@@ -771,6 +848,7 @@ Breakpoints
 	}
 
 
+
 }
 
 /* --breakpointLg */
@@ -792,9 +870,9 @@ Breakpoints
 
 	.sb-contentCrateContainer {
 		margin: auto;
-    max-width: 600px;
-		padding-left: 0;
-		padding-right: 0;
+    /* max-width: 600px; */
+		padding-left: 16px;
+		padding-right: 16px;
 	}
 
   .sb-navbar {
@@ -812,8 +890,6 @@ Breakpoints
 	.sb-navbar .row ul li:nth-child(4) {
 		display: none;
 	}
-
-
 
 }
 
