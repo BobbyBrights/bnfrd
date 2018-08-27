@@ -996,10 +996,6 @@ Ghost Buttons
 	background-color:rgba(211,184,122,1);
 }
 
-.gold:active {
-	background-color:rgba(194,166,97,1);
-}
-
 .black {
 	background-color:rgba(0,0,0,.87);
 	color: rgba(255,255,255,1);
