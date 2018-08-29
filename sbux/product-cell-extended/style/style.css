@@ -869,7 +869,7 @@ Start Coding Here 👇🏼
   width: 72px;
   min-width: 72px;
   border-radius: 5000px;
-  background-image: url("/img/macchiato.jpg");
+  background-image: url('/sbux/product-cell-extended/img/macchiato.jpg'), url("/img/macchiato.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -880,7 +880,7 @@ Start Coding Here 👇🏼
   width: 72px;
   min-width: 72px;
   border-radius: 5000px;
-  background-image: url("/img/smoked-bacon.jpg");
+  background-image: url('/sbux/product-cell-extended/img/smoked-bacon.jpg'), url("/img/smoked-bacon.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -891,7 +891,7 @@ Start Coding Here 👇🏼
   width: 72px;
   min-width: 72px;
   border-radius: 5000px;
-  background-image: url("/img/pods.jpg");
+  background-image: url('/sbux/product-cell-extended/img/pods.jpg'), url("/img/pods.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -902,7 +902,7 @@ Start Coding Here 👇🏼
   width: 72px;
   min-width: 72px;
   border-radius: 5000px;
-  background-image: url("/img/chai-creme.jpg");
+  background-image: url('/sbux/product-cell-extended/img/chai-creme.jpg'), url("/img/chai-creme.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
