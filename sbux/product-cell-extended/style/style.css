@@ -956,7 +956,7 @@ Start Coding Here 👇🏼
   left: 12px;
 	top: 12px;
 	position: relative;
-	background-image: url("/img/heart.png");
+	background-image: url('/sbux/product-cell-extended/img/heart.png'), url("/img/heart.png");
   background-repeat: no-repeat;
 	background-size: contain;
 	border-radius: 500px;
@@ -969,7 +969,7 @@ Start Coding Here 👇🏼
   left: 12px;
 	top: 12px;
 	position: relative;
-	background-image: url("/img/green-heart.png");
+	background-image: url('/sbux/product-cell-extended/img/green-heart.png'), url("/img/green-heart.png");
   background-repeat: no-repeat;
 	background-size: contain;
 	border-radius: 500px;
@@ -989,7 +989,7 @@ Start Coding Here 👇🏼
 	left: 12px;
 	top: 12px;
 	position: relative;
-	background-image: url("/img/plus.png");
+	background-image: url('/sbux/product-cell-extended/img/plus.png'), url("/img/plus.png");
   background-size: contain;
   background-repeat: no-repeat;
 	border-radius: 500px;
@@ -1008,7 +1008,7 @@ Start Coding Here 👇🏼
 	left: 12px;
 	top: 12px;
 	position: relative;
-	background-image: url("/img/minus.png");
+	background-image: url('/sbux/product-cell-extended/img/minus.png'), url("/img/minus.png");
   background-size: contain;
   background-repeat: no-repeat;
 	border-radius: 500px;
@@ -1104,7 +1104,7 @@ hr {
 }
 
 .warning {
-  background-image: url("/img/warning.png");
+  background-image: url('/sbux/product-cell-extended/img/warning.png'), url("/img/warning.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 24px;
