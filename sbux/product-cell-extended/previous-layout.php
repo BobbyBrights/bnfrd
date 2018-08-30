@@ -24,7 +24,7 @@
         <div class="warning">
         </div>
       </div>
-      <div class="utility-row c12">
+      <div class="utility-row c12 pt1">
         <div class="utility-actions">
           <div class="heart"><a href="#"></a>
             <div class="heart-hover"></div>
@@ -62,7 +62,7 @@
         <div class="warning">
         </div>
       </div>
-      <div class="utility-row c12">
+      <div class="utility-row c12 pt1">
         <div class="utility-actions">
           <div class="heart"><a href="#"></a>
             <div class="heart-hover"></div>
@@ -93,7 +93,7 @@
 
       <div class="detail-row c12 pt1 pb2">
       </div>
-      <div class="utility-row c12">
+      <div class="utility-row c12 pt1">
         <div class="utility-actions">
           <div class="heart"><a href="#"></a>
             <div class="heart-hover"></div>
@@ -128,7 +128,7 @@
       </div>
       <div class="detail-row c12 pt1 pb2">
       </div>
-      <div class="utility-row c12">
+      <div class="utility-row c12 pt1">
         <div class="utility-actions">
           <div class="heart"><a href="#"></a>
             <div class="heart-hover"></div>
@@ -166,7 +166,7 @@
       </div>
       <div class="detail-row c12 pt1 pb2">
       </div>
-      <div class="utility-row c12">
+      <div class="utility-row c12 pt1">
         <div class="utility-actions">
           <div class="heart"><a href="#"></a>
             <div class="heart-hover"></div>

@@ -31,7 +31,7 @@
         <div class="warning">
         </div>
       </div>
-      <div class="utility-row c12">
+      <div class="utility-row c12 pt1">
         <div class="utility-actions">
           <div class="heart"><a href="#"></a>
             <div class="heart-hover"></div>
@@ -83,7 +83,7 @@
         <div class="descriptor">Costs 150<span class="gold">★</span>
         </div>
       </div>
-      <div class="utility-row c12">
+      <div class="utility-row c12 pt1">
         <div class="utility-actions">
           <div class="heart"><a href="#"></a>
             <div class="heart-hover"></div>
@@ -128,7 +128,7 @@
         <div class="descriptor">Costs 400<span class="gold">★</span>
         </div>
       </div>
-      <div class="utility-row c12">
+      <div class="utility-row c12 pt1">
         <div class="utility-actions">
           <div class="heart"><a href="#"></a>
             <div class="heart-hover"></div>
@@ -180,7 +180,7 @@
         <div class="descriptor">Costs 150<span class="gold">★</span>
         </div>
       </div>
-      <div class="utility-row c12">
+      <div class="utility-row c12 pt1">
         <div class="utility-actions">
           <div class="heart"><a href="#"></a>
             <div class="heart-hover"></div>
