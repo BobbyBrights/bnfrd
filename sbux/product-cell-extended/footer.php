@@ -32,6 +32,7 @@ $('.favorites-button').on('click', function() {
 
 $(".ghost").click(function() {
     $(".ghost").not(this).toggleClass("hide");
+    $(this).toggleClass("reward-flip");
 		$(this).parents(".birthday-row").toggleClass("justify");
 		$(this).siblings(".reward-price").toggleClass("show");
 
