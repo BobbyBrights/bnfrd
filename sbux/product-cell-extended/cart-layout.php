@@ -51,7 +51,7 @@
       </div>
       <div class="rewards-row c12">
         <div class="birthday-row">
-          <div class="ghost birthday-button"><span class="birthday-action">Birthday Reward</span>
+          <div class="ghost birthday-button"><span class="birthday-action">Use Birthday Reward</span>
           </div>
           <div class="ghost"><span class="reward-action">Use</span> 25<span class="gold">★</span>
           </div>

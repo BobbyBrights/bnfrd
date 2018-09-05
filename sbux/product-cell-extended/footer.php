@@ -44,10 +44,10 @@ $(".ghost").click(function() {
     }
 
 		var birthdayText = $(this).find('.birthday-action').text();
-    if (birthdayText === "Birthday Reward") {
-        $(this).find('.birthday-action').text("Remove Birthday");
+    if (birthdayText === "Use Birthday Reward") {
+        $(this).find('.birthday-action').text("Remove Birthday Reward");
     } else {
-        $(this).find('.birthday-action').text("Birthday Reward");
+        $(this).find('.birthday-action').text("Use Birthday Reward");
     }
 });
 
