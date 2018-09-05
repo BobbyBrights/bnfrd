@@ -5,30 +5,23 @@
         </div>
         <div class="row product-title  c12 nowrap vcenter">
           <h1 class="sb-heading sb-heading--small">Latte Macchiato</h1>
-          <div class="total-price">$3.95
+          <div class="total-price">$4.25
           </div>
         </div>
-
       </div>
       <div class="detail-row c12">
         <div class="descriptor">Tall
         </div>
       </div>
       <div class="detail-row c12 pt1">
-        <div class="descriptor">2 Vanilla Syrup pumps
+        <div class="descriptor">3 shots
         </div>
         <div class="dot"></div>
-        <div class="price">+$0.50
+        <div class="price">+$0.90
         </div>
       </div>
       <div class="detail-row c12 pt1">
-        <div class="descriptor">Costs 125<span class="gold">★</span>
-        </div>
-      </div>
-      <div class="detail-row c12 pt2 pb0">
-        <div class="descriptor red-text bold">Sold out at this store
-        </div>
-        <div class="warning">
+        <div class="descriptor">Costs 150<span class="gold">★</span>
         </div>
       </div>
       <div class="utility-row c12 pt1">
@@ -51,13 +44,14 @@
       </div>
       <div class="rewards-row c12">
         <div class="birthday-row">
-          <div class="ghost birthday-button"><span class="birthday-action">Use Birthday Reward</span>
+          <div class="ghost-special birthday-button"><span class="birthday-action">Use Birthday Reward</span>
           </div>
           <div class="ghost"><span class="reward-action">Use</span> 25<span class="gold">★</span>
           </div>
-          <div class="ghost"><span class="reward-action">Use</span> 150<span class="gold">★</span>
+          <div class="ghost-special"><span class="reward-action">Use</span> 150<span class="gold">★</span>
           </div>
-          <div class="reward-price">-$3.95</div>
+          <div class="reward-price">-$0.90</div>
+          <div class="reward-price-special">-$5.15</div>
         </div>
       </div>
     </div>
@@ -70,7 +64,7 @@
           <h1 class="sb-heading sb-heading--small">
             Double-Smoked Bacon, Cheddar & Egg Sandwich
           </h1>
-          <div class="total-price">$3.95
+          <div class="total-price">$4.95
           </div>
         </div>
       </div>
@@ -100,11 +94,6 @@
         </div>
       </div>
       <div class="rewards-row c12">
-        <div class="birthday-row c12">
-          <div class="ghost"><span class="reward-action">Use</span> 150<span class="gold">★</span>
-          </div>
-          <div class="reward-price">-$3.95</div>
-        </div>
       </div>
     </div>
     <hr>
@@ -116,7 +105,7 @@
           <h1 class="sb-heading sb-heading--small">
             Espresso Roast Verismo® Pods
           </h1>
-          <div class="total-price">$3.95
+          <div class="total-price">$11.95
           </div>
         </div>
       </div>
@@ -148,7 +137,7 @@
         <div class="birthday-row c12">
           <div class="ghost"><span class="reward-action">Use</span> 400<span class="gold">★</span>
           </div>
-          <div class="reward-price">-$3.95</div>
+          <div class="reward-price">-$11.95</div>
         </div>
       </div>
     </div>
@@ -161,7 +150,7 @@
           <h1 class="sb-heading sb-heading--small">
             Chai Créme Frappuccino®
           </h1>
-          <div class="total-price">$3.95
+          <div class="total-price">$4.95
           </div>
         </div>
       </div>
@@ -169,15 +158,21 @@
         <div class="descriptor">Grande
         </div>
       </div>
-      <div class="detail-row c12 pt1">
+      <!-- <div class="detail-row c12 pt1">
         <div class="descriptor">2 shots
         </div>
         <div class="dot"></div>
         <div class="price">+$1.80
         </div>
-      </div>
-      <div class="detail-row c12 pt1 pb2">
+      </div> -->
+      <div class="detail-row c12 pt1">
         <div class="descriptor">Costs 150<span class="gold">★</span>
+        </div>
+      </div>
+      <div class="detail-row c12 pt2 pb0">
+        <div class="descriptor red-text bold">Sold out at this store
+        </div>
+        <div class="warning">
         </div>
       </div>
       <div class="utility-row c12 pt1">
@@ -197,11 +192,6 @@
         </div>
       </div>
       <div class="rewards-row c12">
-        <div class="birthday-row c12">
-          <div class="ghost"><span class="reward-action">Use</span> 150<span class="gold">★</span>
-          </div>
-          <div class="reward-price">-$3.95</div>
-        </div>
       </div>
     </div>
     <hr>
@@ -238,7 +228,7 @@
         <div class="descriptor large-text">Total
         </div>
         <div class="dot"></div>
-        <div class="price large-text">$6.50
+        <div class="price large-text">$27.00
         </div>
       </div>
     </div>

@@ -1034,7 +1034,7 @@ hr {
   color: rgba(0,0,0,.87);
 }
 
-.reward-price {
+.reward-price, .reward-price-special {
   font-family: Gotham;
   font-weight: 700;
   font-size: 15px;
@@ -1087,7 +1087,7 @@ hr {
 	margin-left: 96px;
 }
 
-.ghost {
+.ghost, .ghost-special {
   padding: 8px 16px;
   /* border: solid 1px rgba(0,0,0,.87); */
   border-radius: 500px;
@@ -1105,7 +1105,7 @@ hr {
 	color: rgba(0,0,0,.87);
 }
 
-.ghost, .ghost1 {
+.ghost, .ghost1, .ghost-special {
   margin-top: 20px;
 }
 
@@ -1240,17 +1240,17 @@ a {
 	transform: scale(1);
 }
 
-.ghost:active {
+.ghost:active, .ghost-special:active {
   background-color: rgba(0,0,0,.06);
 }
 
-.ghost:hover {
+.ghost:hover, .ghost-special:hover {
 	background-color: rgba(77,77,77,1);
 	transition-timing-function: ease;
 	transition: .2s;
 }
 
-.ghost {
+.ghost, .ghost-special {
 	background-color: rgba(0,0,0,1);
 	transition-timing-function: ease;
 	transition: .2s;

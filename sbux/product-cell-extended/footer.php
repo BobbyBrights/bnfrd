@@ -32,9 +32,32 @@ $('.favorites-button').on('click', function() {
 
 $(".ghost").click(function() {
     $(".ghost").not(this).toggleClass("hide");
+    $(".ghost-special").toggleClass("hide");
     $(this).toggleClass("reward-flip");
 		$(this).parents(".birthday-row").toggleClass("justify");
 		$(this).siblings(".reward-price").toggleClass("show");
+
+    var rewardText = $(this).find('.reward-action').text();
+    if (rewardText === "Use") {
+        $(this).find('.reward-action').text("Remove");
+    } else {
+        $(this).find('.reward-action').text("Use");
+    }
+
+		var birthdayText = $(this).find('.birthday-action').text();
+    if (birthdayText === "Use Birthday Reward") {
+        $(this).find('.birthday-action').text("Remove Birthday Reward");
+    } else {
+        $(this).find('.birthday-action').text("Use Birthday Reward");
+    }
+});
+
+$(".ghost-special").click(function() {
+    $(".ghost").not(this).toggleClass("hide");
+    $(".ghost-special").not(this).toggleClass("hide");
+    $(this).toggleClass("reward-flip");
+		$(this).parents(".birthday-row").toggleClass("justify");
+		$(this).siblings(".reward-price-special").toggleClass("show");
 
     var rewardText = $(this).find('.reward-action').text();
     if (rewardText === "Use") {
