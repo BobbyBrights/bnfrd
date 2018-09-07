@@ -65,11 +65,11 @@
               <img class="web-app-img-3" src="/img/web-app/screen-combo.png","/bendoto/img/web-app/screen-combo.png" alt="a delicious iced macchiatto">
               <!-- <img class="web-app-img-2" src="/img/web-app/screen-1.png" alt="a computer showing a product page"> -->
             </div>
-            <div class="sm-c12 md-c5 vcenter pr3">
+            <div class="sm-c12 md-c5 vcenter">
               <h1 class="heading-2 colorTextPrimary">
                 Starbucks PWA
               </h1>
-              <p class="body-1 pt3 colorTextSecondary">
+              <p class="body-1 pt2 sm-pt3 colorTextSecondary">
                 Starbucks had an online presence that was largely informational
                 and inconsistent with its native apps. With web seeing more than
                 double the traffic of its native apps, we saw an opportunity to
