@@ -56,7 +56,7 @@
       </nav>
     </header> -->
 
-  <!-- Project Intro Start -->url('/sbux/product-cell-extended/img/siren.png'), url('/img/siren.png')
+  <!-- Project Intro Start -->
     <section class="full-width">
       <div class="grid screen-combo relative py7">
 
