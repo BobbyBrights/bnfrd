@@ -56,13 +56,13 @@
       </nav>
     </header> -->
 
-  <!-- Project Intro Start -->
+  <!-- Project Intro Start -->url('/sbux/product-cell-extended/img/siren.png'), url('/img/siren.png')
     <section class="full-width">
       <div class="grid screen-combo relative py7">
 
           <div class="row">
             <div class="sm-c12 md-c7 relative md-last">
-              <img class="web-app-img-3" src="/img/web-app/screen-combo.png" alt="a delicious iced macchiatto">
+              <img class="web-app-img-3" src="/img/web-app/screen-combo.png","/bendoto/img/web-app/screen-combo.png" alt="a delicious iced macchiatto">
               <!-- <img class="web-app-img-2" src="/img/web-app/screen-1.png" alt="a computer showing a product page"> -->
             </div>
             <div class="sm-c12 md-c5 vcenter pr3">
