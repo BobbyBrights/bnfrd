@@ -1,0 +1,569 @@
+/* V-1.0 Ben Ford Website */
+
+/* ----------------------------------------
+HTML RESET
+---------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; font: inherit; vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, label, legend { display: block; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-spacing: 0; }
+
+/* ----------------------------------------
+Clearfixes
+---------------------------------------- */
+.row:before,.row:after,.clearfix:before,.clearfix:after{content:'';display:table}
+.row:after,.clearfix:after{clear:both}
+.row,.clearfix{zoom:1}
+
+/* ----------------------------------------
+Fonts
+---------------------------------------- */
+@font-face {
+  font-family: 'GT-Walsheim';
+  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Ultra-Light.woff2');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'GT-Walsheim';
+  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Ultra-Light-Oblique.woff2');
+  font-weight: 100;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'GT-Walsheim';
+  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Thin.woff2');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'GT-Walsheim';
+  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Thin-Oblique.woff2');
+  font-weight: 200;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'GT-Walsheim';
+  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Light.woff2');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'GT-Walsheim';
+  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Light-Oblique.woff2');
+  font-weight: 300;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'GT-Walsheim';
+  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Regular.woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'GT-Walsheim';
+  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Regular-Oblique.woff2');
+  font-weight: 400;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'GT-Walsheim';
+  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Medium.woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'GT-Walsheim';
+  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Medium-Oblique.woff2');
+  font-weight: 500;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'GT-Walsheim';
+  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Bold.woff2');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'GT-Walsheim';
+  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Bold-Oblique.woff2');
+  font-weight: 600;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'GT-Walsheim';
+  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Black.woff2');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'GT-Walsheim';
+  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Black-Oblique.woff2');
+  font-weight: 700;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'GT-Walsheim';
+  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Ultra-Bold.woff2');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'GT-Walsheim';
+  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Ultra-Bold-Oblique.woff2');
+  font-weight: 800;
+  font-style: oblique;
+}
+
+body {
+  font-family: GT-Walsheim, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* ----------------------------------------
+Colors
+---------------------------------------- */
+
+.colorWhite {background-color: #ffffff;}
+
+.colorGrayNatural {background-color: #f7f7f7;}
+
+.colorCream {background-color: #f3f1e7;}
+
+.colorCeramic {background-color: #edebe9;}
+
+.colorBlack {background-color: #000000;}
+
+.colorBlackWarm {background-color: #2d2926;}
+
+.colorBlackWarmer {background-color: #3d3935;}
+
+.colorGreenStarbucks {background-color: #00653e;}
+
+.colorGreenApron {background-color: #00a862;}
+
+.colorGreenDarkApron {background-color: #008248;}
+
+.colorGold {background-color: #c2a661;}
+
+.colorRed {background-color: #e75b52;}
+
+.colorYellow {background-color: #fbbc05;}
+
+
+/* Warm black with alpha */
+.colorBlackWarm12 {background-color:rgba(45, 41, 38, .12);}
+
+
+/* Black with alpha */
+.colorBlack10 {background-color:rgba(0, 0, 0, .1);}
+
+.colorBlack20 {background-color: rgba(0, 0, 0, .2);}
+
+.colorBlack30 {background-color: rgba(0, 0, 0, .3);}
+
+.colorBlack40 {background-color: rgba(0, 0, 0, .4);}
+
+.colorBlack50 {background-color: rgba(0, 0, 0, .5);}
+
+.colorBlack60 {background-color: rgba(0, 0, 0, .6);}
+
+.colorBlack70 {background-color: rgba(0, 0, 0, .7);}
+
+.colorBlack80 {background-color: rgba(0, 0, 0, .8);}
+
+.colorBlack90 {background-color: rgba(0, 0, 0, .9);}
+
+
+/* White with alpha */
+.colorWhite10 {background-color: rgba(255,255,255, .1);}
+
+.colorWhite20 {background-color: rgba(255,255,255, .2);}
+
+.colorWhite30 {background-color: rgba(255,255,255, .3);}
+
+.colorWhite40 {background-color: rgba(255,255,255, .4);}
+
+.colorWhite50 {background-color: rgba(255,255,255, .5);}
+
+.colorWhite60 {background-color: rgba(255,255,255, .6);}
+
+.colorWhite70 {background-color: rgba(255,255,255, .7);}
+
+.colorWhite80 {background-color: rgba(255,255,255, .8);}
+
+.colorWhite90 {background-color: rgba(255,255,255, .9);}
+
+
+/* Text with alpha */
+.colorTextPrimary {color: rgba(0, 0, 0, .87);}
+
+.colorTextSecondary {color: rgba(0, 0, 0, .35);}
+
+.colorTextWhitePrimary {color: rgba(255, 255, 255, 1);}
+
+.colorTextWhiteSecondary {color: rgba(255, 255, 255, .70);}
+
+
+/* ----------------------------------------
+Typography
+---------------------------------------- */
+/* .display-1 {
+  font-weight: 400;
+}
+
+.display-2 {
+  font-size: 31px;
+} */
+
+.heading-1 {
+  font-size: 42px;
+  font-weight: 400;
+}
+
+.heading-2 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.caption {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.body-1 {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.69;
+}
+
+.body-2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.49;
+}
+
+/* Alignment (Apply to Container) */
+
+.hstart {
+  -ms-flex-pack: start;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  /* text-align: start; */
+}
+
+.hcenter {
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  /* text-align: center; */
+}
+
+.hend {
+  -ms-flex-pack: end;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  /* text-align: end; */
+}
+
+.top {
+  -ms-flex-align: start;
+  -webkit-box-align: start;
+  align-items: flex-start;
+}
+
+.middle {
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.bottom {
+  -ms-flex-align: end;
+  -webkit-box-align: end;
+  align-items: flex-end;
+}
+
+.around {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.between {
+  -ms-flex-pack: justify;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.nowrap {
+	flex-wrap: nowrap;
+}
+
+/* Alignment (Apply to Items) */
+
+.first {
+  -ms-flex-order: -1;
+  -webkit-box-ordinal-group: 0;
+  order: -1;
+}
+
+.last {
+  -ms-flex-order: 1;
+  -webkit-box-ordinal-group: 2;
+  order: 1;
+}
+
+.vstart {
+	align-self: flex-start;
+}
+
+.vcenter {
+	align-self: center;
+}
+
+.vend {
+	align-self: flex-end;
+}
+
+/* --------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+*/
+
+/* Global Tags */
+
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+body {
+	font-size:100%;
+	line-height: 1;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	text-shadow: none;
+	font-family: GT-Walsheim;
+  color: rgba(0,0,0,.87)
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  /* max-width: 100%; */
+  height: auto;
+}
+
+header {
+  margin: 0rem;
+  /* visibility: hidden; */
+  /* position: absolute; */
+}
+
+/* Global Classes */
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.relative {
+  position: relative;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+/* Images */
+
+.web-app-img-1 {
+  position: absolute;
+  /* left:10%; */
+  top:130px;
+  right:380px;
+  width:286px;
+  /* width:41%; */
+  z-index:2;
+}
+
+.web-app-img-2 {
+  position: absolute;
+  width: 1000px;
+  /* width: 150%; */
+  right:-400px;
+  top: -95px;
+}
+
+.web-app-img-3 {
+  position: relative;
+  width: 160%;
+}
+
+
+body {
+  overflow-x: hidden;
+}
+
+/* .screen-combo {
+  background-image: url("/img/web-app/screen-combo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:right;
+} */
+
+
+
+
+/* ----------------------------------------
+Breakpoints
+---------------------------------------- */
+
+/* --breakpointSm */
+@media only screen and (min-width: 480px) {
+
+  header {
+    margin: 2.4rem;
+  }
+
+  .grid {
+    /* padding-left: 2.4rem;
+    padding-right: 2.4rem; */
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+  /* .heading-2 {
+    font-size: 2.7vw;
+  }
+
+  .body-1 {
+    font-size: 1.6vw;
+  } */
+
+  .web-app-img-3 {
+    position: relative;
+    width: 100%;
+  }
+
+}
+
+/* --breakpointMd */
+@media only screen and (min-width: 950px) {
+
+  .grid {
+    /* padding-left: 4.8rem;
+    padding-right: 4.8rem; */
+  }
+
+  .heading-2 {
+    font-size: 2.7vw;
+  }
+
+  .body-1 {
+    font-size: 1.6vw;
+  }
+
+  .body-2 {
+    font-size: 1.2vw;
+  }
+
+  .web-app-img-3 {
+    width: 160%;
+  }
+
+
+
+}
+
+
+/* --breakpointLg */
+@media only screen and (min-width: 1024px) {
+
+  .grid {
+    /* padding-left: 8.0rem;
+    padding-right: 8.0rem; */
+  }
+
+  .heading-2 {
+    font-size: 2.7vw;
+  }
+
+  .body-1 {
+    font-size: 1.6vw;
+  }
+
+  .body-2 {
+    font-size: 1.25vw;
+  }
+
+  .caption {
+    font-size: .9vw;
+  }
+
+}
+
+
+/* --breakpointXl */
+@media only screen and (min-width: 1280px) {
+
+  .grid {
+    max-width:1200px;
+    /* padding-left: 9.6rem;
+    padding-right: 9.6rem; */
+    /* margin:auto; */
+  }
+
+  .heading-2 {
+    font-size: 2.2vw;
+  }
+
+  .body-1 {
+    font-size: 1.25vw;
+  }
+
+  .body-2 {
+    font-size: 1vw;
+  }
+
+  .body-2 {
+    font-size: .85vw;
+  }
+
+}
+
+
+/* --breakpointXxl */
+@media only screen and (min-width: 1440px) {
+
+  .grid {
+    /* max-width: 1640px;
+    margin:0 auto; */
+
+  }
+
+}

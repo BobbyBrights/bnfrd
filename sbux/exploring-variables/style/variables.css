@@ -1,0 +1,30 @@
+:root {
+  --space0: 0;
+  --space4: .4rem;
+  --space8: .8rem;
+  --space16: 1.6rem;
+  --space24: 2.4rem;
+  --space32: 3.2rem;
+  --space40: 4.0rem;
+  --space48: 4.8rem;
+  --space56: 5.6rem;
+  --space64: 6.4rem;
+  --space72: 7.2rem;
+  --space80: 8.0rem;
+  --space88: 8.8rem;
+  --space96: 9.6rem;
+  --space104: 10.4rem;
+
+  --colorBlue: blue;
+  --textcolorGreen: green;
+
+  --Display1: somepx;
+  --Display2: somepx;
+  --Headline1: somepx;
+  --Headline2: somepx;
+  --Caption: somepx;
+  --Body1: somepx;
+  --Body2: somepx;
+
+
+}
