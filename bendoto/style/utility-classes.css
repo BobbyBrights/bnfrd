@@ -6,7 +6,7 @@ Grid
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  padding:0 1.6rem;
+  /* padding:0 1.6rem; */
 }
 
   .c1,
@@ -22,8 +22,8 @@ Grid
   .c11,
   .c12 {
   	box-sizing: border-box;
-    padding-right: 1.6rem;
-    padding-left: 1.6rem;
+    padding-right: 2.4rem;
+    padding-left: 2.4rem;
     flex-basis:100%;
   }
 
@@ -120,6 +120,7 @@ Grid
   .row.xxl-c10 { padding-right: 0; padding-left: 0;}
   .row.xxl-c11 { padding-right: 0; padding-left: 0;}
   .row.xxl-c12 { padding-right: 0; padding-left: 0;}
+
 
 /* --breakpointSm */
 @media only screen and (min-width: 480px) {

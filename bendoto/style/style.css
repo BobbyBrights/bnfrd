@@ -306,6 +306,12 @@ Typography
   justify-content: space-between;
 }
 
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
 .nowrap {
 	flex-wrap: nowrap;
 }
@@ -334,6 +340,10 @@ Typography
 
 .vend {
 	align-self: flex-end;
+}
+
+.centered-text {
+  text-align: center;
 }
 
 /* --------------------------------------------------------------------------------
@@ -392,11 +402,6 @@ header {
   position: relative;
 }
 
-.box {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
 
 
 /* Images */
@@ -422,6 +427,7 @@ header {
 .web-app-img-3 {
   position: relative;
   width: 160%;
+  left: -.8rem;
 }
 
 
@@ -475,6 +481,7 @@ Breakpoints
   .web-app-img-3 {
     position: relative;
     width: 100%;
+    left:0;
   }
 
 }
@@ -501,6 +508,7 @@ Breakpoints
 
   .web-app-img-3 {
     width: 160%;
+    left: 1.6rem;
   }
 
 
