@@ -429,6 +429,13 @@ body {
   overflow-x: hidden;
 }
 
+.heading-2 {
+  font-size: 24px;
+}
+
+.body-1 {
+  font-size: 16px;
+}
 /* .screen-combo {
   background-image: url("/img/web-app/screen-combo.png");
   background-size: contain;
