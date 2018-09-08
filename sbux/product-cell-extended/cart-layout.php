@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="detail-row c12 pt1">
-        <div class="descriptor">Costs 150<span class="gold">★</span>
+        <div class="descriptor">Star price: 150<span class="gold">★</span>
         </div>
       </div>
       <div class="utility-row c12 pt1">
@@ -74,7 +74,7 @@
       </div>
 
       <div class="detail-row c12 pt1 pb2">
-        <div class="descriptor">Costs 150<span class="gold">★</span>
+        <div class="descriptor">Star price: 150<span class="gold">★</span>
         </div>
       </div>
       <div class="utility-row c12 pt1">
@@ -114,7 +114,7 @@
         </div>
       </div>
       <div class="detail-row c12 pt1 pb2">
-        <div class="descriptor">Costs 400<span class="gold">★</span>
+        <div class="descriptor">Star price: 400<span class="gold">★</span>
         </div>
       </div>
       <div class="utility-row c12 pt1">
@@ -166,7 +166,7 @@
         </div>
       </div> -->
       <div class="detail-row c12 pt1">
-        <div class="descriptor">Costs 150<span class="gold">★</span>
+        <div class="descriptor">Star price: 150<span class="gold">★</span>
         </div>
       </div>
       <div class="detail-row c12 pt2 pb0">
