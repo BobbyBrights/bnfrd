@@ -60,16 +60,15 @@
     <section>
 
       <div class="grid">
-        <div class="row screen-combo relative py7">
+        <div class="row relative py7">
           <div class="c12 sm-c12 md-c7 relative md-last">
-            <img class="web-app-img-3" src="/img/web-app/screen-combo.png","/bendoto/img/web-app/screen-combo.png" alt="a delicious iced macchiatto">
-            <!-- <img class="web-app-img-2" src="/img/web-app/screen-1.png" alt="a computer showing a product page"> -->
+            <img class="web-app-img-1" src="/img/web-app/screen-combo.png","/bendoto/img/web-app/screen-combo.png" alt="a delicious iced macchiatto">
           </div>
           <div class="c12 mt4 sm-c12 md-c5 lg-mt0 vcenter">
             <h1 class="heading-2 colorTextPrimary">
               Starbucks PWA
             </h1>
-            <p class="body-1 pt2 sm-pt3 colorTextSecondary">
+            <p class="body-1 pt2 colorTextSecondary">
               Starbucks had an online presence that was largely informational
               and inconsistent with its native apps. With web seeing more than
               double the traffic of its native apps, we saw an opportunity to
@@ -80,22 +79,23 @@
                 <h3 class="caption colorTextPrimary">
                   Role
                 </h3>
-                <p class="body-2 pt2 colorTextSecondary">
-                  Web Design / UX Design
+                <p class="body-1 pt2 colorTextSecondary">
+                  Web / UX Design
                 </p>
               </div>
               <div class="pt6 px0 pl0 sm-c6 sm-pt0 sm-pl5 md-pl3 lg-c6">
                 <h3 class="caption colorTextPrimary">
                   Credits
                 </h3>
-                <p class="body-2 pt2 colorTextSecondary">
-                  Jeremy Beasley, Carlyn Levy, Andrew Nedimeyer, Cam Searcy
+                <p class="body-1 pt2 colorTextSecondary">
+                  Jeremy Beasley, Carlyn Levy, Andrew Nedimyer, Cam Searcy
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <div class="full-width colorGrayNatural">
         <div class="grid">
           <div class="row py12 md-px10">
@@ -103,6 +103,23 @@
               The Starbucks PWA takes advantage of many of the new capabilities and brings a modern web experience to their customers.
             </h4>
             <p class="body-2 colorTextSecondary mt3 centered-text c12">Jenny Gove  |  Google I/O ’18
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="special-section row c12 relative py7">
+          <div class="c12 sm-c12 md-c7 md-last">
+            <img class="web-app-img-2" src="/img/web-app/phone-and-food-2.png","/bendoto/img/web-app/phone-and-food-2.png" alt="a delicious iced macchiatto">
+          </div>
+          <div class="c12 mt4 sm-c12 md-c5 md-py15 lg-mt0 vcenter">
+            <h1 class="heading-2 colorTextPrimary">
+              Finding the caramel frappuccino <span class="colorTextSecondary"> (with extra sauce)</span> closest to you
+            </h1>
+            <p class="body-1 pt2 colorTextSecondary">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Integer tincidunt velit ut nisi pulvinar, ac consectetur erat rhoncus.
             </p>
           </div>
         </div>

@@ -235,8 +235,9 @@ Typography
 }
 
 .heading-2 {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 400;
+  line-height: 1.25;
 }
 
 .caption {
@@ -247,7 +248,7 @@ Typography
 }
 
 .body-1 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.69;
 }
@@ -390,8 +391,6 @@ img {
 
 header {
   margin: 0rem;
-  /* visibility: hidden; */
-  /* position: absolute; */
 }
 
 /* Global Classes */
@@ -411,47 +410,28 @@ header {
 /* Images */
 
 .web-app-img-1 {
-  position: absolute;
-  /* left:10%; */
-  top:130px;
-  right:380px;
-  width:286px;
-  /* width:41%; */
-  z-index:2;
-}
-
-.web-app-img-2 {
-  position: absolute;
-  width: 1000px;
-  /* width: 150%; */
-  right:-400px;
-  top: -95px;
-}
-
-.web-app-img-3 {
   position: relative;
   width: 160%;
   left: -.8rem;
 }
 
-
-body {
-  overflow-x: hidden;
-}
-
-.heading-2 {
-  font-size: 24px;
-}
-
-.body-1 {
-  font-size: 16px;
-}
-/* .screen-combo {
-  background-image: url("/img/web-app/screen-combo.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position:right;
+/* .web-app-img-2 {
+  position: absolute;
+  width: 80%;
+  top: 0;
+  right:-600px;
+  top:-200px;
+  z-index:-1;
 } */
+
+.web-app-img-2 {
+  position: relative;
+  width: 140%;
+  z-index:-1;
+}
+
+/* Typography */
+
 
 
 
@@ -474,15 +454,7 @@ Breakpoints
     padding-right: 6vw;
   }
 
-  /* .heading-2 {
-    font-size: 2.7vw;
-  }
-
-  .body-1 {
-    font-size: 1.6vw;
-  } */
-
-  .web-app-img-3 {
+  .web-app-img-1 {
     position: relative;
     width: 100%;
     left:0;
@@ -493,28 +465,37 @@ Breakpoints
 /* --breakpointMd */
 @media only screen and (min-width: 950px) {
 
-  .grid {
-    /* padding-left: 4.8rem;
-    padding-right: 4.8rem; */
-  }
 
-  .heading-2 {
-    font-size: 2.7vw;
-  }
-
+/* Typography */
   .body-1 {
-    font-size: 1.6vw;
+  font-size: calc(16px + (18 - 16) * ((100vw - 950px) / (1280 - 950)));
   }
 
   .body-2 {
     font-size: 1.2vw;
   }
 
-  .web-app-img-3 {
+  .heading-2 {
+  font-size: calc(24px + (28 - 24) * ((100vw - 950px) / (1280 - 950)));
+  }
+
+
+/* Images */
+  .web-app-img-1 {
     width: 160%;
     left: 1.6rem;
   }
 
+  .web-app-img-2 {
+    position: relative;
+    width: 150%;
+    z-index:-1;
+    left: 80px;
+  }
+
+  .special-section{
+    margin-top:-224px;
+  }
 
 
 }
@@ -522,19 +503,6 @@ Breakpoints
 
 /* --breakpointLg */
 @media only screen and (min-width: 1024px) {
-
-  .grid {
-    /* padding-left: 8.0rem;
-    padding-right: 8.0rem; */
-  }
-
-  .heading-2 {
-    font-size: 2.7vw;
-  }
-
-  .body-1 {
-    font-size: 1.6vw;
-  }
 
   .body-2 {
     font-size: 1.25vw;
@@ -544,33 +512,36 @@ Breakpoints
     font-size: .9vw;
   }
 
+  /* .web-app-img-2 {
+    position: absolute;
+    width: 80%;
+    top: 0;
+    right: -280px;
+    top: -150px;
+    z-index:-1;
+  } */
+
+
 }
 
 
 /* --breakpointXl */
 @media only screen and (min-width: 1280px) {
 
-  .grid {
+  /* .grid {
     max-width:1200px;
-    /* padding-left: 9.6rem;
-    padding-right: 9.6rem; */
-    /* margin:auto; */
-  }
-
-  .heading-2 {
-    font-size: 2.2vw;
-  }
+  } */
 
   .body-1 {
-    font-size: 1.25vw;
-  }
-
-  .body-2 {
-    font-size: 1vw;
+    font-size: 18px;
   }
 
   .body-2 {
     font-size: .85vw;
+  }
+
+  .heading-2 {
+    font-size: 28px;
   }
 
 }
@@ -579,10 +550,5 @@ Breakpoints
 /* --breakpointXxl */
 @media only screen and (min-width: 1440px) {
 
-  .grid {
-    /* max-width: 1640px;
-    margin:0 auto; */
-
-  }
 
 }
