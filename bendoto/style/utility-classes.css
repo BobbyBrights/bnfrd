@@ -3,8 +3,25 @@ Grid
 ---------------------------------------- */
 
 .row, .nested-row {
+  display: -ms-flexbox;
+  display: -webkit-box;
   display: flex;
-  flex-flow: row wrap;
+  -ms-flex: 0 1 auto;
+  -webkit-box-flex: 0;
+  flex: 0 1 auto;
+  -ms-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.row:before,
+.row:after ,
+.nested-row:before,
+.nested-row:after {
+   width: 0;
 }
 
 .row {
@@ -21,6 +38,8 @@ Grid
     padding-right: 2.4rem;
     padding-left: 2.4rem;
     flex-basis:100%;
+    -ms-flex-preferred-size: 100%;
+    max-width: 100%;
   }
 
   .nested-row {
@@ -69,18 +88,18 @@ Grid
     margin-right:-1.6rem;
   }
 
-  .sm-c1 {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
-  .sm-c2 {flex-basis:16.66%; -ms-flex-preferred-size: 16.667%}
-  .sm-c3 {flex-basis:25%; -ms-flex-preferred-size: 25%}
-  .sm-c4 {flex-basis:33.333%; -ms-flex-preferred-size: 33.333%}
-  .sm-c5 {flex-basis:41.66%; -ms-flex-preferred-size: 41.66%}
-  .sm-c6 {flex-basis:50%; -ms-flex-preferred-size: 50%;}
-  .sm-c7 {flex-basis:58.33%; -ms-flex-preferred-size:58.33%;}
-  .sm-c8 {flex-basis:66.66%; -ms-flex-preferred-size: 66.66%;}
-  .sm-c9 {flex-basis:75%; -ms-flex-preferred-size: 75%;}
-  .sm-c10 {flex-basis:83.33%; -ms-flex-preferred-size: 83.33%;}
-  .sm-c11 {flex-basis:91.66%; -ms-flex-preferred-size: 91.66%;}
-  .sm-c12 {flex-basis:100%; -ms-flex-preferred-size: 100%;}
+  .sm-c1 {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%; max-width: 8.333%;}
+  .sm-c2 {flex-basis:16.66%; -ms-flex-preferred-size: 16.667%; max-width: 16.667%;}
+  .sm-c3 {flex-basis:25%; -ms-flex-preferred-size: 25%; max-width: 25%;}
+  .sm-c4 {flex-basis:33.333%; -ms-flex-preferred-size: 33.333%; max-width: 33.333%;}
+  .sm-c5 {flex-basis:41.66%; -ms-flex-preferred-size: 41.66%; max-width: 41.66%;}
+  .sm-c6 {flex-basis:50%; -ms-flex-preferred-size: 50%; max-width: 50%;}
+  .sm-c7 {flex-basis:58.33%; -ms-flex-preferred-size:58.33%; max-width: 58.33%;}
+  .sm-c8 {flex-basis:66.66%; -ms-flex-preferred-size: 66.66%; max-width: 66.66%;}
+  .sm-c9 {flex-basis:75%; -ms-flex-preferred-size: 75%; max-width: 75%;}
+  .sm-c10 {flex-basis:83.33%; -ms-flex-preferred-size: 83.33%; max-width: 83.333%;}
+  .sm-c11 {flex-basis:91.66%; -ms-flex-preferred-size: 91.66%; max-width: 91.66%;}
+  .sm-c12 {flex-basis:100%; -ms-flex-preferred-size: 100%; max-width: 100%;}
 
   .sm-c1,
   .sm-c2,
@@ -117,6 +136,7 @@ Grid
 
 /* --breakpointMd */
 @media only screen and (min-width: 950px) {
+
 
   .md-c1 {flex-basis:8.33%; -ms-flex-preferred-size: 8.333%;}
   .md-c2 {flex-basis:16.66%; -ms-flex-preferred-size: 16.667%}

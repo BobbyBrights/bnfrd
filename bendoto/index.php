@@ -59,7 +59,7 @@
 
     <section>
 <!-- Project Intro Start -->
-			<div class="row py7">
+			<div class="row py7 colorWhite">
         <div class="sm-c12 md-c7 md-last">
           <img class="web-app-img-1" src="/img/web-app/screen-combo.png","/bendoto/img/web-app/screen-combo.png" alt="a delicious iced macchiatto">
         </div>
