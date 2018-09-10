@@ -404,9 +404,14 @@ ul {
 }
 
 .web-app-img-2 {
-  position: relative;
-  width: 140%;
-  z-index:-1;
+	position: relative;
+	width: 200%;
+	transform: rotate(-13deg);
+	z-index: -1;
+}
+
+.salad-section {
+	margin-top: -298px;
 }
 
 
@@ -423,6 +428,15 @@ Breakpoints
     width: 100%;
     left:0;
   }
+
+	.web-app-img-2 {
+		left: 3.2rem;
+		width: 100%;
+	}
+
+	.salad-section {
+		margin-top: -36%;
+	}
 
 }
 
@@ -462,6 +476,7 @@ Breakpoints
     z-index: -1;
     /* left: 80px; */
 		left: 13%;
+		transform: rotate(0);
   }
 
 
