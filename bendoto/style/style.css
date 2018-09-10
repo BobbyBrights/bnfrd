@@ -15,9 +15,7 @@ body, html {
     overflow-x: hidden;
 }
 
-/* ----------------------------------------
-Clearfixes
----------------------------------------- */
+/* Clearfixes */
 .row:before,.row:after,.clearfix:before,.clearfix:after{content:'';display:table}
 .row:after,.clearfix:after{clear:both}
 .row,.clearfix{zoom:1}
@@ -384,25 +382,15 @@ ul {
   list-style: none;
 }
 
-img {
-  /* max-width: 100%; */
-  height: auto;
-}
-
-header {
-  margin: 0rem;
-}
 
 /* Global Classes */
 
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-	flex-direction: row;
-}
-
 .relative {
   position: relative;
+}
+
+.max-fix {
+	max-width: 1268px;
 }
 
 
@@ -415,25 +403,11 @@ header {
   left: -.8rem;
 }
 
-/* .web-app-img-2 {
-  position: absolute;
-  width: 80%;
-  top: 0;
-  right:-600px;
-  top:-200px;
-  z-index:-1;
-} */
-
 .web-app-img-2 {
   position: relative;
   width: 140%;
   z-index:-1;
 }
-
-/* Typography */
-
-
-
 
 
 /* ----------------------------------------
@@ -443,16 +417,6 @@ Breakpoints
 /* --breakpointSm */
 @media only screen and (min-width: 480px) {
 
-  header {
-    margin: 2.4rem;
-  }
-
-  .grid {
-    /* padding-left: 2.4rem;
-    padding-right: 2.4rem; */
-    padding-left: 6vw;
-    padding-right: 6vw;
-  }
 
   .web-app-img-1 {
     position: relative;
@@ -480,6 +444,12 @@ Breakpoints
   }
 
 
+/* Sections */
+	.salad-section {
+		margin-top:-20%;
+	}
+
+
 /* Images */
   .web-app-img-1 {
     width: 160%;
@@ -489,13 +459,11 @@ Breakpoints
   .web-app-img-2 {
     position: relative;
     width: 150%;
-    z-index:-1;
-    left: 80px;
+    z-index: -1;
+    /* left: 80px; */
+		left: 13%;
   }
 
-  .special-section{
-    margin-top:-224px;
-  }
 
 
 }
@@ -512,14 +480,6 @@ Breakpoints
     font-size: .9vw;
   }
 
-  /* .web-app-img-2 {
-    position: absolute;
-    width: 80%;
-    top: 0;
-    right: -280px;
-    top: -150px;
-    z-index:-1;
-  } */
 
 
 }
@@ -527,10 +487,6 @@ Breakpoints
 
 /* --breakpointXl */
 @media only screen and (min-width: 1280px) {
-
-  /* .grid {
-    max-width:1200px;
-  } */
 
   .body-1 {
     font-size: 18px;
@@ -549,6 +505,13 @@ Breakpoints
 
 /* --breakpointXxl */
 @media only screen and (min-width: 1440px) {
+
+	/* Sections */
+		.salad-section {
+			margin-top:-288px;
+		}
+
+
 
 
 }

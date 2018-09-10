@@ -56,75 +56,70 @@
       </nav>
     </header> -->
 
-  <!-- Project Intro Start -->
-    <section>
 
-      <div class="grid">
-        <div class="row relative py7">
-          <div class="c12 sm-c12 md-c7 relative md-last">
-            <img class="web-app-img-1" src="/img/web-app/screen-combo.png","/bendoto/img/web-app/screen-combo.png" alt="a delicious iced macchiatto">
-          </div>
-          <div class="c12 mt4 sm-c12 md-c5 lg-mt0 vcenter">
-            <h1 class="heading-2 colorTextPrimary">
-              Starbucks PWA
-            </h1>
-            <p class="body-1 pt2 colorTextSecondary">
-              Starbucks had an online presence that was largely informational
-              and inconsistent with its native apps. With web seeing more than
-              double the traffic of its native apps, we saw an opportunity to
-              bring mobile ordering and other successful native features to the web.
-            </p>
-            <div class="box pt6 px0">
-              <div class="lg-c6 px0 sm-pr3">
-                <h3 class="caption colorTextPrimary">
-                  Role
-                </h3>
-                <p class="body-1 pt2 colorTextSecondary">
-                  Web / UX Design
-                </p>
-              </div>
-              <div class="pt6 px0 pl0 sm-c6 sm-pt0 sm-pl5 md-pl3 lg-c6">
-                <h3 class="caption colorTextPrimary">
-                  Credits
-                </h3>
-                <p class="body-1 pt2 colorTextSecondary">
-                  Jeremy Beasley, Carlyn Levy, Andrew Nedimyer, Cam Searcy
-                </p>
-              </div>
+    <section>
+<!-- Project Intro Start -->
+			<div class="row py7">
+        <div class="sm-c12 md-c7 md-last">
+          <img class="web-app-img-1" src="/img/web-app/screen-combo.png","/bendoto/img/web-app/screen-combo.png" alt="a delicious iced macchiatto">
+        </div>
+        <div class="sm-c12 md-c5 mt4 lg-mt0 vcenter">
+          <h1 class="heading-2 colorTextPrimary">
+            Starbucks PWA
+          </h1>
+          <p class="body-1 pt2 colorTextSecondary">
+            Starbucks had an online presence that was largely informational
+            and inconsistent with its native apps. With web seeing more than
+            double the traffic of its native apps, we saw an opportunity to
+            bring mobile ordering and other successful native features to the web.
+          </p>
+          <div class="nested-row pt6">
+            <div class="sm-c6">
+              <h3 class="caption colorTextPrimary">
+                Role
+              </h3>
+              <p class="body-1 pt2 colorTextSecondary">
+                Web / UX Design
+              </p>
+            </div>
+            <div class="sm-c6 pt6 sm-pt0">
+              <h3 class="caption colorTextPrimary">
+                Credits
+              </h3>
+              <p class="body-1 pt2 colorTextSecondary">
+                Jeremy Beasley, Carlyn Levy, Andrew Nedimyer, Cam Searcy
+              </p>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="full-width colorGrayNatural">
-        <div class="grid">
+<!-- Quote Section -->
+      <div class="colorGrayNatural">
           <div class="row py12 md-px10">
-            <h4 class="heading-2 centered-text c12">
+            <h4 class="c12 heading-2 centered-text">
               The Starbucks PWA takes advantage of many of the new capabilities and brings a modern web experience to their customers.
             </h4>
-            <p class="body-2 colorTextSecondary mt3 centered-text c12">Jenny Gove  |  Google I/O ’18
+            <p class="c12 mt3 body-2 colorTextSecondary centered-text">Jenny Gove  |  Google I/O ’18
             </p>
           </div>
-        </div>
       </div>
 
-      <div class="grid">
-        <div class="special-section row c12 relative py7">
-          <div class="c12 sm-c12 md-c7 md-last">
-            <img class="web-app-img-2" src="/img/web-app/phone-and-food-2.png","/bendoto/img/web-app/phone-and-food-2.png" alt="a delicious iced macchiatto">
-          </div>
-          <div class="c12 mt4 sm-c12 md-c5 md-py15 lg-mt0 vcenter">
-            <h1 class="heading-2 colorTextPrimary">
-              Finding the caramel frappuccino <span class="colorTextSecondary"> (with extra sauce)</span> closest to you
-            </h1>
-            <p class="body-1 pt2 colorTextSecondary">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Integer tincidunt velit ut nisi pulvinar, ac consectetur erat rhoncus.
-            </p>
-          </div>
+<!-- Salad and Drink Section -->
+      <div class="row salad-section py7">
+        <div class="md-c7 md-last">
+          <img class="web-app-img-2" src="/img/web-app/phone-and-food-2.png","/bendoto/img/web-app/phone-and-food-2.png" alt="a delicious iced macchiatto">
+        </div>
+        <div class="mt4 md-c5 md-mt16 vcenter">
+          <h1 class="heading-2 colorTextPrimary">
+            Finding the caramel frappuccino <span class="colorTextSecondary"> (with extra sauce)</span> closest to you
+          </h1>
+          <p class="body-1 pt2 colorTextSecondary">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Integer tincidunt velit ut nisi pulvinar, ac consectetur erat rhoncus.
+          </p>
         </div>
       </div>
-
     </section>
 
 
