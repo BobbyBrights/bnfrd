@@ -127,6 +127,18 @@ Fonts
   font-style: oblique;
 }
 
+@font-face {
+  font-family: 'Cooper-BT';
+  src: url('/fonts/CooperBT/CooperBT-Light.woff');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Cooper-BT';
+  src: url('/fonts/CooperBT/CooperBT-Medium.woff');
+  font-weight: 300;
+}
+
 body {
   font-family: GT-Walsheim, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
@@ -232,9 +244,16 @@ Typography
   font-weight: 400;
 }
 
-.heading-2 {
+/* .heading-2 {
   font-size: 24px;
   font-weight: 400;
+  line-height: 1.25;
+} */
+
+.heading-2 {
+	font-family:Cooper-BT;
+  font-size: 24px;
+  font-weight: 200;
   line-height: 1.25;
 }
 
@@ -410,9 +429,59 @@ ul {
 	z-index: -1;
 }
 
+.web-app-img-3 {
+	position: relative;
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+
+.web-app-img-4 {
+	position: relative;
+	width: 50%;
+	left: 20%;
+}
+
+.web-app-img-5 {
+	display: block;
+	margin:auto;
+	width: 100%;
+	-webkit-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.35);
+	-moz-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.35);
+	box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.15);
+	border-radius: 6px;
+}
+
+.web-app-img-6 {
+	display: block;
+	position: relative;
+	width: 100%;
+	-webkit-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.35);
+	-moz-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.35);
+	box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.15);
+	border-radius: 2px;
+}
+
+.web-app-img-7 {
+	display: block;
+	position: relative;
+	width: 100%;
+	-webkit-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.35);
+	-moz-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.35);
+	box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.15);
+	border-radius: 2px;
+	left: 31%;
+	top: -30%;
+}
+
 .salad-section {
 	margin-top: -298px;
 }
+
+.two-screen-section {
+	margin-bottom: -20%;
+}
+
 
 
 /* ----------------------------------------
@@ -478,6 +547,10 @@ Breakpoints
 		left: 13%;
 		transform: rotate(0);
   }
+
+	.web-app-img-5 {
+		width: 80%;
+	}
 
 
 

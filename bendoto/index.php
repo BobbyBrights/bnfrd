@@ -69,9 +69,9 @@
           </h1>
           <p class="body-1 pt2 colorTextSecondary">
             Starbucks had an online presence that was largely informational
-            and inconsistent with its native apps. With web seeing more than
+            and inconsistent with its native apps. With the web seeing more than
             double the traffic of its native apps, we saw an opportunity to
-            bring mobile ordering and other successful native features to the web.
+            bring mobile ordering along with the other native features to the web.
           </p>
           <div class="nested-row pt6">
             <div class="sm-c6">
@@ -120,6 +120,61 @@
           </p>
         </div>
       </div>
+
+			<!-- Two Phones Section -->
+			<div class="row colorGrayNatural py8 sm-py12">
+				<div class="sm-c6">
+					<img class="web-app-img-3" src="/img/web-app/two-phones.png","/bendoto/img/web-app/two-phones.png" alt="Two phones">
+				</div>
+				<div class="pt4 sm-pt0 sm-c6 vcenter">
+					<h2 class="heading-2 colorTextPrimary">
+						A consistent experience, no matter what device
+					</h2>
+					<p class="body-1 pt2 colorTextSecondary">
+						Using the Starbucks Digital Design System ensures that the Starbucks Digital experience is consistent across all platforms.
+					</p>
+				</div>
+			</div>
+
+			<!-- One Phone Section -->
+			<div class="row colorWhite py8 sm-py12">
+				<div class="sm-c6 sm-last">
+					<img class="web-app-img-4" src="/img/web-app/single-phone.png","/bendoto/img/web-app/single-phone.png" alt="One phone">
+				</div>
+				<div class="pt4 sm-pt0 sm-c6 vcenter">
+					<h2 class="heading-2 colorTextPrimary">
+						Filters allow users to find stores that fit their needs
+					</h2>
+					<p class="body-1 pt2 colorTextSecondary">
+						If you’re looking for a store with a drive-thru or a limited item. You’re burning the midnight oil and need a store open late. With stores you can filter stores by your specific needs.
+					</p>
+				</div>
+			</div>
+
+			<!-- Comps Section -->
+			<div class="row colorWhite py8 sm-py12">
+				<div class="sm-c12">
+					<img class="web-app-img-5" src="/img/web-app/stores-desktop.png","/bendoto/img/web-app/stores-desktop.png" alt="One phone">
+				</div>
+			</div>
+
+			<!-- 2 Screens Offset Section -->
+			<div class="row colorWhite py8 sm-py12">
+				<div class="two-screen-section md-c6 md-last">
+					<img class="web-app-img-6" src="/img/web-app/product-screen.png","/bendoto/img/web-app/product-screen.png" alt="One phone">
+					<img class="web-app-img-7" src="/img/web-app/menu-screen.png","/bendoto/img/web-app/menu-screen.png" alt="One phone">
+				</div>
+				<div class="sm-pt0 md-c6 vcenter">
+					<h2 class="heading-2 colorTextPrimary">
+						Filters allow users to find stores that fit their needs
+					</h2>
+					<p class="body-1 pt2 colorTextSecondary">
+						Using the Starbucks Digital Design System ensures that the Starbucks Digital experience is consistent across all platforms.
+					</p>
+				</div>
+			</div>
+
+
     </section>
 
 
