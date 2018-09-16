@@ -513,6 +513,7 @@ Starbucks Stores
 	position: relative;
 	width: 200%;
 	transform: rotate(-13deg);
+	overflow: hidden;
 }
 
 
@@ -553,6 +554,7 @@ Breakpoints
 	.stores-hero {
 		left: 3.2rem;
 		width: 100%;
+		overflow: visible;
 	}
 
 }
