@@ -44,19 +44,6 @@
 </head>
 
 <body>
-  <!-- Global Nav Start -->
-    <!-- <header>
-      <nav class="row">
-        <div class="nav-brand vcenter body-2 p3">
-          Ben Ford
-        </div>
-        <h3 class="body-2 ml-auto p4">
-          About
-        </h3>
-      </nav>
-    </header> -->
-
-
 
 <!-- Project Hero Start -->
 			<section class="row py7 colorWhite">
@@ -64,14 +51,14 @@
           <img class="web-app-img-1" src="/img/web-app/screen-combo.png","/bendoto/img/web-app/screen-combo.png" alt="a delicious iced macchiatto">
         </figure>
         <article class="sm-c12 md-c5 mt4 lg-mt0 vcenter">
-          <h3 class="caption colorPink pb3 md-pb4">
-            starbucks web app
+          <h3 class="caption colorPurple pb3 md-pb4">
+            starbucks digital design system
           </h3>
           <h1 class="heading-1 colorTextPrimary pb2 md-pb4">
-            Redesigning Starbucks.com
+            62 countries.<br> <span class="italic">One design system.</span>
           </h1>
           <p class="body-1 colorTextSecondary">
-            Redesigning the Starbucks website to provide customers with a modern digital brand experience.
+            Unifying the Starbucks brand experience on a global scale.
           </p>
         </article>
       </section>
@@ -80,7 +67,7 @@
       <section class="colorGrayNatural">
         <article class="row hcenter top py8 sm-py12">
           <div class="md-c4 lg-c3">
-            <div class="box inline-block mr5 md-block pb4">
+            <div class="box inline-block mr5 md-block pb4 md-pb2">
               <h4 class="caption md-pb2 colorTextPrimary">
                 Role
               </h4>
@@ -93,14 +80,15 @@
                 Year
               </h4>
               <p class="body-1 colorTextSecondary">
-                2017
+                2016
               </p>
             </div>
           </div>
           <p class="body-1 md-c8 lg-c6 colorTextSecondary">
-            Starbucks had an online presence that was largely informational and inconsistent with its native apps.
-             With web seeing more than double the traffic of its native apps, we saw an opportunity to bring mobile ordering and other successful native features to the web.
-             <br><br><a class="colorPink" href="http://app.starbucks.com" target="_blank">app.starbucks.com</a>
+            One of the world’s most iconic brands, Starbucks is known for its quality products and consistent customer experience.
+            With apps in 23 of its 80 markets, Starbucks’ digital reach was expansive but inconsistent.
+            With no unified design language and apps being designed by different agencies in every market,
+            they needed a way to bring their ubiquitous brand experience to the digital space.
           </p>
         </article>
       </section>

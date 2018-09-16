@@ -139,12 +139,23 @@ Fonts
 
 @font-face {
   font-family: 'Cooper-BT';
+  src: url('/fonts/CooperBT/CooperBT-Light Italic.woff');
+  font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cooper-BT';
   src: url('/fonts/CooperBT/CooperBT-Medium.woff');
   font-weight: 300;
 }
 
 body {
   font-family: GT-Walsheim, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.italic {
+	font-style: italic;
 }
 
 /* ----------------------------------------
@@ -232,6 +243,10 @@ Colors
 .colorTextWhiteSecondary {color: rgba(255, 255, 255, .70);}
 
 .colorPink {color: #FF95C9;}
+
+.colorPurple {color: #B38AFF;}
+
+.colorPeriwinkle {color: #96B2FF;}
 
 
 /* ----------------------------------------
@@ -416,7 +431,9 @@ ul {
 	display:inline-block;
 }
 
-
+/* ----------------------------------------
+Starbucks Web App
+---------------------------------------- */
 
 /* Images */
 
@@ -488,6 +505,16 @@ ul {
 }
 
 
+/* ----------------------------------------
+Starbucks Stores
+---------------------------------------- */
+
+.stores-hero {
+	position: relative;
+	width: 200%;
+	transform: rotate(-13deg);
+}
+
 
 /* ----------------------------------------
 Breakpoints
@@ -504,6 +531,8 @@ Breakpoints
 		display:inline-block;
 	}
 
+	/* Web App */
+
   .web-app-img-1 {
     position: relative;
     width: 100%;
@@ -517,6 +546,13 @@ Breakpoints
 
 	.salad-section {
 		margin-top: -36%;
+	}
+
+	/* Stores */
+
+	.stores-hero {
+		left: 3.2rem;
+		width: 100%;
 	}
 
 }
@@ -547,6 +583,8 @@ Breakpoints
   }
 
 
+/* Web App */
+
 /* Sections */
 	.salad-section {
 		margin-top:-20%;
@@ -571,6 +609,15 @@ Breakpoints
 	.web-app-img-5 {
 		width: 80%;
 	}
+
+	/* Starbucks Stores */
+	.stores-hero {
+    position: relative;
+    width: 150%;
+		left: 13%;
+		transform: rotate(0);
+  }
+
 
 
 
