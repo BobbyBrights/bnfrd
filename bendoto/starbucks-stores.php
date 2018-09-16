@@ -47,7 +47,7 @@
 
 <!-- Project Hero Start -->
 			<section class="row salad-section py7 colorWhite">
-        <figure class="md-c7 md-last">
+        <figure class="md-c7 md-last overflow-hidden sm-overflow-visible">
           <img class="stores-hero" src="/img/web-app/phone-and-food-2.png","/bendoto/img/web-app/phone-and-food-2.png" alt="a delicious iced macchiatto">
         </figure>
         <article class="sm-c12 md-c5 mt4 md-mt16 vcenter">

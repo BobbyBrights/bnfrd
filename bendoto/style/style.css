@@ -431,6 +431,14 @@ ul {
 	display:inline-block;
 }
 
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.overflow-visible {
+	overflow: visible;
+}
+
 /* ----------------------------------------
 Starbucks Web App
 ---------------------------------------- */
@@ -513,7 +521,6 @@ Starbucks Stores
 	position: relative;
 	width: 200%;
 	transform: rotate(-13deg);
-	overflow: hidden;
 }
 
 
@@ -530,6 +537,14 @@ Breakpoints
 
 	.sm-inline-block {
 		display:inline-block;
+	}
+
+	.sm-overflow-hidden {
+		overflow: hidden;
+	}
+
+	.sm-overflow-visible {
+		overflow: visible;
 	}
 
 	/* Web App */
@@ -554,7 +569,6 @@ Breakpoints
 	.stores-hero {
 		left: 3.2rem;
 		width: 100%;
-		overflow: visible;
 	}
 
 }
