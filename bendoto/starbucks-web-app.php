@@ -58,49 +58,49 @@
 
 
 
-<!-- Project Intro Start -->
+<!-- Project Hero Start -->
 			<section class="row py7 colorWhite">
         <figure class="sm-c12 md-c7 md-last">
           <img class="web-app-img-1" src="/img/web-app/screen-combo.png","/bendoto/img/web-app/screen-combo.png" alt="a delicious iced macchiatto">
         </figure>
         <article class="sm-c12 md-c5 mt4 lg-mt0 vcenter">
-          <h1 class="heading-2 colorTextPrimary">
-            Starbucks PWA
+          <h3 class="caption colorPink pb3 md-pb4">
+            starbucks web app
+          </h3>
+          <h1 class="heading-1 colorTextPrimary pb2 md-pb4">
+            Redesigning Starbucks.com
           </h1>
-          <p class="body-1 pt2 colorTextSecondary">
-            Starbucks had an online presence that was largely informational
-            and inconsistent with its native apps. With the web seeing more than
-            double the traffic of its native apps, we saw an opportunity to
-            bring mobile ordering along with the other native features to the web.
+          <p class="body-1 colorTextSecondary">
+            Redesigning the Starbucks website to provide customers with a modern digital brand experience.
           </p>
-          <div class="nested-row pt6">
-            <div class="sm-c6">
-              <h3 class="caption colorTextPrimary">
-                Role
-              </h3>
-              <p class="body-1 pt2 colorTextSecondary">
-                Web / UX Design
-              </p>
-            </div>
-            <div class="sm-c6 pt6 sm-pt0">
-              <h3 class="caption colorTextPrimary">
-                Credits
-              </h3>
-              <p class="body-1 pt2 colorTextSecondary">
-                Jeremy Beasley, Carlyn Levy, Andrew Nedimyer, Cam Searcy
-              </p>
-            </div>
-          </div>
         </article>
       </section>
 
-<!-- Quote Section -->
+<!-- Project Details Section -->
       <section class="colorGrayNatural">
-        <article class="row py12 md-px10">
-          <h4 class="c12 heading-2 centered-text">
-            The Starbucks PWA takes advantage of many of the new capabilities and brings a modern web experience to their customers.
-          </h4>
-          <p class="c12 mt3 body-2 colorTextSecondary centered-text">Jenny Gove  |  Google I/O ’18
+        <article class="row hcenter top py12">
+          <div class="md-c4 lg-c3">
+            <div class="box block sm-inline-block md-block">
+              <h4 class="caption md-pb2 colorTextPrimary">
+                Role
+              </h4>
+              <p class="body-1 md-pb5 colorTextSecondary">
+                Product Designer
+              </p>
+            </div>
+            <div class="box block sm-inline-block md-block">
+              <h4 class="caption md-pb2 colorTextPrimary">
+                Year
+              </h4>
+              <p class="body-1 colorTextSecondary">
+                2017
+              </p>
+            </div>
+          </div>
+          <p class="body-1 md-c8 lg-c6 colorTextSecondary">
+            Starbucks had an online presence that was largely informational and inconsistent with its native apps.
+             With web seeing more than double the traffic of its native apps, we saw an opportunity to bring mobile ordering and other successful native features to the web.
+             <br><br><a class="colorPink" href="http://app.starbucks.com" target="_blank">app.starbucks.com</a>
           </p>
         </article>
       </section>

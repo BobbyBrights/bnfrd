@@ -11,8 +11,12 @@ blockquote, q { quotes: none; }
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
 table { border-spacing: 0; }
 
-body, html {
+html {
     overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
 }
 
 /* Clearfixes */
@@ -227,28 +231,20 @@ Colors
 
 .colorTextWhiteSecondary {color: rgba(255, 255, 255, .70);}
 
+.colorPink {color: #FF95C9;}
+
 
 /* ----------------------------------------
 Typography
 ---------------------------------------- */
-/* .display-1 {
-  font-weight: 400;
-}
-
-.display-2 {
-  font-size: 31px;
-} */
 
 .heading-1 {
-  font-size: 42px;
-  font-weight: 400;
+	font-family:Cooper-BT;
+  font-size: 40px;
+  font-weight: 200;
+	line-height: 1.1;
 }
 
-/* .heading-2 {
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1.25;
-} */
 
 .heading-2 {
 	font-family:Cooper-BT;
@@ -258,7 +254,7 @@ Typography
 }
 
 .caption {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -412,6 +408,14 @@ ul {
 	max-width: 1268px;
 }
 
+.block {
+	display: block;
+}
+
+.inline-block {
+	display:inline-block;
+}
+
 
 
 /* Images */
@@ -439,7 +443,8 @@ ul {
 .web-app-img-4 {
 	position: relative;
 	width: 50%;
-	left: 20%;
+	display: block;
+	margin:auto;
 }
 
 .web-app-img-5 {
@@ -491,6 +496,13 @@ Breakpoints
 /* --breakpointSm */
 @media only screen and (min-width: 480px) {
 
+	.sm-block {
+		display: block;
+	}
+
+	.sm-inline-block {
+		display:inline-block;
+	}
 
   .web-app-img-1 {
     position: relative;
@@ -512,14 +524,22 @@ Breakpoints
 /* --breakpointMd */
 @media only screen and (min-width: 950px) {
 
+	.md-block {
+		display: block;
+	}
+
+	.md-inline-block {
+		display:inline-block;
+	}
+
 
 /* Typography */
   .body-1 {
-  font-size: calc(16px + (18 - 16) * ((100vw - 950px) / (1280 - 950)));
+  font-size: calc(16px + (17 - 16) * ((100vw - 950px) / (1280 - 950)));
   }
 
-  .body-2 {
-    font-size: 1.2vw;
+	.heading-1 {
+  font-size: calc(40px + (47 - 40) * ((100vw - 950px) / (1280 - 950)));
   }
 
   .heading-2 {
@@ -560,13 +580,18 @@ Breakpoints
 /* --breakpointLg */
 @media only screen and (min-width: 1024px) {
 
+	.lg-block {
+		display: block;
+	}
+
+	.lg-inline-block {
+		display:inline-block;
+	}
+
   .body-2 {
     font-size: 1.25vw;
   }
 
-  .caption {
-    font-size: .9vw;
-  }
 
 
 
@@ -576,13 +601,21 @@ Breakpoints
 /* --breakpointXl */
 @media only screen and (min-width: 1280px) {
 
+	.xl-block {
+		display: block;
+	}
+
+	.xl-inline-block {
+		display:inline-block;
+	}
+
   .body-1 {
-    font-size: 18px;
+    font-size: 17px;
   }
 
-  .body-2 {
-    font-size: .85vw;
-  }
+	.heading-1 {
+		font-size: 47px;
+	}
 
   .heading-2 {
     font-size: 28px;
@@ -593,6 +626,14 @@ Breakpoints
 
 /* --breakpointXxl */
 @media only screen and (min-width: 1440px) {
+
+	.xxl-block {
+		display: block;
+	}
+
+	.xxl-inline-block {
+		display:inline-block;
+	}
 
 	/* Sections */
 		.salad-section {
