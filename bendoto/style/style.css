@@ -16,7 +16,7 @@ body {
 }
 
 figure {
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 a {
