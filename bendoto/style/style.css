@@ -15,6 +15,10 @@ body {
     overflow-x: hidden;
 }
 
+section {
+	overflow-x: hidden;
+}
+
 a {
 	text-decoration: none;
 }
