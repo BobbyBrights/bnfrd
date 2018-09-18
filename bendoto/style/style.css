@@ -442,9 +442,6 @@ figure {
 
 
 
-
-
-
 /* ----------------------------------------
 -------------------------------------------
 ---------------Breakpoints-----------------
@@ -454,6 +451,10 @@ figure {
 /* --breakpointSm */
 @media only screen and (min-width: 480px) {
 
+	figure {
+		overflow: visible;
+	}
+
 	.sm-block {
 		display: block;
 	}
@@ -461,6 +462,7 @@ figure {
 	.sm-inline-block {
 		display:inline-block;
 	}
+
 
 /* ----------------------------------------
 Web App
