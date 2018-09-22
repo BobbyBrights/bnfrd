@@ -7,7 +7,7 @@
 <!-- Project Hero Start -->
 			<section class="row py7 colorWhite">
         <figure class="sm-c12 md-c8 md-py5 md-last">
-          <img class="web-app-hero" src="/img/web-app/web-app-hero.png" width="100" height="100" alt="a delicious iced macchiatto">
+          <img class="web-app-hero" src="/img/web-app/web-app-hero.png" alt="a delicious iced macchiatto">
         </figure>
         <article class="sm-c12 md-c4 mt4 lg-mt0 vcenter">
           <h3 class="caption colorPink pb3 md-pb4">
