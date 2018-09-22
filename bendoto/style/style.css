@@ -278,9 +278,14 @@ Type Styles
 }
 
 .body-2 {
+	font-family:GT-Walsheim;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.49;
+}
+
+.bold {
+	font-weight: 500;
 }
 
 
@@ -321,6 +326,10 @@ figure {
   position: relative;
 }
 
+.absolute {
+	position: absolute;
+}
+
 .max-fix {
 	max-width: 1268px;
 }
@@ -336,12 +345,39 @@ figure {
 
 /* ----------------------------------------
 -------------------------------------------
+-------------------Home--------------------
+-------------------------------------------
+---------------------------------------- */
+
+.tiles {
+	width:100%;
+}
+
+.tile-1 > article, .tile-2 > article, .tile-3 > article, .tile-4 > article, .tile-5 > article {
+	margin-top: -24px;
+}
+
+.tile-1, .tile-2, .tile-3, .tile-4, .tile-5, .tile-6, .tile-7 {
+	margin-bottom: 24px;
+}
+
+
+
+
+
+
+/* ----------------------------------------
+-------------------------------------------
 -----------Starbucks Web App---------------
 -------------------------------------------
 ---------------------------------------- */
 
 
 /* Images */
+
+.web-app-hero {
+	width: 100%;
+}
 
 .web-app-img-1 {
   position: relative;
@@ -400,6 +436,10 @@ figure {
 	border-radius: 2px;
 	left: 31%;
 	top: -30%;
+}
+
+.web-app-svg-1 {
+	width: 20%;
 }
 
 /* Sections ///////////////////////////////*/
@@ -463,10 +503,33 @@ figure {
 		display:inline-block;
 	}
 
+/* ----------------------------------------
+Home -- Sm
+---------------------------------------- */
+
+.tile-1, .tile-2, .tile-3, .tile-4, .tile-5, .tile-6, .tile-7 {
+	margin-bottom: 0px;
+}
+
+
 
 /* ----------------------------------------
-Web App
+Web App -- Sm
 ---------------------------------------- */
+
+	.tile-1 {
+		width:100%;
+	}
+
+
+/* ----------------------------------------
+Web App -- Sm
+---------------------------------------- */
+
+	.web-app-hero {
+		width: 100%;
+		left: 0;
+	}
 
   .web-app-img-1 {
     position: relative;
@@ -484,7 +547,7 @@ Web App
 	}
 
 /* ----------------------------------------
-Starbucks Stores
+Starbucks Stores -- Sm
 ---------------------------------------- */
 
 	.stores-hero {
@@ -522,7 +585,29 @@ Starbucks Stores
 
 
 /* ----------------------------------------
-Web App
+Home -- Md
+---------------------------------------- */
+
+	.tile-3 {
+		margin-left:-16px;
+	}
+
+	.tile-1 > article {
+		margin-top:-24px;
+	}
+
+	.tile-2 > article {
+		margin-top:-128px;
+		margin-left:-32px;
+	}
+
+	.tile-3 > article {
+		margin-top: -32px;
+		margin-left: 56px;
+	}
+
+/* ----------------------------------------
+Web App -- Md
 ---------------------------------------- */
 
 /* Sections */
@@ -532,6 +617,12 @@ Web App
 
 
 /* Images */
+
+	.web-app-hero {
+		width: 130%;
+		left: -4rem;
+	}
+
   .web-app-img-1 {
     width: 160%;
     left: 1.6rem;
@@ -551,7 +642,7 @@ Web App
 	}
 
 /* ----------------------------------------
-Starbucks Stores
+Starbucks Stores -- Md
 ---------------------------------------- */
 
 	.stores-hero {

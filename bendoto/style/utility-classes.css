@@ -2,7 +2,7 @@
 Grid
 ---------------------------------------- */
 
-.row, .nested-row {
+.row, .nested-row, .home-row {
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
@@ -27,6 +27,7 @@ Grid
 .row {
   max-width:1268px;
 }
+
 
   .c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12,
   .sm-c1, .sm-c2, .sm-c3, .sm-c4, .sm-c5, .sm-c6, .sm-c7, .sm-c8, .sm-c9, .sm-c10, .sm-c11, .sm-c12,
@@ -186,6 +187,11 @@ Grid
     padding-right: 6vw;
 	}
 
+  .home-row {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
   .nested-row {
     margin-left:-1.6rem;
     margin-right:-1.6rem;
@@ -269,6 +275,11 @@ Grid
   	box-sizing: border-box;
     padding-right: 1.6rem;
     padding-left: 1.6rem;
+  }
+
+  .home-row {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   /* Order */
