@@ -12,7 +12,7 @@ blockquote, q { quotes: none; }
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
 table { border-spacing: 0; }
 
-a {text-decoration: none;}
+a {text-decoration: none; color:inherit;}
 
 /* Clearfixes */
 .row:before,.row:after,.clearfix:before,.clearfix:after{content:'';display:table}
@@ -249,7 +249,7 @@ Colors
 Type Styles
 ---------------------------------------- */
 
-.heading-1 {
+.heading-1, .home-heading-1 {
 	font-family:Cooper-BT;
   font-size: 40px;
   font-weight: 200;
@@ -280,7 +280,7 @@ Type Styles
 .body-2 {
 	font-family:GT-Walsheim;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.49;
 }
 
@@ -353,7 +353,11 @@ figure {
 	width:100%;
 }
 
-.tile-1 > article, .tile-2 > article, .tile-3 > article, .tile-4 > article, .tile-5 > article {
+.home-row:nth-of-type(1) {
+	margin-top:24px;
+}
+
+.tile-1 > article, .tile-2 > article, .tile-3 > article, .tile-4 > article, .tile-5 > article, .tile-6 > article {
 	margin-top: -24px;
 }
 
@@ -503,12 +507,33 @@ figure {
 		display:inline-block;
 	}
 
+	.home-heading-1 {
+	font-size: calc(29px + (47 - 29) * ((100vw - 480px) / (1280 - 480)));
+	}
+
 /* ----------------------------------------
 Home -- Sm
 ---------------------------------------- */
 
 .tile-1, .tile-2, .tile-3, .tile-4, .tile-5, .tile-6, .tile-7 {
 	margin-bottom: 0px;
+}
+
+.home-row:nth-of-type(1) {
+	margin-top:64px;
+}
+
+.tile-3, .tile-5 {
+	margin-top:16px;
+}
+
+.tile-6 {
+	margin-bottom:-16%;
+}
+
+.tile-4 > article {
+	margin-top: -104px;
+	margin-left:-32px;
 }
 
 
@@ -588,12 +613,16 @@ Starbucks Stores -- Sm
 Home -- Md
 ---------------------------------------- */
 
+	.home-row:nth-of-type(1) {
+		margin-top:128px;
+	}
+
 	.tile-3 {
 		margin-left:-16px;
 	}
 
-	.tile-1 > article {
-		margin-top:-24px;
+	.tile-4 {
+		margin-top: -53px;
 	}
 
 	.tile-2 > article {
@@ -602,7 +631,6 @@ Home -- Md
 	}
 
 	.tile-3 > article {
-		margin-top: -32px;
 		margin-left: 56px;
 	}
 
@@ -688,7 +716,7 @@ Starbucks Stores -- Md
     font-size: 17px;
   }
 
-	.heading-1 {
+	.heading-1, .home-heading-1 {
 		font-size: 47px;
 	}
 
