@@ -342,6 +342,14 @@ figure {
 	display:inline-block;
 }
 
+.rotate-90 {
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
 
 /* ----------------------------------------
 -------------------------------------------
@@ -359,6 +367,11 @@ figure {
 
 .tile-1 > article, .tile-2 > article, .tile-3 > article, .tile-4 > article, .tile-5 > article, .tile-6 > article {
 	margin-top: -24px;
+}
+
+.tile-1 h3 {
+	left: -32px!important;
+	top: 68px!important;
 }
 
 .tile-1, .tile-2, .tile-3, .tile-4, .tile-5, .tile-6, .tile-7 {

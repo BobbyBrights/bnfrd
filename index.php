@@ -7,7 +7,8 @@
 <!-- Project Hero Start -->
 			<section class="home-row">
         <div class="tile-1 sm-c6 md-c4 md-offset-2">
-          <figure><a href="#">
+          <figure class="relative"><a href="#">
+						<h3 class="caption colorTextWhitePrimary absolute rotate-90">Product Design</h3>
             <img class="tiles" src="/img/home/tile-1.png" alt="a delicious iced macchiatto"></a>
           </figure>
           <article class="relative">
