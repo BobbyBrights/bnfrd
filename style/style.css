@@ -33,124 +33,124 @@ Fonts
 ---------------------------------------- */
 @font-face {
   font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Ultra-Light.woff2');
+  src: url('fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Ultra-Light.woff2');
   font-weight: 100;
 }
 
 @font-face {
   font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Ultra-Light-Oblique.woff2');
+  src: url('fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Ultra-Light-Oblique.woff2');
   font-weight: 100;
   font-style: oblique;
 }
 
 @font-face {
   font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Thin.woff2');
+  src: url('fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Thin.woff2');
   font-weight: 200;
 }
 
 @font-face {
   font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Thin-Oblique.woff2');
+  src: url('fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Thin-Oblique.woff2');
   font-weight: 200;
   font-style: oblique;
 }
 
 @font-face {
   font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Light.woff2');
+  src: url('fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Light.woff2');
   font-weight: 300;
 }
 
 @font-face {
   font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Light-Oblique.woff2');
+  src: url('fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Light-Oblique.woff2');
   font-weight: 300;
   font-style: oblique;
 }
 
 @font-face {
   font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Regular.woff2');
+  src: url('fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Regular.woff2');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Regular-Oblique.woff2');
+  src: url('fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Regular-Oblique.woff2');
   font-weight: 400;
   font-style: oblique;
 }
 
 @font-face {
   font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Medium.woff2');
+  src: url('fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Medium.woff2');
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Medium-Oblique.woff2');
+  src: url('fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Medium-Oblique.woff2');
   font-weight: 500;
   font-style: oblique;
 }
 
 @font-face {
   font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Bold.woff2');
+  src: url('fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Bold.woff2');
   font-weight: 600;
 }
 
 @font-face {
   font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Bold-Oblique.woff2');
+  src: url('fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Bold-Oblique.woff2');
   font-weight: 600;
   font-style: oblique;
 }
 
 @font-face {
   font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Black.woff2');
+  src: url('fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Black.woff2');
   font-weight: 700;
 }
 
 @font-face {
   font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Black-Oblique.woff2');
+  src: url('fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Black-Oblique.woff2');
   font-weight: 700;
   font-style: oblique;
 }
 
 @font-face {
   font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Ultra-Bold.woff2');
+  src: url('fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Ultra-Bold.woff2');
   font-weight: 800;
 }
 
 @font-face {
   font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Ultra-Bold-Oblique.woff2');
+  src: url('fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Ultra-Bold-Oblique.woff2');
   font-weight: 800;
   font-style: oblique;
 }
 
 @font-face {
   font-family: 'Cooper-BT';
-  src: url('/fonts/CooperBT/CooperBT-Light.woff');
+  src: url('fonts/CooperBT/CooperBT-Light.woff');
   font-weight: 200;
 }
 
 @font-face {
   font-family: 'Cooper-BT';
-  src: url('/fonts/CooperBT/CooperBT-Light Italic.woff');
+  src: url('fonts/CooperBT/CooperBT-Light Italic.woff');
   font-weight: 200;
 	font-style: italic;
 }
 
 @font-face {
   font-family: 'Cooper-BT';
-  src: url('/fonts/CooperBT/CooperBT-Medium.woff');
+  src: url('fonts/CooperBT/CooperBT-Medium.woff');
   font-weight: 300;
 }
 
