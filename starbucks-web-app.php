@@ -7,7 +7,7 @@
 <!-- Project Hero Start -->
 			<section class="row py7 colorWhite">
         <figure class="sm-c12 md-c8 md-py5 md-last">
-          <img class="web-app-hero" src="/img/web-app/web-app-hero.png","/bendoto/img/web-app/web-app-hero.png" alt="a delicious iced macchiatto">
+          <img class="web-app-hero" src="/img/web-app/web-app-hero.png" alt="a delicious iced macchiatto">
         </figure>
         <article class="sm-c12 md-c4 mt4 lg-mt0 vcenter">
           <h3 class="caption colorPink pb3 md-pb4">
@@ -54,7 +54,7 @@
 <!-- Ordering Section Start -->
 			<section class="row py7 colorWhite">
         <figure class="sm-c12 md-c7 md-last">
-          <img class="web-app-img-1" src="/img/web-app/screen-combo.png","/bendoto/img/web-app/screen-combo.png" alt="a delicious iced macchiatto">
+          <img class="web-app-img-1" src="/img/web-app/screen-combo.png" alt="a delicious iced macchiatto">
         </figure>
 				<article class="sm-c12 md-c4 mt4 lg-mt0 vcenter">
           <h3 class="caption colorPink pb3 md-pb2">
@@ -75,7 +75,7 @@
 				<div class="row py10">
 					<article class="md-c4 md-pr12">
 						<figure class="md-pb3">
-							<img class="web-app-svg-1" src="/img/web-app/icon-test.svg","/bendoto/img/web-app/icon-test.svg" alt="a delicious iced macchiatto">
+							<img class="web-app-svg-1" src="/img/web-app/icon-test.svg" alt="a delicious iced macchiatto">
 						</figure>
 						<h3 class="colorTextPrimary body-1 bold md-pb2">
 							New Revenue Stream
@@ -86,7 +86,7 @@
 					</article>
 					<article class="md-c4 md-pr12">
 						<figure class="md-pb3">
-							<img class="web-app-svg-1" src="/img/web-app/icon-test.svg","/bendoto/img/web-app/icon-test.svg" alt="a delicious iced macchiatto">
+							<img class="web-app-svg-1" src="/img/web-app/icon-test.svg" alt="a delicious iced macchiatto">
 						</figure>
 						<h3 class="colorTextPrimary body-1 bold md-pb2">
 							Increase in Ticket Size
@@ -97,7 +97,7 @@
 					</article>
 					<article class="md-c4 md-pr12">
 						<figure class="md-pb3">
-							<img class="web-app-svg-1" src="/img/web-app/icon-test.svg","/bendoto/img/web-app/icon-test.svg" alt="a delicious iced macchiatto">
+							<img class="web-app-svg-1" src="/img/web-app/icon-test.svg" alt="a delicious iced macchiatto">
 						</figure>
 						<h3 class="colorTextPrimary body-1 bold md-pb2">
 							Increase in Starbucks Card Load

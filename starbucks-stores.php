@@ -6,7 +6,7 @@
 <!-- Project Hero Start -->
 			<section class="row salad-section py7 colorWhite">
         <figure class="md-c7 md-last">
-          <img class="stores-hero" src="/img/web-app/phone-and-food-2.png","/bendoto/img/web-app/phone-and-food-2.png" alt="a delicious iced macchiatto">
+          <img class="stores-hero" src="/img/web-app/phone-and-food-2.png" alt="a delicious iced macchiatto">
         </figure>
         <article class="sm-c12 md-c5 mt4 md-mt16 vcenter">
           <h3 class="caption colorPeriwinkle pb3 md-pb4">

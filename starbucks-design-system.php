@@ -6,7 +6,7 @@
 <!-- Project Hero Start -->
 			<section class="row py7 colorWhite">
         <figure class="sm-c12 md-c7 md-last">
-          <img class="web-app-img-1" src="/img/web-app/screen-combo.png","/bendoto/img/web-app/screen-combo.png" alt="a delicious iced macchiatto">
+          <img class="web-app-img-1" src="/img/web-app/screen-combo.png" alt="a delicious iced macchiatto">
         </figure>
         <article class="sm-c12 md-c5 mt4 lg-mt0 vcenter">
           <h3 class="caption colorPurple pb3 md-pb4">
