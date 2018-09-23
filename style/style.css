@@ -320,6 +320,13 @@ figure {
 	overflow: hidden;
 }
 
+nav {
+	width:100%;
+	position: fixed;
+	top:0;
+	z-index: 5000;
+}
+
 /* Global Classes /////////////////////////*/
 
 .relative {
@@ -328,6 +335,10 @@ figure {
 
 .absolute {
 	position: absolute;
+}
+
+.fixed {
+	position: fixed;
 }
 
 .max-fix {
@@ -362,11 +373,11 @@ figure {
 }
 
 .home-row:nth-of-type(1) {
-	margin-top:24px;
+	margin-top:72px;
 }
 
-.tile-1 > article, .tile-2 > article, .tile-3 > article, .tile-4 > article, .tile-5 > article, .tile-6 > article {
-	margin-top: -24px;
+.home-row figure {
+	margin-bottom:-24px;
 }
 
 .tile-1 h3 {
@@ -512,6 +523,11 @@ figure {
 		overflow: visible;
 	}
 
+	footer div:nth-of-type(3) {
+		text-align: right;
+	}
+
+
 	.sm-block {
 		display: block;
 	}
@@ -524,6 +540,7 @@ figure {
 	font-size: calc(29px + (47 - 29) * ((100vw - 480px) / (1280 - 480)));
 	}
 
+
 /* ----------------------------------------
 Home -- Sm
 ---------------------------------------- */
@@ -533,7 +550,7 @@ Home -- Sm
 }
 
 .home-row:nth-of-type(1) {
-	margin-top:64px;
+	margin-top:104px;
 }
 
 .tile-3, .tile-5 {
@@ -544,10 +561,10 @@ Home -- Sm
 	margin-bottom:-16%;
 }
 
-.tile-4 > article {
+/* .tile-4 > article {
 	margin-top: -104px;
 	margin-left:-32px;
-}
+} */
 
 
 
@@ -706,10 +723,6 @@ Starbucks Stores -- Md
 	.lg-inline-block {
 		display:inline-block;
 	}
-
-  .body-2 {
-    font-size: 1.25vw;
-  }
 
 }
 
