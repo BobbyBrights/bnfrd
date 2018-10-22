@@ -1161,7 +1161,7 @@ hr {
 }
 
 .show {
-	display: block;
+	display: flex;
 }
 
 .justify {
@@ -1356,6 +1356,10 @@ a {
     border-top: 1px solid rgba(0,0,0,.2);
     border-bottom: none;
     background-color: rgba(0,0,0,.1);
+}
+
+.green-text {
+	color:#008248;
 }
 
 

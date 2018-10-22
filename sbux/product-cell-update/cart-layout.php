@@ -194,6 +194,27 @@
     </div>
     <hr>
     <div class="pricing-cell c12 mb4">
+      <div class="detail-row c12 pt1 pb1 hide" id="discount-row-25">
+        <div class="descriptor green-text">Discount
+        </div>
+        <div class="dot"></div>
+        <div class="price green-text">-$0.90
+        </div>
+      </div>
+      <div class="detail-row c12 pt1 pb1 hide" id="discount-row-50">
+        <div class="descriptor green-text">Discount
+        </div>
+        <div class="dot"></div>
+        <div class="price green-text">-$2.45
+        </div>
+      </div>
+      <div class="detail-row c12 pt1 pb1 hide" id="discount-row-150">
+        <div class="descriptor green-text">Discount
+        </div>
+        <div class="dot"></div>
+        <div class="price green-text">-$5.15
+        </div>
+      </div>
       <div class="detail-row c12 pt1 pb2">
         <div class="descriptor">Subtotal
         </div>

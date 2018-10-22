@@ -55,16 +55,19 @@ $("#150-action").click(function() {
   $("#total-price-150-original").toggleClass("hide");
   $("#price-150").toggleClass("hide");
   $("#dot-150").toggleClass("hide");
+  $("#discount-row-150").toggleClass("show");
 });
 
 $("#50-action").click(function() {
   $("#total-price-50").toggleClass("show");
   $("#total-price-50-original").toggleClass("hide");
+  $("#discount-row-50").toggleClass("show");
 });
 
 $("#25-action").click(function() {
   $("#price-25").toggleClass("show");
   $("#price-150").toggleClass("hide");
+  $("#discount-row-25").toggleClass("show");
 });
 
 $(".ghost-special").click(function() {
