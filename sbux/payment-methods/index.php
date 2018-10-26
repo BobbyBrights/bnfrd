@@ -10,7 +10,7 @@
 		<!-- Right Crate -->
 		<div class="sb-contentCrate">
 			<div class="sb-contentCrateContainer wide c12">
-        <div class="payment-header p3 md-p0 lg-mt7 text-bold text-upper colorTextBlackSoft text-xxs">
+        <div class="payment-header p3 md-p0 text-bold text-upper colorTextBlackSoft text-xxs">
           My Payment
         </div>
         <div class="card bigCorner md-mt3">
