@@ -126,6 +126,47 @@ $("body").on("click", ".minus", function() {
 
 
 
+// $('.dropdown').on('click', function() {
+//     $(".card-details").toggleClass("show").hide().slideDown(200);
+//     $(".dropdown-img").toggleClass("dropdown-spin");
+//
+// });
+
+$('.dropdown').on('click', function() {
+    $(this).toggleClass("dropdown-spin");
+
+});
+
+$('.dropdown-2').on('click', function() {
+    $(this).toggleClass("dropdown-spin");
+
+});
+
+
+$('.dropdown').on('click', function() {
+        if ($('.card-details').hasClass('hide')){
+          $('.card-details').removeClass('hide').hide().slideDown(200);
+        } else {
+            // $('.card-details').slideUp(200).addClass('hide');
+            $('.card-details').slideUp(200, function() {
+              $(this).addClass('hide');
+});
+          }
+        });
+
+  $('.dropdown-2').on('click', function() {
+          if ($('.card-details-2').hasClass('hide')){
+            $('.card-details-2').removeClass('hide').hide().slideDown(200);
+          } else {
+              // $('.card-details').slideUp(200).addClass('hide');
+              $('.card-details-2').slideUp(200, function() {
+                $(this).addClass('hide');
+  });
+            }
+          });
+
+
+
 </script>
 
 
