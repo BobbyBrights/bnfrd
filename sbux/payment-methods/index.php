@@ -40,7 +40,7 @@
               <p class="mt2">Seattle, WA, 98122</p>
             </div>
             <div class="buttons row c12 hend mr4 mt3">
-              <button class="button ghost-text green">remove</button>
+              <button class="button ghost-text green">Remove</button>
               <button class="button ghost-filled ml3 green">Edit</button>
             </div>
           </div>
@@ -71,7 +71,7 @@
               <p class="mt2">Seattle, WA, 98122</p>
             </div>
             <div class="buttons row c12 hend mr4 mt3">
-              <button class="button ghost-text green">remove</button>
+              <button class="button ghost-text green">Remove</button>
               <button class="button ghost-filled ml3 green">Edit</button>
             </div>
           </div>
