@@ -16,7 +16,7 @@
         <div class="card bigCorner md-mt3">
           <div class="c12 middle row p2 sm-p3 md-p2">
             <div class="card-and-number row">
-              <img class="card-img ml2" src="/sbux/payment-methods/mastercard.png" width="34" height="24" style="display:block">
+              <img class="card-img ml2" src="/sbux/payment-methods/img/mastercard.png" width="34" height="24" style="display:block">
               <div class="card-number text-sm vcenter ml3">x3665</div>
             </div>
             <div class="exp-and-dropdown ml-auto row">
@@ -40,14 +40,14 @@
               <p class="mt2">Seattle, WA, 98122</p>
             </div>
             <div class="buttons row c12 hend mr4 mt3">
-              <button class="button ghost-text green">Remove</button>
+              <button class="button ghost-text green">remove</button>
               <button class="button ghost-filled ml3 green">Edit</button>
             </div>
           </div>
           <hr>
           <div class="c12 middle row p2 sm-p3 md-p2">
             <div class="card-and-number row">
-              <img class="card-img ml2" src="/sbux/payment-methods/visa.png" width="34" height="24" style="display:block">
+              <img class="card-img ml2" src="/sbux/payment-methods/img/visa.png" width="34" height="24" style="display:block">
               <div class="card-number text-sm vcenter ml3">x1432</div>
             </div>
             <div class="exp-and-dropdown ml-auto row">
@@ -71,7 +71,7 @@
               <p class="mt2">Seattle, WA, 98122</p>
             </div>
             <div class="buttons row c12 hend mr4 mt3">
-              <button class="button ghost-text green">Remove</button>
+              <button class="button ghost-text green">remove</button>
               <button class="button ghost-filled ml3 green">Edit</button>
             </div>
           </div>
@@ -92,7 +92,7 @@
         <div class="card bigCorner md-mt3">
           <div class="c12 row p3 sm-p4 md-p3 nonstandard-hover">
             <div class="vcenter">
-              <img src="/sbux/payment-methods/chase.png" width="34" height="24" style="display:block">
+              <img src="/sbux/payment-methods/img/chase.png" width="34" height="24" style="display:block">
             </div>
             <div class="ml3 vcenter text-sm">
               Chase Pay
@@ -102,7 +102,7 @@
           <hr>
           <div class="c12 row p3 sm-p4 md-p3 nonstandard-hover">
             <div class="vcenter">
-              <img src="/sbux/payment-methods/visa-checkout.png" width="34" height="24" style="display:block">
+              <img src="/sbux/payment-methods/img/visa-checkout.png" width="34" height="24" style="display:block">
             </div>
             <div class="ml3 vcenter text-sm">
               Card from Visa Checkout
@@ -112,7 +112,7 @@
           <hr>
           <div class="c12 row p3 sm-p4 md-p3 nonstandard-hover">
             <div class="vcenter">
-              <img src="/sbux/payment-methods/apple-pay.svg" width="34" height="24" style="display:block">
+              <img src="/sbux/payment-methods/img/apple-pay.svg" width="34" height="24" style="display:block">
             </div>
             <div class="ml3 vcenter text-sm">
               Apple Pay
@@ -122,7 +122,7 @@
           <hr>
           <div class="c12 row p3 sm-p4 md-p3 nonstandard-hover">
             <div class="vcenter">
-              <img src="/sbux/payment-methods/g-pay.svg" width="34" height="24" style="display:block">
+              <img src="/sbux/payment-methods/img/g-pay.svg" width="34" height="24" style="display:block">
             </div>
             <div class="ml3 vcenter text-sm">
               Google Pay
@@ -132,7 +132,7 @@
           <hr>
           <div class="c12 row p3 sm-p4 md-p3 nonstandard-hover">
             <div class="vcenter">
-              <img src="/sbux/payment-methods/paypal.png" width="34" height="24" style="display:block">
+              <img src="/sbux/payment-methods/img/paypal.png" width="34" height="24" style="display:block">
             </div>
             <div class="ml3 vcenter text-sm">
               Paypal
