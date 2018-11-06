@@ -16,7 +16,7 @@
         <div class="card bigCorner md-mt3">
           <div class="c12 middle row p2 sm-p3 md-p2">
             <div class="card-and-number row">
-              <img class="card-img ml2" src="/img/mastercard.png" width="34" height="24" style="display:block">
+              <img class="card-img ml2" src="/sbux/payment-methods/img/mastercard.png" width="34" height="24" style="display:block">
               <div class="card-number text-sm vcenter ml3">x3665</div>
             </div>
             <div class="exp-and-dropdown ml-auto row">
@@ -46,7 +46,7 @@
           <hr>
           <div class="c12 middle row p2 sm-p3 md-p2">
             <div class="card-and-number row">
-              <img class="card-img ml2" src="/img/visa.png" width="34" height="24" style="display:block">
+              <img class="card-img ml2" src="/sbux/payment-methods/img/visa.png" width="34" height="24" style="display:block">
               <div class="card-number text-sm vcenter ml3">x1432</div>
             </div>
             <div class="exp-and-dropdown ml-auto row">
