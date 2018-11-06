@@ -27,8 +27,7 @@
 					    </div>
             </div>
           </div>
-          <hr>
-          <div class="card-details hide row my5 text-xxs pl9">
+          <div class="card-details hide row mb4 pt4 sm-pt6 text-xxs pl3 sm-pl10 md-pl9">
             <div class="name-info">
               <p class="text-bold">Name on card</p>
               <p class="mt2">Benjamin H Ford</p>
@@ -39,7 +38,7 @@
               <p class="mt2">1234 25th Ave</p>
               <p class="mt2">Seattle, WA, 98122</p>
             </div>
-            <div class="buttons row c12 hend mr4 mt3">
+            <div class="buttons row c12 hend mr4 mt5">
               <button class="button ghost-text green">Remove</button>
               <button class="button ghost-filled ml3 green">Edit</button>
             </div>
@@ -58,8 +57,7 @@
 					    </div>
             </div>
           </div>
-          <hr>
-          <div class="card-details-2 hide row mb4 mt6 text-xxs pl9">
+          <div class="card-details-2 hide row mb4 pt4 sm-pt6 text-xxs pl3 sm-pl10 md-pl9">
             <div class="name-info">
               <p class="text-bold">Name on card</p>
               <p class="mt2">Benjamin H Ford</p>
@@ -70,7 +68,7 @@
               <p class="mt2">1234 25th Ave</p>
               <p class="mt2">Seattle, WA, 98122</p>
             </div>
-            <div class="buttons row c12 hend mr4 mt3">
+            <div class="buttons row c12 hend mr4 mt5">
               <button class="button ghost-text green">Remove</button>
               <button class="button ghost-filled ml3 green">Edit</button>
             </div>
@@ -89,7 +87,7 @@
         <div class="payment-header p3 md-p0 mt7 text-bold text-upper colorTextBlackSoft text-xxs">
           other payment options
         </div>
-        <div class="card bigCorner md-mt3">
+        <div class="card bigCorner mb4 md-mt3">
           <div class="c12 row p3 sm-p4 md-p3 nonstandard-hover">
             <div class="vcenter">
               <img src="/img/chase.png" width="34" height="24" style="display:block">
