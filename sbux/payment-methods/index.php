@@ -90,7 +90,7 @@
         <div class="card bigCorner mb4 md-mt3">
           <div class="c12 row p3 sm-p4 md-p3 nonstandard-hover">
             <div class="vcenter">
-              <img src="/img/chase.png" width="34" height="24" style="display:block">
+              <img src="/sbux/payment-methods/img/chase.png" width="34" height="24" style="display:block">
             </div>
             <div class="ml3 vcenter text-sm">
               Chase Pay
@@ -100,7 +100,7 @@
           <hr>
           <div class="c12 row p3 sm-p4 md-p3 nonstandard-hover">
             <div class="vcenter">
-              <img src="/img/visa-checkout.png" width="34" height="24" style="display:block">
+              <img src="/sbux/payment-methods/img/visa-checkout.png" width="34" height="24" style="display:block">
             </div>
             <div class="ml3 vcenter text-sm">
               Card from Visa Checkout
@@ -110,7 +110,7 @@
           <hr>
           <div class="c12 row p3 sm-p4 md-p3 nonstandard-hover">
             <div class="vcenter">
-              <img src="/img/apple-pay.svg" width="34" height="24" style="display:block">
+              <img src="/sbux/payment-methods/img/apple-pay.svg" width="34" height="24" style="display:block">
             </div>
             <div class="ml3 vcenter text-sm">
               Apple Pay
@@ -120,7 +120,7 @@
           <hr>
           <div class="c12 row p3 sm-p4 md-p3 nonstandard-hover">
             <div class="vcenter">
-              <img src="/img/g-pay.svg" width="34" height="24" style="display:block">
+              <img src="/sbux/payment-methods/img/g-pay.svg" width="34" height="24" style="display:block">
             </div>
             <div class="ml3 vcenter text-sm">
               Google Pay
@@ -130,7 +130,7 @@
           <hr>
           <div class="c12 row p3 sm-p4 md-p3 nonstandard-hover">
             <div class="vcenter">
-              <img src="/img/paypal.png" width="34" height="24" style="display:block">
+              <img src="/sbux/payment-methods/img/paypal.png" width="34" height="24" style="display:block">
             </div>
             <div class="ml3 vcenter text-sm">
               Paypal
