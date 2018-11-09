@@ -52,10 +52,9 @@ $(".ghost").click(function() {
 
 $("#150-action").click(function() {
   $("#total-price-150").toggleClass("show");
-  $("#total-price-150-original").toggleClass("hide");
-  $("#price-150").toggleClass("hide");
-  $("#dot-150").toggleClass("hide");
   $("#discount-row-150").toggleClass("show");
+  $("#hate-this").toggleClass("show");
+
 });
 
 $("#50-action").click(function() {

@@ -324,6 +324,10 @@ Spacing
 .mr15 {margin-right: 112px;}
 .mr16 {margin-right: 120px;}
 
+.ml-auto {
+	margin-left: auto;
+}
+
 /* ----------------------------------------
 Colors
 ---------------------------------------- */
@@ -407,6 +411,8 @@ Colors
 .colorTextWhite {color: rgba(255, 255, 255, 1);}
 
 .colorTextWhiteSoft {color: rgba(255, 255, 255, .70);}
+
+.colorTextGreen {color: #008248;}
 
 
 /* ----------------------------------------
@@ -922,10 +928,14 @@ Start Coding Here 👇🏼
   line-height: 1.4;
 }
 
-.descriptor {
+.descriptor, .descriptor-special {
   padding-left: 96px;
   font-size: 13px;
   white-space: nowrap;
+}
+
+.descriptor-special {
+	font-size: 15px;
 }
 
 .detail-row {
@@ -1522,7 +1532,7 @@ Breakpoints
 
   }
 
-  .descriptor {
+  .descriptor, .descriptor-special {
     padding-left: 128px;
   }
 

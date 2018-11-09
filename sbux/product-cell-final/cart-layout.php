@@ -7,8 +7,6 @@
           <h1 class="sb-heading sb-heading--small">Latte Macchiato</h1>
           <div class="total-price" id="total-price-150-original">$4.25
           </div>
-          <div class="total-price hide" id="total-price-150">-150<span class="gold">★</span>
-          </div>
         </div>
       </div>
       <div class="detail-row c12">
@@ -25,8 +23,8 @@
         </div>
       </div>
       <div class="detail-row c12 pt1">
-        <div class="descriptor">150<span class="gold">★</span> item
-        </div>
+        <!-- <div class="descriptor">150<span class="gold">★</span> item
+        </div> -->
       </div>
       <div class="utility-row c12 pt1">
         <div class="utility-actions">
@@ -66,10 +64,18 @@
         <div class="descriptor">1 Sriracha packet
         </div>
       </div>
+      <div class="row c12 pt3 colorTextGreen text-bold hide" id="hate-this">
+        <p class="descriptor">
+          It’s on us! 125 Star Reward applied.
+        </p>
+        <p class="price ml-auto">
+          -125★
+        </p>
+      </div>
 
       <div class="detail-row c12 pt1 pb2">
-        <div class="descriptor">150<span class="gold">★</span> item
-        </div>
+        <!-- <div class="descriptor">150<span class="gold">★</span> item
+        </div> -->
       </div>
       <div class="utility-row c12 pt1">
         <div class="utility-actions">
@@ -106,8 +112,8 @@
       <div class="detail-row c12">
       </div>
       <div class="detail-row c12 pt1 pb2">
-        <div class="descriptor">50<span class="gold">★</span> item
-        </div>
+        <!-- <div class="descriptor">50<span class="gold">★</span> item
+        </div> -->
       </div>
       <div class="utility-row c12 pt1">
         <div class="utility-actions">
@@ -153,8 +159,8 @@
         </div>
       </div> -->
       <div class="detail-row c12 pt1">
-        <div class="descriptor">150<span class="gold">★</span> item
-        </div>
+        <!-- <div class="descriptor">150<span class="gold">★</span> item
+        </div> -->
       </div>
       <div class="detail-row c12 pt2 pb0">
         <div class="descriptor red-text bold">Sold out at this store
