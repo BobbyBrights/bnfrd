@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>info</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11,9 C11.4142136,9 11.75,9.33578644 11.75,9.75 L11.75,16.25 C11.75,16.6642136 11.4142136,17 11,17 C10.5857864,17 10.25,16.6642136 10.25,16.25 L10.25,9.75 C10.25,9.33578644 10.5857864,9 11,9 Z M11,7 C10.4477153,7 10,6.55228475 10,6 C10,5.44771525 10.4477153,5 11,5 C11.5522847,5 12,5.44771525 12,6 C12,6.55228475 11.5522847,7 11,7 Z M1.5349,11 C1.5349,16.2185957 5.78140432,20.4651 11,20.4651 C16.2196189,20.4651 20.4651,16.2185957 20.4651,11 C20.4651,5.78038107 16.2196189,1.5349 11,1.5349 C5.78140432,1.5349 1.5349,5.78038107 1.5349,11 Z M11,22 C4.93516279,22 0,17.0658605 0,11 C0,4.93413953 4.93516279,0 11,0 C17.0658605,0 22,4.93413953 22,11 C22,17.0658605 17.0658605,22 11,22" id="path-1"></path>
+    </defs>
+    <g id="info" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ui/info_24">
+            <rect id="Rectangle" fill="#FF0000" opacity="0" x="0" y="0" width="24" height="24"></rect>
+            <g id="icon/ui/info_dark-copy" stroke-width="1" transform="translate(1.000000, 1.000000)">
+                <g id="↳🎨Color/black_58">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <g id="Black-058%-(Secondary)" mask="url(#mask-2)" fill="#000000">
+                        <g transform="translate(-13.000000, -13.000000)" id="Rectangle-435-Copy-4">
+                            <rect x="0" y="0" width="48" height="48"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

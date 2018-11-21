@@ -1,0 +1,334 @@
+/*
+ * V-1.0
+ *
+ * Starbucks Webapp Design Playground
+ *
+ */
+
+/* ----------------------------------------
+HTML RESET
+---------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; font: inherit; vertical-align: baseline;
+}
+
+html {
+	font-size: 1.0rem;
+}
+
+html { visibility:hidden; }
+
+body {
+	font-size:100%;
+	line-height: 1;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	text-shadow: none;
+	font-family: Gotham;
+	background-color: #f7f7f7;
+  color: rgba(0,0,0,.87)
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+	outline: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	cursor:pointer;
+	padding:0;
+	margin:0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, label, legend { display: block; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-spacing: 0; }
+
+/* ----------------------------------------
+Clearfixes
+---------------------------------------- */
+.row:before,.row:after,.clearfix:before,.clearfix:after{content:'';display:table}
+.row:after,.clearfix:after{clear:both}
+.row,.clearfix{zoom:1}
+
+
+/* ----------------------------------------
+Fonts
+---------------------------------------- */
+
+@font-face {
+  /* Gotham 400, 1F0746AE386DF76B4.eot */
+  font-family: 'Gotham';
+  src: url('/fonts/gotham.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /* Gotham 700, 6BB629FAC2C10DA4B.eot */
+  font-family: 'Gotham';
+  src: url('/fonts/gotham-bold.woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+body {
+  font-family: Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+/* ----------------------------------------
+Typography
+---------------------------------------- */
+
+/* Option 2 */
+
+.mini-box {
+	height:100%;
+	width: 100%;
+	background:rgba(0,0,0,0);
+	z-index:1;
+	transform: scale(.4);
+	border-radius: 50px;
+	position: absolute;
+	top:0;
+	right:0;
+	transition: all .2s ease;
+	/* transition: all .2s ease; */
+}
+
+
+/* --------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+*/
+
+html, body {
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+input, button, submit { border:none; }
+
+.container {
+	height:100%;
+}
+.sb-headerCrate {
+  box-shadow: 0 0 2px 0 rgba(0,0,0,.24), 0 4px 4px 0 rgba(0,0,0,.12);
+  z-index: 50;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  display:flex;
+  flex-wrap: wrap;
+	position:fixed;
+	width:100%;
+}
+
+.sb-contentCrate {
+	padding-top: 126px;
+	height:100%;
+}
+
+.sb-navbar .row ul li:nth-child(4) {
+	display: none;
+}
+
+.sb-navbar {
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 74px;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+}
+
+.sb-navbar ul {
+  padding-left: 8px;
+}
+
+.sb-navbar ul li {
+  padding-left: 8px;
+}
+
+.sb-navbar-siren {
+  width: 40px;
+  height: 40px;
+  background-image: url('/sbux/button-animations/img/siren.png'), url('/img/siren.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-width: 40px;
+}
+
+.greeting {
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+
+.sb-contentCrateContainer {
+	position: relative;
+	height:100%;
+}
+
+/* ----------------------------------------
+Start Coding Here 👇🏼
+---------------------------------------- */
+
+.product-img {
+	height:72px;
+	width:72px;
+	min-width: 72px;
+	background:rgba(0,0,0,.1);
+	background-size:cover;
+}
+
+/* --breakpointMd */
+@media only screen and (min-width: 768px) {
+	.product-img {
+		height:104px;
+		width:104px;
+		min-width: 104px;
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------
+Breakpoints
+---------------------------------------- */
+
+/* --breakpointSm */
+@media only screen and (min-width: 480px) {
+
+	/* .sb-contentCrateContainer {
+		padding-left: 40px;
+		padding-right: 40px;
+	} */
+
+	.sb-navbar .row ul li:nth-child(4) {
+		display: block;
+	}
+
+
+}
+
+/* --breakpointMd */
+@media only screen and (min-width: 768px) {
+
+  .sb-navbar-siren {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+  }
+
+  .sb-navbar ul li {
+    padding-left: 16px;
+  }
+
+  .greeting {
+    padding-left: 96px;
+    padding-bottom: 24px;;
+  }
+
+	.sb-contentCrate {
+		padding-top: 134px;
+	}
+
+	/* .sb-contentCrateContainer {
+		padding-left: 104px;
+		padding-right: 104px;
+	} */
+
+
+
+}
+
+/* --breakpointLg */
+@media only screen and (min-width: 1024px) {
+
+  .sb-headerCrate {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 40vw;
+		min-width: 40vw;
+  }
+
+	.sb-contentCrate {
+		margin-left: 40%;
+		padding-top: 0;
+	}
+
+	.sb-contentCrateContainer {
+		margin: auto;
+    /* max-width: 600px; */
+		/* padding-left: 16px;
+		padding-right: 16px; */
+	}
+
+  .sb-navbar {
+    height: 106px;
+    width: 40vw;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .greeting {
+    padding-left: 32px;
+    padding-bottom: 32px;
+  }
+
+	.sb-navbar .row ul li:nth-child(4) {
+		display: none;
+	}
+
+}
+
+/* --breakpointXl */
+@media only screen and (min-width: 1280px) {
+
+  .greeting {
+    padding-left: 112px;
+    padding-right: 112px;
+  }
+
+	.sb-navbar .row ul li:nth-child(4) {
+		display: block;
+	}
+
+}
+
+/* --breakpointXxl */
+@media only screen and (min-width: 1600px) {
+
+}
