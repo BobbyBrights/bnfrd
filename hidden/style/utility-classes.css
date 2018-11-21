@@ -193,10 +193,15 @@ Grid
     padding-left: 1.6rem;
   }
 
-  .row {
+  /* .row {
 		padding-left: 6vw;
     padding-right: 6vw;
-	}
+	} */
+
+  .row {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
 
   .home-row {
     padding-left: 16px;
@@ -286,6 +291,11 @@ Grid
   	box-sizing: border-box;
     padding-right: 1.6rem;
     padding-left: 1.6rem;
+  }
+
+  .row {
+    padding-left: 12vw;
+    padding-right: 12vw;
   }
 
   .home-row {

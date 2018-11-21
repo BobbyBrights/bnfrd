@@ -4,11 +4,11 @@
 <body>
 <?php include 'nav.php';?>
 <!-- Project Hero Start -->
-	<section class="row salad-section py7 colorWhite">
+	<section class="row salad-section py7 colorWhite o-hidden">
     <figure class="md-c7 md-last">
       <img class="stores-hero" src="/img/web-app/phone-and-food-2.png" alt="a delicious iced macchiatto">
     </figure>
-    <article class="sm-c12 md-c5 mt4 md-mt16 vcenter">
+    <article class="sm-c12 md-c5 mt4 md-mt16 md-pt16 vcenter">
       <h3 class="caption colorPeriwinkle pb3 md-pb4">
         starbucks stores
       </h3>
@@ -51,6 +51,59 @@
       </p>
     </article>
   </section>
+
+	<!-- Full Bleed Image -->
+	<section>
+		<figure class="">
+			<img class="stores-hero-2" src="/img/stores/hero.png" alt="a delicious iced macchiatto">
+		</figure>
+	</section>
+
+	<!-- Section 1 -->
+
+	<section class="row py8">
+		<figure class="md-c7 md-last">
+			<img class="stores-hero-3" src="/img/stores/single-phone.png" alt="a delicious iced macchiatto">
+		</figure>
+		<article class="sm-c12 md-c5 mt4 vcenter">
+      <h3 class="caption colorPeriwinkle pb3 md-pb4">
+        PREVIOUS AND FAVORITES
+      </h3>
+      <h1 class="heading-2 colorTextPrimary pb2 md-pb4">
+        Ordering from previous & favorite stores is easier than ever
+      </h1>
+      <p class="body-1 colorTextSecondary">
+        With previous and favorite stores surfaced and sorted based off user behavior, finding your store to start an order is a breeze.
+      </p>
+    </article>
+	</section>
+
+	<!-- 3 Up -->
+
+	<section>
+		<figure class="">
+			<img class="stores-hero-4" src="/img/stores/3-up.png" alt="a delicious iced macchiatto">
+		</figure>
+	</section>
+
+	<!-- Section 3 -->
+
+	<section class="row pt16 colorExample">
+		<figure class="md-c7 ">
+			<img class="stores-hero-5" src="/img/stores/phone-in-hand.png" alt="a delicious iced macchiatto">
+		</figure>
+		<article class="sm-c12 md-c5 mt4 vcenter mb16">
+      <h3 class="caption colorTextWhitePrimary pb3 md-pb4">
+        filters
+      </h3>
+      <h1 class="heading-2 colorTextWhitePrimary pb2 md-pb4">
+        Filters allow users to find stores that fit their needs
+      </h1>
+      <p class="body-1 colorTextWhitePrimary">
+        If you’re looking for a store with a drive-thru or a limited item. You’re burning the midnight oil and need a store open late. With filters you can find the store that fits your needs.
+      </p>
+    </article>
+	</section>
 
 	<?php include 'footer.php';?>
 
