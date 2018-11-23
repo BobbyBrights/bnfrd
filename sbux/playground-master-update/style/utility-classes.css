@@ -167,6 +167,14 @@ Other stuff
   border-radius: 5000000px;
 }
 
+.hide {
+  display: none;
+}
+
+.show-flex {
+  display: flex;
+}
+
 /* --breakpointSm */
 @media only screen and (min-width: 480px) {
 

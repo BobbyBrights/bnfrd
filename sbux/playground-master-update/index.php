@@ -35,4 +35,4 @@
 		</div>
   </div>
 
-<?php include 'footer.php';?>
+<?php include 'component-logic.php';?>

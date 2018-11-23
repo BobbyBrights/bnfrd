@@ -32,6 +32,11 @@
 	font-size:var(--text-sm);
 }
 
+.button-text {
+	font-size:var(--text-sm);
+	font-weight: 700;
+}
+
 .body-1 {
 	font-size:var(--text-xs);
 }
@@ -240,6 +245,8 @@ Type Colors
 
 .colorTextGold {color: #C2A661;}
 
+.colorTextGreen {color: var(--colorGreenDarkApron);}
+
 
 /* ----------------------------------------
 -------------------------------------------
@@ -255,7 +262,6 @@ Type Colors
   flex-wrap:wrap;
   margin-left: 16px;
   margin-right: 16px;
-  padding:8px;
   display: flex;
   /* transition: border .1s ease; */
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
@@ -266,13 +272,6 @@ Type Colors
   box-shadow: 0px 0px .5px 0px rgba(0,0,0,0.14), 0px 1px 1px 0px rgba(0,0,0,0.24);
   border-radius: 6px;
 }
-
-/* .basic-card:hover {
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  cursor: pointer;
-  transform:translateY(-2px);
-} */
 
 .flat-card {
   border:1px solid rgba(0,0,0,.12);
@@ -319,14 +318,9 @@ Text Buttons
 
 /* Global Text Button Attributes */
 
-.filled-button-green,
-.filled-button-gold,
-.filled-button-black,
-.filled-button-white,
-.ghost-button-green,
-.ghost-button-black,
-.ghost-button-white,
-.text-button-green {
+.filled-button,
+.ghost-button,
+.text-button.green {
 	position: relative;
   outline:none;
   cursor: pointer;
@@ -338,110 +332,107 @@ Text Buttons
 	border-radius: 500px;
 }
 
-.filled-button-green:active,
-.filled-button-gold:active,
-.filled-button-black:active,
-.filled-button-white:active,
-.ghost-button-green:active,
-.ghost-button-black:active,
-.ghost-button-white:active,
-.text-button-green:active  {
+.filled-button:active,
+.ghost-button:active,
+.text-button:active  {
 	transform: scale(.97);
 }
 
-.filled-button-green,
-.filled-button-gold,
-.filled-button-black,
-.filled-button-white,
-.text-button-green {
-  padding: 8px 16px;
+.filled-button,
+.text-button.green {
+  padding: 6px 16px;
 }
 
-.ghost-button-green,
-.ghost-button-black,
-.ghost-button-white {
-  padding: 7px 15px;
+.ghost-button {
+  padding: 5px 15px;
 }
 
 
 /* Filled Button Colors */
 
-.filled-button-green {
+.filled-button.green {
 	background-color:rgba(0,130,72,1);
 	color: rgba(255,255,255,1);
 }
 
-.filled-button-green:hover,{
+.filled-button.green:hover,{
 	background-color:rgba(72,159,99,1);
 }
 
-.filled-button-gold {
+.filled-button.gold {
 	background-color:rgba(194,166,97,1);
 	color: rgba(0,0,0,.87);
 }
 
-.filled-button-gold:hover {
+.filled-button.gold:hover {
 	background-color:rgba(211,184,122,1);
 }
 
-.filled-button-black {
+.filled-button,
+.filled-button.black {
 	background-color:rgba(0,0,0,.87);
 	color: rgba(255,255,255,1);
 }
 
-.filled-button-black:hover {
+.filled-button.black:hover {
 	background-color:rgba(77,77,77,1);
 }
 
-.filled-button-white {
+.filled-button.white {
 	background-color:rgba(255,255,255,1);
 	color: rgba(0,0,0,.87);
 }
 
-.filled-button-white:hover {
+.filled-button.white:hover {
 	background-color:rgba(224,224,224,1);
 }
 
 /* Ghost Button Colors */
 
-.ghost-button-green {
-	background-color:rgba(0,0,0,0);
-	color: rgba(0,130,72,1);
-	border: solid 1px rgba(0,130,72,1);
+.ghost-button {
+	border-style: solid;
+	border-width: 1px;
 }
 
-.ghost-button-green:hover {
+
+.ghost-button.green {
+	background-color:rgba(0,0,0,0);
+	color: rgba(0,130,72,1);
+	border-color: rgba(0,130,72,1);
+}
+
+.ghost-button.green:hover {
 	background-color:rgba(0,168,98,.08);
 }
 
-.ghost-button-black {
+.ghost-button.black {
 	color: rgba(0,0,0,.87);
-	border: solid 1px rgba(0,0,0,.87);
+	border-color: rgba(0,0,0,.87);
 	background-color:rgba(0,0,0,0);
 }
 
-.ghost-button-black:hover {
+.ghost-button.black:hover {
 	background-color:rgba(0,0,0,.06);
 }
 
-.ghost-button-white {
+.ghost-button.white {
 	background-color:rgba(0,0,0,0);
 	color: rgba(255,255,255,1);
-	border: solid 1px rgba(255,255,255,1);
+	border-color: rgba(255,255,255,1);
 }
 
-.ghost-button-white:hover {
+.ghost-button.white:hover {
 	background-color:rgba(255,255,255,.12);
 }
 
 /* Text Button Colors */
 
-.text-button-green {
+.text-button.green {
 	background-color:rgba(0,0,0,0);
 	color: rgba(0,130,72,1);
 }
 
-.text-button-green:hover {
+.text-button.green:hover {
 	background-color:rgba(0,168,98,.08);
 }
 
@@ -850,7 +841,7 @@ Toasts
 
 .basic-toast {
 	background:var(--colorBlackWarmer);
-	padding:16px 24px;
+	padding:16px 24px 16px 16px;
 	color:var(--colorWhite);
 	position:fixed;
 	bottom:0;
@@ -864,6 +855,15 @@ Toasts
 @media only screen and (min-width: 1024px) {
   .basic-toast {
 		width:60%;
+		padding:16px 24px;
 	}
+}
+
+
+/* ----------------------------------------
+Overlays
+---------------------------------------- */
+
+.basic-overlay {
 
 }
