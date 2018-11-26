@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>clock</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.0132,10 C19.0132,5.0296159 14.9703841,0.9868 10,0.9868 C5.03060267,0.9868 0.9868,5.0296159 0.9868,10 C0.9868,14.9703841 5.03060267,19.0132 10,19.0132 C14.9703841,19.0132 19.0132,14.9703841 19.0132,10 Z M20,10 C20,15.5141109 15.5141109,20 10,20 C4.48588909,20 0,15.5141109 0,10 C0,4.48588909 4.48588909,0 10,0 C15.5141109,0 20,4.48588909 20,10 Z M14.4306,11.0000093 C14.4306,11.272361 14.2105495,11.4934 13.9372132,11.4934 L10.0029471,11.4934 L9.99998677,11.4934 C9.72763727,11.4934 9.5066,11.2733478 9.5066,11.0000093 L9.5066,3.95439066 C9.5066,3.68203902 9.72763727,3.461 9.99998677,3.461 C10.273323,3.461 10.4933735,3.68203902 10.4933735,3.95439066 L10.4933735,10.5066187 L13.9372132,10.5066187 C14.2105495,10.5066187 14.4306,10.7276577 14.4306,11.0000093 Z" id="path-1"></path>
+    </defs>
+    <g id="clock" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ui/clock_24">
+            <rect id="Rectangle" fill="#FF0000" opacity="0" x="0" y="0" width="24" height="24"></rect>
+            <g id="icon/ui/clock_dark" stroke-width="1" transform="translate(2.000000, 2.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="clock"></g>
+                <g id="Black-058%-(Secondary)" mask="url(#mask-2)" fill="#000000">
+                    <g transform="translate(-14.000000, -14.000000)" id="Rectangle-435-Copy-4">
+                        <rect x="0" y="0" width="48" height="48"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
