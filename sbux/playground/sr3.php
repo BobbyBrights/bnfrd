@@ -36,9 +36,6 @@
               <h3 class="body-1 pl3 md-pl3">
                 3 shots
               </h3>
-              <h3 class="body-1 pl3 md-pl3">
-                125<span class="colorTextGold text-bold">☆</span> item
-              </h3>
               <div class="row pl1">
                 <div class="icon-button heart"></div>
                 <div class="icon-button add"></div>
@@ -70,9 +67,6 @@
               <h3 class="body-1 pl3 md-pl3">
                 3 shots
               </h3>
-              <h3 class="body-1 pl3 md-pl3">
-                125<span class="colorTextGold text-bold">☆</span> item
-              </h3>
               <div class="row pl1">
                 <div class="icon-button heart"></div>
                 <div class="icon-button add"></div>
@@ -100,9 +94,6 @@
               <h3 class="body-1 pl3 md-pl3">
                 3 shots
               </h3>
-              <h3 class="body-1 pl3 md-pl3">
-                125<span class="colorTextGold text-bold">☆</span> item
-              </h3>
               <div class="row pl1">
                 <div class="icon-button heart"></div>
                 <div class="icon-button add"></div>
@@ -129,9 +120,6 @@
               </h3>
               <h3 class="body-1 pl3 md-pl3">
                 3 shots
-              </h3>
-              <h3 class="body-1 pl3 md-pl3">
-                125<span class="colorTextGold text-bold">☆</span> item
               </h3>
               <div class="row pl1">
                 <div class="icon-button heart"></div>

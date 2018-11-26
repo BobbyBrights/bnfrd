@@ -21,6 +21,52 @@ var toastHeight = $(".basic-toast").outerHeight();
 -------------------------------------------
 ---------------------------------------- */
 
+$('.toggle-reward').on('click', function() {
+  $(this).toggleClass('ghost-button');
+  $(".toggle-reward").not(this).removeClass("ghost-button");
+  var rewardAction = $(this).find('.reward-text');
+  var rewardText = rewardAction.text();
+  var otherRewardAction = $(".toggle-reward").not(this).find('.reward-text');
+  var otherRewardText = otherRewardAction.text();
+  var rewardMessage = $(this).attr('id').concat("-message");
+  var messageDiv = $('#' + rewardMessage);
+  if (rewardText === "Use" || otherRewardText === "Remove") {
+    rewardAction.text("Remove");
+    otherRewardAction.text("Use");
+    $('#' + rewardMessage).addClass("show-flex");
+    $(".reward-message").not('#' + rewardMessage).removeClass("show-flex");
+    showToast();
+    } else {
+    rewardAction.text("Use");
+    $('#' + rewardMessage).removeClass("show-flex");
+  }
+
+  if (rewardMessage === "25-reward-message") {
+    $(".basic-toast p").html("25<span class='colorTextGold'>★</span> applied to Latte Macchiato");
+  }
+
+  if (rewardMessage === "50-reward-message") {
+    $(".basic-toast p").html("50<span class='colorTextGold'>★</span> applied to Blonde Roast");
+  }
+
+  if (rewardMessage === "125-reward-message") {
+    $(".basic-toast p").html("125<span class='colorTextGold'>★</span> applied to Latte Macchiato");
+  }
+
+  if (rewardMessage === "150-reward-message") {
+    $(".basic-toast p").html("150<span class='colorTextGold'>★</span> applied to Latte Macchiato");
+  }
+
+  if (rewardMessage === "200-reward-message") {
+    $(".basic-toast p").html("200<span class='colorTextGold'>★</span> applied to Double-Smoked Bacon, Cheddar & Egg Sandwich");
+  }
+
+  if (rewardMessage === "400-reward-message") {
+    $(".basic-toast p").html("400<span class='colorTextGold'>★</span> applied to Chai Créme Frappuccino®");
+  }
+
+});
+
 // $('.toggle-reward').on('click', function() {
 // $(this).toggleClass('ghost-button');
 // $(".toggle-reward").not(this).removeClass("ghost-button");
@@ -110,54 +156,6 @@ var toastHeight = $(".basic-toast").outerHeight();
 //     $(".reward-message").removeClass("show-flex");
 //   }
 // });
-
-
-$('.toggle-reward').on('click', function() {
-  $(this).toggleClass('ghost-button');
-  $(".toggle-reward").not(this).removeClass("ghost-button");
-  var rewardAction = $(this).find('.reward-text');
-  var rewardText = rewardAction.text();
-  var otherRewardAction = $(".toggle-reward").not(this).find('.reward-text');
-  var otherRewardText = otherRewardAction.text();
-  var rewardMessage = $(this).attr('id').concat("-message");
-  var messageDiv = $('#' + rewardMessage);
-  if (rewardText === "Use" || otherRewardText === "Remove") {
-    rewardAction.text("Remove");
-    otherRewardAction.text("Use");
-    $('#' + rewardMessage).addClass("show-flex");
-    $(".reward-message").not('#' + rewardMessage).removeClass("show-flex");
-    showToast();
-    } else {
-    rewardAction.text("Use");
-    $('#' + rewardMessage).removeClass("show-flex");
-  }
-
-  if (rewardMessage === "25-reward-message") {
-    $(".basic-toast p").html("25<span class='colorTextGold'>★</span> applied to Latte Macchiato");
-  }
-
-  if (rewardMessage === "50-reward-message") {
-    $(".basic-toast p").html("50<span class='colorTextGold'>★</span> applied to Blonde Roast");
-  }
-
-  if (rewardMessage === "125-reward-message") {
-    $(".basic-toast p").html("125<span class='colorTextGold'>★</span> applied to Latte Macchiato");
-  }
-
-  if (rewardMessage === "150-reward-message") {
-    $(".basic-toast p").html("150<span class='colorTextGold'>★</span> applied to Latte Macchiato");
-  }
-
-  if (rewardMessage === "200-reward-message") {
-    $(".basic-toast p").html("200<span class='colorTextGold'>★</span> applied to Double-Smoked Bacon, Cheddar & Egg Sandwich");
-  }
-
-  if (rewardMessage === "400-reward-message") {
-    $(".basic-toast p").html("400<span class='colorTextGold'>★</span> applied to Chai Créme Frappuccino®");
-  }
-
-});
-
 
 /* ----------------------------------------
 -------------------------------------------
