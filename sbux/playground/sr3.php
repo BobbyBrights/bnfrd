@@ -140,7 +140,7 @@
               </div>
             </div>
           </div>
-          <div class="product-card px3 pt3 pb3 sm-p5 md-mt3 md-pr13">
+          <div class="product-card px3 pt3 pb3 mb3 sm-p5 md-mt3 md-pr13">
             <div class="filled-button black toggle-reward" id="125-reward">
               <span class="reward-text">Use</span> 125 <span class="colorTextGold">★</span>
             </div>
