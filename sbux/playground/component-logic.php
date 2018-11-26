@@ -129,7 +129,7 @@ $('.toggle-reward').on('click', function() {
     showToast();
     } else {
     rewardAction.text("Use");
-    $('#' + rewardMessage).css("background","blue").removeClass("show-flex");
+    $('#' + rewardMessage).removeClass("show-flex");
   }
 
   if (rewardMessage === "25-reward-message") {
@@ -141,7 +141,6 @@ $('.toggle-reward').on('click', function() {
   }
 
   if (rewardMessage === "125-reward-message") {
-    console.log("found it");
     $(".basic-toast p").html("125<span class='colorTextGold'>★</span> applied to Latte Macchiato");
   }
 
