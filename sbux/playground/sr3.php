@@ -42,7 +42,7 @@
                 <div class="icon-button minus"></div>
               </div>
               <div class="pl3 row nowrap reward-message hide" id="125-reward-message">
-                <p class="colorTextGreen button-text">It’s on us! 125 Star Reward applied.</p>
+                <p class="colorTextGreen button-text">It’s on us! 125 Star Reward applied</p>
                 <p class="button-text colorTextBlack ml-auto pl3">-125<span class="colorTextGold">☆</p>
               </div>
             </div>
@@ -128,7 +128,10 @@
               </div>
             </div>
           </div>
-          <div class="product-card px3 pt3 pb3 mb3 sm-p5 md-mt3 md-pr13">
+          <div class="caption-2 colorTextBlackSoft mt4 mb1 ml3 sm-mt4 sm-ml5 md-ml0 md-mt5 c12">
+            Would you like to use a Reward?
+          </div>
+          <div class="product-card mb16 p3 pb4 sm-p4 sm-pl5 sm-pt3 md-py3 md-mt2 md-pl4">
             <div class="filled-button black toggle-reward" id="125-reward">
               <span class="reward-text">Use</span> 125 <span class="colorTextGold">★</span>
             </div>
