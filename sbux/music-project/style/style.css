@@ -1,0 +1,134 @@
+
+
+.flat::after {
+  width:19px;
+  height:49px;
+  left:-22px;
+  content: "";
+  display: block;
+  background: rgba(0,0,0,.87);
+  position: relative;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size:cover;
+  mask-clip: border-box;
+  mask-origin: border-box;
+  -webkit-mask-clip: border-box;
+  -webkit-mask-origin: border-box;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size:cover;
+  -webkit-mask-image: url('/img/flat.svg');
+  mask-image: url('/img/flat.svg');
+}
+
+.sharp::after {
+  width:16px;
+  height:54px;
+  left:-21px;
+  top:-15px;
+  content: "";
+  display: block;
+  background: rgba(0,0,0,.87);
+  position: relative;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size:cover;
+  mask-clip: border-box;
+  mask-origin: border-box;
+  -webkit-mask-clip: border-box;
+  -webkit-mask-origin: border-box;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size:cover;
+  -webkit-mask-image: url('/img/sharp.svg');
+  mask-image: url('/img/sharp.svg');
+}
+
+.container {
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: center;
+  height:100%;
+}
+
+.line {
+  overflow:visible;
+  display:flex;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: center;
+  margin-top:-12px;
+}
+
+.line:nth-child(1) {
+  margin-top:0px;
+}
+
+.line::before {
+  width:100%;
+  height: 1px;
+  background: rgba(0,0,0,.87);
+  content:"";
+  position: absolute;
+}
+
+.line.ledger::before {
+  width:48px;
+}
+
+/* .line .note{
+  visibility: hidden;
+} */
+
+.space .note{
+  visibility: hidden;
+}
+
+.space {
+  display:flex;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: center;
+  margin-top:-13px;
+}
+
+.note {
+  width: 36px;
+  height: 24px;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  /* mask-size:cover;
+  mask-clip: border-box;
+  mask-origin: border-box;
+  -webkit-mask-clip: border-box;
+  -webkit-mask-origin: border-box;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size:cover;
+  -webkit-mask-image: url('/img/whole-note.svg');
+  mask-image: url('/img/whole-note.svg'); */
+  background-image: url('/img/whole-note.svg');
+}
+
+.purple {
+  background: grey;
+}
+
+.button {
+  position:fixed;
+  bottom:32px;
+  right:32px;
+}
+
+.m-12 {
+  margin-top:-12px;
+}
+
+.none {
+  display: none;
+}
+
+.hide {
+  visibility: hidden;
+}
