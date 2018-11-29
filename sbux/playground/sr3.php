@@ -131,15 +131,92 @@
           <div class="caption-2 colorTextBlackSoft mt4 mb1 ml3 sm-mt4 sm-ml5 md-ml0 md-mt5 c12">
             Would you like to use a Reward?
           </div>
-          <div class="product-card mb16 p3 pb4 sm-p4 sm-pl5 sm-pt3 md-py3 md-mt2 md-pl4">
+          <div class="product-card mb3 p3 pb4 sm-p4 sm-pl5 sm-pt3 md-py3 md-mt2 md-pl4">
             <div class="filled-button black toggle-reward" id="125-reward">
               <span class="reward-text">Use</span> 125 <span class="colorTextGold">★</span>
+            </div>
+          </div>
+          <div class="product-card mb15 px3 pb5 pt3 sm-pt3 sm-px5 sm-pb5 md-pt4 md-pb5">
+            <div class="row c12 px2 pt1 pb1 hide" id="25-reward-total">
+              <div class="body-1 colorTextBlackSoft green-text">Discount
+              </div>
+              <div class="dottedUnderline"></div>
+              <div class="subhead-2 ml-auto green-text">-$0.90
+              </div>
+            </div>
+            <div class="row c12 px2 pt1 pb1 hide" id="50-reward-total">
+              <div class="body-1 colorTextBlackSoft green-text">Discount
+              </div>
+              <div class="dottedUnderline"></div>
+              <div class="subhead-2 ml-auto green-text">-$2.45
+              </div>
+            </div>
+            <div class="row c12 px2 pt1 pb1 hide" id="150-reward-total">
+              <div class="body-1 colorTextBlackSoft green-text">Discount
+              </div>
+              <div class="dottedUnderline"></div>
+              <div class="subhead-2 ml-auto green-text">-$5.15
+              </div>
+            </div>
+            <div class="row c12 px2 pt1 pb1 hide" id="200-reward-total">
+              <div class="body-1 colorTextBlackSoft green-text">Discount
+              </div>
+              <div class="dottedUnderline"></div>
+              <div class="subhead-2 ml-auto green-text">-$5.15
+              </div>
+            </div>
+            <div class="row c12 px2 pt1 pb1 hide" id="400-reward-total">
+              <div class="body-1 colorTextBlackSoft green-text">Discount
+              </div>
+              <div class="dottedUnderline"></div>
+              <div class="subhead-2 ml-auto green-text">-$5.15
+              </div>
+            </div>
+            <div class="row c12 px2 pt1 pb2">
+              <div class="body-1 colorTextBlackSoft">Subtotal
+              </div>
+              <div class="dottedUnderline"></div>
+              <div class="subhead-2 ml-auto">$5.47
+              </div>
+            </div>
+            <div class="row c12 px2 pb2">
+              <div class="body-1 colorTextBlackSoft">Tax 10.1%
+              </div>
+              <div class="dottedUnderline"></div>
+              <div class="subhead-2 ml-auto">$1.18
+              </div>
+            </div>
+            <div class="row c12 px2 pb2">
+              <div class="body-1 colorTextBlackSoft">Tip
+              </div>
+              <div class="dottedUnderline"></div>
+              <div class="subhead-2 ml-auto">$0.00
+              </div>
+            </div>
+            <div class="row c12 px2 pb2">
+              <div class="body-1 colorTextBlackSoft">Charity Roundup
+              </div>
+              <div class="dottedUnderline"></div>
+              <div class="subhead-2 ml-auto">$0.50
+              </div>
+            </div>
+            <div class="row c12 px2">
+              <div class="frap-text large-text">Total
+              </div>
+              <div class="dottedUnderline"></div>
+              <div class="frap-text ml-auto large-text">$27.00
+              </div>
             </div>
           </div>
         </div>
         <div class="basic-toast middle">
           <p class="pr3">125<span class="colorTextGold">★</span> applied to Latte Macchiato</p>
           <div class="ghost-button white ml-auto">Undo</div>
+        </div>
+        <div class="frap-container">
+          <div class="frap">
+            Checkout $27.00
+          </div>
         </div>
 			</div>
 		</div>
