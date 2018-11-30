@@ -11,7 +11,7 @@ const allNotes = [
       note:'c'
     },
     {
-      actual:['c#2','db2'],
+      actual:'c#2',
       note:['c#','db']
 
     },
@@ -20,7 +20,7 @@ const allNotes = [
       note:'d'
     },
     {
-      actual:['d#2','eb2'],
+      actual:'d#2',
       note:['d#','eb']
 
     },
@@ -29,7 +29,7 @@ const allNotes = [
       note:'e'
     },
     {
-      actual: ['e#2','fb2'],
+      actual: 'e#2',
       note:['e#','fb']
 
     },
@@ -38,7 +38,7 @@ const allNotes = [
       note:'f'
     },
     {
-      actual: ['f#2','gb2'],
+      actual: 'f#2',
       note:['f#','gb']
 
     },
@@ -47,7 +47,7 @@ const allNotes = [
       note:'g'
     },
     {
-      actual: ['g#2','ab2'],
+      actual: 'g#2',
       note:['g#','ab']
 
     },
@@ -56,7 +56,7 @@ const allNotes = [
       note:'a'
     },
     {
-      actual: ['a#2','bb2'],
+      actual: 'a#2',
       note:['a#','bb']
 
     },
@@ -65,7 +65,7 @@ const allNotes = [
       note:'b'
     },
     {
-      actual: ['b#2','cb2'],
+      actual: 'b#2',
       note:['b#','cb']
 
     },
@@ -74,7 +74,7 @@ const allNotes = [
       note:'c'
     },
     {
-      actual:['c#3','db3'],
+      actual:'c#3',
       note:['c#','db']
 
     },
@@ -83,7 +83,7 @@ const allNotes = [
       note:'d'
     },
     {
-      actual:['d#3','eb3'],
+      actual:'d#3',
       note:['d#','eb']
 
     },
@@ -92,7 +92,7 @@ const allNotes = [
       note:'e'
     },
     {
-      actual: ['e#3','fb3'],
+      actual: 'e#3',
       note:['e#','fb']
 
     },
@@ -101,7 +101,7 @@ const allNotes = [
       note:'f'
     },
     {
-      actual: ['f#3','gb3'],
+      actual: 'f#3',
       note:['f#','gb']
 
     },
@@ -110,7 +110,7 @@ const allNotes = [
       note:'g'
     },
     {
-      actual: ['g#3','ab3'],
+      actual: 'g#3',
       note:['g#','ab']
 
     },
@@ -119,7 +119,7 @@ const allNotes = [
       note:'a'
     },
     {
-      actual: ['a#3','bb3'],
+      actual: 'a#3',
       note:['a#','bb']
 
     },
@@ -128,7 +128,7 @@ const allNotes = [
       note:'b'
     },
     {
-      actual: ['b#3','cb3'],
+      actual: 'b#3',
       note:['b#','cb']
     },
     {
@@ -136,7 +136,7 @@ const allNotes = [
       note:'c'
     },
     {
-      actual:['c#4','db4'],
+      actual:'c#4',
       note:['c#','db']
 
     },
@@ -145,7 +145,7 @@ const allNotes = [
       note:'d'
     },
     {
-      actual:['d#4','eb4'],
+      actual:'d#4',
       note:['d#','eb']
 
     },
@@ -154,7 +154,7 @@ const allNotes = [
       note:'e'
     },
     {
-      actual: ['e#4','fb4'],
+      actual: 'e#4',
       note:['e#','fb']
 
     },
@@ -163,7 +163,7 @@ const allNotes = [
       note:'f'
     },
     {
-      actual: ['f#4','gb4'],
+      actual: 'f#4',
       note:['f#','gb']
 
     },
@@ -172,7 +172,7 @@ const allNotes = [
       note:'g'
     },
     {
-      actual: ['g#4','ab4'],
+      actual: 'g#4',
       note:['g#','ab']
 
     },
@@ -181,7 +181,7 @@ const allNotes = [
       note:'a'
     },
     {
-      actual: ['a#4','bb4'],
+      actual: 'a#4',
       note:['a#','bb']
 
     },
@@ -190,7 +190,7 @@ const allNotes = [
       note:'b'
     },
     {
-      actual: ['b#4','cb4'],
+      actual: 'b#4',
       note:['b#','cb']
     },
     {
@@ -198,7 +198,7 @@ const allNotes = [
       note:'c'
     },
     {
-      actual:['c#5','db5'],
+      actual:'c#5',
       note:['c#','db']
 
     },
@@ -207,7 +207,7 @@ const allNotes = [
       note:'d'
     },
     {
-      actual:['d#5','eb5'],
+      actual:'d#5',
       note:['d#','eb']
 
     },
@@ -216,7 +216,7 @@ const allNotes = [
       note:'e'
     },
     {
-      actual: ['e#5','fb5'],
+      actual: 'e#5',
       note:['e#','fb']
 
     },
@@ -225,7 +225,7 @@ const allNotes = [
       note:'f'
     },
     {
-      actual: ['f#5','gb5'],
+      actual: 'f#5',
       note:['f#','gb']
 
     },
@@ -234,7 +234,7 @@ const allNotes = [
       note:'g'
     },
     {
-      actual: ['g#5','ab5'],
+      actual: 'g#5',
       note:['g#','ab']
 
     },
@@ -243,7 +243,7 @@ const allNotes = [
       note:'a'
     },
     {
-      actual: ['a#5','bb5'],
+      actual: 'a#5',
       note:['a#','bb']
 
     },
@@ -252,71 +252,13 @@ const allNotes = [
       note:'b'
     },
     {
-      actual: ['b#5','cb5'],
+      actual: 'b#5',
       note:['b#','cb']
     },
     {
-      actual:'c2',
+      actual:'c6',
       note:'c'
-    },
-    {
-      actual:['c#2','db2'],
-      note:['c#','db']
-
-    },
-    {
-      actual:'d2',
-      note:'d'
-    },
-    {
-      actual:['d#2','eb2'],
-      note:['d#','eb']
-
-    },
-    {
-      actual: 'e2',
-      note:'e'
-    },
-    {
-      actual: ['e#2','fb2'],
-      note:['e#','fb']
-
-    },
-    {
-      actual: 'f2',
-      note:'f'
-    },
-    {
-      actual: ['f#2','gb2'],
-      note:['f#','gb']
-
-    },
-    {
-      actual: 'g2',
-      note:'g'
-    },
-    {
-      actual: ['g#2','ab2'],
-      note:['g#','ab']
-
-    },
-    {
-      actual: 'a2',
-      note:'a'
-    },
-    {
-      actual: ['a#2','bb2'],
-      note:['a#','bb']
-
-    },
-    {
-      actual: 'b2',
-      note:'b'
-    },
-    {
-      actual: ['b#2','cb2'],
-      note:['b#','cb']
-    },
+    }
 ]
 
 const bassClef = allNotes.slice(0,32);
@@ -408,19 +350,31 @@ const fMajScale = allNotes.filter(function(noteInfo, index, array) {
   ))
 });
 
+const cMajUnique = cMajScale.map(a => a.actual);
+const dMajUnique = dMajScale.map(a => a.actual);
+const eMajUnique = eMajScale.map(a => a.actual);
+const gMajUnique = gMajScale.map(a => a.actual);
+const aMajUnique = aMajScale.map(a => a.actual);
+const bMajUnique = bMajScale.map(a => a.actual);
 
 $('.button').on('click', function() {
-  $('.note').each(function() {
-    console.log( this.id );
+  // console.log(cMajUnique);
+  // console.log(dMajUnique);
+  // console.log(eMajUnique);
+  // console.log(gMajUnique);
+  // console.log(aMajUnique);
+  // console.log(bMajUnique);
+
+  // for (i = 0; i < cMajScale.length; i++) {console.log(cMajScale[i].actual);}
+  // for (i = 0; i < dMajScale.length; i++) {console.log(dMajScale[i].actual);}
+  // for (i = 0; i < eMajScale.length; i++) {console.log(eMajScale[i].actual);}
+  // for (i = 0; i < gMajScale.length; i++) {console.log(gMajScale[i].actual);}
+  for (i = 0; i < aMajScale.length; i++) {console.log(aMajScale[i].actual);}
+  // for (i = 0; i < bMajScale.length; i++) {console.log(bMajScale[i].actual);}
+
 });
-  // console.log(cMajScale);
-  // console.log(gMajScale);
-  // console.log(dMajScale);
-  // console.log(aMajScale);
-  // console.log(eMajScale);
-  // console.log(bMajScale);
-  // console.log(fMajScale);
-});
+
+
 
 </script>
 

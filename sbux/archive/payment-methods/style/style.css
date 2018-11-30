@@ -707,7 +707,7 @@ a { color: inherit; text-decoration: none;}
 .sb-navbar-siren {
   width: 40px;
   height: 40px;
-  background-image: url('/sbux/product-cell-extended/img/siren.png'), url('/img/siren.png');
+  background-image: url('/sbux/archive/product-cell-extended/img/siren.png'), url('/img/siren.png');
   background-repeat: no-repeat;
   background-size: contain;
   min-width: 40px;
@@ -737,8 +737,8 @@ a { color: inherit; text-decoration: none;}
 	top: 12px;
 	position: relative;
 	background-color: rgba(0,0,0,.58);
-  -webkit-mask-image: url('/sbux/product-cell-extended/img/burger.svg'), url('/img/burger.svg');
-  mask-image: url('/sbux/product-cell-extended/img/burger.svg'), url('/img/burger.svg');
+  -webkit-mask-image: url('/sbux/archive/product-cell-extended/img/burger.svg'), url('/img/burger.svg');
+  mask-image: url('/sbux/archive/product-cell-extended/img/burger.svg'), url('/img/burger.svg');
 	background-size: cover;
 	transition: all .2s ease;
 	margin-top: -40px;
@@ -846,8 +846,8 @@ hr {
 	top: 12px;
 	position: relative;
 	background-color: rgba(0,0,0,.58);
-  -webkit-mask-image: url('/sbux/payment-methods/img/dropdown.svg'), url('/img/dropdown.svg');
-  mask-image: url('/sbux/payment-methods/img/dropdown.svg'), url('/img/dropdown.svg');
+  -webkit-mask-image: url('/sbux/archive/payment-methods/img/dropdown.svg'), url('/img/dropdown.svg');
+  mask-image: url('/sbux/archive/payment-methods/img/dropdown.svg'), url('/img/dropdown.svg');
 	background-size: cover;
 }
 
@@ -858,8 +858,8 @@ hr {
 	top: 12px;
 	position: relative;
 	background-color: rgba(0,0,0,.58);
-  -webkit-mask-image: url('/sbux/payment-methods/img/plus.svg'), url('/img/plus.svg');
-  mask-image: url('/sbux/payment-methods/img/plus.svg'), url('/img/plus.svg');
+  -webkit-mask-image: url('/sbux/archive/payment-methods/img/plus.svg'), url('/img/plus.svg');
+  mask-image: url('/sbux/archive/payment-methods/img/plus.svg'), url('/img/plus.svg');
 	background-size: cover;
 }
 
