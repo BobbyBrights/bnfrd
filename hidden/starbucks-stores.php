@@ -6,7 +6,7 @@
 <!-- Project Hero Start -->
 	<section class="row salad-section py7 colorWhite o-hidden">
     <figure class="md-c7 md-last">
-      <img class="stores-hero" src="/img/web-app/phone-and-food-2.png" alt="a delicious iced macchiatto">
+      <img class="stores-hero" src="/hidden/img/web-app/phone-and-food-2.png" alt="a delicious iced macchiatto">
     </figure>
     <article class="sm-c12 md-c5 mt4 md-mt16 md-pt16 vcenter">
       <h3 class="caption colorPeriwinkle pb3 md-pb4">
@@ -55,7 +55,7 @@
 	<!-- Full Bleed Image -->
 	<section>
 		<figure class="">
-			<img class="stores-hero-2" src="/img/stores/hero.png" alt="a delicious iced macchiatto">
+			<img class="stores-hero-2" src="/hidden/img/stores/hero.png" alt="a delicious iced macchiatto">
 		</figure>
 	</section>
 
@@ -63,7 +63,7 @@
 
 	<section class="row py8">
 		<figure class="md-c7 md-last">
-			<img class="stores-hero-3" src="/img/stores/single-phone.png" alt="a delicious iced macchiatto">
+			<img class="stores-hero-3" src="/hidden/img/stores/single-phone.png" alt="a delicious iced macchiatto">
 		</figure>
 		<article class="sm-c12 md-c5 mt4 vcenter">
       <h3 class="caption colorPeriwinkle pb3 md-pb4">
@@ -82,7 +82,7 @@
 
 	<section>
 		<figure class="">
-			<img class="stores-hero-4" src="/img/stores/3-up.png" alt="a delicious iced macchiatto">
+			<img class="stores-hero-4" src="/hidden/img/stores/3-up.png" alt="a delicious iced macchiatto">
 		</figure>
 	</section>
 
@@ -90,7 +90,7 @@
 
 	<section class="row pt16 colorExample">
 		<figure class="md-c7 ">
-			<img class="stores-hero-5" src="/img/stores/phone-in-hand.png" alt="a delicious iced macchiatto">
+			<img class="stores-hero-5" src="/hidden/img/stores/phone-in-hand.png" alt="a delicious iced macchiatto">
 		</figure>
 		<article class="sm-c12 md-c5 mt4 vcenter mb16">
       <h3 class="caption colorTextWhitePrimary pb3 md-pb4">
