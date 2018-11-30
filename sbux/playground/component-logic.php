@@ -30,15 +30,21 @@ $('.toggle-reward').on('click', function() {
   var otherRewardText = otherRewardAction.text();
   var rewardMessage = $(this).attr('id').concat("-message");
   var messageDiv = $('#' + rewardMessage);
+  var rewardDiscount = $(this).attr('id').concat("-total");
+  var rewardDiscountDiv = $('#' + rewardDiscount);
   if (rewardText === "Use" || otherRewardText === "Remove") {
     rewardAction.text("Remove");
     otherRewardAction.text("Use");
     $('#' + rewardMessage).addClass("show-flex");
-    $(".reward-message").not('#' + rewardMessage).removeClass("show-flex");
+    $('#' + rewardDiscount).addClass("show-flex")
+    $(".reward-message").not(messageDiv).removeClass("show-flex");
+    $(".reward-discount").not(rewardDiscountDiv).removeClass("show-flex");
     showToast();
     } else {
     rewardAction.text("Use");
-    $('#' + rewardMessage).removeClass("show-flex");
+    $(messageDiv).removeClass("show-flex");
+    $(rewardDiscountDiv).removeClass("show-flex");
+
   }
 
   if (rewardMessage === "25-reward-message") {
