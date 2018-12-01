@@ -171,6 +171,14 @@ Other stuff
   display: none;
 }
 
+.invisible {
+  visibility:hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
 .show-flex {
   display: flex;
 }

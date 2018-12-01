@@ -11,8 +11,8 @@ const allNotes = [
       note:'c'
     },
     {
-      actual:'c#2',
-      note:['c#','db']
+      actual:'csharp2',
+      note:['csharp','db']
 
     },
     {
@@ -20,8 +20,8 @@ const allNotes = [
       note:'d'
     },
     {
-      actual:'d#2',
-      note:['d#','eb']
+      actual:'dsharp2',
+      note:['dsharp','eb']
 
     },
     {
@@ -29,8 +29,8 @@ const allNotes = [
       note:'e'
     },
     {
-      actual: 'e#2',
-      note:['e#','fb']
+      actual: 'esharp2',
+      note:['esharp','fb']
 
     },
     {
@@ -38,8 +38,8 @@ const allNotes = [
       note:'f'
     },
     {
-      actual: 'f#2',
-      note:['f#','gb']
+      actual: 'fsharp2',
+      note:['fsharp','gb']
 
     },
     {
@@ -47,8 +47,8 @@ const allNotes = [
       note:'g'
     },
     {
-      actual: 'g#2',
-      note:['g#','ab']
+      actual: 'gsharp2',
+      note:['gsharp','ab']
 
     },
     {
@@ -56,8 +56,8 @@ const allNotes = [
       note:'a'
     },
     {
-      actual: 'a#2',
-      note:['a#','bb']
+      actual: 'asharp2',
+      note:['asharp','bb']
 
     },
     {
@@ -65,8 +65,8 @@ const allNotes = [
       note:'b'
     },
     {
-      actual: 'b#2',
-      note:['b#','cb']
+      actual: 'bsharp2',
+      note:['bsharp','cb']
 
     },
     {
@@ -74,8 +74,8 @@ const allNotes = [
       note:'c'
     },
     {
-      actual:'c#3',
-      note:['c#','db']
+      actual:'csharp3',
+      note:['csharp','db']
 
     },
     {
@@ -83,8 +83,8 @@ const allNotes = [
       note:'d'
     },
     {
-      actual:'d#3',
-      note:['d#','eb']
+      actual:'dsharp3',
+      note:['dsharp','eb']
 
     },
     {
@@ -92,8 +92,8 @@ const allNotes = [
       note:'e'
     },
     {
-      actual: 'e#3',
-      note:['e#','fb']
+      actual: 'esharp3',
+      note:['esharp','fb']
 
     },
     {
@@ -101,8 +101,8 @@ const allNotes = [
       note:'f'
     },
     {
-      actual: 'f#3',
-      note:['f#','gb']
+      actual: 'fsharp3',
+      note:['fsharp','gb']
 
     },
     {
@@ -110,8 +110,8 @@ const allNotes = [
       note:'g'
     },
     {
-      actual: 'g#3',
-      note:['g#','ab']
+      actual: 'gsharp3',
+      note:['gsharp','ab']
 
     },
     {
@@ -119,8 +119,8 @@ const allNotes = [
       note:'a'
     },
     {
-      actual: 'a#3',
-      note:['a#','bb']
+      actual: 'asharp3',
+      note:['asharp','bb']
 
     },
     {
@@ -128,16 +128,16 @@ const allNotes = [
       note:'b'
     },
     {
-      actual: 'b#3',
-      note:['b#','cb']
+      actual: 'bsharp3',
+      note:['bsharp','cb']
     },
     {
       actual:'c4',
       note:'c'
     },
     {
-      actual:'c#4',
-      note:['c#','db']
+      actual:'csharp4',
+      note:['csharp','db']
 
     },
     {
@@ -145,8 +145,8 @@ const allNotes = [
       note:'d'
     },
     {
-      actual:'d#4',
-      note:['d#','eb']
+      actual:'dsharp4',
+      note:['dsharp','eb']
 
     },
     {
@@ -154,8 +154,8 @@ const allNotes = [
       note:'e'
     },
     {
-      actual: 'e#4',
-      note:['e#','fb']
+      actual: 'esharp4',
+      note:['esharp','fb']
 
     },
     {
@@ -163,8 +163,8 @@ const allNotes = [
       note:'f'
     },
     {
-      actual: 'f#4',
-      note:['f#','gb']
+      actual: 'fsharp4',
+      note:['fsharp','gb']
 
     },
     {
@@ -172,8 +172,8 @@ const allNotes = [
       note:'g'
     },
     {
-      actual: 'g#4',
-      note:['g#','ab']
+      actual: 'gsharp4',
+      note:['gsharp','ab']
 
     },
     {
@@ -181,8 +181,8 @@ const allNotes = [
       note:'a'
     },
     {
-      actual: 'a#4',
-      note:['a#','bb']
+      actual: 'asharp4',
+      note:['asharp','bb']
 
     },
     {
@@ -190,16 +190,16 @@ const allNotes = [
       note:'b'
     },
     {
-      actual: 'b#4',
-      note:['b#','cb']
+      actual: 'bsharp4',
+      note:['bsharp','cb']
     },
     {
       actual:'c5',
       note:'c'
     },
     {
-      actual:'c#5',
-      note:['c#','db']
+      actual:'csharp5',
+      note:['csharp','db']
 
     },
     {
@@ -207,8 +207,8 @@ const allNotes = [
       note:'d'
     },
     {
-      actual:'d#5',
-      note:['d#','eb']
+      actual:'dsharp5',
+      note:['dsharp','eb']
 
     },
     {
@@ -216,8 +216,8 @@ const allNotes = [
       note:'e'
     },
     {
-      actual: 'e#5',
-      note:['e#','fb']
+      actual: 'esharp5',
+      note:['esharp','fb']
 
     },
     {
@@ -225,8 +225,8 @@ const allNotes = [
       note:'f'
     },
     {
-      actual: 'f#5',
-      note:['f#','gb']
+      actual: 'fsharp5',
+      note:['fsharp','gb']
 
     },
     {
@@ -234,8 +234,8 @@ const allNotes = [
       note:'g'
     },
     {
-      actual: 'g#5',
-      note:['g#','ab']
+      actual: 'gsharp5',
+      note:['gsharp','ab']
 
     },
     {
@@ -243,8 +243,8 @@ const allNotes = [
       note:'a'
     },
     {
-      actual: 'a#5',
-      note:['a#','bb']
+      actual: 'asharp5',
+      note:['asharp','bb']
 
     },
     {
@@ -252,12 +252,16 @@ const allNotes = [
       note:'b'
     },
     {
-      actual: 'b#5',
-      note:['b#','cb']
+      actual: 'bsharp5',
+      note:['bsharp','cb']
     },
     {
       actual:'c6',
       note:'c'
+    },
+    {
+      actual:'csharp6',
+      note:['csharp','db']
     }
 ]
 
@@ -286,7 +290,7 @@ const gMajScale = allNotes.filter(function(noteInfo, index, array) {
     noteInfo["note"] == "c" ||
     noteInfo["note"] == "d" ||
     noteInfo["note"] == "e" ||
-    noteInfo["note"][0] == "f#"
+    noteInfo["note"][0] == "fsharp"
   ))
 });
 
@@ -294,11 +298,11 @@ const dMajScale = allNotes.filter(function(noteInfo, index, array) {
   return ((
     noteInfo["note"] == "d" ||
     noteInfo["note"] == "e" ||
-    noteInfo["note"][0] == "f#" ||
+    noteInfo["note"][0] == "fsharp" ||
     noteInfo["note"] == "g" ||
     noteInfo["note"] == "a" ||
     noteInfo["note"] == "b" ||
-    noteInfo["note"][0] == "c#"
+    noteInfo["note"][0] == "csharp"
   ))
 });
 
@@ -306,35 +310,35 @@ const aMajScale = allNotes.filter(function(noteInfo, index, array) {
   return ((
     noteInfo["note"] == "a" ||
     noteInfo["note"] == "b" ||
-    noteInfo["note"][0] == "c#" ||
+    noteInfo["note"][0] == "csharp" ||
     noteInfo["note"] == "d" ||
     noteInfo["note"] == "e" ||
-    noteInfo["note"][0] == "f#" ||
-    noteInfo["note"][0] == "g#"
+    noteInfo["note"][0] == "fsharp" ||
+    noteInfo["note"][0] == "gsharp"
   ))
 });
 
 const eMajScale = allNotes.filter(function(noteInfo, index, array) {
   return ((
     noteInfo["note"] == "e" ||
-    noteInfo["note"][0] == "f#" ||
-    noteInfo["note"][0] == "g#" ||
+    noteInfo["note"][0] == "fsharp" ||
+    noteInfo["note"][0] == "gsharp" ||
     noteInfo["note"] == "a" ||
     noteInfo["note"] == "b" ||
-    noteInfo["note"][0] == "c#" ||
-    noteInfo["note"][0] == "d#"
+    noteInfo["note"][0] == "csharp" ||
+    noteInfo["note"][0] == "dsharp"
   ))
 });
 
 const bMajScale = allNotes.filter(function(noteInfo, index, array) {
   return ((
     noteInfo["note"] == "b" ||
-    noteInfo["note"][0] == "c#" ||
-    noteInfo["note"][0] == "d#" ||
+    noteInfo["note"][0] == "csharp" ||
+    noteInfo["note"][0] == "dsharp" ||
     noteInfo["note"] == "e" ||
-    noteInfo["note"][0] == "f#" ||
-    noteInfo["note"][0] == "g#" ||
-    noteInfo["note"][0] == "a#"
+    noteInfo["note"][0] == "fsharp" ||
+    noteInfo["note"][0] == "gsharp" ||
+    noteInfo["note"][0] == "asharp"
   ))
 });
 
@@ -357,7 +361,136 @@ const gMajUnique = gMajScale.map(a => a.actual);
 const aMajUnique = aMajScale.map(a => a.actual);
 const bMajUnique = bMajScale.map(a => a.actual);
 
-$('.button').on('click', function() {
+$('button').on('click', function() {
+  var x ='#'+bMajUnique.toString().replace(/,/g,',#')
+  console.log(x);
+  $(x).addClass('visible');
+  console.log(cMajUnique);
+  // console.log(dMajUnique);
+  // console.log(eMajUnique);
+  // console.log(gMajUnique);
+  // console.log(aMajUnique);
+  // console.log(bMajUnique);
+
+
+
+  // var majorChords = [
+  //   {
+  //     "position": "root",
+  //     "chords": [
+  //       {
+  //         "scale degree": "I",
+  //         "notes": [0,2,4],[7,9,11],[14,16,18],[21,23,25];
+  //         "chord-name": notes[0];
+  //       },
+  //       {
+  //         "scale degree": "IV",
+  //         "notes": [3,5,7],[10,12,14],[17,19,21],[24,26,28];
+  //         "chord-name": notes[0];
+  //       },
+  //       {
+  //         "scale degree": "V",
+  //         "notes": [4,6,8],[11,13,15],[18,20,22]
+  //         "chord-name": notes[0];
+  //       },
+  //     ]
+  //   },
+  //   {
+  //     "name": "first-inversion",
+  //     "chords": [
+  //       {
+  //         "scale degree": "I",
+  //         "notes": [0,2,4]
+  //       },
+  //       {
+  //         "scale degree": "IV",
+  //         "notes": [3,5,7]
+  //       },
+  //       {
+  //         "scale degree": "V",
+  //         "notes": [4,6,8]
+  //       },
+  //     ]
+  //   },
+  //   {
+  //     "name": "second-inversion",
+  //     "chords": [
+  //       {
+  //         "scale degree": "I",
+  //         "notes": [0,2,4]
+  //       },
+  //       {
+  //         "scale degree": "IV",
+  //         "notes": [3,5,7]
+  //       },
+  //       {
+  //         "scale degree": "V",
+  //         "notes": [4,6,1]
+  //       },
+  //     ]
+  //   },
+  // ];
+  //
+  // var minorChords = [
+  //   {
+  //     "position": "root",
+  //     "chords": [
+  //       {
+  //         "scale degree": "ii",
+  //         "notes": [1,3,5]
+  //       },
+  //       {
+  //         "scale degree": "iii",
+  //         "notes": [2,4,6]
+  //       },
+  //       {
+  //         "scale degree": "vi",
+  //         "notes": [5,7,2]
+  //       },
+  //     ]
+  //   },
+  //   {
+  //     "position": "first-inversion",
+  //     "chords": [
+  //       {
+  //         "scale degree": "ii",
+  //         "notes": [1,3,5]
+  //       },
+  //       {
+  //         "scale degree": "iii",
+  //         "notes": [2,4,6]
+  //       },
+  //       {
+  //         "scale degree": "vi",
+  //         "notes": [5,7,2]
+  //       },
+  //     ]
+  //   },
+  //   {
+  //     "position": "second-inversion",
+  //     "chords": [
+  //       {
+  //         "scale degree": "ii",
+  //         "notes": [1,3,5]
+  //       },
+  //       {
+  //         "scale degree": "iii",
+  //         "notes": [2,4,6]
+  //       },
+  //       {
+  //         "scale degree": "vi",
+  //         "notes": [5,7,2]
+  //       },
+  //     ]
+  //   },
+  // ]
+
+  // cMajUnique.map(x2 => {
+  //   console.log(x2);
+  //   $(x2).addClass('show')
+  //
+  // })
+
   // console.log(cMajUnique);
   // console.log(dMajUnique);
   // console.log(eMajUnique);
@@ -369,7 +502,7 @@ $('.button').on('click', function() {
   // for (i = 0; i < dMajScale.length; i++) {console.log(dMajScale[i].actual);}
   // for (i = 0; i < eMajScale.length; i++) {console.log(eMajScale[i].actual);}
   // for (i = 0; i < gMajScale.length; i++) {console.log(gMajScale[i].actual);}
-  for (i = 0; i < aMajScale.length; i++) {console.log(aMajScale[i].actual);}
+  // for (i = 0; i < aMajScale.length; i++) {console.log(aMajScale[i].actual);}
   // for (i = 0; i < bMajScale.length; i++) {console.log(bMajScale[i].actual);}
 
 });

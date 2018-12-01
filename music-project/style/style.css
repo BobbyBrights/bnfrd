@@ -1,6 +1,97 @@
+/*
+ * V-1.0
+ *
+ * Starbucks Webapp Design Playground
+ *
+ */
+
+/* ----------------------------------------
+HTML RESET
+---------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; font: inherit; vertical-align: baseline;
+}
+
+html {
+	font-size: 1.0rem;
+}
+
+/* body,html {
+  height:100%;
+} */
+
+body {
+	font-size:100%;
+	line-height: 1.5;
+	letter-spacing: -.01em;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	text-shadow: none;
+	font-family: Gotham;
+	background-color: #f7f7f7;
+  color: rgba(0,0,0,.87)
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+	outline: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	cursor:pointer;
+	padding:0;
+	margin:0;
+  border:none;
+}
+
+button:focus {
+	outline: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, label, legend { display: block; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-spacing: 0; }
+
+/* ----------------------------------------
+Clearfixes
+---------------------------------------- */
+.row:before,.row:after,.clearfix:before,.clearfix:after{content:'';display:table}
+.row:after,.clearfix:after{clear:both}
+.row,.clearfix{zoom:1}
 
 
-.flat::after {
+/* ----------------------------------------
+Fonts
+---------------------------------------- */
+
+@font-face {
+  /* Gotham 400, 1F0746AE386DF76B4.eot */
+  font-family: 'Gotham';
+  src: url('/fonts/gotham.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /* Gotham 700, 6BB629FAC2C10DA4B.eot */
+  font-family: 'Gotham';
+  src: url('/fonts/gotham-bold.woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+body {
+  font-family: Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+
+/* .flat::after {
   width:19px;
   height:49px;
   left:-22px;
@@ -20,9 +111,9 @@
   -webkit-mask-size:cover;
   -webkit-mask-image: url('/img/flat.svg');
   mask-image: url('/img/flat.svg');
-}
+} */
 
-.sharp::after {
+/* .sharp::after {
   width:16px;
   height:54px;
   left:-21px;
@@ -43,13 +134,60 @@
   -webkit-mask-size:cover;
   -webkit-mask-image: url('/img/sharp.svg');
   mask-image: url('/img/sharp.svg');
+} */
+
+.key {
+  width:16px;
+  height:54px;
+  content: "";
+  position: absolute;
+  display: block;
+  background: rgba(0,0,0,.87);
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size:cover;
+  mask-clip: border-box;
+  mask-origin: border-box;
+  -webkit-mask-clip: border-box;
+  -webkit-mask-origin: border-box;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size:cover;
+  -webkit-mask-image: url('/img/sharp.svg');
+  mask-image: url('/img/sharp.svg');
 }
 
+.key.g {
+  left:16px;
+}
+.key.d {
+  left:32px;
+}
+.key.a {
+  left:48px;
+}
+.key.e {
+  left:64px;
+}
+.key.b {
+  left:80px;
+}
 .container {
-  align-items: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height:100%;
+  /* align-items: center;
   -webkit-box-align: center;
   justify-content: center;
-  height:100%;
+  height:100%; */
+}
+
+.grand-staff {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .line {
@@ -59,6 +197,9 @@
   -webkit-box-align: center;
   justify-content: center;
   margin-top:-12px;
+  /* border-right: 2px solid black;
+  border-left: 2px solid black; */
+  height:24px;
 }
 
 .line:nth-child(1) {
@@ -81,9 +222,9 @@
   visibility: hidden;
 } */
 
-.space .note{
+/* .space .note{
   visibility: hidden;
-}
+} */
 
 .space {
   display:flex;
@@ -91,6 +232,9 @@
   -webkit-box-align: center;
   justify-content: center;
   margin-top:-13px;
+  /* border-right: 2px solid black;
+  border-left: 2px solid black; */
+  height:24px;
 }
 
 .note {
@@ -98,6 +242,8 @@
   height: 24px;
   mask-repeat: no-repeat;
   mask-position: center;
+  position: absolute;
+  visibility: hidden;
   /* mask-size:cover;
   mask-clip: border-box;
   mask-origin: border-box;
@@ -115,20 +261,23 @@
   background: grey;
 }
 
-.button {
-  position:fixed;
-  bottom:32px;
-  right:32px;
+.button-section {
+  justify-content: center;
 }
 
-.m-12 {
-  margin-top:-12px;
+.you-know {
+  max-width: 800px;
+  flex-grow: 1;
 }
 
-.none {
-  display: none;
+button {
+  flex-grow: 1;
+  border-radius: 6px;
+  border:1px solid rgba(0,0,0,.12);
+  padding-top:8px;
+  padding-bottom:8px;
 }
 
-.hide {
-  visibility: hidden;
+.show {
+  display:block;
 }
