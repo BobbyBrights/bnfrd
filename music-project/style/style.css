@@ -109,8 +109,8 @@ body {
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   -webkit-mask-size:cover;
-  -webkit-mask-image: url('/img/flat.svg');
-  mask-image: url('/img/flat.svg');
+  -webkit-mask-image: url('/music-project/img/flat.svg');
+  mask-image: url('/music-project/img/flat.svg');
 } */
 
 /* .sharp::after {
@@ -132,8 +132,8 @@ body {
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   -webkit-mask-size:cover;
-  -webkit-mask-image: url('/img/sharp.svg');
-  mask-image: url('/img/sharp.svg');
+  -webkit-mask-image: url('/music-project/img/sharp.svg');
+  mask-image: url('/music-project/img/sharp.svg');
 } */
 
 .key {
@@ -153,8 +153,8 @@ body {
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   -webkit-mask-size:cover;
-  -webkit-mask-image: url('/img/sharp.svg');
-  mask-image: url('/img/sharp.svg');
+  -webkit-mask-image: url('/music-project/img/sharp.svg');
+  mask-image: url('/music-project/img/sharp.svg');
 }
 
 .key.g {
@@ -252,9 +252,9 @@ body {
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   -webkit-mask-size:cover;
-  -webkit-mask-image: url('/img/whole-note.svg');
-  mask-image: url('/img/whole-note.svg'); */
-  background-image: url('/img/whole-note.svg');
+  -webkit-mask-image: url('/music-project/img/whole-note.svg');
+  mask-image: url('/music-project/img/whole-note.svg'); */
+  background-image: url('/music-project/img/whole-note.svg');
 }
 
 .purple {
