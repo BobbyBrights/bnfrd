@@ -19,7 +19,7 @@ $(".settings").on('click', function() {
   $(".mask").toggleClass('on');
 });
 
-$(".mask").on('click', function() {
+$(".mask, .settings-close").on('click', function() {
   $(".settings-module").removeClass('show-settings');
   $(".mask").removeClass('on');
 });

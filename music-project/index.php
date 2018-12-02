@@ -19,7 +19,10 @@
 		<div class="mask">
 		</div>
 		<div class="settings-module">
-			<div class="m3 mt5 sm-m5 display-1 border-bottom pb3">Settings</div>
+			<div class="row bottom m3 mt5 sm-m5 border-bottom pb3">
+				<h1 class="display-1">Settings</h1>
+				<h3 class="settings-close ml-auto"><a href="#">Close</a></h3>
+			</div>
 			<section class="clefs m3 mt5 sm-m5">
 				<h2 class="ml1 mb2">Clefs</h2>
 				<div class="row">
