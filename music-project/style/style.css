@@ -351,6 +351,7 @@ Settings Module
   z-index: 400;
   box-shadow: 2px 0 13px 0 rgba(0,0,0,.05);
   transition: all 300ms ease;
+  overflow-y: visible;
 }
 
 .mask {
