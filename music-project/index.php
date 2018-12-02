@@ -19,8 +19,8 @@
 		<div class="mask">
 		</div>
 		<div class="settings-module">
-			<div class="m5 display-1 border-bottom pb3">Settings</div>
-			<section class="clefs m5">
+			<div class="m3 mt5 sm-m5 display-1 border-bottom pb3">Settings</div>
+			<section class="clefs m3 mt5 sm-m5">
 				<h2 class="ml1 mb2">Clefs</h2>
 				<div class="row">
 					<button class="unselected m1">Bass Clef</button>
@@ -28,7 +28,7 @@
 					<button class="unselected m1">Grand Clef</button>
 				</div>
 			</section>
-			<section class="key-signatures m5">
+			<section class="key-signatures m3 mt5 sm-m5">
 				<h2 class="ml1 mb2">Key Signatures</h2>
 				<div class="row">
 					<button class="unselected m1">C Major</button>
@@ -45,7 +45,7 @@
 					<button class="unselected m1">All Key Signatures</button>
 				</div>
 			</section>
-			<section class="chord-types m5">
+			<section class="chord-types m3 mt5 sm-m5">
 				<h2 class="ml1 mb2">Chord Types</h2>
 				<div class="row">
 					<button class="unselected m1">Major</button>
@@ -57,7 +57,7 @@
 					<button class="unselected m1">All Chord Types</button>
 				</div>
 			</section>
-			<section class="chord-types m5">
+			<section class="chord-types m3 mt5 sm-m5">
 				<h2 class="ml1 mb2">Chord Positions</h2>
 				<div class="row">
 					<button class="unselected m1">Root</button>
