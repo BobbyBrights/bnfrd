@@ -9,13 +9,21 @@
 	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="style/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="style/utility-classes.css" media="all">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" media="all">
+	<!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" media="all"> -->
 
 
 </head>
 
 <body>
   <div class="container">
+		<div class="navigation">
+			<div class="logo m5">
+				Chordy<span>.</span>
+			</div>
+			<div class="settings m5 ml-auto">
+				Settings
+			</div>
+		</div>
     <div class="grand-staff">
 			<div class="line ledger">
 			  <div class="note sharp" id="csharp6"></div>
@@ -170,7 +178,7 @@
 			</div>
     </div>
 		<div class="button-section mb4 row mx3">
-			<div class="you-know">
+			<div class="button-container">
 				<div class="row">
 					<button class="unselected">A</button>
 					<button class="unselected ml2">B</button>
@@ -183,7 +191,7 @@
 					<button class="unselected ml2">G</button>
 				</div>
 				<hr>
-				<div class="row mt2">
+				<div class="chord-quality row mt2">
 					<button class="unselected">Major</button>
 					<button class="unselected ml2">Minor</button>
 				</div>

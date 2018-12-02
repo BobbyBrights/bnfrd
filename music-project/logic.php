@@ -362,9 +362,9 @@ const aMajUnique = aMajScale.map(a => a.actual);
 const bMajUnique = bMajScale.map(a => a.actual);
 
 $('button').on('click', function() {
-  var x ='#'+bMajUnique.toString().replace(/,/g,',#')
-  console.log(x);
-  $(x).addClass('visible');
+  // var x ='#'+bMajUnique.toString().replace(/,/g,',#')
+  // console.log(x);
+  // $(x).addClass('visible');
   console.log(cMajUnique);
   // console.log(dMajUnique);
   // console.log(eMajUnique);
@@ -374,27 +374,51 @@ $('button').on('click', function() {
 
 
 
-  // var majorChords = [
+  // const cMajorChords = [
   //   {
   //     "position": "root",
   //     "chords": [
   //       {
   //         "scale degree": "I",
-  //         "notes": [0,2,4],[7,9,11],[14,16,18],[21,23,25];
-  //         "chord-name": notes[0];
+  //         "notes": [0,2,4],[7,9,11],[14,16,18],[21,23,25],
+  //         "chord-name": notes[0][0]
   //       },
   //       {
   //         "scale degree": "IV",
-  //         "notes": [3,5,7],[10,12,14],[17,19,21],[24,26,28];
-  //         "chord-name": notes[0];
+  //         "notes": [3,5,7],[10,12,14],[17,19,21],[24,26,28],
+  //         "chord-name": notes[0][0]
   //       },
   //       {
   //         "scale degree": "V",
-  //         "notes": [4,6,8],[11,13,15],[18,20,22]
-  //         "chord-name": notes[0];
+  //         "notes": [4,6,8],[11,13,15],[18,20,22],
+  //         "chord-name": notes[0][0]
   //       },
   //     ]
-  //   },
+  //   }
+  // ]
+  //
+  // const cMinorChords = [
+  //   {
+  //     "position": "root",
+  //     "chords": [
+  //       {
+  //         "scale degree": "ii",
+  //         "notes": [1,3,5],[8,10,12],[15,17,19],[22,24,26],
+  //         "chord-name": notes[0][0] + "m"
+  //       },
+  //       {
+  //         "scale degree": "iii",
+  //         "notes": [2,4,6],[9,11,13],[16,18,20],[23,25,27],
+  //         "chord-name": notes[0][0] + "m"
+  //       },
+  //       {
+  //         "scale degree": "vi",
+  //         "notes": [5,7,2],[12,14,16],[19,21,23],
+  //         "chord-name": notes[0][0] + "m"
+  //       },
+  //     ]
+  //   }
+  // ]
   //   {
   //     "name": "first-inversion",
   //     "chords": [

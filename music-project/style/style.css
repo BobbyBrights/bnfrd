@@ -16,6 +16,7 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
 
 html {
 	font-size: 1.0rem;
+  box-sizing: border-box;
 }
 
 /* body,html {
@@ -29,8 +30,7 @@ body {
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	text-shadow: none;
-	font-family: Gotham;
-	background-color: #f7f7f7;
+	font-family: Cosmica;
   color: rgba(0,0,0,.87)
 }
 
@@ -69,24 +69,46 @@ Fonts
 ---------------------------------------- */
 
 @font-face {
-  /* Gotham 400, 1F0746AE386DF76B4.eot */
-  font-family: 'Gotham';
-  src: url('/fonts/gotham.woff');
+  font-family: 'Cosmica';
+  src: url('/fonts/cosmica-book.otf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  /* Gotham 700, 6BB629FAC2C10DA4B.eot */
-  font-family: 'Gotham';
-  src: url('/fonts/gotham-bold.woff');
+  font-family: 'Cosmica';
+  src: url('/fonts/cosmica-book-italic.otf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cosmica';
+  src: url('/fonts/cosmica-semibold.otf');
   font-weight: bold;
   font-style: normal;
 }
 
+/* @font-face {
+  font-family: 'Cosmica';
+  src: url('/fonts/cosmica-light.otf');
+  font-weight: lighter;
+  font-style: normal;
+} */
+
 
 body {
-  font-family: Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Cosmica, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+button {
+  flex-grow: 1;
+  border-radius: 6px;
+  border:1px solid rgba(0,0,0,.12);
+  padding-top:8px;
+  padding-bottom:8px;
+  font-weight: bold;
+  font-size:14px;
 }
 
 
@@ -109,8 +131,8 @@ body {
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   -webkit-mask-size:cover;
-  -webkit-mask-image: url('/music-project/img/flat.svg');
-  mask-image: url('/music-project/img/flat.svg');
+  -webkit-mask-image: url('/img/flat.svg');
+  mask-image: url('/img/flat.svg');
 } */
 
 /* .sharp::after {
@@ -132,9 +154,47 @@ body {
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   -webkit-mask-size:cover;
-  -webkit-mask-image: url('/music-project/img/sharp.svg');
-  mask-image: url('/music-project/img/sharp.svg');
+  -webkit-mask-image: url('/img/sharp.svg');
+  mask-image: url('/img/sharp.svg');
 } */
+
+.navigation {
+  /* background:red; */
+  display: flex;
+}
+
+.logo {
+  color:rgba(0,0,0,.87);
+  font-weight: bold;
+  font-size:20px;
+}
+
+.logo span {
+  color:#FC5E15;
+}
+
+.settings {
+  font-weight: normal;
+  font-style: normal;
+  position: relative;
+  transition: all ease 4ms;
+}
+
+.settings:hover {
+  cursor: pointer;
+  transition: all ease 4ms;
+}
+
+.settings::before {
+  height:1px;
+  width:62px;
+  background:#FC5E15;
+  opacity: 1;
+  content:"";
+  position: absolute;
+  bottom:2px;
+  transition: bottom ease 4ms;
+}
 
 .key {
   width:16px;
@@ -153,8 +213,8 @@ body {
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   -webkit-mask-size:cover;
-  -webkit-mask-image: url('/music-project/img/sharp.svg');
-  mask-image: url('/music-project/img/sharp.svg');
+  -webkit-mask-image: url('/img/sharp.svg');
+  mask-image: url('/img/sharp.svg');
 }
 
 .key.g {
@@ -252,9 +312,9 @@ body {
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   -webkit-mask-size:cover;
-  -webkit-mask-image: url('/music-project/img/whole-note.svg');
-  mask-image: url('/music-project/img/whole-note.svg'); */
-  background-image: url('/music-project/img/whole-note.svg');
+  -webkit-mask-image: url('/img/whole-note.svg');
+  mask-image: url('/img/whole-note.svg'); */
+  background-image: url('/img/whole-note.svg');
 }
 
 .purple {
@@ -265,17 +325,9 @@ body {
   justify-content: center;
 }
 
-.you-know {
+.button-container {
   max-width: 800px;
   flex-grow: 1;
-}
-
-button {
-  flex-grow: 1;
-  border-radius: 6px;
-  border:1px solid rgba(0,0,0,.12);
-  padding-top:8px;
-  padding-bottom:8px;
 }
 
 .show {
