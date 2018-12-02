@@ -169,7 +169,7 @@ button {
   justify-content: flex-end;
   height:100%;
   overflow-x:hidden;
-  position:fixed;
+  /* position:fixed; */
   width:100%;
   -webkit-overflow-scrolling: touch;
 }
