@@ -85,6 +85,10 @@
 			</div>
 		</div>
     <div class="grand-staff">
+			<div class="treble-clef">
+			</div>
+			<div class="bass-clef">
+			</div>
 			<div class="line ledger">
 			  <div class="note sharp" id="csharp6"></div>
 			  <div class="note" id="c6"></div>
@@ -155,10 +159,14 @@
 			  <div class="note" id="d4"></div>
 			  <div class="note flat" id="db4"></div>
 			</div>
+			<div class="space">
+			</div>
 			<div class="line ledger">
 			  <div class="note sharp" id="csharp4"></div>
 			  <div class="note" id="c4"></div>
 			  <div class="note flat" id="cb4"></div>
+			</div>
+			<div class="space">
 			</div>
 			<div class="space">
 			  <div class="note sharp" id="bsharp3"></div>

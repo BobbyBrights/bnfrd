@@ -228,6 +228,7 @@ Staff Area
   flex-grow: 1;
   flex-direction: column;
   justify-content: center;
+  position:relative;
 }
 
 .line {
@@ -256,6 +257,7 @@ Staff Area
 
 .line.ledger::before {
   width:48px;
+  visibility: hidden;
 }
 
 .space {
@@ -313,6 +315,26 @@ Staff Area
 }
 .key.b {
   left:80px;
+}
+
+.treble-clef {
+  width: 53px;
+  height: 145px;
+  bottom: 272px;
+  left: 16px;
+  background-size: contain;
+  position: absolute;
+  background-image: url('/img/treble-clef.svg');
+}
+
+.bass-clef {
+  width: 60px;
+  height: 69px;
+  bottom: 170px;
+  left: 16px;
+  background-size: contain;
+  position: absolute;
+  background-image: url('/img/bass-clef.svg');
 }
 
 /* .line .note{
@@ -374,4 +396,41 @@ Settings Module
 
 .border-bottom {
   border-bottom: 1px solid rgba(0,0,0,.12);
+}
+
+/* ----------------------------------------
+Breakpoints
+---------------------------------------- */
+
+/* --breakpointSm */
+@media only screen and (min-width: 480px) {
+
+	.treble-clef {
+	  bottom: 256px;
+	}
+
+	.bass-clef {
+	  bottom: 154px;
+	}
+
+}
+
+/* --breakpointMd */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* --breakpointLg */
+@media only screen and (min-width: 1024px) {
+
+}
+
+/* --breakpointXl */
+@media only screen and (min-width: 1280px) {
+
+}
+
+/* --breakpointXxl */
+@media only screen and (min-width: 1600px) {
+
 }
