@@ -5,6 +5,28 @@
 
 <script>
 
+$(document).ready(function() {
+  document.getElementsByTagName("html")[0].style.visibility = "visible";
+  // $(".settings-module").css("right","-" + settingsWidth + "px");
+});
+
+
+// Global Variables
+var settingsWidth = $(".settings-module").width();
+
+$(".settings").on('click', function() {
+  $(".settings-module").toggleClass('show-settings');
+  $(".mask").toggleClass('on');
+});
+
+$(".mask").on('click', function() {
+  $(".settings-module").removeClass('show-settings');
+  $(".mask").removeClass('on');
+});
+
+
+
+
 const allNotes = [
     {
       actual:'c2',

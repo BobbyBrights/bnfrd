@@ -17,6 +17,8 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
 html {
 	font-size: 1.0rem;
   box-sizing: border-box;
+  visibility: hidden;
+  overflow-x: hidden;
 }
 
 /* body,html {
@@ -94,12 +96,19 @@ Fonts
   font-style: normal;
 }
 
+.display-1 {
+  font-size:24px;
+  font-weight: bold;
+}
+
 button {
   flex-grow: 1;
   border-radius: 6px;
   border:1px solid rgba(0,0,0,.12);
   padding-top:8px;
   padding-bottom:8px;
+  padding-left: 8px;
+  padding-right: 8px;
   font-weight: bold;
   font-size:14px;
   font-family: cosmica;
@@ -187,6 +196,12 @@ Nav Container
   position: relative;
   transition: all ease 4ms;
   color: rgba(0,0,0,.58);
+  transition: all 300ms ease;
+}
+
+.show-settings {
+  right:0!important;
+  transition: all 300ms ease;
 }
 
 .settings::before {
@@ -196,7 +211,7 @@ Nav Container
   opacity: .4;
   content:"";
   position: absolute;
-  bottom:2px;
+  bottom:4px;
   transition: bottom ease 4ms;
 }
 
@@ -217,10 +232,10 @@ Staff Area
   align-items: center;
   -webkit-box-align: center;
   justify-content: center;
-  margin-top:-12px;
+  margin-top:-11px;
   /* border-right: 2px solid black;
   border-left: 2px solid black; */
-  height:24px;
+  height:22px;
 }
 
 .line:nth-child(1) {
@@ -244,17 +259,16 @@ Staff Area
   align-items: center;
   -webkit-box-align: center;
   justify-content: center;
-  margin-top:-13px;
+  margin-top:-11px;
   /* border-right: 2px solid black;
   border-left: 2px solid black; */
-  height:24px;
+  height:22px;
 }
 
 .note {
-  width: 36px;
-  height: 24px;
-  mask-repeat: no-repeat;
-  mask-position: center;
+  width: 33px;
+  height: 22px;
+  background-size: contain;
   position: absolute;
   visibility: hidden;
   background-image: url('/img/whole-note.svg');
@@ -318,4 +332,40 @@ Selection Area
 .button-container {
   max-width: 800px;
   flex-grow: 1;
+}
+
+/* ----------------------------------------
+Settings Module
+---------------------------------------- */
+
+.settings-module {
+  position:absolute;
+  background:#fff;
+  height:100%;
+  top: 0;
+  right:-411.219px;
+  overflow:hidden;
+  z-index: 400;
+  box-shadow: 2px 0 13px 0 rgba(0,0,0,.05);
+  transition: all 300ms ease;
+}
+
+.mask {
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,.20);
+  opacity: 0;
+  visibility: hidden;
+  transition:opacity 300ms ease, visibility 300ms ease;
+}
+
+.mask.on {
+  visibility: visible;
+  opacity:1;
+  transition:opacity 300ms ease;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgba(0,0,0,.12);
 }

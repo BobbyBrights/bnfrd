@@ -16,6 +16,59 @@
 
 <body>
   <div class="container">
+		<div class="mask">
+		</div>
+		<div class="settings-module">
+			<div class="m5 display-1 border-bottom pb3">Settings</div>
+			<section class="clefs m5">
+				<h2 class="ml1 mb2">Clefs</h2>
+				<div class="row">
+					<button class="unselected m1">Bass Clef</button>
+					<button class="unselected m1">Treble Clef</button>
+					<button class="unselected m1">Grand Clef</button>
+				</div>
+			</section>
+			<section class="key-signatures m5">
+				<h2 class="ml1 mb2">Key Signatures</h2>
+				<div class="row">
+					<button class="unselected m1">C Major</button>
+					<button class="unselected m1">D Major</button>
+					<button class="unselected m1">E Major</button>
+					<button class="unselected m1">F Major</button>
+				</div>
+				<div class="row">
+					<button class="unselected m1">G Major</button>
+					<button class="unselected m1">A Major</button>
+					<button class="unselected m1">B Major</button>
+				</div>
+				<div class="row">
+					<button class="unselected m1">All Key Signatures</button>
+				</div>
+			</section>
+			<section class="chord-types m5">
+				<h2 class="ml1 mb2">Chord Types</h2>
+				<div class="row">
+					<button class="unselected m1">Major</button>
+					<button class="unselected m1">Minor</button>
+					<button class="unselected m1">Augmented</button>
+					<button class="unselected m1">Diminished</button>
+				</div>
+				<div class="row">
+					<button class="unselected m1">All Chord Types</button>
+				</div>
+			</section>
+			<section class="chord-types m5">
+				<h2 class="ml1 mb2">Chord Positions</h2>
+				<div class="row">
+					<button class="unselected m1">Root</button>
+					<button class="unselected m1">First Inversion</button>
+					<button class="unselected m1">Second Inversion</button>
+				</div>
+				<div class="row">
+					<button class="unselected m1">All Chord Positions</button>
+				</div>
+			</section>
+		</div>
 		<div class="navigation">
 			<div class="logo m3 sm-m5">
 				<a href="#">
@@ -178,20 +231,20 @@
 		<div class="button-section mb4 row mx3">
 			<div class="button-container">
 				<div class="row">
-					<button class="unselected">A</button>
-					<button class="unselected ml2">B</button>
-					<button class="unselected ml2">C</button>
+					<button class="unselected m1">A</button>
+					<button class="unselected m1">B</button>
+					<button class="unselected m1">C</button>
 				</div>
-				<div class="row mt2">
-					<button class="unselected">D</button>
-					<button class="unselected ml2">E</button>
-					<button class="unselected ml2">F</button>
-					<button class="unselected ml2">G</button>
+				<div class="row">
+					<button class="unselected m1">D</button>
+					<button class="unselected m1">E</button>
+					<button class="unselected m1">F</button>
+					<button class="unselected m1">G</button>
 				</div>
 				<hr>
-				<div class="chord-quality row mt2">
-					<button class="unselected">Major</button>
-					<button class="unselected ml2">Minor</button>
+				<div class="chord-quality row">
+					<button class="unselected m1">Major</button>
+					<button class="unselected m1">Minor</button>
 				</div>
 			</div>
 		</div>
