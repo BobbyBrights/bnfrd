@@ -47,6 +47,11 @@ button {
   border:none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 button:focus {
 	outline: 0;
 }
@@ -88,14 +93,6 @@ Fonts
   font-weight: bold;
   font-style: normal;
 }
-
-/* @font-face {
-  font-family: 'Cosmica';
-  src: url('/fonts/cosmica-light.otf');
-  font-weight: lighter;
-  font-style: normal;
-} */
-
 
 body {
   font-family: Cosmica, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -158,6 +155,20 @@ button {
   mask-image: url('/img/sharp.svg');
 } */
 
+
+
+.container {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height:100%;
+}
+
+
+/* ----------------------------------------
+Nav Container
+---------------------------------------- */
+
 .navigation {
   /* background:red; */
   display: flex;
@@ -178,22 +189,78 @@ button {
   font-style: normal;
   position: relative;
   transition: all ease 4ms;
-}
-
-.settings:hover {
-  cursor: pointer;
-  transition: all ease 4ms;
+  color: rgba(0,0,0,.58);
 }
 
 .settings::before {
   height:1px;
   width:62px;
-  background:#FC5E15;
-  opacity: 1;
+  background:rgba(0,0,0,1);
+  opacity: .4;
   content:"";
   position: absolute;
   bottom:2px;
   transition: bottom ease 4ms;
+}
+
+/* ----------------------------------------
+Staff Area
+---------------------------------------- */
+
+.grand-staff {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.line {
+  overflow:visible;
+  display:flex;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: center;
+  margin-top:-12px;
+  /* border-right: 2px solid black;
+  border-left: 2px solid black; */
+  height:24px;
+}
+
+.line:nth-child(1) {
+  margin-top:0px;
+}
+
+.line::before {
+  width:100%;
+  height: 1px;
+  background: rgba(0,0,0,.60);
+  content:"";
+  position: absolute;
+}
+
+.line.ledger::before {
+  width:48px;
+}
+
+.space {
+  display:flex;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: center;
+  margin-top:-13px;
+  /* border-right: 2px solid black;
+  border-left: 2px solid black; */
+  height:24px;
+}
+
+.note {
+  width: 36px;
+  height: 24px;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  position: absolute;
+  visibility: hidden;
+  background-image: url('/img/whole-note.svg');
 }
 
 .key {
@@ -232,51 +299,6 @@ button {
 .key.b {
   left:80px;
 }
-.container {
-  display:flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  height:100%;
-  /* align-items: center;
-  -webkit-box-align: center;
-  justify-content: center;
-  height:100%; */
-}
-
-.grand-staff {
-  display: flex;
-  flex-grow: 1;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.line {
-  overflow:visible;
-  display:flex;
-  align-items: center;
-  -webkit-box-align: center;
-  justify-content: center;
-  margin-top:-12px;
-  /* border-right: 2px solid black;
-  border-left: 2px solid black; */
-  height:24px;
-}
-
-.line:nth-child(1) {
-  margin-top:0px;
-}
-
-.line::before {
-  width:100%;
-  height: 1px;
-  background: rgba(0,0,0,.87);
-  content:"";
-  position: absolute;
-}
-
-.line.ledger::before {
-  width:48px;
-}
 
 /* .line .note{
   visibility: hidden;
@@ -286,40 +308,6 @@ button {
   visibility: hidden;
 } */
 
-.space {
-  display:flex;
-  align-items: center;
-  -webkit-box-align: center;
-  justify-content: center;
-  margin-top:-13px;
-  /* border-right: 2px solid black;
-  border-left: 2px solid black; */
-  height:24px;
-}
-
-.note {
-  width: 36px;
-  height: 24px;
-  mask-repeat: no-repeat;
-  mask-position: center;
-  position: absolute;
-  visibility: hidden;
-  /* mask-size:cover;
-  mask-clip: border-box;
-  mask-origin: border-box;
-  -webkit-mask-clip: border-box;
-  -webkit-mask-origin: border-box;
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-  -webkit-mask-size:cover;
-  -webkit-mask-image: url('/img/whole-note.svg');
-  mask-image: url('/img/whole-note.svg'); */
-  background-image: url('/img/whole-note.svg');
-}
-
-.purple {
-  background: grey;
-}
 
 .button-section {
   justify-content: center;
@@ -328,8 +316,4 @@ button {
 .button-container {
   max-width: 800px;
   flex-grow: 1;
-}
-
-.show {
-  display:block;
 }

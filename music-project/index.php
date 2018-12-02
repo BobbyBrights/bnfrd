@@ -17,11 +17,15 @@
 <body>
   <div class="container">
 		<div class="navigation">
-			<div class="logo m5">
+			<div class="logo m3 sm-m5">
+				<a href="#">
 				Chordy<span>.</span>
+				</a>
 			</div>
-			<div class="settings m5 ml-auto">
+			<div class="settings ml-auto m3 sm-ml-auto sm-m5">
+				<a href="#">
 				Settings
+				</a>
 			</div>
 		</div>
     <div class="grand-staff">
@@ -76,7 +80,6 @@
 			  <div class="note flat" id="ab4"></div>
 			</div>
 			<div class="line">
-			  <div class="key g"></div>
 			  <div class="note sharp" id="gsharp4"></div>
 			  <div class="note" id="g4"></div>
 			  <div class="note flat" id="gb4"></div>
@@ -122,7 +125,6 @@
 			  <div class="note flat" id="fb3"></div>
 			</div>
 			<div class="space">
-			  <div class="key b"></div>
 			  <div class="note sharp" id="esharp3"></div>
 			  <div class="note" id="e3"></div>
 			  <div class="note flat" id="eb3"></div>
@@ -133,13 +135,11 @@
 			  <div class="note flat" id="db3"></div>
 			</div>
 			<div class="space">
-			  <div class="key d"></div>
 			  <div class="note sharp" id="csharp3"></div>
 			  <div class="note" id="c3"></div>
 			  <div class="note flat" id="cb3"></div>
 			</div>
 			<div class="line">
-			  <div class="key e"
 			  <div class="note sharp" id="bsharp2"></div>
 			  <div class="note" id="b2"></div>
 			  <div class="note flat" id="bb2"></div>
@@ -150,13 +150,11 @@
 			  <div class="note flat" id="ab2"></div>
 			</div>
 			<div class="line">
-			  <div class="key g"></div>
 			  <div class="note sharp" id="gsharp2"></div>
 			  <div class="note" id="g2"></div>
 			  <div class="note flat" id="gb2"></div>
 			</div>
 			<div class="space">
-			  <div class="key a"></div>
 			  <div class="note sharp" id="fsharp2"></div>
 			  <div class="note" id="f2"></div>
 			  <div class="note flat" id="fb2"></div>
