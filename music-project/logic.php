@@ -17,11 +17,13 @@ var settingsWidth = $(".settings-module").width();
 $(".settings").on('click', function() {
   $(".settings-module").toggleClass('show-settings');
   $(".mask").toggleClass('on');
+  $(".navigation,.button-section,.grand-staff").toggleClass('slide');
 });
 
 $(".mask, .settings-close").on('click', function() {
   $(".settings-module").removeClass('show-settings');
   $(".mask").removeClass('on');
+  $(".navigation,.button-section,.grand-staff").removeClass('slide');
 });
 
 $("button").on("click", function(){

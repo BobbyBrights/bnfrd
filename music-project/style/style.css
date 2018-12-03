@@ -193,9 +193,12 @@ Nav Container
 ---------------------------------------- */
 
 .navigation {
-  /* background:red; */
   display: flex;
+	position: relative;
+	transition: left 200ms ease;
+	left:0;
 }
+
 
 .logo {
   color:rgba(0,0,0,.87);
@@ -243,6 +246,8 @@ Staff Area
   flex-direction: column;
   justify-content: center;
   position:relative;
+	transition: left 200ms ease;
+	left:0;
 }
 
 .line {
@@ -366,7 +371,12 @@ Selection Area
 
 .button-section {
   justify-content: center;
+	position: relative;
+	transition: left 200ms ease;
+	z-index:1;
+	left:0;
 }
+
 
 .button-container {
   max-width: 800px;
@@ -399,6 +409,7 @@ Settings Module
   opacity: 0;
   visibility: hidden;
   transition:opacity 300ms ease, visibility 300ms ease;
+	z-index:300;
 }
 
 .mask.on {
@@ -411,12 +422,22 @@ Settings Module
   border-bottom: 1px solid rgba(0,0,0,.12);
 }
 
+.slide {
+	transition: left 200ms ease;
+	left:-10px;
+	position:relative;
+}
+
 /* ----------------------------------------
 Breakpoints
 ---------------------------------------- */
 
 /* --breakpointSm */
 @media only screen and (min-width: 480px) {
+
+	.slide {
+		left:0px;
+	}
 
 	/* .treble-clef {
 	  bottom: 256px;
