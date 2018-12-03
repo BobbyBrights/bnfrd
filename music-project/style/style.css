@@ -216,12 +216,12 @@ Nav Container
   position: relative;
   transition: all ease 4ms;
   color: rgba(0,0,0,.58);
-  transition: all 300ms ease;
+  transition: all 200ms ease;
 }
 
 .show-settings {
   right:0!important;
-  transition: all 300ms ease;
+  transition: all 200ms ease;
 }
 
 .settings::before {
@@ -391,12 +391,13 @@ Settings Module
   position:absolute;
   background:#fff;
   height:100%;
+	width:90%;
   top: 0;
   right:-411.219px;
   overflow:hidden;
   z-index: 400;
   box-shadow: 2px 0 13px 0 rgba(0,0,0,.05);
-  transition: all 300ms ease;
+  transition: all 200ms ease;
   overflow-y: visible;
   -webkit-overflow-scrolling: touch;
 }
@@ -408,14 +409,14 @@ Settings Module
   background:rgba(0,0,0,.20);
   opacity: 0;
   visibility: hidden;
-  transition:opacity 300ms ease, visibility 300ms ease;
+  transition:opacity 200ms ease, visibility 200ms ease;
 	z-index:300;
 }
 
 .mask.on {
   visibility: visible;
   opacity:1;
-  transition:opacity 300ms ease;
+  transition:opacity 200ms ease;
 }
 
 .border-bottom {
@@ -434,6 +435,21 @@ Breakpoints
 
 /* --breakpointSm */
 @media only screen and (min-width: 480px) {
+
+	.settings-module {
+	  position:absolute;
+	  background:#fff;
+	  height:100%;
+		width:unset;
+	  top: 0;
+	  right:-411.219px;
+	  overflow:hidden;
+	  z-index: 400;
+	  box-shadow: 2px 0 13px 0 rgba(0,0,0,.05);
+	  transition: all 200ms ease;
+	  overflow-y: visible;
+	  -webkit-overflow-scrolling: touch;
+	}
 
 	.slide {
 		left:0px;
