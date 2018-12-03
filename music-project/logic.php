@@ -24,6 +24,10 @@ $(".mask, .settings-close").on('click', function() {
   $(".mask").removeClass('on');
 });
 
+$("button").on("click", function(){
+  $(this).toggleClass("toggle");
+});
+
 
 
 
