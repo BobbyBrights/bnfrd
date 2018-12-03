@@ -121,13 +121,22 @@ button:hover {
 	transition: all 200ms ease;
 }
 
-button.toggle {
+button.options.toggle {
   border:1px solid rgba(252,94,21,1);
 	background:rgba(252,94,21,1);
 	color:white;
 	transition: all 200ms ease;
 }
 
+button.incorrect.toggle {
+  border:1px solid rgba(252,21,21,.56);
+	transition: all 200ms ease;
+}
+
+button.correct.toggle {
+	background: #15FCC3;
+	transition: all 200ms ease;
+}
 
 
 /* .flat::after {
@@ -257,7 +266,7 @@ Staff Area
   align-items: center;
   -webkit-box-align: center;
   justify-content: center;
-  margin-top:-11px;
+  margin-top:-12px;
   /* border-right: 2px solid black;
   border-left: 2px solid black; */
   height:22px;
@@ -296,9 +305,18 @@ Staff Area
   height: 22px;
   background-size: contain;
   position: absolute;
-  visibility: hidden;
+  /* visibility: hidden; */
   background-image: url('/img/whole-note.svg');
 }
+
+/* .line .note{
+  visibility: hidden;
+} */
+
+.space .note{
+  visibility: hidden;
+}
+
 
 .key {
   width:16px;
@@ -321,20 +339,20 @@ Staff Area
   mask-image: url('/img/sharp.svg');
 }
 
-.key.g {
-  left:16px;
-}
-.key.d {
-  left:32px;
-}
-.key.a {
-  left:48px;
+.key.b {
+  left:152px;
 }
 .key.e {
-  left:64px;
+  left:136px;
 }
-.key.b {
-  left:80px;
+.key.a {
+  left:120px;
+}
+.key.d {
+  left:104px;
+}
+.key.g {
+  left:88px;
 }
 
 .treble-clef {
@@ -350,19 +368,12 @@ Staff Area
 .bass-clef {
   width: 60px;
   height: 69px;
+	left:-4px;
   bottom: -69.5%;
   background-size: contain;
   position: absolute;
   background-image: url('/img/bass-clef.svg');
 }
-
-/* .line .note{
-  visibility: hidden;
-} */
-
-/* .space .note{
-  visibility: hidden;
-} */
 
 
 /* ----------------------------------------

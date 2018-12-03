@@ -20,15 +20,16 @@ $(".settings").on('click', function() {
   $(".navigation,.button-section,.grand-staff").toggleClass('slide');
 });
 
-$(".mask, .settings-close").on('click', function() {
+$(".mask,.settings-close").on('click', function() {
   $(".settings-module").removeClass('show-settings');
   $(".mask").removeClass('on');
   $(".navigation,.button-section,.grand-staff").removeClass('slide');
 });
 
-$("button").on("click", function(){
+$("button.options, button.correct, button.incorrect").on("click", function(){
   $(this).toggleClass("toggle");
 });
+
 
 
 
@@ -394,7 +395,7 @@ $('button').on('click', function() {
   // console.log(x);
   // $(x).addClass('visible');
   console.log(cMajUnique);
-  // console.log(dMajUnique);
+  console.log(dMajUnique);
   // console.log(eMajUnique);
   // console.log(gMajUnique);
   // console.log(aMajUnique);
