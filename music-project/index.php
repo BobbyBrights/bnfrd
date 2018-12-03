@@ -1,7 +1,10 @@
 <head>
-	<title>App Playground</title>
+	<title>Chordy | Learning your chords</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+
 
 
 
@@ -24,7 +27,10 @@
 				<h3 class="settings-close ml-auto"><a href="#">Close</a></h3>
 			</div>
 			<section class="clefs m3 mt5 sm-m5">
-				<h2 class="ml1 mb2">Clefs</h2>
+				<div class="row">
+					<h2 class="ml1 mb2">Clefs</h2>
+					<button class="text ml-auto">Select all</h3>
+				</div>
 				<div class="row">
 					<button class="options m1">Bass Clef</button>
 					<button class="options m1">Treble Clef</button>
@@ -32,7 +38,10 @@
 				</div>
 			</section>
 			<section class="key-signatures m3 mt5 sm-m5">
-				<h2 class="ml1 mb2">Key Signatures</h2>
+				<div class="row">
+					<h2 class="ml1 mb2">Key Signatures</h2>
+					<button class="text ml-auto">Select all</h3>
+				</div>
 				<div class="row">
 					<button class="options m1">C Major</button>
 					<button class="options m1">D Major</button>
@@ -45,11 +54,14 @@
 					<button class="options m1">B Major</button>
 				</div>
 				<div class="row">
-					<button class="options m1">All Key Signatures</button>
+					<!-- <button class="options m1">All Key Signatures</button> -->
 				</div>
 			</section>
 			<section class="chord-types m3 mt5 sm-m5">
-				<h2 class="ml1 mb2">Chord Types</h2>
+				<div class="row">
+					<h2 class="ml1 mb2">Chord Types</h2>
+					<button class="text ml-auto">Select all</h3>
+				</div>
 				<div class="row">
 					<button class="options m1">Major</button>
 					<button class="options m1">Minor</button>
@@ -57,18 +69,21 @@
 					<button class="options m1">Diminished</button>
 				</div>
 				<div class="row">
-					<button class="options m1">All Chord Types</button>
+					<!-- <button class="options m1">All Chord Types</button> -->
 				</div>
 			</section>
 			<section class="chord-types m3 mt5 sm-m5">
-				<h2 class="ml1 mb2">Chord Positions</h2>
+				<div class="row">
+					<h2 class="ml1 mb2">Chord Positions</h2>
+					<button class="text ml-auto">Select all</h3>
+				</div>
 				<div class="row">
 					<button class="options m1">Root</button>
 					<button class="options m1">First Inversion</button>
 					<button class="options m1">Second Inversion</button>
 				</div>
 				<div class="row">
-					<button class="options m1">All Chord Positions</button>
+					<!-- <button class="options m1">All Chord Positions</button> -->
 				</div>
 			</section>
 		</div>

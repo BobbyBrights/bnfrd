@@ -116,9 +116,18 @@ button {
 	transition: all 200ms ease;
 }
 
+button.text {
+	border:none;
+	flex-grow: unset;
+}
+
 button:hover {
 	background:rgba(0,0,0,.03);
 	transition: all 200ms ease;
+}
+
+button.text:hover {
+	background:unset;
 }
 
 button.options.toggle {

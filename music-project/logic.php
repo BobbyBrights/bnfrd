@@ -30,6 +30,10 @@ $("button.options, button.correct, button.incorrect").on("click", function(){
   $(this).toggleClass("toggle");
 });
 
+$(".clefs button.text").on("click", function(){
+  $(".clefs button.options").toggleClass("toggle");
+});
+
 
 
 
