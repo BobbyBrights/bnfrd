@@ -157,8 +157,8 @@ button.correct.toggle {
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   -webkit-mask-size:cover;
-  -webkit-mask-image: url('/img/flat.svg');
-  mask-image: url('/img/flat.svg');
+  -webkit-mask-image: url('music-project/img/flat.svg');
+  mask-image: url('music-project/img/flat.svg');
 } */
 
 /* .sharp::after {
@@ -180,8 +180,8 @@ button.correct.toggle {
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   -webkit-mask-size:cover;
-  -webkit-mask-image: url('/img/sharp.svg');
-  mask-image: url('/img/sharp.svg');
+  -webkit-mask-image: url('music-project/img/sharp.svg');
+  mask-image: url('music-project/img/sharp.svg');
 } */
 
 
@@ -306,7 +306,7 @@ Staff Area
   background-size: contain;
   position: absolute;
   /* visibility: hidden; */
-  background-image: url('/img/whole-note.svg');
+  background-image: url('music-project/img/whole-note.svg');
 }
 
 /* .line .note{
@@ -335,8 +335,8 @@ Staff Area
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   -webkit-mask-size:cover;
-  -webkit-mask-image: url('/img/sharp.svg');
-  mask-image: url('/img/sharp.svg');
+  -webkit-mask-image: url('music-project/img/sharp.svg');
+  mask-image: url('music-project/img/sharp.svg');
 }
 
 .key.b {
@@ -362,7 +362,7 @@ Staff Area
   left: 16px;
   background-size: contain;
   position: absolute;
-  background-image: url('/img/treble-clef.svg');
+  background-image: url('music-project/img/treble-clef.svg');
 }
 
 .bass-clef {
@@ -372,7 +372,7 @@ Staff Area
   bottom: -69.5%;
   background-size: contain;
   position: absolute;
-  background-image: url('/img/bass-clef.svg');
+  background-image: url('music-project/img/bass-clef.svg');
 }
 
 
