@@ -86,8 +86,8 @@
 		</div>
     <div class="grand-staff">
 			<div class="treble-clef">
-			</div>
-			<div class="bass-clef">
+				<div class="bass-clef">
+				</div>
 			</div>
 			<div class="line ledger">
 			  <div class="note sharp" id="csharp6"></div>
