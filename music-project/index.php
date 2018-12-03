@@ -1,13 +1,9 @@
 <head>
-	<title>Chordy | Learning your chords</title>
+	<title>Chordy | Learn your chords</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
 	<link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
-
-
-
-
 
 	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="style/style.css" media="all">

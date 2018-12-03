@@ -13,6 +13,7 @@ $(document).ready(function() {
 
 // Global Variables
 var toastHeight = $(".basic-toast").outerHeight();
+var frapDistance = toastHeight + 32
 
 
 /* ----------------------------------------
@@ -22,6 +23,7 @@ var toastHeight = $(".basic-toast").outerHeight();
 ---------------------------------------- */
 
 $('.toggle-reward').on('click', function() {
+  console.log(frapDistance);
   $(this).toggleClass('ghost-button');
   $(".toggle-reward").not(this).removeClass("ghost-button");
   var rewardAction = $(this).find('.reward-text');
@@ -40,6 +42,7 @@ $('.toggle-reward').on('click', function() {
     $(".reward-message").not(messageDiv).removeClass("show-flex");
     $(".reward-discount").not(rewardDiscountDiv).removeClass("show-flex");
     showToast();
+    moveFrap();
     } else {
     rewardAction.text("Use");
     $(messageDiv).removeClass("show-flex");
@@ -98,10 +101,19 @@ $(".basic-toast")
   .qcss({ bottom:"-" + toastHeight + "px" })
   .delay(200)
   .qcss({ display: 'none' })
-}
+};
+
+function moveFrap () {
+  $(".frap-container")
+    .qcss({ transition: 'all .2s ease' })
+    .qcss({ bottom: frapDistance + "px" })
+    .delay(2000)
+    .qcss({ bottom: "32px" })
+};
 
 $(".initiate-toast").on("click", function() {
 showToast();
+moveFrap();
 });
 
 

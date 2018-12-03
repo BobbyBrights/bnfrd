@@ -206,21 +206,21 @@
               <div class="body-1 colorTextBlackSoft green-text">Discount
               </div>
               <div class="dottedUnderline"></div>
-              <div class="subhead-2 ml-auto green-text">-$5.15
+              <div class="subhead-2 ml-auto green-text">-$11.95
               </div>
             </div>
             <div class="row c12 px2 pt1 pb2">
               <div class="body-1 colorTextBlackSoft">Subtotal
               </div>
               <div class="dottedUnderline"></div>
-              <div class="subhead-2 ml-auto">$5.47
+              <div class="subhead-2 ml-auto">$29.00
               </div>
             </div>
             <div class="row c12 px2 pb2">
               <div class="body-1 colorTextBlackSoft">Tax 10.1%
               </div>
               <div class="dottedUnderline"></div>
-              <div class="subhead-2 ml-auto">$1.18
+              <div class="subhead-2 ml-auto">$2.93
               </div>
             </div>
             <div class="row c12 px2 pb2">
@@ -234,14 +234,14 @@
               <div class="body-1 colorTextBlackSoft">Charity Roundup
               </div>
               <div class="dottedUnderline"></div>
-              <div class="subhead-2 ml-auto">$0.50
+              <div class="subhead-2 ml-auto">$0.00
               </div>
             </div>
             <div class="row c12 px2">
               <div class="frap-text large-text">Total
               </div>
               <div class="dottedUnderline"></div>
-              <div class="frap-text ml-auto large-text">$27.00
+              <div class="frap-text ml-auto large-text">$31.93
               </div>
             </div>
           </div>
@@ -252,7 +252,7 @@
         </div>
         <div class="frap-container">
           <div class="frap">
-            Checkout $27.00
+            Checkout $31.93
           </div>
         </div>
 			</div>
