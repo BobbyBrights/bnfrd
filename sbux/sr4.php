@@ -174,39 +174,39 @@
             </div>
           </div>
           <div class="product-card mb15 px3 pb5 pt3 sm-pt3 sm-px5 sm-pb5 md-pt4 md-pb5">
-            <div class="row c12 px2 pt1 pb1 hide reward-discount" id="25-reward-total">
-              <div class="body-1 colorTextBlackSoft green-text">Discount
+            <div class="row c12 px2 pt1 pb1 hide reward-discount colorTextGreen" id="25-reward-total">
+              <div class="body-1">Discount
               </div>
               <div class="dottedUnderline"></div>
-              <div class="subhead-2 ml-auto green-text">-$0.90
+              <div class="subhead-2 ml-auto">-$0.90
               </div>
             </div>
-            <div class="row c12 px2 pt1 pb1 hide reward-discount" id="50-reward-total">
-              <div class="body-1 colorTextBlackSoft green-text">Discount
+            <div class="row c12 px2 pt1 pb1 hide reward-discount colorTextGreen" id="50-reward-total">
+              <div class="body-1">Discount
               </div>
               <div class="dottedUnderline"></div>
-              <div class="subhead-2 ml-auto green-text">-$2.45
+              <div class="subhead-2 ml-auto">-$2.45
               </div>
             </div>
-            <div class="row c12 px2 pt1 pb1 hide reward-discount" id="150-reward-total">
-              <div class="body-1 colorTextBlackSoft green-text">Discount
+            <div class="row c12 px2 pt1 pb1 hide reward-discount colorTextGreen" id="150-reward-total">
+              <div class="body-1">Discount
               </div>
               <div class="dottedUnderline"></div>
-              <div class="subhead-2 ml-auto green-text">-$5.15
+              <div class="subhead-2 ml-auto">-$4.25
               </div>
             </div>
-            <div class="row c12 px2 pt1 pb1 hide reward-discount" id="200-reward-total">
-              <div class="body-1 colorTextBlackSoft green-text">Discount
+            <div class="row c12 px2 pt1 pb1 hide reward-discount colorTextGreen" id="200-reward-total">
+              <div class="body-1">Discount
               </div>
               <div class="dottedUnderline"></div>
-              <div class="subhead-2 ml-auto green-text">-$5.15
+              <div class="subhead-2 ml-auto">-$9.45
               </div>
             </div>
-            <div class="row c12 px2 pt1 pb1 hide reward-discount" id="400-reward-total">
-              <div class="body-1 colorTextBlackSoft green-text">Discount
+            <div class="row c12 px2 pt1 pb1 hide reward-discount colorTextGreen" id="400-reward-total">
+              <div class="body-1">Discount
               </div>
               <div class="dottedUnderline"></div>
-              <div class="subhead-2 ml-auto green-text">-$11.95
+              <div class="subhead-2 ml-auto">-$11.95
               </div>
             </div>
             <div class="row c12 px2 pt1 pb2">
