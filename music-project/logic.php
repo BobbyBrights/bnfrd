@@ -26,8 +26,12 @@ $(".mask,.settings-close").on('click', function() {
   $(".navigation,.button-section,.grand-staff").removeClass('slide');
 });
 
-$("button.options, button.correct, button.incorrect").on("click", function(){
+$("button.options").on("click", function(){
   $(this).toggleClass("toggle");
+});
+
+$("button.correct, button.incorrect").on("click", function(){
+  $(this).addClass("toggle");
 });
 
 $(".clefs button.text").on("click", function(){
@@ -35,265 +39,262 @@ $(".clefs button.text").on("click", function(){
 });
 
 
-
-
-
 const allNotes = [
     {
-      actual:'c2',
+      unique:'c2',
       note:'c'
     },
     {
-      actual:'csharp2',
+      unique:'csharp2',
       note:['csharp','db']
 
     },
     {
-      actual:'d2',
+      unique:'d2',
       note:'d'
     },
     {
-      actual:'dsharp2',
+      unique:'dsharp2',
       note:['dsharp','eb']
 
     },
     {
-      actual: 'e2',
+      unique: 'e2',
       note:'e'
     },
     {
-      actual: 'esharp2',
+      unique: 'esharp2',
       note:['esharp','fb']
 
     },
     {
-      actual: 'f2',
+      unique: 'f2',
       note:'f'
     },
     {
-      actual: 'fsharp2',
+      unique: 'fsharp2',
       note:['fsharp','gb']
 
     },
     {
-      actual: 'g2',
+      unique: 'g2',
       note:'g'
     },
     {
-      actual: 'gsharp2',
+      unique: 'gsharp2',
       note:['gsharp','ab']
 
     },
     {
-      actual: 'a2',
+      unique: 'a2',
       note:'a'
     },
     {
-      actual: 'asharp2',
+      unique: 'asharp2',
       note:['asharp','bb']
 
     },
     {
-      actual: 'b2',
+      unique: 'b2',
       note:'b'
     },
     {
-      actual: 'bsharp2',
+      unique: 'bsharp2',
       note:['bsharp','cb']
 
     },
     {
-      actual:'c3',
+      unique:'c3',
       note:'c'
     },
     {
-      actual:'csharp3',
+      unique:'csharp3',
       note:['csharp','db']
 
     },
     {
-      actual:'d3',
+      unique:'d3',
       note:'d'
     },
     {
-      actual:'dsharp3',
+      unique:'dsharp3',
       note:['dsharp','eb']
 
     },
     {
-      actual: 'e3',
+      unique: 'e3',
       note:'e'
     },
     {
-      actual: 'esharp3',
+      unique: 'esharp3',
       note:['esharp','fb']
 
     },
     {
-      actual: 'f3',
+      unique: 'f3',
       note:'f'
     },
     {
-      actual: 'fsharp3',
+      unique: 'fsharp3',
       note:['fsharp','gb']
 
     },
     {
-      actual: 'g3',
+      unique: 'g3',
       note:'g'
     },
     {
-      actual: 'gsharp3',
+      unique: 'gsharp3',
       note:['gsharp','ab']
 
     },
     {
-      actual: 'a3',
+      unique: 'a3',
       note:'a'
     },
     {
-      actual: 'asharp3',
+      unique: 'asharp3',
       note:['asharp','bb']
 
     },
     {
-      actual: 'b3',
+      unique: 'b3',
       note:'b'
     },
     {
-      actual: 'bsharp3',
+      unique: 'bsharp3',
       note:['bsharp','cb']
     },
     {
-      actual:'c4',
+      unique:'c4',
       note:'c'
     },
     {
-      actual:'csharp4',
+      unique:'csharp4',
       note:['csharp','db']
 
     },
     {
-      actual:'d4',
+      unique:'d4',
       note:'d'
     },
     {
-      actual:'dsharp4',
+      unique:'dsharp4',
       note:['dsharp','eb']
 
     },
     {
-      actual: 'e4',
+      unique: 'e4',
       note:'e'
     },
     {
-      actual: 'esharp4',
+      unique: 'esharp4',
       note:['esharp','fb']
 
     },
     {
-      actual: 'f4',
+      unique: 'f4',
       note:'f'
     },
     {
-      actual: 'fsharp4',
+      unique: 'fsharp4',
       note:['fsharp','gb']
 
     },
     {
-      actual: 'g4',
+      unique: 'g4',
       note:'g'
     },
     {
-      actual: 'gsharp4',
+      unique: 'gsharp4',
       note:['gsharp','ab']
 
     },
     {
-      actual: 'a4',
+      unique: 'a4',
       note:'a'
     },
     {
-      actual: 'asharp4',
+      unique: 'asharp4',
       note:['asharp','bb']
 
     },
     {
-      actual: 'b4',
+      unique: 'b4',
       note:'b'
     },
     {
-      actual: 'bsharp4',
+      unique: 'bsharp4',
       note:['bsharp','cb']
     },
     {
-      actual:'c5',
+      unique:'c5',
       note:'c'
     },
     {
-      actual:'csharp5',
+      unique:'csharp5',
       note:['csharp','db']
 
     },
     {
-      actual:'d5',
+      unique:'d5',
       note:'d'
     },
     {
-      actual:'dsharp5',
+      unique:'dsharp5',
       note:['dsharp','eb']
 
     },
     {
-      actual: 'e5',
+      unique: 'e5',
       note:'e'
     },
     {
-      actual: 'esharp5',
+      unique: 'esharp5',
       note:['esharp','fb']
 
     },
     {
-      actual: 'f5',
+      unique: 'f5',
       note:'f'
     },
     {
-      actual: 'fsharp5',
+      unique: 'fsharp5',
       note:['fsharp','gb']
 
     },
     {
-      actual: 'g5',
+      unique: 'g5',
       note:'g'
     },
     {
-      actual: 'gsharp5',
+      unique: 'gsharp5',
       note:['gsharp','ab']
 
     },
     {
-      actual: 'a5',
+      unique: 'a5',
       note:'a'
     },
     {
-      actual: 'asharp5',
+      unique: 'asharp5',
       note:['asharp','bb']
 
     },
     {
-      actual: 'b5',
+      unique: 'b5',
       note:'b'
     },
     {
-      actual: 'bsharp5',
+      unique: 'bsharp5',
       note:['bsharp','cb']
     },
     {
-      actual:'c6',
+      unique:'c6',
       note:'c'
     },
     {
-      actual:'csharp6',
+      unique:'csharp6',
       note:['csharp','db']
     }
 ]
@@ -302,8 +303,8 @@ const bassClef = allNotes.slice(0,32);
 const trebleClef = allNotes.slice(24,70);
 const masterClef = allNotes.slice(0,70);
 
-// Major Scales
-const cMajScale = allNotes.filter(function(noteInfo, index, array) {
+// Gets Maj Scale objects from allNotes
+const getCMajScale = allNotes.filter(function(noteInfo, index, array) {
   return ((
     noteInfo["note"] == "c" ||
     noteInfo["note"] == "d" ||
@@ -315,7 +316,7 @@ const cMajScale = allNotes.filter(function(noteInfo, index, array) {
   ))
 });
 
-const gMajScale = allNotes.filter(function(noteInfo, index, array) {
+const getGMajScale = allNotes.filter(function(noteInfo, index, array) {
   return ((
     noteInfo["note"] == "g" ||
     noteInfo["note"] == "a" ||
@@ -327,7 +328,8 @@ const gMajScale = allNotes.filter(function(noteInfo, index, array) {
   ))
 });
 
-const dMajScale = allNotes.filter(function(noteInfo, index, array) {
+
+const getDMajScale = allNotes.filter(function(noteInfo, index, array) {
   return ((
     noteInfo["note"] == "d" ||
     noteInfo["note"] == "e" ||
@@ -339,7 +341,7 @@ const dMajScale = allNotes.filter(function(noteInfo, index, array) {
   ))
 });
 
-const aMajScale = allNotes.filter(function(noteInfo, index, array) {
+const getAMajScale = allNotes.filter(function(noteInfo, index, array) {
   return ((
     noteInfo["note"] == "a" ||
     noteInfo["note"] == "b" ||
@@ -351,7 +353,7 @@ const aMajScale = allNotes.filter(function(noteInfo, index, array) {
   ))
 });
 
-const eMajScale = allNotes.filter(function(noteInfo, index, array) {
+const getEMajScale = allNotes.filter(function(noteInfo, index, array) {
   return ((
     noteInfo["note"] == "e" ||
     noteInfo["note"][0] == "fsharp" ||
@@ -363,7 +365,7 @@ const eMajScale = allNotes.filter(function(noteInfo, index, array) {
   ))
 });
 
-const bMajScale = allNotes.filter(function(noteInfo, index, array) {
+const getBMajScale = allNotes.filter(function(noteInfo, index, array) {
   return ((
     noteInfo["note"] == "b" ||
     noteInfo["note"][0] == "csharp" ||
@@ -375,7 +377,7 @@ const bMajScale = allNotes.filter(function(noteInfo, index, array) {
   ))
 });
 
-const fMajScale = allNotes.filter(function(noteInfo, index, array) {
+const getFMajScale = allNotes.filter(function(noteInfo, index, array) {
   return ((
     noteInfo["note"] == "f" ||
     noteInfo["note"] == "g" ||
@@ -387,183 +389,338 @@ const fMajScale = allNotes.filter(function(noteInfo, index, array) {
   ))
 });
 
-const cMajUnique = cMajScale.map(a => a.actual);
-const dMajUnique = dMajScale.map(a => a.actual);
-const eMajUnique = eMajScale.map(a => a.actual);
-const gMajUnique = gMajScale.map(a => a.actual);
-const aMajUnique = aMajScale.map(a => a.actual);
-const bMajUnique = bMajScale.map(a => a.actual);
 
-$('button').on('click', function() {
-  // var x ='#'+bMajUnique.toString().replace(/,/g,',#')
-  // console.log(x);
-  // $(x).addClass('visible');
-  console.log(cMajUnique);
-  console.log(dMajUnique);
-  // console.log(eMajUnique);
-  // console.log(gMajUnique);
-  // console.log(aMajUnique);
-  // console.log(bMajUnique);
+// Gets Unique Note values from corresponding scales
+const cMajUnique = getCMajScale.map(a => a.unique);
+const dMajUnique = getDMajScale.map(a => a.unique);
+const eMajUnique = getEMajScale.map(a => a.unique);
+const gMajUnique = getGMajScale.map(a => a.unique);
+const aMajUnique = getAMajScale.map(a => a.unique);
+const bMajUnique = getBMajScale.map(a => a.unique);
 
 
+// All Chord Data with Indexes based off corresponding Unique Scales
+  const cMajorChords = [
+    {
+      "position": "root",
+      "chords": [
+        {
+          "scale degree": "I",
+          "notes": [
+                    [0,2,4],
+                    [7,9,11],
+                    [14,16,18],
+                    [21,23,25]
+                  ],
+          "chord-name": "notes[0][0]"
+        },
+        {
+          "scale degree": "IV",
+          "notes": [
+                    [3,5,7],
+                    [10,12,14],
+                    [17,19,21],
+                    [24,26,28]
+                  ],
+          "chord-name": "notes[0][0]"
+        },
+        {
+          "scale degree": "V",
+          "notes": [
+                    [4,6,8],
+                    [11,13,15],
+                    [18,20,22]
+                  ],
+          "chord-name": "notes[0][0]"
+        },
+      ]
+    },
+    {
+      "position": "first-inversion",
+      "chords": [
+        {
+          "scale degree": "I",
+          "notes": [
+                    [2,4,7],
+                    [9,11,14],
+                    [16,18,21],
+                    [23,25,28]
+                  ],
+          "chord-name": "notes[0][0]"
+        },
+        {
+          "scale degree": "IV",
+          "notes": [
+                    [5,7,10],
+                    [12,14,17],
+                    [19,21,24]
+                  ],
+          "chord-name": "notes[0][0]"
+        },
+        {
+          "scale degree": "V",
+          "notes": [
+                    [6,8,11],
+                    [13,15,18],
+                    [20,22,25]
+                  ],
+          "chord-name": "notes[0][0]"
+        },
+      ]
+    },
+    {
+      "position": "second-inversion",
+      "chords": [
+        {
+          "scale degree": "I",
+          "notes": [
+                    [4,7,9],
+                    [11,14,16],
+                    [18,21,23]
+                  ],
+          "chord-name": "notes[0][0]"
+        },
+        {
+          "scale degree": "IV",
+          "notes": [
+                    [0,3,5],
+                    [7,10,12],
+                    [14,17,19],
+                    [21,24,26]
+                  ],
+          "chord-name": "notes[0][0]"
+        },
+        {
+          "scale degree": "V",
+          "notes": [
+                    [1,4,6],
+                    [8,11,13],
+                    [15,18,20],
+                    [22,25,27]
+                  ],
+          "chord-name": "notes[0][0]"
+        },
+      ]
+    },
+  ];
 
-  // const cMajorChords = [
-  //   {
-  //     "position": "root",
-  //     "chords": [
-  //       {
-  //         "scale degree": "I",
-  //         "notes": [0,2,4],[7,9,11],[14,16,18],[21,23,25],
-  //         "chord-name": notes[0][0]
-  //       },
-  //       {
-  //         "scale degree": "IV",
-  //         "notes": [3,5,7],[10,12,14],[17,19,21],[24,26,28],
-  //         "chord-name": notes[0][0]
-  //       },
-  //       {
-  //         "scale degree": "V",
-  //         "notes": [4,6,8],[11,13,15],[18,20,22],
-  //         "chord-name": notes[0][0]
-  //       },
-  //     ]
-  //   }
-  // ]
-  //
-  // const cMinorChords = [
-  //   {
-  //     "position": "root",
-  //     "chords": [
-  //       {
-  //         "scale degree": "ii",
-  //         "notes": [1,3,5],[8,10,12],[15,17,19],[22,24,26],
-  //         "chord-name": notes[0][0] + "m"
-  //       },
-  //       {
-  //         "scale degree": "iii",
-  //         "notes": [2,4,6],[9,11,13],[16,18,20],[23,25,27],
-  //         "chord-name": notes[0][0] + "m"
-  //       },
-  //       {
-  //         "scale degree": "vi",
-  //         "notes": [5,7,2],[12,14,16],[19,21,23],
-  //         "chord-name": notes[0][0] + "m"
-  //       },
-  //     ]
-  //   }
-  // ]
-  //   {
-  //     "name": "first-inversion",
-  //     "chords": [
-  //       {
-  //         "scale degree": "I",
-  //         "notes": [0,2,4]
-  //       },
-  //       {
-  //         "scale degree": "IV",
-  //         "notes": [3,5,7]
-  //       },
-  //       {
-  //         "scale degree": "V",
-  //         "notes": [4,6,8]
-  //       },
-  //     ]
-  //   },
-  //   {
-  //     "name": "second-inversion",
-  //     "chords": [
-  //       {
-  //         "scale degree": "I",
-  //         "notes": [0,2,4]
-  //       },
-  //       {
-  //         "scale degree": "IV",
-  //         "notes": [3,5,7]
-  //       },
-  //       {
-  //         "scale degree": "V",
-  //         "notes": [4,6,1]
-  //       },
-  //     ]
-  //   },
-  // ];
-  //
-  // var minorChords = [
-  //   {
-  //     "position": "root",
-  //     "chords": [
-  //       {
-  //         "scale degree": "ii",
-  //         "notes": [1,3,5]
-  //       },
-  //       {
-  //         "scale degree": "iii",
-  //         "notes": [2,4,6]
-  //       },
-  //       {
-  //         "scale degree": "vi",
-  //         "notes": [5,7,2]
-  //       },
-  //     ]
-  //   },
-  //   {
-  //     "position": "first-inversion",
-  //     "chords": [
-  //       {
-  //         "scale degree": "ii",
-  //         "notes": [1,3,5]
-  //       },
-  //       {
-  //         "scale degree": "iii",
-  //         "notes": [2,4,6]
-  //       },
-  //       {
-  //         "scale degree": "vi",
-  //         "notes": [5,7,2]
-  //       },
-  //     ]
-  //   },
-  //   {
-  //     "position": "second-inversion",
-  //     "chords": [
-  //       {
-  //         "scale degree": "ii",
-  //         "notes": [1,3,5]
-  //       },
-  //       {
-  //         "scale degree": "iii",
-  //         "notes": [2,4,6]
-  //       },
-  //       {
-  //         "scale degree": "vi",
-  //         "notes": [5,7,2]
-  //       },
-  //     ]
-  //   },
-  // ]
+  const cMinorChords = [
+    {
+      "position": "root",
+      "chords": [
+        {
+          "scale degree": "ii",
+          "notes": [
+                    [1,3,5],
+                    [8,10,12],
+                    [15,17,19],
+                    [22,24,26]
+                  ],
+          "chord-name": "notes[0][0]" + "m"
+        },
+        {
+          "scale degree": "iii",
+          "notes": [
+                    [2,4,6],
+                    [9,11,13],
+                    [16,18,20],
+                    [23,25,27]
+                  ],
+          "chord-name": "notes[0][0]" + "m"
+        },
+        {
+          "scale degree": "vi",
+          "notes": [
+                    [5,7,9],
+                    [12,14,16],
+                    [19,21,23]
+                  ],
+          "chord-name": "notes[0][0]" + "m"
+        },
+      ]
+    },
+    {
+      "position": "first-inversion",
+      "chords": [
+        {
+          "scale degree": "ii",
+          "notes": [
+                    [3,5,8],
+                    [10,12,15],
+                    [17,19,22]
+                  ],
+          "chord-name": "notes[0][0]" + "m"
+        },
+        {
+          "scale degree": "iii",
+          "notes": [
+                    [4,6,9],
+                    [11,13,16],
+                    [18,20,23]
+                  ],
+          "chord-name": "notes[0][0]" + "m"
+        },
+        {
+          "scale degree": "vi",
+          "notes": [
+                    [0,2,5],
+                    [7,9,12],
+                    [14,16,19],
+                    [21,23,26]
+                  ],
+          "chord-name": "notes[0][0]" + "m"
+        },
+      ]
+    },
+    {
+      "position": "second-inversion",
+      "chords": [
+        {
+          "scale degree": "ii",
+          "notes": [
+                    [5,8,10],
+                    [12,15,17],
+                    [19,22,24]
+                  ],
+          "chord-name": "notes[0][0]" + "m"
+        },
+        {
+          "scale degree": "iii",
+          "notes": [
+                    [6,9,11],
+                    [13,16,18],
+                    [20,23,25]
+                  ],
+          "chord-name": "notes[0][0]" + "m"
+        },
+        {
+          "scale degree": "vi",
+          "notes": [
+                    [2,5,7],
+                    [9,12,14],
+                    [16,19,21],
+                    [23,26,28]
+                  ],
+          "chord-name": "notes[0][0]" + "m"
+        },
+      ]
+    }
+  ]
 
-  // cMajUnique.map(x2 => {
-  //   console.log(x2);
-  //   $(x2).addClass('show')
-  //
-  // })
 
-  // console.log(cMajUnique);
-  // console.log(dMajUnique);
-  // console.log(eMajUnique);
-  // console.log(gMajUnique);
-  // console.log(aMajUnique);
-  // console.log(bMajUnique);
+  // Pulls just the first object in cMajorChords
+  const getMajRootChordObjects = cMajorChords.filter(function(chord) {
+    return chord.position == "root"
+  });
 
-  // for (i = 0; i < cMajScale.length; i++) {console.log(cMajScale[i].actual);}
-  // for (i = 0; i < dMajScale.length; i++) {console.log(dMajScale[i].actual);}
-  // for (i = 0; i < eMajScale.length; i++) {console.log(eMajScale[i].actual);}
-  // for (i = 0; i < gMajScale.length; i++) {console.log(gMajScale[i].actual);}
-  // for (i = 0; i < aMajScale.length; i++) {console.log(aMajScale[i].actual);}
-  // for (i = 0; i < bMajScale.length; i++) {console.log(bMajScale[i].actual);}
+// Pulls just the "chords" Array within the first object
+  const getMajRootChords = getMajRootChordObjects[0].chords
 
-});
 
+// This combines all the keys from the different objects within "chords" and makes new arrays with them
+  function combineRootChords(getMajRootChords) {
+    var output = {}, item;
+    // iterate the outer array to look at each item in that array
+    for (var i = 0; i < getMajRootChords.length; i++) {
+        item = getMajRootChords[i];
+        // iterate each key on the object
+        for (var prop in item) {
+            if (item.hasOwnProperty(prop)) {
+                // if this keys doesn't exist in the output object, add it
+                if (!(prop in output)) {
+                    output[prop] = [];
+                }
+                // add data onto the end of the key's array
+                output[prop].push(item[prop]);
+            }
+        }
+    }
+    return output;
+}
+
+var combineRootChordArrays = combineRootChords(getMajRootChords);
+
+// This pulls only the "notes" array from new arrays just made
+const selectOnlyRootChords = combineRootChordArrays.notes;
+
+
+const fuck = Object.values(selectOnlyRootChords);
+// colors will be equal to ["brown", "white", "red"]
+
+
+
+
+//Once I can figure out how to randomly select one of the values from above, I can then put that in the
+// function below which will compare the [3,4,5] index against the note value and give me a chord
+
+
+
+Finds chord Elements from Unique Scale Variables
+  const majorRoot = cMajorChords[0].chords[0].notes;
+
+  const testChordNotes = function(arrOfNotes,arrOfIndexes) {
+    var chordNotes = [];
+    for (var i = 0; i < arrOfNotes.length; i++) {
+      console.log(i)
+      for (var j = 0; j < arrOfIndexes.length; j++) {
+        if (arrOfIndexes[j] === i) {
+          chordNotes.push(arrOfNotes[i])
+        }
+        console.log(arrOfIndexes[j])
+      }
+    }
+    return chordNotes
+  };
+
+  const cTestChord = testChordNotes(cMajUnique,majorRoot);
+
+
+
+// ffdsfdsf
+// fdsfdsfsdfsdf
+// sdfsdfsdffds
+// dfsfdsfdsfds
+// dsfdsfsd
+// dfsfdsfdsfds
+
+
+
+
+
+
+
+
+
+
+
+
+// ffdsfdsf
+// fdsfdsfsdfsdf
+// sdfsdfsdffds
+// dfsfdsfdsfds
+// dsfdsfsd
+// dfsfdsfdsfds
+
+
+
+  $('button').on('click', function() {
+    // const testChordIds = '#'+cTestChord.toString().replace(/,/g,',#')
+    // $(testChordIds).addClass('visible');
+    // console.log(testChordIds);
+    // console.log(majorRoot);
+    // console.log(cMajUnique);
+    const blah = []
+    for (var i = 0; i < cMajorChords.length; i++) {
+    	for (var j = 0; j < cMajorChords[i].chords.length; j++) {
+        for (var k = 0; k < cMajorChords[i].chords[j].notes.length; k++) {
+          blah.push(cMajorChords[i].chords[j].notes[k]);
+        }
+      }
+    }
+
+    console.log(blah)
+
+    });
 
 
 </script>

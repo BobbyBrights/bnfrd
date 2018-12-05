@@ -314,7 +314,7 @@ Staff Area
   height: 22px;
   background-size: contain;
   position: absolute;
-  /* visibility: hidden; */
+  visibility: hidden;
   background-image: url('/img/whole-note.svg');
 }
 
@@ -322,9 +322,9 @@ Staff Area
   visibility: hidden;
 } */
 
-.space .note{
+/* .space .note{
   visibility: hidden;
-}
+} */
 
 
 .key {
