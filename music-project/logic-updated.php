@@ -199,25 +199,6 @@ function getMainChords(chordData) {
 const allMajorChordArrays = getMainChords(MajorChordData)
 const allMinorChordArrays = getMainChords(MinorChordData)
 
-// console.log(allMajorChordArrays)
-// console.log(allMinorChordArrays)
-
-// function getMainChordsOfKey(scale,chordArrays) {
-//   var result = []
-//   for (var i = 0; i < scale.length; i++) {
-//     for (var j = 0; j < chordArrays.length; j++) {
-//       for (var k = 0; k < chordArrays[k].length; k++) {
-//         // console.log(chordArrays[i][k])
-//         if (chordArrays[i][k] === i) {
-//           result.push(scale[i])
-//       }
-//
-//       }
-//     }
-//   }
-//   return result
-// };
-
 function getMainChordsOfKey(scale,chordArrays) {
   var result = []
   for (var i = 0; i < chordArrays.length; i++) {
@@ -229,12 +210,21 @@ function getMainChordsOfKey(scale,chordArrays) {
       }
     }
   }
-  return result
+  var resultConcat = []
+  while(result.length) {
+      resultConcat = result.splice(0,3)
+      console.log(resultConcat)
+    }
 };
 
-console.log(cMajorScale)
-console.log(allMajorChordArrays)
-console.log(getMainChordsOfKey(aMajorScale,allMajorChordArrays))
+// getMainChordsOfKey(cMajorScale,allMajorChordArrays)
+// getMainChordsOfKey(dMajorScale,allMajorChordArrays)
+// getMainChordsOfKey(eMajorScale,allMajorChordArrays)
+// getMainChordsOfKey(fMajorScale,allMajorChordArrays)
+// getMainChordsOfKey(gMajorScale,allMajorChordArrays)
+getMainChordsOfKey(bMajorScale,allMajorChordArrays)
+// getMainChordsOfKey(bMajorScale,allMajorChordArrays)
+
 
 
 ////////////////////////////////////////////////////////////////////
