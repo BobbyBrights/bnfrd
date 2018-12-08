@@ -28,9 +28,9 @@
 					<button class="text ml-auto">Select all</h3>
 				</div>
 				<div class="row">
-					<button class="options m1">Bass Clef</button>
-					<button class="options m1">Treble Clef</button>
-					<button class="options m1">Grand Clef</button>
+					<button class="options m1" id="bass-clef">Bass Clef</button>
+					<button class="options m1" id="treble-clef">Treble Clef</button>
+					<button class="options m1" id="grand-clef">Grand Clef</button>
 				</div>
 			</section>
 			<section class="key-signatures m3 mt5 sm-m5">
@@ -39,18 +39,15 @@
 					<button class="text ml-auto">Select all</h3>
 				</div>
 				<div class="row">
-					<button class="options m1">C Major</button>
-					<button class="options m1">D Major</button>
-					<button class="options m1">E Major</button>
-					<button class="options m1">F Major</button>
+					<button class="options m1" id="cMajorScale">C Major</button>
+					<button class="options m1" id="dMajorScale">D Major</button>
+					<button class="options m1" id="eMajorScale">E Major</button>
+					<button class="options m1" id="fMajorScale">F Major</button>
 				</div>
 				<div class="row">
-					<button class="options m1">G Major</button>
-					<button class="options m1">A Major</button>
-					<button class="options m1">B Major</button>
-				</div>
-				<div class="row">
-					<!-- <button class="options m1">All Key Signatures</button> -->
+					<button class="options m1" id="gMajorScale">G Major</button>
+					<button class="options m1" id="aMajorScale">A Major</button>
+					<button class="options m1" id="bMajorScale">B Major</button>
 				</div>
 			</section>
 			<section class="chord-types m3 mt5 sm-m5">
@@ -59,13 +56,10 @@
 					<button class="text ml-auto">Select all</h3>
 				</div>
 				<div class="row">
-					<button class="options m1">Major</button>
-					<button class="options m1">Minor</button>
-					<button class="options m1">Augmented</button>
-					<button class="options m1">Diminished</button>
-				</div>
-				<div class="row">
-					<!-- <button class="options m1">All Chord Types</button> -->
+					<button class="options m1" id="major-chord">Major</button>
+					<button class="options m1" id="minor-chord">Minor</button>
+					<button class="options m1" id="augmented-chord">Augmented</button>
+					<button class="options m1" id="">Diminished</button>
 				</div>
 			</section>
 			<section class="chord-types m3 mt5 sm-m5">
@@ -74,12 +68,9 @@
 					<button class="text ml-auto">Select all</h3>
 				</div>
 				<div class="row">
-					<button class="options m1">Root</button>
-					<button class="options m1">First Inversion</button>
-					<button class="options m1">Second Inversion</button>
-				</div>
-				<div class="row">
-					<!-- <button class="options m1">All Chord Positions</button> -->
+					<button class="options m1" id="root">Root</button>
+					<button class="options m1" id="first-inversion">First Inversion</button>
+					<button class="options m1" id="second-inversion">Second Inversion</button>
 				</div>
 			</section>
 		</div>
