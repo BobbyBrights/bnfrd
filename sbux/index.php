@@ -83,14 +83,25 @@
               <div class="frap secondary">
                 Start Order
               </div>
-              <div class="frap mt3">
+              <div class="frap mt3 initiate-bottom-sheet">
                 Start Order
               </div>
             </div>
-
         </div>
 			</div>
 		</div>
+  </div>
+  <div class="mask"></div>
+  <div class="bottom-sheet">
+    <div class="icon-button close dismiss-bottom-sheet absolute t1 ml1 lg-ml0 lg-r2 lg-t2 z-100"></div>
+    <div class="wide-row mb16 ml8 mr3 md-mx13 lg-m-auto">
+      <h1 class="bottom-sheet-title colorTextBlackSoft md-ml0 lg-pr5 row subhead-1">
+          Add money to Starbucks Card
+      </h1>
+      <article class="title-1 mt6">
+        This is some example content, see how it stays within the wide grid bounds at any thing.
+      </article>
+    </div>
   </div>
 
 <?php include 'component-logic.php';?>

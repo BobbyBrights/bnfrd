@@ -56,7 +56,8 @@ $(".clefs button.text").on("click", function(){
 
 
 
-const notes = ['c','csharp','d','dsharp','e','f','fsharp','g','gsharp','a','asharp','b']
+const sharpNotes = ['c','c-sharp','d','d-sharp','e','f','f-sharp','g','g-sharp','a','a-sharp','b']
+const flatNotes = ['c','d-flat','d','e-flat','e','f','g-flat','g','a-flat','a','b-flat','b']
 
 
 /////////////////////////////////
@@ -79,197 +80,335 @@ function getScaleNotes(array, index) {
 
 
 // All Scales
-const cMajorScale = (getScaleNotes(notes,0))
-const dMajorScale = (getScaleNotes(notes,2))
-const eMajorScale = (getScaleNotes(notes,4))
-const fMajorScale = (getScaleNotes(notes,5))
-const gMajorScale = (getScaleNotes(notes,7))
-const aMajorScale = (getScaleNotes(notes,9))
-const bMajorScale = (getScaleNotes(notes,11))
+const cMajorScale = (getScaleNotes(sharpNotes,0))
+const dMajorScale = (getScaleNotes(sharpNotes,2))
+const eMajorScale = (getScaleNotes(sharpNotes,4))
+const fMajorScale = (getScaleNotes(flatNotes,5))
+const gMajorScale = (getScaleNotes(sharpNotes,7))
+const aMajorScale = (getScaleNotes(sharpNotes,9))
+const bMajorScale = (getScaleNotes(sharpNotes,11))
 
+
+// Scales organized
+const scales = {
+	"cMajorScale": cMajorScale,
+  "dMajorScale": dMajorScale,
+  "eMajorScale": eMajorScale,
+  "fMajorScale": fMajorScale,
+  "gMajorScale": gMajorScale,
+  "aMajorScale": aMajorScale,
+  "bMajorScale": bMajorScale
+}
 
 const allChords = [
-  {
-    "chord type": "major",
-    "inversion": "root",
-    "chords": [
-      {
-        "scale degree": "I",
-        "notes": [0,2,4]
-      },
-      {
-        "scale degree": "IV",
-        "notes": [3,5,0]
-      },
-      {
-        "scale degree": "V",
-        "notes": [4,6,1]
-      },
-    ]
-  },
-  {
-    "chord type": "major",
-    "inversion": "first",
-    "chords": [
-      {
-        "scale degree": "I",
-        "notes": [2,4,0]
-      },
-      {
-        "scale degree": "IV",
-        "notes": [5,0,3]
-      },
-      {
-        "scale degree": "V",
-        "notes": [6,1,4]
-      },
-    ]
-  },
-  {
-    "chord type": "major",
-    "inversion": "second",
-    "chords": [
-      {
-        "scale degree": "I",
-        "notes": [4,0,2]
-      },
-      {
-        "scale degree": "IV",
-        "notes": [0,3,5]
-      },
-      {
-        "scale degree": "V",
-        "notes": [1,4,6]
-      },
-    ]
-  },
-  {
-    "chord type": "minor",
-    "inversion": "root",
-    "chords": [
-      {
-        "scale degree": "II",
-        "notes": [1,3,5]
-      },
-      {
-        "scale degree": "III",
-        "notes": [2,4,6]
-      },
-      {
-        "scale degree": "VI",
-        "notes": [5,0,2]
-      },
-    ]
-  },
-  {
-    "chord type": "minor",
-    "inversion": "first",
-    "chords": [
-      {
-        "scale degree": "II",
-        "notes": [3,5,1]
-      },
-      {
-        "scale degree": "III",
-        "notes": [4,6,2]
-      },
-      {
-        "scale degree": "VI",
-        "notes": [0,2,5]
-      },
-    ]
-  },
-  {
-    "chord type": "minor",
-    "inversion": "second",
-    "chords": [
-      {
-        "scale degree": "I",
-        "notes": [5,1,3]
-      },
-      {
-        "scale degree": "IV",
-        "notes": [6,2,4]
-      },
-      {
-        "scale degree": "V",
-        "notes": [2,5,0]
-      },
-    ]
-  },
-  {
-    "chord type": "diminished",
-    "inversion": "root",
-    "chords": [
-      {
-        "scale degree": "VII",
-        "notes": [6,1,3]
-      }
-    ]
-  },
-  {
-    "chord type": "diminished",
-    "inversion": "first",
-    "chords": [
-      {
-        "scale degree": "VII",
-        "notes": [1,3,6]
-      }
-    ]
-  },
-  {
-    "chord type": "diminished",
-    "inversion": "second",
-    "chords": [
-      {
-        "scale degree": "VII",
-        "notes": [3,6,1]
-      }
-    ]
-  }]
 
+  // Major Chords
+  {
+    "chord_type": "major",
+    "inversion": "root",
+    "scale_degree": "I",
+    "notes": [0,2,4]
+  },
+  {
+    "chord_type": "major",
+    "inversion": "root",
+    "scale_degree": "IV",
+    "notes": [3,5,0]
+  },
+  {
+    "chord_type": "major",
+    "inversion": "root",
+    "scale_degree": "V",
+    "notes": [4,6,1]
+  },
+  {
+    "chord_type": "major",
+    "inversion": "first",
+    "scale_degree": "I",
+    "notes": [2,4,0]
+  },
+  {
+    "chord_type": "major",
+    "inversion": "first",
+    "scale_degree": "IV",
+    "notes": [5,0,3]
+  },
+  {
+    "chord_type": "major",
+    "inversion": "first",
+    "scale_degree": "V",
+    "notes": [6,1,4]
+  },
+  {
+    "chord_type": "major",
+    "inversion": "second",
+    "scale_degree": "I",
+    "notes": [4,0,2]
+  },
+  {
+    "chord_type": "major",
+    "inversion": "second",
+    "scale_degree": "IV",
+    "notes": [0,3,5]
+  },
+  {
+    "chord_type": "major",
+    "inversion": "second",
+    "scale_degree": "V",
+    "notes": [1,4,6]
+  },
+
+// Minor Chords
+
+  {
+    "chord_type": "minor",
+    "inversion": "root",
+    "scale_degree": "II",
+    "notes": [1,3,5]
+  },
+
+  {
+    "chord_type": "minor",
+    "inversion": "root",
+    "scale_degree": "III",
+    "notes": [2,4,6]
+  },
+  {
+    "chord_type": "minor",
+    "inversion": "root",
+    "scale_degree": "VI",
+    "notes": [5,0,2]
+  },
+  {
+    "chord_type": "minor",
+    "inversion": "first",
+    "scale_degree": "II",
+    "notes": [3,5,1]
+  },
+  {
+    "chord_type": "minor",
+    "inversion": "first",
+    "scale_degree": "III",
+    "notes": [4,6,2]
+  },
+  {
+    "chord_type": "minor",
+    "inversion": "first",
+    "scale_degree": "VI",
+    "notes": [0,2,5]
+  },
+  {
+    "chord_type": "minor",
+    "inversion": "second",
+    "scale_degree": "II",
+    "notes": [5,1,3]
+  },
+  {
+    "chord_type": "minor",
+    "inversion": "second",
+    "scale_degree": "III",
+    "notes": [6,2,4]
+  },
+  {
+    "chord_type": "minor",
+    "inversion": "second",
+    "scale_degree": "VI",
+    "notes": [2,5,0]
+  },
+
+// Diminished Chords
+
+  {
+    "chord_type": "diminished",
+    "inversion": "root",
+    "scale_degree": "VII",
+    "notes": [6,1,3]
+  },
+  {
+    "chord_type": "diminished",
+    "inversion": "first",
+    "scale_degree": "VII",
+    "notes": [1,3,6]
+  },
+  {
+    "chord_type": "diminished",
+    "inversion": "second",
+    "scale_degree": "VII",
+    "notes": [3,6,1]
+  }
+]
 
 
 ///////////////////////////////////////////////////////////////////
 // Replaces all numbers in "notes" above to their correct notes //
 /////////////////////////////////////////////////////////////////
 
-function getMainChordsOfKey(scale,chordArrays) {
-  chordArrays.forEach(array => array.chords.forEach(chord => chord.notes = chord.notes.map(i => scale[i])));
-  console.log(chordArrays);
+function getMainChordsOfKey(scale) {
+  var newChordArray = JSON.parse(JSON.stringify(allChords));
+  newChordArray.forEach(array => array.notes = array.notes.map(i => scale[i]));
+  for (var i = 0; i < newChordArray.length; i++) {
+    newChordArray[i].key_signature = scale[0] + "_major";
+  }
+  return newChordArray
+
 };
 
 
-// getMainChordsOfKey(aMajorScale,allChords)
+
+// Chords and data for each specific key
+
+let cChords = getMainChordsOfKey(cMajorScale)
+let dChords = getMainChordsOfKey(dMajorScale)
+let eChords = getMainChordsOfKey(eMajorScale)
+let fChords = getMainChordsOfKey(fMajorScale)
+let gChords = getMainChordsOfKey(gMajorScale)
+let aChords = getMainChordsOfKey(aMajorScale)
+let bChords = getMainChordsOfKey(bMajorScale)
+
+
+// Combines all specific key data into one array
+
+function getAllPossibleChords() {
+  var result = []
+  for (var i = 0; i < cChords.length; i++) {
+    result.push(cChords[i])
+    result.push(dChords[i])
+    result.push(eChords[i])
+    result.push(fChords[i])
+    result.push(gChords[i])
+    result.push(aChords[i])
+    result.push(bChords[i])
+  }
+  return result
+};
+
+// All chords for all keys!! 😎
+var allPossibleChords = getAllPossibleChords()
+
+
+// User applying filters
+
+var keys = []
+var values = []
+$('button').on('click', function() {
+      var theId = this.id
+    if ($(this).hasClass("chord_type") && ($(this).hasClass("toggle"))) {
+      keys.push("chord_type");
+      values.push(theId)
+    }
+
+    if ($(this).hasClass("inversion") && ($(this).hasClass("toggle"))) {
+      keys.push("inversion");
+      values.push(theId)
+    }
+
+    if ($(this).hasClass("key_signature") && ($(this).hasClass("toggle"))) {
+      keys.push("key_signature");
+      values.push(theId)
+    }
+
+});
+
+$('#apply').on('click', function() {
+  // console.log(keys,values)
+  const whatToFilter = allPossibleChords.filter(function(e) {
+    return keys.every(function(a) {
+      return values.includes(e[a])
+    })
+  })
+  console.log(whatToFilter)
+});
 
 
 
 
-// function getId(clicked_id) {
-//     let param = clicked_id
-//     getMainChordsOfKey(param,allChords)
-// }
-
-  $("button").on('click', function() {
-    var functionName = this.id
-    console.log(functionName) //returns "cMajorScale"
-
-    getMainChordsOfKey(cMajorScale,allChords) //correctly runs the function
-    getMainChordsOfKey(functionName,allChords) // does not run function (want this to do the same as 257)
-
-  });
 
 
-// console.log(cMajorScale)
-// console.log(dMajorScale)
-// console.log(eMajorScale)
-// console.log(fMajorScale)
+
+// console.log(rootChords)
+//
+// var keys = ['chord_type','inversion', 'key_signature', 'chord_type', 'key_signature'];
+// var values = ['major', 'minor', 'first', 'second', 'd_major', 'e_major'];
+//
+// const whatToFilter = allPossibleChords.filter(function(e) {
+//   return keys.every(function(a) {
+//     return values.includes(e[a])
+//   })
+// })
+//
+// console.log(whatToFilter)
+
+// var data = [{"id":"123","color":"Red","model":"Tesla"},{"id":"124","color":"Black","model":"Honda"},{"id":"125","color":"Red","model":"Audi"},{"id":"126","color":"Blue","model":"Tesla"}]
+//
+// var keys = ["color", 'model'];
+// var values = ["Tesla", "Audi", "Red"];
+//
+// var result = data.filter(function(e) {
+//   return keys.every(function(a) {
+//     return values.includes(e[a])
+//   })
+// })
+//
+// console.log(result);
 
 
-// function getId(clicked_id) {
-//   var elem = document.getElementById('para');
-//   elem.style.color = newColor;
-// }
+
+
+
+// $('button').on('click', function() {
+//   const testChordIds = '#'+cTestChord.toString().replace(/,/g,',#')
+//   $(testChordIds).addClass('visible');
+//   const blah = []
+//   for (var i = 0; i < cMajorChords.length; i++) {
+//     for (var j = 0; j < cMajorChords[i].chords.length; j++) {
+//       for (var k = 0; k < cMajorChords[i].chords[j].notes.length; k++) {
+//         blah.push(cMajorChords[i].chords[j].notes[k]);
+//       }
+//     }
+//   }
+//
+//   console.log(blah)
+//
+//   });
+
+//
+// var chordOptions = []
+// $('button').on('click', function() {
+//
+//   if (this has class keysignature) {
+//     if (button has class active) {
+//
+//     }
+//     if (button has class active) {
+//
+//     }
+//   }
+//
+//   if (button has class chordtype) {
+//     if (button has class active) {
+//
+//     }
+//     if (button has class active) {
+//
+//     }
+//   }
+//
+//   if (button has class chordpositions) {
+//     if (button has class active) {
+//
+//     }
+//     if (button has class active) {
+//
+//     }
+//   }
+//
+// });
+
+// $('.submit').on('click', function() {
+//
+// });
+
+
 
 
 

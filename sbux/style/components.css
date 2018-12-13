@@ -964,9 +964,52 @@ Toasts
 
 
 /* ----------------------------------------
-Overlays
+Bottom Sheets
 ---------------------------------------- */
 
-.basic-overlay {
+.bottom-sheet {
+	position: fixed;
+	bottom:0;
+	right:0;
+	background:var(--colorWhite);
+	width:100%;
+	z-index: 51;
+	display:none;
+}
+
+.bottom-sheet-title {
+	margin-top:18px;
+	z-index:0;
+}
+
+.mask {
+	background: rgba(0,0,0,.38);
+	opacity: 0;
+	display:none;
+	width: 100%;
+	height: 100%;
+	top:0;
+	right:0;
+	position:absolute;
+	z-index: 50;
+	transition: opacity .9s ease;
+}
+
+/* --breakpointLg */
+@media only screen and (min-width: 1024px) {
+
+	.bottom-sheet {
+		width: 60%;
+		z-index: 0;
+	}
+
+	.bottom-sheet-title {
+		margin-top:22px;
+	}
+
+		.mask {
+		width:60%;
+		z-index: 0;
+	}
 
 }

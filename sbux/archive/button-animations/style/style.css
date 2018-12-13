@@ -711,7 +711,7 @@ html {
 .sb-navbar-siren {
   width: 40px;
   height: 40px;
-  background-image: url('/sbux/button-animations/img/siren.png'), url('/img/siren.png');
+  background-image: url('/sbux/archive/button-animations/img/siren.png'), url('/img/siren.png');
   background-repeat: no-repeat;
   background-size: contain;
   min-width: 40px;
@@ -750,8 +750,8 @@ Buttons
 	top: 12px;
 	position: relative;
 	background-color: rgba(0,0,0,.58);
-  -webkit-mask-image: url('/sbux/button-animations/img/heart.svg'), url('/img/heart.svg');
-  mask-image: url('/sbux/button-animations/img/heart.svg'), url('/img/heart.svg');
+  -webkit-mask-image: url('/sbux/archive/button-animations/img/heart.svg'), url('/img/heart.svg');
+  mask-image: url('/sbux/archive/button-animations/img/heart.svg'), url('/img/heart.svg');
 	background-size: cover;
 	z-index: 1;
 }
@@ -763,8 +763,8 @@ Buttons
 	top: 12px;
 	position: relative;
 	background-color: rgba(0,0,0,.58);
-  -webkit-mask-image: url('/sbux/button-animations/img/plus.svg'), url('/img/plus.svg');
-  mask-image: url('/sbux/button-animations/img/plus.svg'), url('/img/plus.svg');
+  -webkit-mask-image: url('/sbux/archive/button-animations/img/plus.svg'), url('/img/plus.svg');
+  mask-image: url('/sbux/archive/button-animations/img/plus.svg'), url('/img/plus.svg');
 	background-size: cover;
 }
 
@@ -775,8 +775,8 @@ Buttons
 	top: 12px;
 	position: relative;
 	background-color: rgba(0,0,0,.58);
-  -webkit-mask-image: url('/sbux/button-animations/img/minus.svg'), url('/img/minus.svg');
-  mask-image: url('/sbux/button-animations/img/minus.svg'), url('/img/minus.svg');
+  -webkit-mask-image: url('/sbux/archive/button-animations/img/minus.svg'), url('/img/minus.svg');
+  mask-image: url('/sbux/archive/button-animations/img/minus.svg'), url('/img/minus.svg');
 	background-size: cover;
 }
 
@@ -787,8 +787,8 @@ Buttons
 	top: 12px;
 	position: relative;
 	background-color: rgba(0,0,0,.58);
-  -webkit-mask-image: url('/sbux/button-animations/img/close.svg'), url('/img/close.svg');
-  mask-image: url('/sbux/button-animations/img/close.svg'), url('/img/close.svg');
+  -webkit-mask-image: url('/sbux/archive/button-animations/img/close.svg'), url('/img/close.svg');
+  mask-image: url('/sbux/archive/button-animations/img/close.svg'), url('/img/close.svg');
 	background-size: cover;
 }
 
@@ -799,8 +799,8 @@ Buttons
 	top: 12px;
 	position: relative;
 	background-color: rgba(0,0,0,.58);
-  -webkit-mask-image: url('/sbux/button-animations/img/burger.svg'), url('/img/burger.svg');
-  mask-image: url('/sbux/button-animations/img/burger.svg'), url('/img/burger.svg');
+  -webkit-mask-image: url('/sbux/archive/button-animations/img/burger.svg'), url('/img/burger.svg');
+  mask-image: url('/sbux/archive/button-animations/img/burger.svg'), url('/img/burger.svg');
 	background-size: cover;
 }
 
@@ -871,8 +871,8 @@ Buttons
 	top: 12px;
 	position: relative;
 	background-color: rgba(255,255,255,.87);
-  -webkit-mask-image: url('/sbux/button-animations/img/heart.svg'), url('/img/heart.svg');
-  mask-image: url('/sbux/button-animations/img/heart.svg'), url('/img/heart.svg');
+  -webkit-mask-image: url('/sbux/archive/button-animations/img/heart.svg'), url('/img/heart.svg');
+  mask-image: url('/sbux/archive/button-animations/img/heart.svg'), url('/img/heart.svg');
 	background-size: cover;
 	z-index: 1;
 }
@@ -884,8 +884,8 @@ Buttons
 	top: 12px;
 	position: relative;
 	background-color: rgba(255,255,255,.87);
-  -webkit-mask-image: url('/sbux/button-animations/img/plus.svg'), url('/img/plus.svg');
-  mask-image: url('/sbux/button-animations/img/plus.svg'), url('/img/plus.svg');
+  -webkit-mask-image: url('/sbux/archive/button-animations/img/plus.svg'), url('/img/plus.svg');
+  mask-image: url('/sbux/archive/button-animations/img/plus.svg'), url('/img/plus.svg');
 	background-size: cover;
 }
 
@@ -896,8 +896,8 @@ Buttons
 	top: 12px;
 	position: relative;
 	background-color: rgba(255,255,255,.87);
-  -webkit-mask-image: url('/sbux/button-animations/img/minus.svg'), url('/img/minus.svg');
-  mask-image: url('/sbux/button-animations/img/minus.svg'), url('/img/minus.svg');
+  -webkit-mask-image: url('/sbux/archive/button-animations/img/minus.svg'), url('/img/minus.svg');
+  mask-image: url('/sbux/archive/button-animations/img/minus.svg'), url('/img/minus.svg');
 	background-size: cover;
 }
 
@@ -908,8 +908,8 @@ Buttons
 	top: 12px;
 	position: relative;
 	background-color: rgba(255,255,255,.87);
-  -webkit-mask-image: url('/sbux/button-animations/img/close.svg'), url('/img/close.svg');
-  mask-image: url('/sbux/button-animations/img/close.svg'), url('/img/close.svg');
+  -webkit-mask-image: url('/sbux/archive/button-animations/img/close.svg'), url('/img/close.svg');
+  mask-image: url('/sbux/archive/button-animations/img/close.svg'), url('/img/close.svg');
 	background-size: cover;
 }
 
@@ -920,8 +920,8 @@ Buttons
 	top: 12px;
 	position: relative;
 	background-color: rgba(255,255,255,.87);
-  -webkit-mask-image: url('/sbux/button-animations/img/burger.svg'), url('/img/burger.svg');
-  mask-image: url('/sbux/button-animations/img/burger.svg'), url('/img/burger.svg');
+  -webkit-mask-image: url('/sbux/archive/button-animations/img/burger.svg'), url('/img/burger.svg');
+  mask-image: url('/sbux/archive/button-animations/img/burger.svg'), url('/img/burger.svg');
 	background-size: cover;
 }
 

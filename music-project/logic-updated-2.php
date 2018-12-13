@@ -46,29 +46,46 @@ $(".clefs button.text").on("click", function(){
 ////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////
 
-const notes = {'1':'c'},
-              {'1.5':'csharp'},
-              {'2':'d'},
-              {'2.5':'dsharp'},
-              {'3':'e'},
-              {'3.5':'f'},
-              {'4':'fsharp'},
-              {'4.5':'g'},
-              {'5':'gsharp'},
-              {'5.5':'a'},
-              {'6':'asharp'},p
-              {'6.5':'b'}
-
-const basicMajorPattern = {'interval': 0},
-                          {'interval': 1},
-                          {'interval': 2},
-                          {'interval': 2.5},
-                          {'interval': 3.5},
-                          {'interval': 4.5},
-                          {'interval': 5.5},
-                          {'interval': 0},
+const notes = {
+                '1':'c',
+                '1.5':'c-sharp',
+                '2':'d',
+                '2.5':'d-sharp',
+                '3':'e',
+                '3.5':'f',
+                '4':'f-sharp',
+                '4.5':'g',
+                '5':'g-sharp',
+                '5.5':'a',
+                '6':'a-sharp',
+                '6.5':'b'
+              };
 
 
+const basicMajorPattern = [
+                            {'start':           0.0},
+                            {'whole-interval':  1.0},
+                            {'whole-interval':  1.0},
+                            {'half-interval':   0.5},
+                            {'whole-interval':  1.0},
+                            {'whole-interval':  1.0},
+                            {'whole-interval':  1.0},
+                            {'half-interval':   0.5}
+                          ];
+
+
+const fetchScale = (startNote, scalePattern) => {
+
+}
+
+
+const fetchMajorForC = {
+  fetchScale('c', basicMajorPattern);
+}
+
+// for (var i = 0; i < array.length; i++) {
+//   if (i%12)
+// }
 
 
 ////////////////////////////////////////////////////////////////////

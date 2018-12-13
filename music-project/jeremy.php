@@ -39,15 +39,15 @@
 					<button class="text ml-auto">Select all</h3>
 				</div>
 				<div class="row">
-					<button class="options key_signature m1" id="c_major">C Major</button>
-					<button class="options key_signature m1" id="d_major">D Major</button>
-					<button class="options key_signature m1" id="e_major">E Major</button>
-					<button class="options key_signature m1" id="f_major">F Major</button>
+					<button class="options m1" id="cMajorScale">C Major</button>
+					<button class="options m1" id="dMajorScale">D Major</button>
+					<button class="options m1" id="eMajorScale">E Major</button>
+					<button class="options m1" id="fMajorScale">F Major</button>
 				</div>
 				<div class="row">
-					<button class="options key_signature m1" id="g_major">G Major</button>
-					<button class="options key_signature m1" id="a_major">A Major</button>
-					<button class="options key_signature m1" id="b_major">B Major</button>
+					<button class="options m1" id="gMajorScale">G Major</button>
+					<button class="options m1" id="aMajorScale">A Major</button>
+					<button class="options m1" id="bMajorScale">B Major</button>
 				</div>
 			</section>
 			<section class="chord-types m3 mt5 sm-m5">
@@ -56,10 +56,10 @@
 					<button class="text ml-auto">Select all</h3>
 				</div>
 				<div class="row">
-					<button class="options chord_type m1" id="major">Major</button>
-					<button class="options chord_type m1" id="minor">Minor</button>
-					<button class="options chord_type m1" id="augmented-chord">Augmented</button>
-					<button class="options chord_type m1" id="diminished">Diminished</button>
+					<button class="options m1" id="major-chord">Major</button>
+					<button class="options m1" id="minor-chord">Minor</button>
+					<button class="options m1" id="augmented-chord">Augmented</button>
+					<button class="options m1" id="">Diminished</button>
 				</div>
 			</section>
 			<section class="chord-types m3 mt5 sm-m5">
@@ -68,12 +68,12 @@
 					<button class="text ml-auto">Select all</h3>
 				</div>
 				<div class="row">
-					<button class="options inversion m1" id="root">Root</button>
-					<button class="options inversion m1" id="first">First Inversion</button>
-					<button class="options inversion m1" id="second">Second Inversion</button>
+					<button class="options m1" id="root">Root</button>
+					<button class="options m1" id="first-inversion">First Inversion</button>
+					<button class="options m1" id="second-inversion">Second Inversion</button>
 				</div>
 				<div class="row mt8">
-					<button class="options m1" id="apply">Apply</button>
+					<button class="options m1" id="root">Apply</button>
 				</div>
 			</section>
 		</div>
@@ -275,4 +275,4 @@
 		</div>
   </div>
 
-  <?php include 'logic-updated.php';?>
+  <?php include 'jeremy-logic.php';?>

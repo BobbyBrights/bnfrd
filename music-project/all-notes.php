@@ -465,6 +465,152 @@ const allNotes = [
   <div class="note flat" id="cb2"></div>
 </div>
 
+const allChords = [
+  {
+    "chord type": "major",
+    "inversion": "root",
+    "chords": [
+      {
+        "scale degree": "I",
+        "notes": [0,2,4]
+      },
+      {
+        "scale degree": "IV",
+        "notes": [3,5,0]
+      },
+      {
+        "scale degree": "V",
+        "notes": [4,6,1]
+      },
+    ]
+  },
+  {
+    "chord type": "major",
+    "inversion": "first",
+    "chords": [
+      {
+        "scale degree": "I",
+        "notes": [2,4,0]
+      },
+      {
+        "scale degree": "IV",
+        "notes": [5,0,3]
+      },
+      {
+        "scale degree": "V",
+        "notes": [6,1,4]
+      },
+    ]
+  },
+  {
+    "chord type": "major",
+    "inversion": "second",
+    "chords": [
+      {
+        "scale degree": "I",
+        "notes": [4,0,2]
+      },
+      {
+        "scale degree": "IV",
+        "notes": [0,3,5]
+      },
+      {
+        "scale degree": "V",
+        "notes": [1,4,6]
+      },
+    ]
+  },
+  {
+    "chord type": "minor",
+    "inversion": "root",
+    "chords": [
+      {
+        "scale degree": "II",
+        "notes": [1,3,5]
+      },
+      {
+        "scale degree": "III",
+        "notes": [2,4,6]
+      },
+      {
+        "scale degree": "VI",
+        "notes": [5,0,2]
+      },
+    ]
+  },
+  {
+    "chord type": "minor",
+    "inversion": "first",
+    "chords": [
+      {
+        "scale degree": "II",
+        "notes": [3,5,1]
+      },
+      {
+        "scale degree": "III",
+        "notes": [4,6,2]
+      },
+      {
+        "scale degree": "VI",
+        "notes": [0,2,5]
+      },
+    ]
+  },
+  {
+    "chord type": "minor",
+    "inversion": "second",
+    "chords": [
+      {
+        "scale degree": "I",
+        "notes": [5,1,3]
+      },
+      {
+        "scale degree": "IV",
+        "notes": [6,2,4]
+      },
+      {
+        "scale degree": "V",
+        "notes": [2,5,0]
+      },
+    ]
+  },
+  {
+    "chord type": "diminished",
+    "inversion": "root",
+    "chords": [
+      {
+        "scale degree": "VII",
+        "notes": [6,1,3]
+      }
+    ]
+  },
+  {
+    "chord type": "diminished",
+    "inversion": "first",
+    "chords": [
+      {
+        "scale degree": "VII",
+        "notes": [1,3,6]
+      }
+    ]
+  },
+  {
+    "chord type": "diminished",
+    "inversion": "second",
+    "chords": [
+      {
+        "scale degree": "VII",
+        "notes": [3,6,1]
+      }
+    ]
+  }]
+
+  // function getMainChordsOfKey(scale) {
+  //   var newChordArray = JSON.parse(JSON.stringify(allChords));
+  //   newChordArray.forEach(array => array.chords.forEach(chord => chord.notes = chord.notes.map(i => scale[i])));
+  //   return newChordArray
+  // };
+
 
 
 
