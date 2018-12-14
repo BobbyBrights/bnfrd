@@ -120,6 +120,22 @@ $(".bottom-sheet")
   .qcss({ display: 'none' })
 };
 
+function showMask () {
+$(".mask")
+  .qcss({ display: 'block' })
+  .delay(2)
+  .qcss({ opacity: '1' })
+};
+
+function hideMask () {
+$(".mask")
+  .qcss({ opacity: '0' })
+  .delay(200)
+  .qcss({ display: 'none' })
+
+
+};
+
 function moveFrap () {
   $(".frap-container")
     .qcss({ transition: 'all .2s ease' })
@@ -136,14 +152,12 @@ moveFrap();
 
 $(".initiate-bottom-sheet").on("click", function() {
 showBottomSheet();
-$(".mask").css("display","block");
-$(".mask").css("opacity","1");
+showMask();
 });
 
 $(".dismiss-bottom-sheet, .mask").on("click", function() {
 dismissBottomSheet();
-$(".mask").css("display","none");
-$(".mask").css("opacity","1");
+hideMask();
 });
 
 

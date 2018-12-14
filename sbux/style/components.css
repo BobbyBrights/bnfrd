@@ -992,7 +992,7 @@ Bottom Sheets
 	right:0;
 	position:absolute;
 	z-index: 50;
-	transition: opacity .9s ease;
+	transition: opacity .2s ease;
 }
 
 /* --breakpointLg */
