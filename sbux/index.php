@@ -37,6 +37,15 @@
             <div class="ghost-button white m2">More details</div>
             <div class="filled-button white m2">More details</div>
           </div>
+          <div class="basic-card middle mt3 p2">
+            <div class="icon-button heart"></div>
+            <div class="icon-button add"></div>
+            <div class="icon-button minus"></div>
+            <div class="icon-button close"></div>
+            <div class="icon-button hamburger"></div>
+            <div class="icon-button mail"></div>
+            <div class="icon-button right-chevron"></div>
+          </div>
           <div class="basic-card p4 mt3">
             This is a basic card.
           </div>
