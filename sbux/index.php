@@ -33,6 +33,14 @@
             <div class="filled-button gold m2">More details</div>
             <div class="text-button green m2">More details</div>
           </div>
+          <div class="basic-card middle mt3 p2">
+            <div class="field">
+              <div class="field__inputWrapper flex">
+                <label class="floatLabel color-textBlackSoft" for="postalCode">Zip code</label>
+                <input type="tel" aria-required="true" class="fieldInput" id="postalCode" name="postalCode" value="" required="" maxlength="10" autocomplete="postal-code" data-e2e="postalCode">
+              </div>
+            </div>
+          </div>
           <div class="basic-card middle mt3 p2 colorBlackWarm">
             <div class="ghost-button white m2">More details</div>
             <div class="filled-button white m2">More details</div>

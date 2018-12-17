@@ -1013,3 +1013,77 @@ Bottom Sheets
 	}
 
 }
+
+/* ----------------------------------------
+Inputs
+---------------------------------------- */
+
+:root {
+  --fieldHorizontalPadding: var(--formHorizontalPadding);
+  --fieldBottomPadding: 6px;
+  --fieldTopPadding: 32px;
+  --fieldFontSize: 1.6rem;
+}
+
+.field {
+  display: block;
+  position: relative;
+}
+
+.fieldInput {
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  /* Remove default border-radius from iOS */
+  border-radius: 0;
+  color: var(--colorBlack90);
+  display: block;
+  font-size: var(--fieldFontSize);
+  font-weight: 700;
+  line-height: 1rem;
+  padding-top: var(--fieldTopPadding);
+  padding-right: 0;
+  padding-bottom: var(--fieldBottomPadding);
+  padding-left: 0;
+  width: 100%;
+}
+
+.field--dark .fieldInput {
+  color: var(--colorTextWhite);
+}
+
+.fieldInput::-ms-clear,
+.fieldInput::-ms-reveal {
+  display: none;
+}
+
+.field__inputWrapper {
+  display: block;
+  position: relative;
+  border-bottom: 1px solid var(--colorBlack20);
+}
+
+.field--dark .field__inputWrapper {
+  border-bottom-color: var(--colorWhite20);
+}
+
+.fieldInput:focus {
+  outline: none !important;
+}
+
+.field--isFocused .field__inputWrapper {
+  border-color: var(--colorGreenApron);
+}
+
+.field--isFocused.field--rewardsGold .field__inputWrapper {
+  border-color: var(--colorGold);
+}
+
+.field--isInvalid .field__inputWrapper,
+.field--isInvalid.field--rewardsGold .field__inputWrapper {
+  border-color: var(--colorRed);
+}
+
+.field__warningIcon {
+  color: var(--colorRed);
+}
