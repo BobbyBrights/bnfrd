@@ -1066,6 +1066,15 @@ Ghost Buttons
 	background-color:rgba(0,168,98,.08);
 }
 
+.black.ghost-text {
+	background-color:rgba(0,0,0,0);
+	color: rgba(0,0,0,.87);
+}
+
+.black.ghost-text:hover {
+	background-color:rgba(0,0,0,.06);
+}
+
 
 /* Option 2 */
 
