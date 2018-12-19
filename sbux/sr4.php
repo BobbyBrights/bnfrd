@@ -215,7 +215,7 @@
               <div class="subhead-2 ml-auto">-$11.95
               </div>
             </div>
-            <div class="row c12 pt1 pb1 hide colorTextGreen" id="birthday-reward-total">
+            <div class="row c12 pt1 pb1 hide reward-discount colorTextGreen" id="birthday-reward-total">
               <div class="body-1">Discount
               </div>
               <div class="dottedUnderline"></div>
