@@ -261,7 +261,7 @@
         </div>
         <div class="basic-toast middle">
           <p class="pr3">125<span class="colorTextGold">★</span> applied to Latte Macchiato</p>
-          <div class="ghost-button white ml-auto">Undo</div>
+          <div class="ghost-button white ml-auto invisible">Undo</div>
         </div>
         <div class="frap-container">
           <div class="frap">
