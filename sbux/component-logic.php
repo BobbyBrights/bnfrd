@@ -56,6 +56,10 @@ $('.toggle-reward').on('click', function() {
     $(".basic-toast p").html("25<span class='colorTextGold'>★</span> applied to Latte Macchiato");
   }
 
+  if (rewardMessage === "birthday-reward-message") {
+    $(".basic-toast p").html("Birthday Reward applied to order");
+  }
+
   if (rewardMessage === "50-reward-message") {
     $(".basic-toast p").html("50<span class='colorTextGold'>★</span> applied to Blonde Roast");
   }

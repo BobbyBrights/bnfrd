@@ -45,6 +45,9 @@
                 <p class="colorTextGreen button-text">It’s on us! 125 Star Reward applied</p>
                 <p class="button-text colorTextBlack ml-auto pl3">-125<span class="colorTextGold">☆</p>
               </div>
+              <div class="pl3 row nowrap reward-message hide" id="birthday-reward-message">
+                <p class="colorTextGreen button-text">It’s on us! Birthday Reward applied</p>
+              </div>
             </div>
           </div>
           <div class="product-card px3 pt3 pb4 sm-p5 md-mt3 md-pr13">
@@ -135,6 +138,9 @@
             <div class="filled-button black toggle-reward m2" id="125-reward">
               <span class="reward-text">Use</span> 125 <span class="colorTextGold">★</span>
             </div>
+            <div class="filled-button black toggle-reward m2" id="birthday-reward">
+              <span class="reward-text">Use</span> Birthday Reward
+            </div>
           </div>
           <div class="product-card mb15 px3 pb5 pt3 sm-pt3 sm-px5 sm-pb5 md-pt4 md-pb5">
             <div class="row c12 pt1 pb1 hide colorTextGreen" id="125-reward-total">
@@ -142,6 +148,13 @@
               </div>
               <div class="dottedUnderline"></div>
               <div class="subhead-2 ml-auto">-$0.90
+              </div>
+            </div>
+            <div class="row c12 pt1 pb1 hide colorTextGreen" id="birthday-reward-total">
+              <div class="body-1">Discount
+              </div>
+              <div class="dottedUnderline"></div>
+              <div class="subhead-2 ml-auto">-$4.25
               </div>
             </div>
             <div class="row c12 pt1 pb2">
@@ -183,7 +196,7 @@
         </div>
         <div class="basic-toast middle">
           <p class="pr3">125<span class="colorTextGold">★</span> applied to Latte Macchiato</p>
-          <div class="ghost-button white ml-auto">Undo</div>
+          <div class="ghost-button white ml-auto invisible">Undo</div>
         </div>
         <div class="frap-container">
           <div class="frap">

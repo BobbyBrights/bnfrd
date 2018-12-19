@@ -151,6 +151,9 @@
                 <p class="colorTextGreen button-text">It’s on us! 400 Star Reward applied</p>
                 <p class="button-text colorTextBlack ml-auto pl3">-400<span class="colorTextGold">☆</p>
               </div>
+              <div class="pl3 row nowrap reward-message hide" id="birthday-reward-message">
+                <p class="colorTextGreen button-text">It’s on us! Birthday Reward applied</p>
+              </div>
             </div>
           </div>
           <div class="caption-2 colorTextBlackSoft mt4 ml3 sm-ml5 md-ml0 md-pb1 md-mt5 c12">
@@ -171,6 +174,9 @@
             </div>
             <div class="filled-button black toggle-reward m2" id="400-reward">
               <span class="reward-text">Use</span> 400 <span class="colorTextGold">★</span>
+            </div>
+            <div class="filled-button black toggle-reward m2" id="birthday-reward">
+              <span class="reward-text">Use</span> Birthday Reward
             </div>
           </div>
           <div class="product-card mb15 px3 pb5 pt3 sm-pt3 sm-px5 sm-pb5 md-pt4 md-pb5">
@@ -203,6 +209,13 @@
               </div>
             </div>
             <div class="row c12 pt1 pb1 hide reward-discount colorTextGreen" id="400-reward-total">
+              <div class="body-1">Discount
+              </div>
+              <div class="dottedUnderline"></div>
+              <div class="subhead-2 ml-auto">-$11.95
+              </div>
+            </div>
+            <div class="row c12 pt1 pb1 hide colorTextGreen" id="birthday-reward-total">
               <div class="body-1">Discount
               </div>
               <div class="dottedUnderline"></div>

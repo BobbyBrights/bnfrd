@@ -183,6 +183,10 @@ Other stuff
   z-index: 100;
 }
 
+.invisible {
+  visibility:hidden;
+}
+
 /* --breakpointSm */
 @media only screen and (min-width: 480px) {
 
