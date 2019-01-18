@@ -90,10 +90,10 @@
 
             <div class="frap-container">
               <div class="frap secondary initiate-deli-ticket">
-                Start Order
+                Show deli ticket
               </div>
               <div class="frap mt3 initiate-bottom-sheet">
-                Start Order
+                Show bottom sheet
               </div>
             </div>
         </div>
@@ -115,12 +115,12 @@
   <div class="deli-ticket-container">
     <div class="deli-ticket">
       <div class="icon-button z-100 close absolute lg-r0 dismiss-deli-ticket"></div>
-      <div class="wide-row pt1 md-ml12 mt2 mb3 mr4 lg-m-auto lg-pr6">
+      <div class="wide-row pt1 md-ml8 mt2 mr4 lg-m-auto lg-pr6">
         <div class="subhead-2 mt1 ml7 md-ml0 c12">
-          This is what the title of a deli ticket should look like
+          Something went wrong on our end
         </div>
         <div class="body-1 mt1 ml7 md-ml0 c12">
-          This is what the copy of a deli ticket should look like
+          Things should be back to normal soon. Try again later.
         </div>
       </div>
       <div class="text-button green m2 inline-block float-right dismiss-deli-ticket">Got it</div>
