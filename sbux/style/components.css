@@ -1015,75 +1015,40 @@ Bottom Sheets
 }
 
 /* ----------------------------------------
-Inputs
+Deli Ticket
 ---------------------------------------- */
-
-:root {
-  --fieldHorizontalPadding: var(--formHorizontalPadding);
-  --fieldBottomPadding: 6px;
-  --fieldTopPadding: 32px;
-  --fieldFontSize: 1.6rem;
+.deli-ticket-container {
+	left:0;
+	right:0;
+	top:0;
+	display: flex;
+	justify-content:center;
+	position:fixed;
+	z-index:122222;
+	padding:16px;
 }
 
-.field {
-  display: block;
-  position: relative;
+.deli-ticket {
+	background-color: var(--colorGrayNatural);
+	position: relative;
+	z-index:1000;
+	width: 100%;
+	border-radius:6px;
+	box-shadow: 0 2px 7px 0 rgba(0, 0, 0, .3);
+	opacity:0;
+
 }
 
-.fieldInput {
-  appearance: none;
-  background-color: transparent;
-  border: 0;
-  /* Remove default border-radius from iOS */
-  border-radius: 0;
-  color: var(--colorBlack90);
-  display: block;
-  font-size: var(--fieldFontSize);
-  font-weight: 700;
-  line-height: 1rem;
-  padding-top: var(--fieldTopPadding);
-  padding-right: 0;
-  padding-bottom: var(--fieldBottomPadding);
-  padding-left: 0;
-  width: 100%;
-}
+/* --breakpointLg */
+@media only screen and (min-width: 1024px) {
 
-.field--dark .fieldInput {
-  color: var(--colorTextWhite);
-}
+	.deli-ticket-container {
+		left:40vw;
+		right:0;
+	}
 
-.fieldInput::-ms-clear,
-.fieldInput::-ms-reveal {
-  display: none;
-}
+	.deli-ticket {
+		max-width: 616px;
+	}
 
-.field__inputWrapper {
-  display: block;
-  position: relative;
-  border-bottom: 1px solid var(--colorBlack20);
-}
-
-.field--dark .field__inputWrapper {
-  border-bottom-color: var(--colorWhite20);
-}
-
-.fieldInput:focus {
-  outline: none !important;
-}
-
-.field--isFocused .field__inputWrapper {
-  border-color: var(--colorGreenApron);
-}
-
-.field--isFocused.field--rewardsGold .field__inputWrapper {
-  border-color: var(--colorGold);
-}
-
-.field--isInvalid .field__inputWrapper,
-.field--isInvalid.field--rewardsGold .field__inputWrapper {
-  border-color: var(--colorRed);
-}
-
-.field__warningIcon {
-  color: var(--colorRed);
 }

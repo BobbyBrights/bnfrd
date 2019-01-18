@@ -33,14 +33,6 @@
             <div class="filled-button gold m2">More details</div>
             <div class="text-button green m2">More details</div>
           </div>
-          <div class="basic-card middle mt3 p2">
-            <div class="field">
-              <div class="field__inputWrapper flex">
-                <label class="floatLabel color-textBlackSoft" for="postalCode">Zip code</label>
-                <input type="tel" aria-required="true" class="fieldInput" id="postalCode" name="postalCode" value="" required="" maxlength="10" autocomplete="postal-code" data-e2e="postalCode">
-              </div>
-            </div>
-          </div>
           <div class="basic-card middle mt3 p2 colorBlackWarm">
             <div class="ghost-button white m2">More details</div>
             <div class="filled-button white m2">More details</div>
@@ -97,7 +89,7 @@
           </div>
 
             <div class="frap-container">
-              <div class="frap secondary">
+              <div class="frap secondary initiate-deli-ticket">
                 Start Order
               </div>
               <div class="frap mt3 initiate-bottom-sheet">
@@ -118,6 +110,20 @@
       <article class="title-1 mt6">
         This is some example content, see how it stays within the wide grid bounds at any thing.
       </article>
+    </div>
+  </div>
+  <div class="deli-ticket-container">
+    <div class="deli-ticket">
+      <div class="icon-button z-100 close absolute lg-r0 dismiss-deli-ticket"></div>
+      <div class="wide-row pt1 md-ml12 mt2 mb3 mr4 lg-m-auto lg-pr6">
+        <div class="subhead-2 mt1 ml7 md-ml0 c12">
+          This is what the title of a deli ticket should look like
+        </div>
+        <div class="body-1 mt1 ml7 md-ml0 c12">
+          This is what the copy of a deli ticket should look like
+        </div>
+      </div>
+      <div class="text-button green m2 inline-block float-right dismiss-deli-ticket">Got it</div>
     </div>
   </div>
 

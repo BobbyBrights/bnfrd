@@ -9,6 +9,7 @@ $(document).ready(function() {
   document.getElementsByTagName("html")[0].style.visibility = "visible";
   $(".basic-toast").css("bottom","-" + toastHeight + "px");
   $(".bottom-sheet").css("bottom","-" + bottomSheetHeight + "px");
+  $(".deli-ticket-container").css("top","-" + deliTicketHeight + "px");
 
 });
 
@@ -16,6 +17,7 @@ $(document).ready(function() {
 var toastHeight = $(".basic-toast").outerHeight();
 var bottomSheetHeight = $(".bottom-sheet").outerHeight();
 var frapDistance = toastHeight + 32
+var deliTicketHeight = $(".deli-ticket-container").outerHeight();
 
 
 /* ----------------------------------------
@@ -117,6 +119,32 @@ $(".bottom-sheet")
   .qcss({ bottom: '0' })
 };
 
+function showDeliTicketContainer () {
+$(".deli-ticket-container")
+  .qcss({ display: 'fixed' })
+  .delay(2)
+  .qcss({ transition: 'top .2s ease' })
+  .qcss({ top: '0' })
+};
+
+function showDeliTicket () {
+$(".deli-ticket")
+    .qcss({ transition: 'opacity .2s ease' })
+    .qcss({ opacity: '1' })
+};
+
+function dismissDeliTicketContainer () {
+$(".deli-ticket-container")
+  .qcss({ transition: 'top .2s ease' })
+  .qcss({ top:"-" + deliTicketHeight + "px" })
+};
+
+function dismissDeliTicket () {
+$(".deli-ticket")
+    .qcss({ transition: 'opacity .2s ease' })
+    .qcss({ opacity: '0' })
+};
+
 function dismissBottomSheet () {
 $(".bottom-sheet")
   .qcss({ bottom:"-" + bottomSheetHeight + "px" })
@@ -136,8 +164,6 @@ $(".mask")
   .qcss({ opacity: '0' })
   .delay(200)
   .qcss({ display: 'none' })
-
-
 };
 
 function moveFrap () {
@@ -149,7 +175,6 @@ function moveFrap () {
 };
 
 $(".initiate-toast").on("click", function() {
-
 showToast();
 moveFrap();
 });
@@ -157,6 +182,16 @@ moveFrap();
 $(".initiate-bottom-sheet").on("click", function() {
 showBottomSheet();
 showMask();
+});
+
+$(".initiate-deli-ticket").on("click", function() {
+showDeliTicketContainer();
+showDeliTicket();
+});
+
+$(".dismiss-deli-ticket").on("click", function() {
+dismissDeliTicketContainer();
+dismissDeliTicket();
 });
 
 $(".dismiss-bottom-sheet, .mask").on("click", function() {

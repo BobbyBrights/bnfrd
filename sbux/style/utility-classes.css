@@ -187,6 +187,18 @@ Other stuff
   visibility:hidden;
 }
 
+.block {
+  display: block;
+}
+
+.float-right {
+  float:right;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
 /* --breakpointSm */
 @media only screen and (min-width: 480px) {
 
