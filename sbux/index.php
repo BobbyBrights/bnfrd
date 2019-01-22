@@ -115,7 +115,7 @@
   <div class="deli-ticket-container">
     <div class="deli-ticket">
       <div class="icon-button z-100 close absolute lg-r0 dismiss-deli-ticket"></div>
-      <div class="wide-row pt1 md-ml8 mt2 mr4 lg-m-auto lg-pr6">
+      <div class="wide-row pt1 md-ml8 mt2 mr4 lg-m-auto lg-pr7">
         <div class="subhead-2 mt1 ml7 md-ml0 c12">
           Something went wrong on our end
         </div>
