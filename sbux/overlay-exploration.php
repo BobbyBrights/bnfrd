@@ -47,7 +47,7 @@
         <div class="filled-button z-100 m2 green dismiss-overlay"> See what's new</div>
       </div>
     </div>
-    <div class="mask"></div>
+    <div class="mask dismiss-overlay"></div>
   </div>
 
 <?php include 'component-logic.php';?>
