@@ -1006,7 +1006,7 @@ Bottom Sheets
 		margin-top:22px;
 	}
 
-		.mask {
+	.mask {
 		width:60%;
 		z-index: 0;
 	}
@@ -1068,7 +1068,7 @@ Overlay New
 ---------------------------------------- */
 .overlay-container {
 	width:100%;
-	display:flex;
+	display: none;
 	overflow-x: hidden;
 	position:fixed;
 	top:0;
@@ -1076,13 +1076,21 @@ Overlay New
 	z-index:1000000000;
 }
 
-.overlay-new {
+.overlay {
 	width:100%;
 	background: white;
 	z-index: 100000000;
 	overflow-x: hidden;
 	position:relative;
 	box-shadow: 0 2px 7px 0 rgba(0, 0, 0, .3);
+	-webkit-transform: scale(0.7);
+	-moz-transform: scale(0.7);
+	-ms-transform: scale(0.7);
+	transform: scale(0.7);
+	opacity: 1;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
 }
 
 .graphic {
@@ -1097,17 +1105,6 @@ Overlay New
 	width:100%;
 }
 
-.mask-new {
-	background: rgba(0,0,0,.38);
-	width: 100%;
-	height: 100%;
-	top:0;
-	right:0;
-	position:absolute;
-	z-index: 50;
-	transition: opacity .2s ease;
-}
-
 /* --breakpointSm */
 @media only screen and (min-width: 480px) {
 
@@ -1117,7 +1114,7 @@ Overlay New
 		position: absolute;
 	}
 
-	.overlay-new {
+	.overlay {
 		min-width: 375px;
 		max-width: 375px;
 		border-radius:12px;
@@ -1135,9 +1132,8 @@ Overlay New
 		width:60vw;
 	}
 
-	.mask-new {
-		width:60%;
-		z-index: 0;
+	.overlay-container .mask {
+		width:100%;
 	}
 
 }

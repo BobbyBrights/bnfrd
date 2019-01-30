@@ -159,6 +159,30 @@ $(".mask")
   .qcss({ opacity: '1' })
 };
 
+function showOverlay () {
+$(".overlay")
+  .delay(2)
+  .qcss({ transform: 'scale(1)' })
+  .qcss({	opacity: '1' })
+};
+
+function showOverlayContainer () {
+$(".overlay-container")
+  .qcss({ display: 'flex' })
+};
+
+function dismissOverlay () {
+$(".overlay")
+  .qcss({ transform: 'scale(.7)' })
+  .qcss({	opacity: '0' })
+};
+
+function dismissOverlayContainer () {
+$(".overlay-container")
+  .delay(200)
+  .qcss({ display: 'none' })
+};
+
 function hideMask () {
 $(".mask")
   .qcss({ opacity: '0' })
@@ -179,6 +203,12 @@ showToast();
 moveFrap();
 });
 
+$(".initiate-overlay").on("click", function() {
+showOverlay();
+showOverlayContainer();
+showMask();
+});
+
 $(".initiate-bottom-sheet").on("click", function() {
 showBottomSheet();
 showMask();
@@ -196,6 +226,12 @@ dismissDeliTicket();
 
 $(".dismiss-bottom-sheet, .mask").on("click", function() {
 dismissBottomSheet();
+hideMask();
+});
+
+$(".dismiss-overlay, .mask").on("click", function() {
+dismissOverlay();
+dismissOverlayContainer();
 hideMask();
 });
 

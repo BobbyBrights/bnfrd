@@ -7,7 +7,7 @@
   <div class="container">
     <div class="sb-headerCrate colorWhite">
       <div class="sb-navbar">
-          <div class="sb-navbar-siren vcenter"></div>
+          <div class="sb-navbar-siren vcenter initiate-overlay"></div>
           <nav class="row vcenter between c12">
             <ul class="row vcenter text-noUnderline text-upper text-bold text-xxs">
               <li class="py2 m1 pl2">Order</li>
@@ -25,25 +25,13 @@
 		<div class="sb-contentCrate">
 			<div class="sb-contentCrateContainer">
             <div class="frap-container">
-              <div class="frap mt3 initiate-bottom-sheet">
+              <div class="frap mt3 initiate-overlay">
                 Show overlay
               </div>
             </div>
         </div>
 			</div>
 		</div>
-  </div>
-  <div class="mask"></div>
-  <div class="bottom-sheet">
-    <div class="icon-button close dismiss-bottom-sheet absolute t1 ml1 lg-ml0 lg-r2 lg-t2 z-100"></div>
-    <div class="wide-row mb16 ml8 mr3 md-mx13 lg-m-auto">
-      <h1 class="bottom-sheet-title colorTextBlackSoft md-ml0 lg-pr5 row subhead-1">
-          Add money to Starbucks Card
-      </h1>
-      <article class="title-1 mt6">
-        This is some example content, see how it stays within the wide grid bounds at any thing.
-      </article>
-    </div>
   </div>
   <div class="deli-ticket-container">
     <div class="deli-ticket">
@@ -59,22 +47,22 @@
       <div class="text-button green m2 inline-block float-right dismiss-deli-ticket">Got it</div>
     </div>
   </div>
-  <div class="mask-new"></div>
   <div class="overlay-container">
-    <div class="overlay-new">
-      <div class="row hend">
-        <div class="icon-button close fixed"></div>
+    <div class="overlay">
+      <div class="row sm-hend">
+        <div class="icon-button close fixed dismiss-overlay"></div>
       </div>
       <div class="graphic"></div>
       <article class="px6 pb6">
         <div class="title-2 pt5">Welcome to the new Starbucks Rewards™</div>
         <div class="body-1 colorTextBlackSoft mt3">You’ll earn Stars towards even more Rewards on everything you order. Special perks and surprises meet you on the way.</div>
       </article>
-      <div class="row button-container fixed sm-relative hcenter mb5">
-        <div class="text-button z-100 m2 green"> Not now</div>
-        <div class="filled-button z-100 m2 green"> See what's new</div>
+      <div class="row button-container fixed sm-relative hcenter px5 mb5">
+        <div class="text-button z-100 m2 green dismiss-overlay"> Not now</div>
+        <div class="filled-button z-100 m2 green dismiss-overlay"> See what's new</div>
       </div>
     </div>
+    <div class="mask"></div>
   </div>
 
 <?php include 'component-logic.php';?>
