@@ -7,10 +7,10 @@
   <div class="container">
     <div class="sb-headerCrate colorWhite">
       <div class="sb-navbar">
-          <div class="sb-navbar-siren vcenter initiate-overlay"></div>
+          <div class="sb-navbar-siren vcenter"></div>
           <nav class="row vcenter between c12">
             <ul class="row vcenter text-noUnderline text-upper text-bold text-xxs">
-              <li class="py2 m1 pl2">Order</li>
+              <li class="py2 m1 dismiss-overlay pl2">Order</li>
               <li class="py2 m1 pl2">Cards</li>
               <li class="py2 m1 pl2">Gift</li>
               <li class="py2 m1 pl2">Stores</li>
@@ -23,30 +23,15 @@
 
 		<!-- Right Crate -->
 		<div class="sb-contentCrate">
-			<div class="sb-contentCrateContainer">
-            <div class="frap-container">
-              <div class="frap mt3 initiate-overlay">
-                Show overlay
-              </div>
-            </div>
-        </div>
-			</div>
-		</div>
-  </div>
-  <div class="deli-ticket-container">
-    <div class="deli-ticket">
-      <div class="icon-button z-100 close absolute lg-r0 dismiss-deli-ticket"></div>
-      <div class="wide-row pt1 md-ml8 mt2 mr4 lg-m-auto lg-pr7">
-        <div class="subhead-2 mt1 ml7 md-ml0 c12">
-          Something went wrong on our end
-        </div>
-        <div class="body-1 mt1 ml7 md-ml0 c12">
-          Things should be back to normal soon. Try again later.
+  		<div class="sb-contentCrateContainer">
+        <div class="frap-container">
+          <div class="frap mt3 initiate-overlay">
+            Show overlay
+          </div>
         </div>
       </div>
-      <div class="text-button green m2 inline-block float-right dismiss-deli-ticket">Got it</div>
-    </div>
-  </div>
+		</div>
+	</div>
   <div class="overlay-container">
     <div class="overlay">
       <div class="row sm-hend">

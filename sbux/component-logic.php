@@ -84,12 +84,6 @@ $('.toggle-reward').on('click', function() {
 
 });
 
-/* ----------------------------------------
--------------------------------------------
--------------------Toast-------------------
--------------------------------------------
----------------------------------------- */
-
 $.fn.extend({
  qcss: function(css) {
     return $(this).queue(function(next) {
@@ -98,6 +92,13 @@ $.fn.extend({
     });
  }
 });
+
+/* ----------------------------------------
+-------------------------------------------
+-------------------Toast-------------------
+-------------------------------------------
+---------------------------------------- */
+
 
 function showToast () {
 $(".basic-toast")
@@ -111,6 +112,17 @@ $(".basic-toast")
   .qcss({ display: 'none' })
 };
 
+$(".initiate-toast").on("click", function() {
+showToast();
+moveFrap();
+});
+
+/* ----------------------------------------
+-------------------------------------------
+---------------Bottom Sheet----------------
+-------------------------------------------
+---------------------------------------- */
+
 function showBottomSheet () {
 $(".bottom-sheet")
   .qcss({ display: 'flex' })
@@ -118,6 +130,37 @@ $(".bottom-sheet")
   .qcss({ transition: 'bottom .2s ease' })
   .qcss({ bottom: '0' })
 };
+
+function dismissBottomSheet () {
+$(".bottom-sheet")
+  .qcss({ bottom:"-" + bottomSheetHeight + "px" })
+  .delay(200)
+  .qcss({ display: 'none' })
+};
+
+function moveFrap () {
+  $(".frap-container")
+    .qcss({ transition: 'all .2s ease' })
+    .qcss({ bottom: frapDistance + "px" })
+    .delay(2000)
+    .qcss({ bottom: "32px" })
+};
+
+$(".initiate-bottom-sheet").on("click", function() {
+showBottomSheet();
+showMask();
+});
+
+$(".dismiss-bottom-sheet, .mask").on("click", function() {
+dismissBottomSheet();
+hideMask();
+});
+
+/* ----------------------------------------
+-------------------------------------------
+----------------Deli Ticket----------------
+-------------------------------------------
+---------------------------------------- */
 
 function showDeliTicketContainer () {
 $(".deli-ticket-container")
@@ -145,75 +188,6 @@ $(".deli-ticket")
     .qcss({ opacity: '0' })
 };
 
-function dismissBottomSheet () {
-$(".bottom-sheet")
-  .qcss({ bottom:"-" + bottomSheetHeight + "px" })
-  .delay(200)
-  .qcss({ display: 'none' })
-};
-
-function showMask () {
-$(".mask")
-  .qcss({ display: 'block' })
-  .delay(2)
-  .qcss({ opacity: '1' })
-};
-
-function showOverlay () {
-$(".overlay")
-  .delay(2)
-  .qcss({ transform: 'scale(1)' })
-  .qcss({	opacity: '1' })
-};
-
-function showOverlayContainer () {
-$(".overlay-container")
-  .qcss({ display: 'flex' })
-};
-
-function dismissOverlay () {
-$(".overlay")
-  .qcss({ transform: 'scale(.7)' })
-  .qcss({	opacity: '0' })
-};
-
-function dismissOverlayContainer () {
-$(".overlay-container")
-  .delay(200)
-  .qcss({ display: 'none' })
-};
-
-function hideMask () {
-$(".mask")
-  .qcss({ opacity: '0' })
-  .delay(200)
-  .qcss({ display: 'none' })
-};
-
-function moveFrap () {
-  $(".frap-container")
-    .qcss({ transition: 'all .2s ease' })
-    .qcss({ bottom: frapDistance + "px" })
-    .delay(2000)
-    .qcss({ bottom: "32px" })
-};
-
-$(".initiate-toast").on("click", function() {
-showToast();
-moveFrap();
-});
-
-$(".initiate-overlay").on("click", function() {
-showOverlay();
-showOverlayContainer();
-showMask();
-});
-
-$(".initiate-bottom-sheet").on("click", function() {
-showBottomSheet();
-showMask();
-});
-
 $(".initiate-deli-ticket").on("click", function() {
 showDeliTicketContainer();
 showDeliTicket();
@@ -223,17 +197,80 @@ $(".dismiss-deli-ticket").on("click", function() {
 dismissDeliTicketContainer();
 dismissDeliTicket();
 });
+/* ----------------------------------------
+-------------------------------------------
+------------------Overlay------------------
+-------------------------------------------
+---------------------------------------- */
 
-$(".dismiss-bottom-sheet, .mask").on("click", function() {
-dismissBottomSheet();
-hideMask();
+function showOverlayContainer () {
+$(".overlay-container")
+  .qcss({ display: 'flex' })
+};
+//
+
+//
+function dismissOverlayContainer () {
+$(".overlay-container")
+  .delay(200)
+  .qcss({ display: 'none' })
+};
+//
+// function dismissOverlay () {
+// $(".overlay")
+//   .qcss({ transform: 'scale(.7)' })
+//   .qcss({	opacity: '0' })
+// };
+
+// $(".initiate-overlay").on("click", function() {
+// showOverlay();
+// showOverlayContainer();
+// showMask();
+// });
+//
+// $(".dismiss-overlay, .mask").on("click", function() {
+// dismissOverlay();
+// dismissOverlayContainer();
+// hideMask();
+// });
+
+// $(".initiate-overlay").on("click", function() {
+//   $(".overlay").addClass("show");
+// });
+
+$(".initiate-overlay").on("click", function() {
+  showOverlayContainer();
+  showMask();
+  setTimeout(function(){
+     $(".overlay").addClass("show");
+  }, 1);
 });
 
-$(".dismiss-overlay, .mask").on("click", function() {
-dismissOverlay();
-dismissOverlayContainer();
-hideMask();
+$(".dismiss-overlay").on("click", function() {
+  dismissOverlayContainer();
+  hideMask();
+  $(".overlay").removeClass("show");
 });
+
+/* ----------------------------------------
+-------------------------------------------
+--------------------Mask-------------------
+-------------------------------------------
+---------------------------------------- */
+
+function showMask () {
+$(".mask")
+  .qcss({ display: 'block' })
+  .delay(2)
+  .qcss({ opacity: '1' })
+};
+
+function hideMask () {
+$(".mask")
+  .qcss({ opacity: '0' })
+  .delay(200)
+  .qcss({ display: 'none' })
+};
 
 
 /* -----------------------------------*/

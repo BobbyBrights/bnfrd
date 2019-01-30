@@ -1064,7 +1064,7 @@ Deli Ticket
 
 
 /* ----------------------------------------
-Overlay New
+Overlay
 ---------------------------------------- */
 .overlay-container {
 	width:100%;
@@ -1083,14 +1083,14 @@ Overlay New
 	overflow-x: hidden;
 	position:relative;
 	box-shadow: 0 2px 7px 0 rgba(0, 0, 0, .3);
-	-webkit-transform: scale(0.7);
-	-moz-transform: scale(0.7);
-	-ms-transform: scale(0.7);
-	transform: scale(0.7);
-	opacity: 1;
+	opacity: 0;
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
 	transition: all 0.2s ease;
+}
+
+.overlay.show {
+	opacity: 1;
 }
 
 .graphic {
@@ -1120,7 +1120,24 @@ Overlay New
 		border-radius:12px;
 		align-self: center;
 		max-height:80%;
+		-webkit-transform: scale(0.7);
+		-moz-transform: scale(0.7);
+		-ms-transform: scale(0.7);
+		transform: scale(0.7);
+		opacity: 0;
+		-webkit-transition: all 0.2s ease;
+		-moz-transition: all 0.2s ease;
+		transition: all 0.2s ease;
 	}
+
+	.overlay.show {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
+
 
 }
 
