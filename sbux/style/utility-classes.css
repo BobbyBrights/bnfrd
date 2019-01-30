@@ -171,14 +171,6 @@ Other stuff
   display: none;
 }
 
-.show-flex {
-  display: flex;
-}
-
-.absolute {
-  position:absolute;
-}
-
 .z-100 {
   z-index: 100;
 }
@@ -187,16 +179,36 @@ Other stuff
   visibility:hidden;
 }
 
-.block {
-  display: block;
-}
-
 .float-right {
   float:right;
 }
 
+/* Display */
+
 .inline-block {
   display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+/* Positioning */
+
+.absolute {
+  position:absolute;
+}
+
+.fixed {
+  position:fixed;
+}
+
+.relative {
+  position:relative;
 }
 
 /* --breakpointSm */
@@ -242,6 +254,34 @@ Other stuff
     -ms-flex-order: 1;
     -webkit-box-ordinal-group: 2;
     order: 1;
+  }
+
+  /* Display */
+
+  .sm-inline-block {
+    display: inline-block;
+  }
+
+  .sm-block {
+    display: block;
+  }
+
+  .sm-flex {
+    display: flex;
+  }
+
+  /* Positioning */
+
+  .sm-absolute {
+    position:absolute;
+  }
+
+  .sm-fixed {
+    position:fixed;
+  }
+
+  .sm-relative {
+    position:relative;
   }
 
 }
@@ -301,7 +341,37 @@ Other stuff
     -webkit-box-ordinal-group: 2;
     order: 1;
   }
+
+  /* Display */
+
+  .md-inline-block {
+    display: inline-block;
+  }
+
+  .md-block {
+    display: block;
+  }
+
+  .md-flex {
+    display: flex;
+  }
+
+  /* Positioning */
+
+  .md-absolute {
+    position:absolute;
+  }
+
+  .md-fixed {
+    position:fixed;
+  }
+
+  .md-relative {
+    position:relative;
+  }
+
 }
+
 
 /* --breakpointLg */
 @media only screen and (min-width: 1024px) {
@@ -355,7 +425,38 @@ Other stuff
     -webkit-box-ordinal-group: 2;
     order: 1;
   }
+
+  /* Display */
+
+  .lg-inline-block {
+    display: inline-block;
+  }
+
+  .lg-block {
+    display: block;
+  }
+
+  .lg-flex {
+    display: flex;
+  }
+
+  /* Positioning */
+
+  .lg-absolute {
+    position:absolute;
+  }
+
+  .lg-fixed {
+    position:fixed;
+  }
+
+  .lg-relative {
+    position:relative;
+  }
+
+
 }
+
 
 /* --breakpointXl */
 @media only screen and (min-width: 1280px) {
@@ -401,6 +502,35 @@ Other stuff
     -webkit-box-ordinal-group: 2;
     order: 1;
   }
+
+  /* Display */
+
+  .xl-inline-block {
+    display: inline-block;
+  }
+
+  .xl-block {
+    display: block;
+  }
+
+  .xl-flex {
+    display: flex;
+  }
+
+  /* Positioning */
+
+  .xl-absolute {
+    position:absolute;
+  }
+
+  .xl-fixed {
+    position:fixed;
+  }
+
+  .xl-relative {
+    position:relative;
+  }
+
 }
 
 /* --breakpointXxl */
@@ -447,6 +577,35 @@ Other stuff
     -webkit-box-ordinal-group: 2;
     order: 1;
   }
+
+  /* Display */
+
+  .xxl-inline-block {
+    display: inline-block;
+  }
+
+  .xxl-block {
+    display: block;
+  }
+
+  .xxl-flex {
+    display: flex;
+  }
+
+  /* Positioning */
+
+  .xxl-absolute {
+    position:absolute;
+  }
+
+  .xxl-fixed {
+    position:fixed;
+  }
+
+  .xxl-relative {
+    position:relative;
+  }
+
 }
 
 /* ----------------------------------------

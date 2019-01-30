@@ -29,7 +29,8 @@ body {
 	text-shadow: none;
 	font-family: Gotham;
 	background-color: #f7f7f7;
-  color: rgba(0,0,0,.87)
+  color: rgba(0,0,0,.87);
+	overflow-x:hidden;
 }
 
 ul {

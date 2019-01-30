@@ -126,5 +126,22 @@
       <div class="text-button green m2 inline-block float-right dismiss-deli-ticket">Got it</div>
     </div>
   </div>
+  <div class="mask-new"></div>
+  <div class="overlay-container">
+    <div class="overlay-new">
+      <div class="row hend">
+        <div class="icon-button close fixed"></div>
+      </div>
+      <div class="graphic"></div>
+      <article class="px6 pb6">
+        <div class="title-2 pt5">Welcome to the new Starbucks Rewards™</div>
+        <div class="body-1 colorTextBlackSoft mt3">You’ll earn Stars towards even more Rewards on everything you order. Special perks and surprises meet you on the way.</div>
+      </article>
+      <div class="row hcenter">
+        <div class="filled-button z-100 green mb5 c12"> See what's new</div>
+        <div class="filled-button z-100 green mb5 c12"> See what's new</div>
+      </div>
+    </div>
+  </div>
 
 <?php include 'component-logic.php';?>

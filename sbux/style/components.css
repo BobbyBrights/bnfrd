@@ -1061,3 +1061,83 @@ Deli Ticket
 	}
 
 }
+
+
+/* ----------------------------------------
+Overlay New
+---------------------------------------- */
+.overlay-container {
+	width:100%;
+	display:flex;
+	overflow-x: hidden;
+	position:fixed;
+	top:0;
+	bottom:0;
+	z-index:1000000000;
+}
+
+.overlay-new {
+	width:100%;
+	background: white;
+	z-index: 100000000;
+	overflow-x: hidden;
+	position:relative;
+	box-shadow: 0 2px 7px 0 rgba(0, 0, 0, .3);
+}
+
+.graphic {
+	width:100%;
+	height:200px;
+	background:lightblue;
+	overflow:hidden;
+}
+
+.button-container {
+	bottom:0;
+	width:100%;
+}
+
+.mask-new {
+	background: rgba(0,0,0,.38);
+	width: 100%;
+	height: 100%;
+	top:0;
+	right:0;
+	position:absolute;
+	z-index: 50;
+	transition: opacity .2s ease;
+}
+
+/* --breakpointSm */
+@media only screen and (min-width: 480px) {
+
+	.overlay-container {
+		justify-content:center;
+		width:100vw;
+		position: absolute;
+	}
+
+	.overlay-new {
+		min-width: 375px;
+		max-width: 375px;
+		border-radius:12px;
+		align-self: center;
+		max-height:80%;
+	}
+
+}
+
+/* --breakpointLg */
+@media only screen and (min-width: 1024px) {
+
+	.overlay-container {
+		margin-left:40vw;
+		width:60vw;
+	}
+
+	.mask-new {
+		width:60%;
+		z-index: 0;
+	}
+
+}

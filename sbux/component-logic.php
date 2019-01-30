@@ -41,16 +41,16 @@ $('.toggle-reward').on('click', function() {
   if (rewardText === "Use" || otherRewardText === "Remove") {
     rewardAction.text("Remove");
     otherRewardAction.text("Use");
-    $('#' + rewardMessage).addClass("show-flex");
-    $('#' + rewardDiscount).addClass("show-flex")
-    $(".reward-message").not(messageDiv).removeClass("show-flex");
-    $(".reward-discount").not(rewardDiscountDiv).removeClass("show-flex");
+    $('#' + rewardMessage).addClass("flex");
+    $('#' + rewardDiscount).addClass("flex")
+    $(".reward-message").not(messageDiv).removeClass("flex");
+    $(".reward-discount").not(rewardDiscountDiv).removeClass("flex");
     showToast();
     moveFrap();
     } else {
     rewardAction.text("Use");
-    $(messageDiv).removeClass("show-flex");
-    $(rewardDiscountDiv).removeClass("show-flex");
+    $(messageDiv).removeClass("flex");
+    $(rewardDiscountDiv).removeClass("flex");
 
   }
 
