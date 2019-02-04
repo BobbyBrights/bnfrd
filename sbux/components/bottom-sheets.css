@@ -1,0 +1,23 @@
+/* ----------------------------------------
+Bottom Sheets
+---------------------------------------- */
+
+.bottom-sheet {
+	position: fixed;
+	bottom:0;
+	right:0;
+	background:var(--colorWhite);
+	width:100%;
+	z-index: 51;
+	display:none;
+}
+
+/* --breakpointLg */
+@media only screen and (min-width: 1024px) {
+
+	.bottom-sheet {
+		width: 60%;
+		z-index: 0;
+	}
+
+}

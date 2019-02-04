@@ -1,0 +1,23 @@
+/* ----------------------------------------
+Toasts
+---------------------------------------- */
+
+.basic-toast {
+	background:var(--colorBlackWarmer);
+	padding:16px 24px 16px 16px;
+	color:var(--colorWhite);
+	position:fixed;
+	bottom:0;
+	width:100%;
+	right:0;
+	display:none;
+	font-size: var(--text-xs);
+}
+
+/* --breakpointLg */
+@media only screen and (min-width: 1024px) {
+  .basic-toast {
+		width:60%;
+		padding:16px 24px;
+	}
+}

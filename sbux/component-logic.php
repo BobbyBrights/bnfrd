@@ -204,52 +204,31 @@ dismissDeliTicket();
 ---------------------------------------- */
 
 function showOverlayContainer () {
-$(".overlay-container")
+$(".overlay-container, .modular-overlay-container")
   .qcss({ display: 'flex' })
 };
 //
 
 //
 function dismissOverlayContainer () {
-$(".overlay-container")
+$(".overlay-container, .modular-overlay-container")
   .delay(200)
   .qcss({ display: 'none' })
 };
-//
-// function dismissOverlay () {
-// $(".overlay")
-//   .qcss({ transform: 'scale(.7)' })
-//   .qcss({	opacity: '0' })
-// };
-
-// $(".initiate-overlay").on("click", function() {
-// showOverlay();
-// showOverlayContainer();
-// showMask();
-// });
-//
-// $(".dismiss-overlay, .mask").on("click", function() {
-// dismissOverlay();
-// dismissOverlayContainer();
-// hideMask();
-// });
-
-// $(".initiate-overlay").on("click", function() {
-//   $(".overlay").addClass("show");
-// });
 
 $(".initiate-overlay").on("click", function() {
   showOverlayContainer();
   showMask();
   setTimeout(function(){
-     $(".overlay").addClass("show");
+     $(".modular-overlay, .overlay").addClass("show");
+
   }, 1);
 });
 
 $(".dismiss-overlay").on("click", function() {
   dismissOverlayContainer();
   hideMask();
-  $(".overlay").removeClass("show");
+  $(".modular-overlay, .overlay").removeClass("show");
 });
 
 /* ----------------------------------------

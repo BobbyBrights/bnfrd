@@ -45,7 +45,18 @@
 
 	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="style/style.css" media="all">
-	<link rel="stylesheet" type="text/css" href="style/components.css" media="all">
+	<!-- <link rel="stylesheet" type="text/css" href="style/components.css" media="all"> -->
+	<link rel="stylesheet" type="text/css" href="components/bottom-sheets.css" media="all">
+	<link rel="stylesheet" type="text/css" href="components/buttons.css" media="all">
+	<link rel="stylesheet" type="text/css" href="components/cards.css" media="all">
+	<link rel="stylesheet" type="text/css" href="components/colors.css" media="all">
+	<link rel="stylesheet" type="text/css" href="components/deli-tickets.css" media="all">
+	<link rel="stylesheet" type="text/css" href="components/graphics.css" media="all">
+	<link rel="stylesheet" type="text/css" href="components/icons.css" media="all">
+	<link rel="stylesheet" type="text/css" href="components/masks.css" media="all">
+	<link rel="stylesheet" type="text/css" href="components/overlays.css" media="all">
+	<link rel="stylesheet" type="text/css" href="components/toasts.css" media="all">
+	<link rel="stylesheet" type="text/css" href="components/type-styles.css" media="all">
 	<link rel="stylesheet" type="text/css" href="style/utility-classes.css" media="all">
 	<!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" media="all"> -->
 

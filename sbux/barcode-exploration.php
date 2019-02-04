@@ -32,22 +32,32 @@
       </div>
 		</div>
 	</div>
-  <div class="modular-overlay-container">
-    <div class="modular-overlay">
-      <div class="row sm-hend">
+
+  <div class="overlay-container">
+    <div class="overlay">
+      <div class="row between">
         <div class="icon-button close fixed dismiss-overlay"></div>
+        <div class="row middle ml-auto">
+          <div class="title-2">174</div>
+          <div class="icon star"></div>
+        </div>
       </div>
-      <div class="graphic"></div>
-      <article class="px6 pb6">
-        <div class="title-2 pt5">Welcome to the new Starbucks Rewards™</div>
-        <div class="body-1 colorTextBlackSoft mt3">You’ll earn Stars towards even more Rewards on everything you order. Special perks and surprises meet you on the way.</div>
-      </article>
-      <div class="row button-container fixed sm-relative hcenter px5 mb5">
-        <div class="text-button z-100 m2 green dismiss-overlay"> Not now</div>
-        <div class="filled-button z-100 m2 green dismiss-overlay"> See what's new</div>
+      <div class="row column middle mt7 sm-mt3">
+        <div class="display-1">Jason Stoff</div>
+        <div class="body-1">Rewards member since 2012</div>
+        <div class="row sm-relative hcenter px5 mb5 mt3">
+          <div class="filled-button z-100 m2 black dismiss-overlay"> Rewards & offers</div>
+          <div class="ghost-button z-100 m2 green dismiss-overlay"> Add money</div>
+        </div>
+        <div class="fixed b7 sm-b-unset sm-mb6 hcenter sm-relative">
+          <div class="barcode"></div>
+          <div class="body-1 centered-text mt2">3354 5456 6676 3456</div>
+        </div>
       </div>
     </div>
     <div class="mask dismiss-overlay"></div>
   </div>
+
+
 
 <?php include 'component-logic.php';?>

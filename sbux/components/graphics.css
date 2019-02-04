@@ -1,0 +1,73 @@
+
+
+/* Graphics */
+
+.barcode {
+  background-image:url('/sbux/img/graphics/barcode.png'), url('/img/graphics/barcode.png');
+	width:177px;
+	height:42px;
+	background-size: contain;
+	background-repeat:no-repeat;
+}
+
+
+/* ----------------------------------------
+Product Images
+---------------------------------------- */
+
+.product-img {
+	height:72px;
+	width:72px;
+	min-width: 72px;
+	background:rgba(0,0,0,.1);
+	background-size:cover;
+}
+
+/* --breakpointMd */
+@media only screen and (min-width: 768px) {
+	.product-img {
+		height:104px;
+		width:104px;
+		min-width: 104px;
+
+	}
+}
+
+.latte-macchiato {
+	background-image:url("/sbux/img/products/latte-macchiato.jpg");
+}
+
+.double-smoked-bacon {
+	background-image:url("/sbux/img/products/double-smoked-bacon.jpg");
+}
+
+.blonde-roast {
+	background-image:url("/sbux/img/products/blonde-roast.png");
+}
+
+.chai-creme-frap {
+	background-image:url("/sbux/img/products/chai-creme-frap.jpg");
+}
+
+.pods {
+	background-image:url("/sbux/img/products/pods.jpg");
+}
+
+.grilled-chicken-salad {
+	background-image:url("/sbux/img/products/grilled-chicken-salad.jpg");
+}
+
+
+/* ----------------------------------------
+Dotted Underline
+---------------------------------------- */
+.dottedUnderline {
+		background-image: -webkit-repeating-radial-gradient(center center,currentColor,currentColor 1px,transparent 1px,transparent 100%);
+    background-repeat: repeat-x;
+    background-position: 0 75%;
+    background-size: 5px 5px;
+    opacity: .3;
+		-webkit-box-flex: 1!important;
+		-ms-flex-positive: 1!important;
+		flex-grow: 1!important;
+}

@@ -1,0 +1,326 @@
+/* Icons */
+
+.open-24-hours {
+  background-image:url('/sbux/img/icons/24hrs.svg'), url('/img/icons/24hrs.svg');
+}
+
+.add-alt {
+  background-image:url('/sbux/img/icons/add-alt.svg'), url('/img/icons/add-alt.svg');
+}
+
+.add-money {
+  background-image:url('/sbux/img/icons/add-money.svg'), url('/img/icons/add-money.svg');
+}
+
+.add {
+  background-image:url('/sbux/img/icons/add.svg'), url('/img/icons/add.svg');
+}
+
+.airstream {
+  background-image:url('/sbux/img/icons/airstream.svg'), url('/img/icons/airstream.svg');
+}
+
+.alarm-clock {
+  background-image:url('/sbux/img/icons/alarm-clock.svg'), url('/img/icons/alarm-clock.svg');
+}
+
+.badge {
+  background-image:url('/sbux/img/icons/badge.svg'), url('/img/icons/badge.svg');
+}
+
+.barista {
+  background-image:url('/sbux/img/icons/barista.svg'), url('/img/icons/barista.svg');
+}
+
+.bicycle {
+  background-image:url('/sbux/img/icons/bicycle.svg'), url('/img/icons/bicycle.svg');
+}
+
+.bus {
+  background-image:url('/sbux/img/icons/bus.svg'), url('/img/icons/bus.svg');
+}
+
+.cake {
+  background-image:url('/sbux/img/icons/cake.svg'), url('/img/icons/cake.svg');
+}
+
+.calendar {
+  background-image:url('/sbux/img/icons/calendar.svg'), url('/img/icons/calendar.svg');
+}
+
+.camera {
+  background-image:url('/sbux/img/icons/camera.svg'), url('/img/icons/camera.svg');
+}
+
+.car {
+  background-image:url('/sbux/img/icons/car.svg'), url('/img/icons/car.svg');
+}
+
+.check {
+  background-image:url('/sbux/img/icons/check.svg'), url('/img/icons/check.svg');
+}
+
+.clock {
+  background-image:url('/sbux/img/icons/clock.svg'), url('/img/icons/clock.svg');
+}
+
+.close-alt {
+  background-image:url('/sbux/img/icons/close-alt.svg'), url('/img/icons/close-alt.svg');
+}
+
+.close {
+  background-image:url('/sbux/img/icons/close.svg'), url('/img/icons/close.svg');
+}
+
+.coffee-cup {
+  background-image:url('/sbux/img/icons/coffee-cup.svg'), url('/img/icons/coffee-cup.svg');
+}
+
+.credit-card {
+  background-image:url('/sbux/img/icons/credit-card.svg'), url('/img/icons/credit-card.svg');
+}
+
+.current-location {
+  background-image:url('/sbux/img/icons/current-location.svg'), url('/img/icons/current-location.svg');
+}
+
+.danger {
+  background-image:url('/sbux/img/icons/danger.svg'), url('/img/icons/danger.svg');
+}
+
+.directions {
+  background-image:url('/sbux/img/icons/directions.svg'), url('/img/icons/directions.svg');
+}
+
+.down-chevron {
+  background-image:url('/sbux/img/icons/down-chevron.svg'), url('/img/icons/down-chevron.svg');
+}
+
+.down-chevron-alt {
+  background-image:url('/sbux/img/icons/down-chevron-alt.svg'), url('/img/icons/down-chevron-alt.svg');
+}
+
+.edit-thin {
+  background-image:url('/sbux/img/icons/edit-thin.svg'), url('/img/icons/edit-thin.svg');
+}
+
+.edit {
+  background-image:url('/sbux/img/icons/edit.svg'), url('/img/icons/edit.svg');
+}
+
+.euro {
+  background-image:url('/sbux/img/icons/euro.svg'), url('/img/icons/euro.svg');
+}
+
+.external-link {
+  background-image:url('/sbux/img/icons/external-link.svg'), url('/img/icons/external-link.svg');
+}
+
+.hamburger {
+  background-image:url('/sbux/img/icons/hamburger.svg'), url('/img/icons/hamburger.svg');
+}
+
+.heart {
+  background-image:url('/sbux/img/icons/heart.svg'), url('/img/icons/heart.svg');
+}
+
+.help {
+  background-image:url('/sbux/img/icons/help.svg'), url('/img/icons/help.svg');
+}
+
+.house-phone {
+  background-image:url('/sbux/img/icons/house-phone.svg'), url('/img/icons/house-phone.svg');
+}
+
+.info {
+  background-image:url('/sbux/img/icons/info.svg'), url('/img/icons/info.svg');
+}
+
+.left-chevron {
+  background-image:url('/sbux/img/icons/left-chevron.svg'), url('/img/icons/left-chevron.svg');
+}
+
+.list-view {
+  background-image:url('/sbux/img/icons/list-view.svg'), url('/img/icons/list-view.svg');
+}
+
+.lock-outline {
+  background-image:url('/sbux/img/icons/lock-outline.svg'), url('/img/icons/lock-outline.svg');
+}
+
+.lock {
+  background-image:url('/sbux/img/icons/lock.svg'), url('/img/icons/lock.svg');
+}
+
+.mail {
+  background-image:url('/sbux/img/icons/mail.svg'), url('/img/icons/mail.svg');
+}
+
+.mic {
+  background-image:url('/sbux/img/icons/mic.svg'), url('/img/icons/mic.svg');
+}
+
+.minus-alt {
+  background-image:url('/sbux/img/icons/minus-alt.svg'), url('/img/icons/minus-alt.svg');
+}
+
+.minus {
+  background-image:url('/sbux/img/icons/minus.svg'), url('/img/icons/minus.svg');
+}
+
+.mobile-order {
+  background-image:url('/sbux/img/icons/mobile-order.svg'), url('/img/icons/mobile-order.svg');
+}
+
+.open-now {
+  background-image:url('/sbux/img/icons/open-now.svg'), url('/img/icons/open-now.svg');
+}
+
+.password-manager {
+  background-image:url('/sbux/img/icons/password-manager.svg'), url('/img/icons/password-manager.svg');
+}
+
+.pin {
+  background-image:url('/sbux/img/icons/pin.svg'), url('/img/icons/pin.svg');
+}
+
+.pound {
+  background-image:url('/sbux/img/icons/pound.svg'), url('/img/icons/pound.svg');
+}
+
+.profile-large {
+  background-image:url('/sbux/img/icons/profile-large.svg'), url('/img/icons/profile-large.svg');
+}
+
+.refresh {
+  background-image:url('/sbux/img/icons/refresh.svg'), url('/img/icons/refresh.svg');
+}
+
+.right-chevron {
+  background-image:url('/sbux/img/icons/right-chevron.svg'), url('/img/icons/right-chevron.svg');
+}
+
+.search {
+  background-image:url('/sbux/img/icons/search.svg'), url('/img/icons/search.svg');
+}
+
+.settings {
+  background-image:url('/sbux/img/icons/settings.svg'), url('/img/icons/settings.svg');
+}
+
+.share {
+  background-image:url('/sbux/img/icons/share.svg'), url('/img/icons/share.svg');
+}
+
+.show-password-off {
+  background-image:url('/sbux/img/icons/show-password-off.svg'), url('/img/icons/show-password-off.svg');
+}
+
+.show-password-on {
+  background-image:url('/sbux/img/icons/show-password-on.svg'), url('/img/icons/show-password-on.svg');
+}
+
+.signed-in {
+  background-image:url('/sbux/img/icons/signed-in.svg'), url('/img/icons/signed-in.svg');
+}
+
+.signed-out {
+  background-image:url('/sbux/img/icons/signed-out.svg'), url('/img/icons/signed-out.svg');
+}
+
+.stamp {
+  background-image:url('/sbux/img/icons/stamp.svg'), url('/img/icons/stamp.svg');
+}
+
+.star {
+  background-image:url('/sbux/img/icons/star.svg'), url('/img/icons/star.svg');
+}
+
+.transfer-balance {
+  background-image:url('/sbux/img/icons/transfer-balance.svg'), url('/img/icons/transfer-balance.svg');
+}
+
+.trash {
+  background-image:url('/sbux/img/icons/trash.svg'), url('/img/icons/trash.svg');
+}
+
+.walking {
+  background-image:url('/sbux/img/icons/walking.svg'), url('/img/icons/walking.svg');
+}
+
+.warning {
+  background-image:url('/sbux/img/icons/warning.svg'), url('/img/icons/warning.svg');
+}
+
+.wifi {
+  background-image:url('/sbux/img/icons/wifi.svg'), url('/img/icons/wifi.svg');
+}
+
+.yen {
+  background-image:url('/sbux/img/icons/yen.svg'), url('/img/icons/yen.svg');
+}
+
+
+/* ----------------------------------------
+Card Icons
+---------------------------------------- */
+
+.card-icon {
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  transition: all .2s ease;
+  background-size: contain;
+}
+
+.visa {
+  background-image:url('/sbux/img/icons/visa.png'), url('/img/icons/visa.png');
+}
+
+.mastercard {
+  background-image:url('/sbux/img/icons/mastercard.png'), url('/img/icons/mastercard.png');
+}
+
+.discover {
+  background-image:url('/sbux/img/icons/discover.png'), url('/img/icons/discover.png');
+}
+
+.american-express {
+  background-image:url('/sbux/img/icons/american-express.png'), url('/img/icons/american-express.png');
+}
+
+.paypal {
+  background-image:url('/sbux/img/icons/paypal.png'), url('/img/icons/paypal.png');
+}
+
+.visa-checkout {
+  background-image:url('/sbux/img/icons/visa-checkout.png'), url('/img/icons/visa-checkout.png');
+}
+
+.apple-pay {
+  background-image:url('/sbux/img/icons/apple-pay.png'), url('/img/icons/apple-pay.png');
+}
+
+.google-pay {
+  background-image:url('/sbux/img/icons/google-pay.png'), url('/img/icons/google-pay.png');
+}
+
+.chase-pay {
+  background-image:url('/sbux/img/icons/chase-pay.png'), url('/img/icons/chase-pay.png');
+}
+
+.credit-card {
+  background-image:url('/sbux/img/icons/credit-card.png'), url('/img/icons/credit-card.png');
+}
+
+.sbux-card-1 {
+  background-image:url('/sbux/img/icons/sbux-card-1.png'), url('/img/icons/sbux-card-1.png');
+}
+
+.sbux-card-2 {
+  background-image:url('/sbux/img/icons/sbux-card-2.png'), url('/img/icons/sbux-card-2.png');
+}
+
+.sbux-card-3 {
+  background-image:url('/sbux/img/icons/sbux-card-3.png'), url('/img/icons/sbux-card-3.png');
+}

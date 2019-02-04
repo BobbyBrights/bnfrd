@@ -102,24 +102,24 @@
   </div>
   <div class="mask"></div>
   <div class="bottom-sheet">
-    <div class="icon-button close dismiss-bottom-sheet absolute t1 ml1 lg-ml0 lg-r2 lg-t2 z-100"></div>
-    <div class="wide-row mb16 ml8 mr3 md-mx13 lg-m-auto">
-      <h1 class="bottom-sheet-title colorTextBlackSoft md-ml0 lg-pr5 row subhead-1">
-          Add money to Starbucks Card
+    <div class="icon-button close dismiss-bottom-sheet absolute sm-ml0 sm-r1 sm-t1 z-100"></div>
+    <div class="wide-row mb16 ml8 mr3 sm-mr8 sm-ml3 md-mx13 lg-m-auto">
+      <h1 class="mt3 colorTextBlackSoft md-ml0 lg-mr5 subhead-1">
+          Add money to Starbucks Card.
       </h1>
-      <article class="title-1 mt6">
+      <article class="title-1 mt6 lg-mr5">
         This is some example content, see how it stays within the wide grid bounds at any thing.
       </article>
     </div>
   </div>
   <div class="deli-ticket-container">
     <div class="deli-ticket">
-      <div class="icon-button z-100 close absolute lg-r0 dismiss-deli-ticket"></div>
-      <div class="wide-row pt1 md-ml8 mt2 mr4 lg-m-auto lg-pr7">
-        <div class="subhead-2 mt1 ml7 md-ml0 c12">
+      <div class="icon-button z-100 close absolute sm-r0 dismiss-deli-ticket"></div>
+      <div class="wide-row pt1 mt2 mr4 ml7 sm-ml4 sm-mr7 lg-m-auto lg-pr7">
+        <div class="subhead-2 mt1 md-ml0 c12">
           Something went wrong on our end
         </div>
-        <div class="body-1 mt1 ml7 md-ml0 c12">
+        <div class="body-1 mt1 md-ml0 c12">
           Things should be back to normal soon. Try again later.
         </div>
       </div>

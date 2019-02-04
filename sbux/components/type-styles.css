@@ -1,0 +1,149 @@
+/* Design Type Styles */
+
+.display-1 {
+	font-size:var(--text-xxl);
+	font-weight: bold;
+}
+
+.headline {
+	font-size:var(--text-xl)
+}
+
+.title-2 {
+	font-size:var(--text-lg)
+}
+
+.title-1 {
+	font-size:var(--text-md)
+}
+
+.subhead-2 {
+	font-size:var(--text-xs);
+	font-weight: 700;
+}
+
+.subhead-1 {
+	font-size:var(--text-sm);
+}
+
+.button-text {
+	font-size:var(--text-sm);
+	font-weight: 700;
+}
+
+.frap-text {
+	font-size:var(--text-lg);
+	font-weight: 700;
+}
+
+.body-1 {
+	font-size:var(--text-xs);
+}
+
+.caption-2 {
+	font-size:var(--text-xxs);
+	text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+	font-weight:700;
+}
+
+
+/* //////////////////////////////////////////// */
+
+/* Headings */
+
+.sb-heading {
+  font-weight: 400;
+}
+
+.sb-heading--extraLarge {
+  font-size: 31px;
+  line-height: 1.29;
+}
+
+.sb-heading--large {
+  font-size: 26px;
+  line-height: 1.385;
+}
+
+.sb-heading--medium {
+  font-size: 22px;
+  line-height: 1.455;
+}
+
+.sb-heading--small {
+  font-size: 19px;
+  line-height: 1.263;
+}
+
+.sb-heading--xsmall {
+  font-size: 17px;
+  line-height: 1.411;
+}
+
+.sb-heading--xxsmall {
+  font-size: 14px;
+  line-height: 1.229;
+}
+
+
+/* Text Sizing */
+
+.text-xxs {
+  font-size: 12px !important;
+}
+.text-xs {
+  font-size: 13px !important;
+}
+.text-sm {
+  font-size: 14px !important;
+}
+.text-md {
+  font-size: 17px !important;
+}
+.text-lg {
+  font-size: 19px !important;
+}
+.text-xl {
+  font-size: 22px !important;
+}
+.text-xxl {
+  font-size: 26px !important;
+}
+.text-xxxl {
+  font-size: 31px !important;
+}
+
+
+/* Text Styling */
+
+.text-bold {
+  font-weight: 700 !important;
+}
+.text-upper {
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+}
+.text-underline {
+  text-decoration: underline !important;
+}
+.text-noUnderline {
+  text-decoration: none !important;
+}
+.whiteSpace-normal {
+  white-space: normal !important;
+}
+.whiteSpace-noWrap {
+  white-space: nowrap !important;
+}
+.whiteSpace-truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.letterSpacing-loose {
+  letter-spacing: 0.05em !important;
+}
+.letterSpacing-looser {
+  letter-spacing: 0.1em !important;
+}

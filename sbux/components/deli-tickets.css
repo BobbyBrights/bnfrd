@@ -1,0 +1,48 @@
+/* ----------------------------------------
+Deli Ticket
+---------------------------------------- */
+.deli-ticket-container {
+	left:0;
+	right:0;
+	top:0;
+	display: flex;
+	justify-content:center;
+	position:fixed;
+	z-index:122222;
+	padding:8px;
+}
+
+.deli-ticket {
+	background-color: var(--colorGrayNatural);
+	position: relative;
+	z-index:1000;
+	width: 100%;
+	border-radius:6px;
+	box-shadow: 0 2px 7px 0 rgba(0, 0, 0, .3);
+	opacity:0;
+
+}
+
+/* --breakpointMd */
+@media only screen and (min-width: 768px) {
+	.deli-ticket-container {
+		padding-right:96px;
+		padding-left:96px;
+	}
+}
+
+/* --breakpointLg */
+@media only screen and (min-width: 1024px) {
+
+	.deli-ticket-container {
+		left:40vw;
+		right:0;
+		padding-right:0;
+		padding-left:0;
+	}
+
+	.deli-ticket {
+		max-width: 584px;
+	}
+
+}

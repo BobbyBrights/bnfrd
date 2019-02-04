@@ -511,10 +511,13 @@ Icon Buttons
   position:relative;
   background: none;
   border-radius: 400px;
-  opacity: .58;
   background-repeat: no-repeat;
   background-position: 12px 12px;
   transition: all .2s ease;
+}
+
+.icon-button {
+  opacity: .58;
 }
 
 .icon-button::before {
@@ -786,6 +789,10 @@ Icon Buttons
   background-image:url('/sbux/img/icons/stamp.svg'), url('/img/icons/stamp.svg');
 }
 
+.star {
+  background-image:url('/sbux/img/icons/star.svg'), url('/img/icons/star.svg');
+}
+
 .transfer-balance {
   background-image:url('/sbux/img/icons/transfer-balance.svg'), url('/img/icons/transfer-balance.svg');
 }
@@ -808,6 +815,16 @@ Icon Buttons
 
 .yen {
   background-image:url('/sbux/img/icons/yen.svg'), url('/img/icons/yen.svg');
+}
+
+/* Graphics */
+
+.barcode {
+  background-image:url('/sbux/img/graphics/barcode.png'), url('/img/graphics/barcode.png');
+	width:177px;
+	height:42px;
+	background-size: contain;
+	background-repeat:no-repeat;
 }
 
 
@@ -963,6 +980,33 @@ Toasts
 
 
 /* ----------------------------------------
+Mask
+---------------------------------------- */
+
+.mask {
+	background: rgba(0,0,0,.38);
+	opacity: 0;
+	display:none;
+	width: 100%;
+	height: 100%;
+	top:0;
+	right:0;
+	position:absolute;
+	z-index: 50;
+	transition: opacity .2s ease;
+}
+
+/* --breakpointLg */
+@media only screen and (min-width: 1024px) {
+	.mask {
+		width:60%;
+		z-index: 0;
+	}
+
+}
+
+
+/* ----------------------------------------
 Bottom Sheets
 ---------------------------------------- */
 
@@ -979,19 +1023,6 @@ Bottom Sheets
 .bottom-sheet-title {
 	margin-top:18px;
 	z-index:0;
-}
-
-.mask {
-	background: rgba(0,0,0,.38);
-	opacity: 0;
-	display:none;
-	width: 100%;
-	height: 100%;
-	top:0;
-	right:0;
-	position:absolute;
-	z-index: 50;
-	transition: opacity .2s ease;
 }
 
 /* --breakpointLg */
@@ -1095,7 +1126,7 @@ Overlay
 
 .graphic {
 	width:100%;
-	height:200px;
+	height:225px;
 	background:lightblue;
 	overflow:hidden;
 }
@@ -1128,7 +1159,6 @@ Overlay
 		-moz-transform: translateY(20%);
 		-ms-transform: translateY(20%);
 		transform: translateY(20%);
-		opacity: 0;
 		-webkit-transition: all 0.2s ease;
 		-moz-transition: all 0.2s ease;
 		transition: all 0.2s ease;
