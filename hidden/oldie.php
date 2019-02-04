@@ -47,7 +47,7 @@
   <!-- Global Nav Start -->
     <!-- <header>
       <nav class="row">
-        <div class="nav-brand vcenter body-2 p3">
+        <div class="nav-brand align-self-center body-2 p3">
           Ben Ford
         </div>
         <h3 class="body-2 ml-auto p4">
@@ -63,7 +63,7 @@
         <figure class="sm-c12 md-c7 md-last">
           <img class="web-app-img-1" src="/img/web-app/screen-combo.png" alt="a delicious iced macchiatto">
         </figure>
-        <article class="sm-c12 md-c5 mt4 lg-mt0 vcenter">
+        <article class="sm-c12 md-c5 mt4 lg-mt0 align-self-center">
           <h1 class="heading-2 colorTextPrimary">
             Starbucks PWA
           </h1>
@@ -97,10 +97,10 @@
 <!-- Quote Section -->
       <section class="colorGrayNatural">
         <article class="row py12 md-px10">
-          <h4 class="c12 heading-2 centered-text">
+          <h4 class="c12 heading-2 text-align-center">
             The Starbucks PWA takes advantage of many of the new capabilities and brings a modern web experience to their customers.
           </h4>
-          <p class="c12 mt3 body-2 colorTextSecondary centered-text">Jenny Gove  |  Google I/O ’18
+          <p class="c12 mt3 body-2 colorTextSecondary text-align-center">Jenny Gove  |  Google I/O ’18
           </p>
         </article>
       </section>
@@ -110,7 +110,7 @@
         <figure class="md-c7 md-last">
           <img class="web-app-img-2" src="/img/web-app/phone-and-food-2.png","/bendoto/img/web-app/phone-and-food-2.png" alt="a delicious iced macchiatto">
         </figure>
-        <article class="mt4 md-c5 md-mt16 vcenter">
+        <article class="mt4 md-c5 md-mt16 align-self-center">
           <h1 class="heading-2 colorTextPrimary">
             Finding the caramel frappuccino <span class="colorTextSecondary"> (with extra sauce)</span> closest to you
           </h1>
@@ -126,7 +126,7 @@
 				<figure class="sm-c6">
 					<img class="web-app-img-3" src="/img/web-app/two-phones.png","/bendoto/img/web-app/two-phones.png" alt="Two phones">
 				</figure>
-				<article class="pt4 sm-pt0 sm-c6 vcenter">
+				<article class="pt4 sm-pt0 sm-c6 align-self-center">
 					<h2 class="heading-2 colorTextPrimary">
 						A consistent experience, no matter what device
 					</h2>
@@ -141,7 +141,7 @@
 				<figure class="sm-c6 sm-last">
 					<img class="web-app-img-4" src="/img/web-app/single-phone.png","/bendoto/img/web-app/single-phone.png" alt="One phone">
 				</figure>
-				<article class="pt4 sm-pt0 sm-c6 vcenter">
+				<article class="pt4 sm-pt0 sm-c6 align-self-center">
 					<h2 class="heading-2 colorTextPrimary">
 						Filters allow users to find stores that fit their needs
 					</h2>
@@ -164,7 +164,7 @@
 					<img class="web-app-img-6" src="/img/web-app/product-screen.png","/bendoto/img/web-app/product-screen.png" alt="One phone">
 					<img class="web-app-img-7" src="/img/web-app/menu-screen.png","/bendoto/img/web-app/menu-screen.png" alt="One phone">
 				</figure>
-				<article class="sm-pt0 md-c6 vcenter">
+				<article class="sm-pt0 md-c6 align-self-center">
 					<h2 class="heading-2 colorTextPrimary">
 						Filters allow users to find stores that fit their needs
 					</h2>

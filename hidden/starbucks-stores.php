@@ -8,7 +8,7 @@
     <figure class="md-c7 md-last">
       <img class="stores-hero" src="/hidden/img/web-app/phone-and-food-2.png" alt="a delicious iced macchiatto">
     </figure>
-    <article class="sm-c12 md-c5 mt4 md-mt16 md-pt16 vcenter">
+    <article class="sm-c12 md-c5 mt4 md-mt16 md-pt16 align-self-center">
       <h3 class="caption colorPeriwinkle pb3 md-pb4">
         starbucks stores
       </h3>
@@ -23,7 +23,7 @@
 
 <!-- Project Details Section -->
   <section>
-    <article class="row hcenter top py8 sm-py12">
+    <article class="row justify-content-center align-items-start py8 sm-py12">
       <div class="md-c4 lg-c3">
         <div class="box inline-block mr5 md-block pb4">
           <h4 class="caption md-pb2 colorTextPrimary">
@@ -65,7 +65,7 @@
 		<figure class="md-c7 md-last">
 			<img class="stores-hero-3" src="/hidden/img/stores/single-phone.png" alt="a delicious iced macchiatto">
 		</figure>
-		<article class="sm-c12 md-c5 mt4 vcenter">
+		<article class="sm-c12 md-c5 mt4 align-self-center">
       <h3 class="caption colorPeriwinkle pb3 md-pb4">
         PREVIOUS AND FAVORITES
       </h3>
@@ -92,7 +92,7 @@
 		<figure class="md-c7 ">
 			<img class="stores-hero-5" src="/hidden/img/stores/phone-in-hand.png" alt="a delicious iced macchiatto">
 		</figure>
-		<article class="sm-c12 md-c5 mt4 vcenter mb16">
+		<article class="sm-c12 md-c5 mt4 align-self-center mb16">
       <h3 class="caption colorTextWhitePrimary pb3 md-pb4">
         filters
       </h3>

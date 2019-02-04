@@ -48,7 +48,7 @@
     <div class="grid-1280 c12">
       <!-- ////// -->
       <div class="row c12 full-height"> <!-- Full bleed -->
-        <div class="c12 vcenter hcenter">
+        <div class="c12 align-self-center justify-content-center">
           <h3 class="black-secondary pb1 text-center">404 Error Page</h3>
         </div>
       </div>

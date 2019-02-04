@@ -17,7 +17,7 @@
         </p>
       </div>
 
-      <div class="pl4 vend mt3 sm-c4 sm-mt0 sm-pr3 md-c8 colorTextSecondary">
+      <div class="pl4 align-self-end mt3 sm-c4 sm-mt0 sm-pr3 md-c8 colorTextSecondary">
           © Ben Ford 2018
       </div>
 </footer>

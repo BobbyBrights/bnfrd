@@ -9,7 +9,7 @@
     <figure class="sm-c12 md-c7 md-last">
       <img class="web-app-img-1" src="/img/web-app/screen-combo.png" alt="a delicious iced macchiatto">
     </figure>
-    <article class="sm-c12 md-c5 mt4 lg-mt0 vcenter">
+    <article class="sm-c12 md-c5 mt4 lg-mt0 align-self-center">
       <h3 class="caption colorPurple pb3 md-pb4">
         starbucks digital design system
       </h3>
@@ -24,7 +24,7 @@
 
 <!-- Project Details Section -->
   <section class="colorGrayNatural">
-    <article class="row hcenter top py8 sm-py12">
+    <article class="row justify-content-center align-items-start py8 sm-py12">
       <div class="md-c4 lg-c3">
         <div class="box inline-block mr5 md-block pb4 md-pb2">
           <h4 class="caption md-pb2 colorTextPrimary">
