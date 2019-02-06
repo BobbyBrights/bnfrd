@@ -1,0 +1,45 @@
+.web-app-slider-1 {
+  width: 1106px;
+  height: 692px;
+  background-color:blue;
+  margin:auto;
+  display:relative;
+}
+
+.web-app-slider-2 {
+  width: 1106px;
+  height: 692px;
+  background-color:red;
+  margin:auto;
+  display: relative
+}
+
+.web-app-slider-3 {
+  width: 1106px;
+  height: 692px;
+  background-color:green;
+  margin:auto;
+  display: relative;
+}
+
+.my-slider {
+  width:80%;
+  max-width: 1106px;
+  height: auto;
+  margin:auto;
+  position: relative;
+}
+
+/* .slick-arrow {
+  height: 40px;
+  width: 40px;
+  background-color: gold;
+  position: relative;
+} */
+
+.slick-prev:before, .slick-next:before{
+    color:red;
+    height:40px;
+    width:40px;
+    background:black;
+}

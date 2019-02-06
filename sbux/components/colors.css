@@ -88,3 +88,12 @@ Type Colors
 .colorTextGold {color: #C2A661;}
 
 .colorTextGreen {color: var(--colorGreenDarkApron);}
+
+
+/* ----------------------------------------
+Gradient Scroll Transitions
+---------------------------------------- */
+
+.white-gradient {
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+}
