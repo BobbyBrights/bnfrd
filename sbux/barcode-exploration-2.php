@@ -36,7 +36,7 @@
   <div class="overlay-container">
     <div class="overlay">
       <div class="row colorWhite middle fixed z-1 width-100 lg-width-60">
-        <div class="icon-button close dismiss-overlay sm-m3 sm-ml-auto sm-last z-1"></div>
+        <div class="icon-button close dismiss-overlay sm-m3 sm-ml-auto lg-mr4 lg-my4 sm-last z-1"></div>
         <button class="pl2 row ml-auto middle sm-m3 lg-m4 sm-first initiate-top-sheet">
           <div class="title-2 sm-ml0">174</div>
           <div class="icon star"></div>
@@ -48,8 +48,8 @@
         <div class="display-1">Jason Stoff</div>
         <div class="body-1">Rewards member since 2012</div>
         <div class="row sm-relative hcenter px5 mb5 mt3">
-          <div class="filled-button z-100 m2 black initiate-top-sheet"> Rewards & offers</div>
-          <div class="ghost-button z-100 m2 green"> Add money</div>
+          <div class="filled-button z-100 m2 black initiate-top-sheet z-0"> Rewards & offers</div>
+          <div class="ghost-button z-100 m2 green z-0"> Add money</div>
         </div>
       </div>
 
@@ -65,7 +65,7 @@
 
   <div class="top-sheet">
     <div class="row colorWhite middle fixed z-1 width-100 lg-width-60">
-      <div class="icon-button close dismiss-top-sheet sm-m3 sm-ml-auto sm-last z-1"></div>
+      <div class="icon-button close dismiss-top-sheet sm-m3 sm-ml-auto lg-mr4 lg-my4 sm-last z-1"></div>
       <div class="subhead-2 fixed width-100 lg-width-60 centered-text vcenter">Rewards & offers</div>
       <div class="pl2 row ml-auto middle sm-m3 lg-m4 sm-first">
         <div class="title-2 sm-ml0">174</div>
