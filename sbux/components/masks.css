@@ -11,7 +11,7 @@ Mask
 	top:0;
 	right:0;
 	position:absolute;
-	z-index: 50;
+	z-index: 1;
 	transition: opacity .2s ease;
 }
 

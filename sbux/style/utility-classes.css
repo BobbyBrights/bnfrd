@@ -246,10 +246,26 @@ Other stuff
   position:relative;
 }
 
+.z-0 {
+  z-index:0
+}
+
+.z-1 {
+  z-index:1
+}
+
+.z-2 {
+  z-index:2
+}
+
 /* Styling */
 
 .border-radius-6 {
   border-radius: 6px;
+}
+
+.border-top {
+  border: solid 1px rgba(0,0,0,.12);
 }
 
 /* --breakpointSm */
@@ -378,6 +394,18 @@ Other stuff
 
   .sm-relative {
     position:relative;
+  }
+
+  .sm-z-0 {
+    z-index:0
+  }
+
+  .sm-z-1 {
+    z-index:1
+  }
+
+  .sm-z-2 {
+    z-index:2
   }
 
 }
@@ -521,6 +549,18 @@ Other stuff
     position:relative;
   }
 
+  .md-z-0 {
+    z-index:0
+  }
+
+  .md-z-1 {
+    z-index:1
+  }
+
+  .md-z-2 {
+    z-index:2
+  }
+
 }
 
 
@@ -634,6 +674,18 @@ Other stuff
     position:relative;
   }
 
+  .lg-z-0 {
+    z-index:0
+  }
+
+  .lg-z-1 {
+    z-index:1
+  }
+
+  .lg-z-2 {
+    z-index:2
+  }
+
 
 }
 
@@ -740,6 +792,18 @@ Other stuff
     position:relative;
   }
 
+  .xl-z-0 {
+    z-index:0
+  }
+
+  .xl-z-1 {
+    z-index:1
+  }
+
+  .xl-z-2 {
+    z-index:2
+  }
+
 }
 
 /* --breakpointXxl */
@@ -842,6 +906,18 @@ Other stuff
 
   .xxl-relative {
     position:relative;
+  }
+
+  .xxl-z-0 {
+    z-index:0
+  }
+
+  .xxl-z-1 {
+    z-index:1
+  }
+
+  .xxl-z-2 {
+    z-index:2
   }
 
 }

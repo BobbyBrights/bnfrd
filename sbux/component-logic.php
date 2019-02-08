@@ -9,8 +9,9 @@ $(document).ready(function() {
   document.getElementsByTagName("html")[0].style.visibility = "visible";
   $(".basic-toast").css("bottom","-" + toastHeight + "px");
   $(".bottom-sheet").css("bottom","-" + bottomSheetHeight + "px");
+  $(".top-sheet").css("top","-" + topSheetHeight + "px");
   $(".deli-ticket-container").css("top","-" + deliTicketHeight + "px");
-
+  console.log(topSheetHeight);
 });
 
 // Global Variables
@@ -18,6 +19,7 @@ var toastHeight = $(".basic-toast").outerHeight();
 var bottomSheetHeight = $(".bottom-sheet").outerHeight();
 var frapDistance = toastHeight + 32
 var deliTicketHeight = $(".deli-ticket-container").outerHeight();
+var topSheetHeight = $(".top-sheet").outerHeight(true);
 
 
 /* ----------------------------------------
@@ -116,6 +118,36 @@ $(".initiate-toast").on("click", function() {
 showToast();
 moveFrap();
 });
+
+/* ----------------------------------------
+-------------------------------------------
+-----------------Top Sheet-----------------
+-------------------------------------------
+---------------------------------------- */
+
+function showTopSheet () {
+$(".top-sheet")
+  .qcss({ display: 'block' })
+  .delay(2)
+  .qcss({ transition: 'top .2s ease' })
+  .qcss({ top: '0' })
+};
+
+function dismissTopSheet () {
+$(".top-sheet")
+  .qcss({ top:"-" + topSheetHeight + "px" })
+  .delay(200)
+  .qcss({ display: 'none' })
+};
+
+$(".initiate-top-sheet").on("click", function() {
+showTopSheet();
+});
+
+$(".dismiss-top-sheet").on("click", function() {
+dismissTopSheet();
+});
+
 
 /* ----------------------------------------
 -------------------------------------------

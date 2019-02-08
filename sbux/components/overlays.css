@@ -6,7 +6,7 @@
 	position:fixed;
 	top:0;
 	bottom:0;
-	z-index:1000000000;
+	z-index:1;
 }
 
 /* ----------------------------------------
@@ -16,7 +16,7 @@ Standard Overlay
 .overlay {
 	width:100%;
 	background: white;
-	z-index: 100000000;
+	z-index: 2;
 	overflow-x: hidden;
 	position:relative;
 	box-shadow: 0 2px 7px 0 rgba(0, 0, 0, .3);
@@ -65,7 +65,7 @@ Modular Overlay
 .modular-overlay {
 	width:100%;
 	background: white;
-	z-index: 100000000;
+	z-index: 2;
 	overflow-x: hidden;
 	position:relative;
 	box-shadow: 0 2px 7px 0 rgba(0, 0, 0, .3);

@@ -115,9 +115,8 @@
         </div>
       </div>
 
-<div class="white-gradient pt5 lg-width-60">sdsd</div>
-      <div class="row column middle">
-        <div class="fixed width-100 lg-width-60 b0 py5 hcenter row column middle colorRed">
+      <div class="row column middle fixed b0">
+        <div class="width-100 lg-width-60 py5 hcenter row column middle colorWhite border-top">
           <div class="barcode"></div>
           <div class="body-1 centered-text mt2">3354 5456 6676 3456</div>
         </div>

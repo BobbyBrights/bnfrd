@@ -1,23 +1,24 @@
 /* ----------------------------------------
-Bottom Sheets
+Top Sheets
 ---------------------------------------- */
 
-.bottom-sheet {
-	position: fixed;
-	bottom:0;
+.top-sheet {
+	position: absolute;
+	top:0;
 	right:0;
 	background:var(--colorWhite);
 	width:100%;
-	z-index: 1;
+	z-index: 1000000;
 	display:none;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, .3);
 }
 
 /* --breakpointLg */
 @media only screen and (min-width: 1024px) {
 
-	.bottom-sheet {
+	.top-sheet {
 		width: 60%;
-		z-index: 0;
+		z-index: 1;
 	}
 
 }
