@@ -35,7 +35,7 @@
 
   <div class="overlay-container">
     <div class="overlay">
-      <div class="row colorWhite middle fixed z-1 width-100 lg-width-60">
+      <div class="row colorWhite middle fixed z-1 width-100 lg-width-60 p3 sm-p0">
         <div class="icon-button close dismiss-overlay sm-m3 sm-ml-auto lg-mr4 lg-my4 sm-last z-1"></div>
         <button class="pl2 row ml-auto middle sm-m3 lg-m4 sm-first initiate-top-sheet">
           <div class="title-2 sm-ml0">174</div>
