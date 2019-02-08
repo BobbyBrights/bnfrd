@@ -44,11 +44,11 @@
       </div>
 
       <!-- Default Content -->
-      <div class="row column middle mt8 sm-mt12 lg-mt14">
+      <div class="row column middle mt12 sm-mt13 lg-mt14">
         <div class="display-1">Jason Stoff</div>
-        <div class="body-1">Rewards member since 2012</div>
+        <div class="body-1 colorTextBlackSoft mt2">Rewards member since 2012</div>
         <div class="row sm-relative hcenter px5 mb5 mt3">
-          <div class="filled-button z-100 m2 black initiate-top-sheet z-0"> Rewards & offers</div>
+          <div class="filled-button z-100 m2 black initiate-top-sheet z-0"> Rewards & offers <span class="colorTextGold">★</span></div>
           <div class="ghost-button z-100 m2 green z-0"> Add money</div>
         </div>
       </div>

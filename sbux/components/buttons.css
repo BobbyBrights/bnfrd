@@ -89,7 +89,7 @@ Text Buttons
 	color: rgba(255,255,255,1);
 }
 
-.filled-button.green:hover,{
+.filled-button.green:hover {
 	background-color:rgba(72,159,99,1);
 }
 
