@@ -236,6 +236,10 @@
   background-image:url('/sbux/img/icons/star.svg'), url('/img/icons/star.svg');
 }
 
+.small-star {
+  background-image:url('/sbux/img/icons/small-star.svg'), url('/img/icons/small-star.svg');
+}
+
 .transfer-balance {
   background-image:url('/sbux/img/icons/transfer-balance.svg'), url('/img/icons/transfer-balance.svg');
 }

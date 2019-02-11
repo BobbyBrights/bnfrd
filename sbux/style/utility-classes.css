@@ -1172,6 +1172,23 @@ Spacing
   .ml15 {margin-left: 112px;}
   .ml16 {margin-left: 120px;}
 
+  .ml-neg1 {margin-left: -4px;}
+  .ml-neg2 {margin-left: -8px;}
+  .ml-neg3 {margin-left: -16px;}
+  .ml-neg4 {margin-left: -24px;}
+  .ml-neg5 {margin-left: -32px;}
+  .ml-neg6 {margin-left: -40px;}
+  .ml-neg7 {margin-left: -48px;}
+  .ml-neg8 {margin-left: -56px;}
+  .ml-neg9 {margin-left: -64px;}
+  .ml-neg10 {margin-left: -72px;}
+  .ml-neg11 {margin-left: -80px;}
+  .ml-neg12 {margin-left: -88px;}
+  .ml-neg13 {margin-left: -96px;}
+  .ml-neg14 {margin-left: -104px;}
+  .ml-neg15 {margin-left: -112px;}
+  .ml-neg16 {margin-left: -120px;}
+
   .mr-auto {margin-right:auto}
   .mr0 {margin-right: 0;}
   .mr1 {margin-right: 4px;}
@@ -1190,6 +1207,23 @@ Spacing
   .mr14 {margin-right: 104px;}
   .mr15 {margin-right: 112px;}
   .mr16 {margin-right: 120px;}
+
+  .mr-neg1 {margin-right: -4px;}
+  .mr-neg2 {margin-right: -8px;}
+  .mr-neg3 {margin-right: -16px;}
+  .mr-neg4 {margin-right: -24px;}
+  .mr-neg5 {margin-right: -32px;}
+  .mr-neg6 {margin-right: -40px;}
+  .mr-neg7 {margin-right: -48px;}
+  .mr-neg8 {margin-right: -56px;}
+  .mr-neg9 {margin-right: -64px;}
+  .mr-neg10 {margin-right: -72px;}
+  .mr-neg11 {margin-right: -80px;}
+  .mr-neg12 {margin-right: -88px;}
+  .mr-neg13 {margin-right: -96px;}
+  .mr-neg14 {margin-right: -104px;}
+  .mr-neg15 {margin-right: -112px;}
+  .mr-neg16 {margin-right: -120px;}
 
   .offset-0 {margin-left:0}
   .offset-1 {margin-left: 8.333%;}
@@ -1305,6 +1339,8 @@ Spacing
   .l14 {left: 104px;}
   .l15 {left: 112px;}
   .l16 {left: 120px;}
+
+  .l-40p {left: 40%;}
 
   .width-10 {width:10vw;}
   .width-20 {width:20vw;}
@@ -1675,6 +1711,8 @@ Spacing
     .sm-l15 {left: 112px;}
     .sm-l16 {left: 120px;}
 
+    .sm-l-40p {left: 40%;}
+
     .sm-width-10 {width:10vw;}
     .sm-width-20 {width:20vw;}
     .sm-width-30 {width:30vw;}
@@ -2036,6 +2074,8 @@ Spacing
     .md-l14 {left: 104px;}
     .md-l15 {left: 112px;}
     .md-l16 {left: 120px;}
+
+    .md-l-40p {left: 40%;}
 
     .md-width-10 {width:10vw;}
     .md-width-20 {width:20vw;}
@@ -2399,6 +2439,8 @@ Spacing
     .lg-l15 {left: 112px;}
     .lg-l16 {left: 120px;}
 
+    .lg-l-40p {left: 40%;}
+
     .lg-width-10 {width:10vw;}
     .lg-width-20 {width:20vw;}
     .lg-width-30 {width:30vw;}
@@ -2759,6 +2801,8 @@ Spacing
     .xl-l14 {left: 104px;}
     .xl-l15 {left: 112px;}
     .xl-l16 {left: 120px;}
+
+    .xl-l-40p {left: 40%;}
 
     .xl-width-10 {width:10vw;}
     .xl-width-20 {width:20vw;}

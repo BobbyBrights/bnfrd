@@ -35,11 +35,11 @@
 
   <div class="overlay-container">
     <div class="overlay">
-      <div class="row colorWhite middle fixed z-1 width-100 lg-width-60 p3 sm-p0">
-        <div class="icon-button close dismiss-overlay sm-m3 sm-ml-auto lg-mr4 lg-my4 sm-last z-1"></div>
-        <button class="pl2 row ml-auto middle sm-m3 lg-m4 sm-first initiate-top-sheet">
-          <div class="title-2 sm-ml0">174</div>
-          <div class="icon star"></div>
+      <div class="row colorWhite middle fixed p2 m1 l0 r0 z-1 lg-l-40p lg-m0 lg-p4 lg-m1">
+        <div class="icon-button close dismiss-overlay sm-ml-auto sm-last z-1"></div>
+        <button class="pl2 row middle ml-auto sm-ml0 sm-first initiate-top-sheet">
+          <div class="subhead-2">174</div>
+          <div class="icon small-star ml-neg2"></div>
         </button>
       </div>
 
@@ -64,15 +64,15 @@
   </div>
 
   <div class="top-sheet">
-    <div class="row colorWhite middle fixed z-1 width-100 lg-width-60">
-      <div class="icon-button close dismiss-top-sheet sm-m3 sm-ml-auto lg-mr4 lg-my4 sm-last z-1"></div>
-      <div class="subhead-2 fixed width-100 lg-width-60 centered-text vcenter">Rewards & offers</div>
-      <div class="pl2 row ml-auto middle sm-m3 lg-m4 sm-first">
-        <div class="title-2 sm-ml0">174</div>
-        <div class="icon star"></div>
+    <div class="row colorWhite nowrap middle between fixed p2 m1 l0 r0 z-1 lg-l-40p lg-m0 lg-p4 lg-m1">
+      <div class="icon-button close dismiss-top-sheet first sm-last z-1"></div>
+      <div class="subhead-2 centered-text vcenter ml6 sm-ml0 sm-mr6">Rewards & offers</div>
+      <div class="pl2 row middle last sm-first">
+        <div class="subhead-2 sm-ml0">174</div>
+        <div class="icon small-star ml-neg2"></div>
       </div>
     </div>
-    <div class="row column lg-mt0 wide-row mt8 sm-mt12 lg-mt14">
+    <div class="row column lg-mt0 wide-row mt10 sm-mt12 lg-mt14">
       <div class="colorCeramic p3 border-radius-6 mx3 md-mx0 row">
         <div class="title-1 mb4">
           Tell your barista you’d like to use a Reward or offer.
