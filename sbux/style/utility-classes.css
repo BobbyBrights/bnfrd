@@ -280,6 +280,10 @@ Other stuff
   border-bottom: none;
 }
 
+.border {
+  border: solid 1px rgba(0,0,0,.12);
+}
+
 /* --breakpointSm */
 @media only screen and (min-width: 480px) {
 
@@ -436,6 +440,10 @@ Other stuff
 
   .sm-border-bottom-none {
     border-bottom: none;
+  }
+
+  .sm-border {
+    border: solid 1px rgba(0,0,0,.12);
   }
 
 }
@@ -609,6 +617,10 @@ Other stuff
     border-bottom: none;
   }
 
+  .md-border {
+    border: solid 1px rgba(0,0,0,.12);
+  }
+
 }
 
 
@@ -752,6 +764,9 @@ Other stuff
     border-bottom: none;
   }
 
+  .lg-border {
+    border: solid 1px rgba(0,0,0,.12);
+  }
 
 }
 
@@ -888,6 +903,10 @@ Other stuff
     border-bottom: none;
   }
 
+  .xl-border {
+    border: solid 1px rgba(0,0,0,.12);
+  }
+
 }
 
 /* --breakpointXxl */
@@ -1006,20 +1025,24 @@ Other stuff
 
   /* Styling */
 
-  .xl-border-top {
+  .xxl-border-top {
     border-top: solid 1px rgba(0,0,0,.12);
   }
 
-  .xl-border-bottom {
+  .xxl-border-bottom {
     border-bottom: solid 1px rgba(0,0,0,.12);
   }
 
-  .xl-border-top-none {
+  .xxl-border-top-none {
     border-top: none;
   }
 
-  .xl-border-bottom-none {
+  .xxl-border-bottom-none {
     border-bottom: none;
+  }
+
+  .xxl-border {
+    border: solid 1px rgba(0,0,0,.12);
   }
 
 }

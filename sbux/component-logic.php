@@ -34,25 +34,35 @@ $('.toggle-reward').on('click', function() {
   $(".toggle-reward").not(this).removeClass("ghost-button");
   var rewardAction = $(this).find('.reward-text');
   var rewardText = rewardAction.text();
+
   var otherRewardAction = $(".toggle-reward").not(this).find('.reward-text');
   var otherRewardText = otherRewardAction.text();
+
   var rewardMessage = $(this).attr('id').concat("-message");
   var messageDiv = $('#' + rewardMessage);
+
+  var rewardHelp = $(this).attr('id').concat("-help")
+  var helpDiv = $('#' + rewardHelp);
+
   var rewardDiscount = $(this).attr('id').concat("-total");
   var rewardDiscountDiv = $('#' + rewardDiscount);
+
   if (rewardText === "Use" || otherRewardText === "Remove") {
     rewardAction.text("Remove");
     otherRewardAction.text("Use");
     $('#' + rewardMessage).addClass("flex");
-    $('#' + rewardDiscount).addClass("flex")
+    $('#' + rewardDiscount).addClass("flex");
+    $('#' + rewardHelp).addClass("flex");
     $(".reward-message").not(messageDiv).removeClass("flex");
     $(".reward-discount").not(rewardDiscountDiv).removeClass("flex");
+    $(".reward-help").not(helpDiv).removeClass("flex");
     showToast();
     moveFrap();
     } else {
     rewardAction.text("Use");
     $(messageDiv).removeClass("flex");
     $(rewardDiscountDiv).removeClass("flex");
+    $(helpDiv).removeClass("flex");
 
   }
 

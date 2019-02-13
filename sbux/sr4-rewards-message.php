@@ -159,9 +159,15 @@
           <div class="product-card mt2 md-my3 md-p0">
             <div class="row c12 border-bottom-none md-border-bottom px3 sm-px5 sm-mt2 md-pb2">
               <div class="subhead-2 vcenter">Reward options</div>
-              <div class="icon-button ml-auto info initiate-top-sheet"></div>
+              <div class="icon-button ml-auto info initiate-top-sheet mr-neg2"></div>
             </div>
             <div class="row px2 mt2 mb3 sm-px4 sm-mb5 md-my3">
+              <div class="c12 p3 ml2 mb2 mr3 sm-mr2 colorWhite border border-radius-6 body-1 hide reward-help" id="25-reward-help">25 Star Reward applied to your Latte Macchiato</div>
+              <div class="c12 p3 ml2 mb2 mr3 sm-mr2 colorWhite border border-radius-6 body-1 hide reward-help" id="50-reward-help">50 Star Reward applied to your Blonde Roast</div>
+              <div class="c12 p3 ml2 mb2 mr3 sm-mr2 colorWhite border border-radius-6 body-1 hide reward-help" id="150-reward-help">150 Star Reward applied to your Latte Macchiato</div>
+              <div class="c12 p3 ml2 mb2 mr3 sm-mr2 colorWhite border border-radius-6 body-1 hide reward-help" id="200-reward-help">200 Star Reward applied to your Double-Smoked Bacon, Cheddar & Egg Sandwich</div>
+              <div class="c12 p3 ml2 mb2 mr3 sm-mr2 colorWhite border border-radius-6 body-1 hide reward-help" id="400-reward-help">400 Star Reward applied to your Espresso Roast Verismo® Pods</div>
+              <div class="c12 p3 ml2 mb2 mr3 sm-mr2 colorWhite border border-radius-6 body-1 hide reward-help" id="birthday-reward-help">Birthday Reward applied to your Espresso Roast Verismo® Pods</div>
               <div class="filled-button black toggle-reward m2" id="25-reward">
                 <span class="reward-text">Use</span> 25 <span class="colorTextGold">★</span>
               </div>
@@ -262,10 +268,10 @@
             </div>
           </div>
         </div>
-        <div class="basic-toast middle">
+        <!-- <div class="basic-toast middle">
           <p class="pr3">125<span class="colorTextGold">★</span> applied to Latte Macchiato</p>
           <div class="ghost-button white ml-auto invisible">Undo</div>
-        </div>
+        </div> -->
         <div class="frap-container">
           <div class="frap">
             Checkout $31.93
