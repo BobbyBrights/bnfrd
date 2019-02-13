@@ -265,7 +265,19 @@ Other stuff
 }
 
 .border-top {
-  border: solid 1px rgba(0,0,0,.12);
+  border-top: solid 1px rgba(0,0,0,.12);
+}
+
+.border-bottom {
+  border-bottom: solid 1px rgba(0,0,0,.12);
+}
+
+.border-top-none {
+  border-top: none;
+}
+
+.border-bottom-none {
+  border-bottom: none;
 }
 
 /* --breakpointSm */
@@ -406,6 +418,24 @@ Other stuff
 
   .sm-z-2 {
     z-index:2
+  }
+
+  /* Styling */
+
+  .sm-border-top {
+    border-top: solid 1px rgba(0,0,0,.12);
+  }
+
+  .sm-border-bottom {
+    border-bottom: solid 1px rgba(0,0,0,.12);
+  }
+
+  .sm-border-top-none {
+    border-top: none;
+  }
+
+  .sm-border-bottom-none {
+    border-bottom: none;
   }
 
 }
@@ -561,6 +591,24 @@ Other stuff
     z-index:2
   }
 
+  /* Styling */
+
+  .md-border-top {
+    border-top: solid 1px rgba(0,0,0,.12);
+  }
+
+  .md-border-bottom {
+    border-bottom: solid 1px rgba(0,0,0,.12);
+  }
+
+  .md-border-top-none {
+    border-top: none;
+  }
+
+  .md-border-bottom-none {
+    border-bottom: none;
+  }
+
 }
 
 
@@ -686,6 +734,24 @@ Other stuff
     z-index:2
   }
 
+  /* Styling */
+
+  .lg-border-top {
+    border-top: solid 1px rgba(0,0,0,.12);
+  }
+
+  .lg-border-bottom {
+    border-bottom: solid 1px rgba(0,0,0,.12);
+  }
+
+  .lg-border-top-none {
+    border-top: none;
+  }
+
+  .lg-border-bottom-none {
+    border-bottom: none;
+  }
+
 
 }
 
@@ -804,6 +870,24 @@ Other stuff
     z-index:2
   }
 
+  /* Styling */
+
+  .xl-border-top {
+    border-top: solid 1px rgba(0,0,0,.12);
+  }
+
+  .xl-border-bottom {
+    border-bottom: solid 1px rgba(0,0,0,.12);
+  }
+
+  .xl-border-top-none {
+    border-top: none;
+  }
+
+  .xl-border-bottom-none {
+    border-bottom: none;
+  }
+
 }
 
 /* --breakpointXxl */
@@ -918,6 +1002,24 @@ Other stuff
 
   .xxl-z-2 {
     z-index:2
+  }
+
+  /* Styling */
+
+  .xl-border-top {
+    border-top: solid 1px rgba(0,0,0,.12);
+  }
+
+  .xl-border-bottom {
+    border-bottom: solid 1px rgba(0,0,0,.12);
+  }
+
+  .xl-border-top-none {
+    border-top: none;
+  }
+
+  .xl-border-bottom-none {
+    border-bottom: none;
   }
 
 }

@@ -1,3 +1,10 @@
+.card {
+  background: white;
+  flex-basis:100%;
+  box-shadow: 0px 0px .5px 0px rgba(0,0,0,0.14), 0px 1px 1px 0px rgba(0,0,0,0.24);
+  border-radius: 6px;
+}
+
 .basic-card, .flat-card, .product-card {
   flex-basis:100%;
   -ms-flex-preferred-size: 100%;
