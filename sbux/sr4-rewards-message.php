@@ -16,7 +16,7 @@
 		<div class="sb-contentCrate">
 			<div class="sb-contentCrateContainer">
         <div class="wide-row">
-          <div class="product-card px3 pt3 pb4 sm-p5 md-mt3 md-pr13">
+          <div class="product-card px3 pt3 pb4 sm-p5 md-p4 md-mt3 md-pr13">
             <div class="title row nowrap c12 middle">
               <div class="product-img latte-macchiato circle-div">
               </div>
@@ -60,7 +60,7 @@
               </div>
             </div>
           </div>
-          <div class="product-card px3 pt3 pb4 sm-p5 md-mt3 md-pr13">
+          <div class="product-card px3 pt3 pb4 sm-p5 md-p4 md-mt3 md-pr13">
             <div class="title row nowrap c12 middle">
               <div class="product-img grilled-chicken-salad circle-div">
               </div>
@@ -91,7 +91,7 @@
               </div>
             </div>
           </div>
-          <div class="product-card px3 pt3 pb4 sm-p5 md-mt3 md-pr13">
+          <div class="product-card px3 pt3 pb4 sm-p5 md-p4 md-mt3 md-pr13">
             <div class="title row nowrap c12 middle">
               <div class="product-img blonde-roast circle-div">
               </div>
@@ -122,7 +122,7 @@
               </div>
             </div>
           </div>
-          <div class="product-card px3 pt3 pb4 sm-p5 md-mt3 md-pr13">
+          <div class="product-card px3 pt3 pb4 sm-p5 md-p4 md-mt3 md-pr13">
             <div class="title row nowrap c12 middle">
               <div class="product-img pods circle-div">
               </div>
@@ -157,11 +157,11 @@
             </div>
           </div>
           <div class="product-card mt2 md-my3 md-p0">
-            <div class="row c12 border-bottom-none md-border-bottom px3 sm-px5 sm-mt2 md-pb2">
+            <div class="row c12 border-bottom-none md-border-bottom px3 sm-px5 sm-mt2 md-px4 md-pb2">
               <div class="subhead-2 vcenter">Reward options</div>
               <div class="icon-button ml-auto info initiate-top-sheet mr-neg2"></div>
             </div>
-            <div class="row px2 mt2 mb3 sm-px4 sm-mb5 md-my3">
+            <div class="row px2 mt2 mb3 sm-px4 sm-mb5 md-px3 md-my3">
               <div class="c12 p3 ml2 mb2 mr3 sm-mr2 colorWhite border border-radius-6 body-1 hide reward-help" id="25-reward-help">25 Star Reward applied to your Latte Macchiato</div>
               <div class="c12 p3 ml2 mb2 mr3 sm-mr2 colorWhite border border-radius-6 body-1 hide reward-help" id="50-reward-help">50 Star Reward applied to your Blonde Roast</div>
               <div class="c12 p3 ml2 mb2 mr3 sm-mr2 colorWhite border border-radius-6 body-1 hide reward-help" id="150-reward-help">150 Star Reward applied to your Latte Macchiato</div>
@@ -293,7 +293,7 @@
     <div class="row column lg-mt0 wide-row mt10 sm-mt12 lg-mt14">
       <div class="colorCeramic p3 border-radius-6 mx3 md-mx0 row">
         <div class="title-1 mb4">
-          Tell your barista you’d like to use a Reward or offer.
+          Rewards you can get with stars
         </div>
         <div class="grid grid-row-gap-16">
           <div class="grid-column-1 subhead-2">
