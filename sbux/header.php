@@ -24,6 +24,7 @@
 	<link rel="stylesheet" type="text/css" href="components/overlays.css" media="all">
 	<link rel="stylesheet" type="text/css" href="components/toasts.css" media="all">
 	<link rel="stylesheet" type="text/css" href="components/type-styles.css" media="all">
+	<link rel="stylesheet" type="text/css" href="components/right-crate-hero.css" media="all">
 	<link rel="stylesheet" type="text/css" href="style/utility-classes.css" media="all">
 	<!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" media="all"> -->
 

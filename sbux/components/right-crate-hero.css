@@ -1,0 +1,32 @@
+.right-crate-hero {
+  background-image:url('/sbux/img/graphics/desktop-crop.jpg'), url('/img/graphics/desktop-crop.jpg');
+  width:100%;
+  height:80vw;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position:50%;
+  background-size:cover;
+}
+
+
+
+
+/* --breakpointSm */
+@media only screen and (min-width: 480px) {
+  .right-crate-hero {
+    background-image:url('/sbux/img/graphics/desktop-crop.jpg'), url('/img/graphics/desktop-crop.jpg');
+    width:100%;
+    height:40vw;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    background-position: unset;
+  }
+}
+
+/* --breakpointLg */
+@media only screen and (min-width: 1024px) {
+  .right-crate-hero {
+    height:23.8vw;
+  }
+}
