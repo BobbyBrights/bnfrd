@@ -3,6 +3,7 @@
 <?php include 'head.php';?>
 <body>
 <?php include 'nav.php';?>
+
 <!-- Project Hero Start -->
 	<section class="row salad-section py7 colorWhite o-hidden">
     <figure class="md-c7 md-last">

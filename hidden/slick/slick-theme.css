@@ -145,7 +145,6 @@
     margin: 0 5px;
     padding: 0;
 
-    cursor: pointer;
 }
 .slick-dots li button
 {
@@ -169,11 +168,14 @@
 .slick-dots li button:focus
 {
     outline: none;
+    cursor: pointer;
+
 }
 .slick-dots li button:hover:before,
 .slick-dots li button:focus:before
 {
     opacity: 1;
+    transition: .2s ease all;
 }
 .slick-dots li button:before
 {
@@ -193,6 +195,7 @@
 
     opacity: .25;
     color: black;
+    transition: .2s ease all;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

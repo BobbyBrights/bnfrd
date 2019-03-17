@@ -6,12 +6,23 @@
 
 <script>
 
-$('.my-slider').slick({
+// $('.my-slider').slick({
+//   dots: true,
+//   infinite: true,
+//   speed: 500,
+//   fade: true,
+//   cssEase: 'ease',
+//   autoplay: true
+// });
+
+$('.my-slider.full-width').slick({
   dots: true,
   infinite: true,
   speed: 500,
   fade: true,
-  cssEase: 'linear'
+  cssEase: 'ease',
+  autoplay: true,
+  arrows: false
 });
 
 </script>

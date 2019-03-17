@@ -1,23 +1,10 @@
-<footer class="flex pb4 sm-px3 sm-pb6 sm-pt15 body-2">
-      <div class="c6 sm-c4 md-c2 body-2 colorTextPrimary">
-        <p class="colorTextPrimary">
-          Say Hi 👋🏼
-        </p>
-        <p class="colorTextSecondary">
-          (425) 780 2214
-        </p>
-      </div>
-
-      <div class="c6 sm-c4 md-c2 body-2 colorTextPrimary">
-        <p class="colorTextPrimary">
-          🐌
-        </p>
-        <p class="colorTextSecondary">
-          ben@benford.xyz
-        </p>
-      </div>
-
-      <div class="pl4 align-self-end mt3 sm-c4 sm-mt0 sm-pr3 md-c8 colorTextSecondary">
-          © Ben Ford 2018
-      </div>
-</footer>
+<div class="colorBlack2 py8">
+  <ul class="flex">
+    <li class="body-1 colorTextSecondary pl4 sm-pl5 md-c3">
+        About<br><span class="colorTextPrimary pt1 inline-block">Ben is currently leading web design at Starbucks.</span>
+    </li>
+    <li class="body-1 colorTextSecondary pr4 sm-pr5 md-c3">
+        Reach out <br> <span class="colorTextPrimary pt1 inline-block">hello@benford.xyz<br>425.780.2214</span>
+    </li>
+  </ul>
+</div>

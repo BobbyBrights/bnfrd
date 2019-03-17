@@ -228,6 +228,8 @@ Colors
 
 .colorWhite90 {background-color: rgba(255,255,255, .9);}
 
+.special-gray {background-color: #ecedef;}
+
 
 /* Text Colors */
 .colorTextPrimary {color: rgba(0, 0, 0, .87);}

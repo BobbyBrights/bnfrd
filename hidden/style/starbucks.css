@@ -1,0 +1,63 @@
+/* ----------------------------------------
+-------------------------------------------
+------------------Stores-------------------
+-------------------------------------------
+---------------------------------------- */
+
+
+.stores-hero {
+	position: relative;
+	width: 200%;
+	transform: rotate(-13deg);
+}
+
+.stores-hero-2 {
+	width:100%;
+}
+
+.stores-hero-3 {
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+
+.stores-hero-4 {
+	width:84%;
+	display: block;
+	margin: auto;
+}
+
+.stores-hero-5 {
+	width:78%;
+	left:-12%;
+}
+
+/* --breakpointSm */
+@media only screen and (min-width: 480px) {
+
+  .stores-hero {
+    left: 3.2rem;
+    width: 100%;
+  }
+
+}
+
+/* --breakpointMd */
+@media only screen and (min-width: 950px) {
+
+  .stores-hero {
+    position: relative;
+    width: 150%;
+		left: 13%;
+		top: 2%;
+		transform: rotate(3deg);
+  }
+
+}
+
+/* --breakpointLg */
+@media only screen and (min-width: 1024px) {
+
+
+
+}

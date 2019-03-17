@@ -21,274 +21,6 @@ a {text-decoration: none; color:inherit;}
 
 
 
-/* ----------------------------------------
--------------------------------------------
--------------PROJECT STYLES----------------
--------------------------------------------
----------------------------------------- */
-
-
-/* ----------------------------------------
-Fonts
----------------------------------------- */
-@font-face {
-  font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Ultra-Light.woff2');
-  font-weight: 100;
-}
-
-@font-face {
-  font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Ultra-Light-Oblique.woff2');
-  font-weight: 100;
-  font-style: oblique;
-}
-
-@font-face {
-  font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Thin.woff2');
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Thin-Oblique.woff2');
-  font-weight: 200;
-  font-style: oblique;
-}
-
-@font-face {
-  font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Light.woff2');
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Light-Oblique.woff2');
-  font-weight: 300;
-  font-style: oblique;
-}
-
-@font-face {
-  font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Regular.woff2');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Regular-Oblique.woff2');
-  font-weight: 400;
-  font-style: oblique;
-}
-
-@font-face {
-  font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Medium.woff2');
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Medium-Oblique.woff2');
-  font-weight: 500;
-  font-style: oblique;
-}
-
-@font-face {
-  font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Bold.woff2');
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Bold-Oblique.woff2');
-  font-weight: 600;
-  font-style: oblique;
-}
-
-@font-face {
-  font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Black.woff2');
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Black-Oblique.woff2');
-  font-weight: 700;
-  font-style: oblique;
-}
-
-@font-face {
-  font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Ultra-Bold.woff2');
-  font-weight: 800;
-}
-
-@font-face {
-  font-family: 'GT-Walsheim';
-  src: url('/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro-Ultra-Bold-Oblique.woff2');
-  font-weight: 800;
-  font-style: oblique;
-}
-
-@font-face {
-  font-family: 'Cooper-BT';
-  src: url('/fonts/CooperBT/CooperBT-Light.woff');
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: 'Cooper-BT';
-  src: url('/fonts/CooperBT/CooperBT-Light Italic.woff');
-  font-weight: 200;
-	font-style: italic;
-}
-
-@font-face {
-  font-family: 'Cooper-BT';
-  src: url('/fonts/CooperBT/CooperBT-Medium.woff');
-  font-weight: 300;
-}
-
-body {
-  font-family: GT-Walsheim, Helvetica Neue, Helvetica, Arial, sans-serif;
-}
-
-/* ----------------------------------------
-Colors
----------------------------------------- */
-
-/* Background Colors */
-
-.colorWhite {background-color: #ffffff;}
-
-.colorGrayNatural {background-color: #f7f7f7;}
-
-.colorCream {background-color: #f3f1e7;}
-
-.colorCeramic {background-color: #edebe9;}
-
-.colorBlack {background-color: #000000;}
-
-.colorBlackWarm {background-color: #2d2926;}
-
-.colorBlackWarmer {background-color: #3d3935;}
-
-.colorGreenStarbucks {background-color: #00653e;}
-
-.colorGreenApron {background-color: #00a862;}
-
-.colorGreenDarkApron {background-color: #008248;}
-
-.colorGold {background-color: #c2a661;}
-
-.colorRed {background-color: #e75b52;}
-
-.colorYellow {background-color: #fbbc05;}
-
-.colorBlackWarm12 {background-color:rgba(45, 41, 38, .12);}
-
-.colorBlack10 {background-color:rgba(0, 0, 0, .1);}
-
-.colorBlack20 {background-color: rgba(0, 0, 0, .2);}
-
-.colorBlack30 {background-color: rgba(0, 0, 0, .3);}
-
-.colorBlack40 {background-color: rgba(0, 0, 0, .4);}
-
-.colorBlack50 {background-color: rgba(0, 0, 0, .5);}
-
-.colorBlack60 {background-color: rgba(0, 0, 0, .6);}
-
-.colorBlack70 {background-color: rgba(0, 0, 0, .7);}
-
-.colorBlack80 {background-color: rgba(0, 0, 0, .8);}
-
-.colorBlack90 {background-color: rgba(0, 0, 0, .9);}
-
-.colorWhite10 {background-color: rgba(255,255,255, .1);}
-
-.colorWhite20 {background-color: rgba(255,255,255, .2);}
-
-.colorWhite30 {background-color: rgba(255,255,255, .3);}
-
-.colorWhite40 {background-color: rgba(255,255,255, .4);}
-
-.colorWhite50 {background-color: rgba(255,255,255, .5);}
-
-.colorWhite60 {background-color: rgba(255,255,255, .6);}
-
-.colorWhite70 {background-color: rgba(255,255,255, .7);}
-
-.colorWhite80 {background-color: rgba(255,255,255, .8);}
-
-.colorWhite90 {background-color: rgba(255,255,255, .9);}
-
-.colorExample {background-color: #878E86;}
-
-
-/* Text Colors */
-.colorTextPrimary {color: rgba(0, 0, 0, .87);}
-
-.colorTextSecondary {color: rgba(0, 0, 0, .35);}
-
-.colorTextWhitePrimary {color: rgba(255, 255, 255, 1);}
-
-.colorTextWhiteSecondary {color: rgba(255, 255, 255, .70);}
-
-.colorPink {color: #FF95C9;}
-
-.colorPurple {color: #B38AFF;}
-
-.colorPeriwinkle {color: #96B2FF;}
-
-
-/* ----------------------------------------
-Type Styles
----------------------------------------- */
-
-.heading-1, .home-heading-1 {
-	font-family:Cooper-BT;
-  font-size: 40px;
-  font-weight: 200;
-	line-height: 1.1;
-}
-
-
-.heading-2 {
-	font-family:Cooper-BT;
-  font-size: 24px;
-  font-weight: 200;
-  line-height: 1.25;
-}
-
-.caption {
-  font-size: 11px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-}
-
-.body-1 {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.69;
-}
-
-.body-2 {
-	font-family:GT-Walsheim;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 1.49;
-}
-
-.bold {
-	font-weight: 500;
-}
 
 
 /* ----------------------------------------
@@ -311,7 +43,8 @@ body {
 	-webkit-font-smoothing: antialiased !important;
 	text-shadow: none;
 	font-family: GT-Walsheim;
-  color: rgba(0,0,0,.87)
+  color: rgba(0,0,0,.87);
+	overflow-x:hidden;
 }
 
 ul {
@@ -327,6 +60,15 @@ nav {
 	position: fixed;
 	top:0;
 	z-index: 5000;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 /* Global Classes /////////////////////////*/
@@ -796,8 +538,8 @@ Starbucks Stores -- Md
 /* ----------------------------------------
 Starbucks Stores
 ---------------------------------------- */
-	.salad-section {
+	/* .salad-section {
 		margin-top:-288px;
-	}
+	} */
 
 }

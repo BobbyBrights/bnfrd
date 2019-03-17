@@ -133,7 +133,7 @@ Grid
     justify-content: space-around;
   }
 
-  .space-between{
+  .space-between {
     -ms-flex-pack: justify;
     -webkit-box-pack: justify;
     justify-content: space-between;
