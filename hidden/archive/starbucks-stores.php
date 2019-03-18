@@ -5,7 +5,7 @@
 <?php include 'nav.php';?>
 
 <!-- Project Hero Start -->
-	<section class="row salad-section py7 colorWhite o-hidden">
+	<section class="row salad-section py7 colorWhite overflow-hidden">
     <figure class="md-c7 md-last">
       <img class="stores-hero" src="/hidden/img/2-web-app/phone-and-food-2.png" alt="a delicious iced macchiatto">
     </figure>

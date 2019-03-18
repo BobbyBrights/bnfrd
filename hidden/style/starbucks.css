@@ -1,9 +1,302 @@
+/* Global Tags /////////////////////////*/
+
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+body {
+	font-size:100%;
+	line-height: 1;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	text-shadow: none;
+	font-family: GT-Walsheim;
+  color: rgba(0,0,0,.87);
+	overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+figure {
+	overflow: hidden;
+}
+
+nav {
+	width:100%;
+	position: fixed;
+	top:0;
+	z-index: 5000;
+}
+
+html, body
+{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+/* ----------------------------------------
+Variables
+---------------------------------------- */
+
+:root {
+    --text-xxs: 12px;
+    --text-xs: 13px;
+    --text-sm: 14px;
+    --text-md: 17px;
+    --text-lg: 19px;
+    --text-xl: 22px;
+    --text-xxl: 26px;
+    --text-xxxl:31px;
+    --colorWhite:#ffffff;
+    --colorGrayNatural:#f7f7f7;
+    --colorCream:#f3f1e7;
+    --colorCeramic:#edebe9;
+    --colorBlack:#000000;
+    --colorBlackWarm:#2d2926;
+    --colorBlackWarmer:#3d3935;
+    --colorGreenStarbucks:#00653e;
+    --colorGreenApron:#00a862;
+    --colorGreenDarkApron:#008248;
+    --colorGold:#c2a661;
+    --colorRed:#e75b52;
+    --colorYellow:#fbbc05;
+    --colorBlackWarm12:rgba(45, 41, 38, .12);
+    --colorBlack10:rgba(0, 0, 0, .1);
+    --colorBlack20:rgba(0, 0, 0, .2);
+    --colorBlack30:rgba(0, 0, 0, .3);
+    --colorBlack40:rgba(0, 0, 0, .4);
+    --colorBlack50:rgba(0, 0, 0, .5);
+    --colorBlack60:rgba(0, 0, 0, .6);
+    --colorBlack70:rgba(0, 0, 0, .7);
+    --colorBlack80:rgba(0, 0, 0, .8);
+    --colorBlack90:rgba(0, 0, 0, .9);
+    --colorWhite10:rgba(255, 255, 255, .1);
+    --colorWhite20:rgba(255, 255, 255, .2);
+    --colorWhite30:rgba(255, 255, 255, .3);
+    --colorWhite40:rgba(255, 255, 255, .4);
+    --colorWhite50:rgba(255, 255, 255, .5);
+    --colorWhite60:rgba(255, 255, 255, .6);
+    --colorWhite70:rgba(255, 255, 255, .7);
+    --colorWhite80:rgba(255, 255, 255, .8);
+    --colorWhite90:rgba(255, 255, 255, .9);
+}
+
+
+/* ----------------------------------------
+Background Colors
+---------------------------------------- */
+
+.colorBlack2 {background-color:rgba(0, 0, 0, .02);}
+
+.colorBlack5 {background-color:rgba(0, 0, 0, .05);}
+
+.colorBlack10 {background-color:rgba(0, 0, 0, .1);}
+
+.colorBlack20 {background-color: rgba(0, 0, 0, .2);}
+
+.colorBlack30 {background-color: rgba(0, 0, 0, .3);}
+
+.colorBlack40 {background-color: rgba(0, 0, 0, .4);}
+
+.colorBlack50 {background-color: rgba(0, 0, 0, .5);}
+
+.colorBlack60 {background-color: rgba(0, 0, 0, .6);}
+
+.colorBlack70 {background-color: rgba(0, 0, 0, .7);}
+
+.colorBlack80 {background-color: rgba(0, 0, 0, .8);}
+
+.colorBlack90 {background-color: rgba(0, 0, 0, .9);}
+
+.colorWhite10 {background-color: rgba(255,255,255, .1);}
+
+.colorWhite20 {background-color: rgba(255,255,255, .2);}
+
+.colorWhite30 {background-color: rgba(255,255,255, .3);}
+
+.colorWhite40 {background-color: rgba(255,255,255, .4);}
+
+.colorWhite50 {background-color: rgba(255,255,255, .5);}
+
+.colorWhite60 {background-color: rgba(255,255,255, .6);}
+
+.colorWhite70 {background-color: rgba(255,255,255, .7);}
+
+.colorWhite80 {background-color: rgba(255,255,255, .8);}
+
+.colorWhite90 {background-color: rgba(255,255,255, .9);}
+
+.special-gray {background-color: #ecedef;}
+
+
+
+/* ----------------------------------------
+Text Colors
+---------------------------------------- */
+
+.colorTextPrimary {color: rgba(0, 0, 0, .87);}
+
+.colorTextSecondary {color: rgba(0, 0, 0, .35);}
+
+.colorTextWhitePrimary {color: rgba(255, 255, 255, 1);}
+
+.colorTextWhiteSecondary {color: rgba(255, 255, 255, .70);}
+
+.colorPink {color: #FF95C9;}
+
+.colorPurple {color: #B38AFF;}
+
+.colorPeriwinkle {color: #96B2FF;}
+
+
+
+
+
+/* ----------------------------------------
+-------------------------------------------
+------------------Slider-------------------
+-------------------------------------------
+---------------------------------------- */
+
+.my-slider {
+  /* height: auto;
+  margin:auto;
+  position: relative; */
+  /* width:80%;
+  max-width: 1106px; */
+}
+
+/* .my-slider.full-width {
+  width:unset;
+  max-width: unset;
+} */
+
+.slick-prev:before, .slick-next:before{
+    color:red;
+    height:40px;
+    width:40px;
+    background:black;
+}
+
+.slick-dots li button:before {
+  font-size: 8px;
+}
+
+.slick-dots {
+  bottom: -64px;
+}
+
+
+/* ----------------------------------------
+-------------------------------------------
+-------------------Home--------------------
+-------------------------------------------
+---------------------------------------- */
+
+.tiles {
+	width:100%;
+}
+
+.home-row:nth-of-type(1) {
+	margin-top:72px;
+}
+
+.home-row figure {
+	margin-bottom:-24px;
+}
+
+.tile-1 h3 {
+	left: -32px!important;
+	top: 68px!important;
+}
+
+.tile-1, .tile-2, .tile-3, .tile-4, .tile-5, .tile-6, .tile-7 {
+	margin-bottom: 24px;
+}
+
+.rotate-90 {
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/* --breakpointSm */
+@media only screen and (min-width: 480px) {
+
+	figure {
+		overflow: visible;
+	}
+
+  .tile-1, .tile-2, .tile-3, .tile-4, .tile-5, .tile-6, .tile-7 {
+  	margin-bottom: 0px;
+  }
+
+  .home-row:nth-of-type(1) {
+  	margin-top:104px;
+  }
+
+  .tile-3, .tile-5 {
+  	margin-top:16px;
+  }
+
+  .tile-6 {
+  	margin-bottom:-16%;
+  }
+
+  .tile-1 {
+    width:100%;
+  }
+
+}
+
+
+/* --breakpointMd */
+@media only screen and (min-width: 950px) {
+
+  .home-row:nth-of-type(1) {
+    margin-top:128px;
+  }
+
+  .tile-3 {
+    margin-left:-16px;
+  }
+
+  .tile-4 {
+    margin-top: 0px;
+  }
+
+  .tile-2 > article {
+    margin-top:-128px;
+    margin-left:-32px;
+  }
+
+  .tile-3 > article {
+    margin-left: 56px;
+  }
+
+}
+
+/* .tile-4 > article {
+	margin-top: -104px;
+	margin-left:-32px;
+} */
+
+
+
+
 /* ----------------------------------------
 -------------------------------------------
 ------------------Stores-------------------
 -------------------------------------------
 ---------------------------------------- */
-
 
 .stores-hero {
 	position: relative;
@@ -11,7 +304,11 @@
 	transform: rotate(-13deg);
 }
 
-.stores-hero-2 {
+.salad-section {
+	margin-top: -298px;
+}
+
+/* .stores-hero-2 {
 	width:100%;
 }
 
@@ -30,10 +327,19 @@
 .stores-hero-5 {
 	width:78%;
 	left:-12%;
-}
+} */
 
 /* --breakpointSm */
 @media only screen and (min-width: 480px) {
+
+  .stores-hero {
+    left: 3.2rem;
+    width: 100%;
+  }
+
+  .salad-section {
+    margin-top: -36%;
+  }
 
   .stores-hero {
     left: 3.2rem;
@@ -53,11 +359,150 @@
 		transform: rotate(3deg);
   }
 
+  .salad-section {
+    margin-top:-20%;
+  }
+
 }
 
 /* --breakpointLg */
 @media only screen and (min-width: 1024px) {
 
 
+
+}
+
+
+/* ----------------------------------------
+-------------------------------------------
+-----------Starbucks Web App---------------
+-------------------------------------------
+---------------------------------------- */
+
+
+/* Images */
+
+.web-app-hero {
+	width: 100%;
+}
+
+.web-app-img-1 {
+  position: relative;
+  width: 160%;
+  left: -.8rem;
+}
+
+.web-app-img-2 {
+	position: relative;
+	width: 200%;
+	transform: rotate(-13deg);
+	z-index: -1;
+}
+
+.web-app-img-3 {
+	position: relative;
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+
+.web-app-img-4 {
+	position: relative;
+	width: 50%;
+	display: block;
+	margin:auto;
+}
+
+.web-app-img-5 {
+	display: block;
+	margin:auto;
+	width: 100%;
+	-webkit-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.35);
+	-moz-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.35);
+	box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.15);
+	border-radius: 6px;
+}
+
+.web-app-img-6 {
+	display: block;
+	position: relative;
+	width: 100%;
+	-webkit-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.35);
+	-moz-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.35);
+	box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.15);
+	border-radius: 2px;
+}
+
+.web-app-img-7 {
+	display: block;
+	position: relative;
+	width: 100%;
+	-webkit-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.35);
+	-moz-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.35);
+	box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.15);
+	border-radius: 2px;
+	left: 31%;
+	top: -30%;
+}
+
+.web-app-svg-1 {
+	width: 20%;
+}
+
+/* Sections ///////////////////////////////*/
+
+.two-screen-section {
+	margin-bottom: -20%;
+}
+
+
+
+/* --breakpointSm */
+@media only screen and (min-width: 480px) {
+
+  .web-app-hero {
+    width: 100%;
+    left: 0;
+  }
+
+  .web-app-img-1 {
+    position: relative;
+    width: 100%;
+    left:0;
+  }
+
+  .web-app-img-2 {
+    left: 3.2rem;
+    width: 100%;
+  }
+
+}
+
+
+/* --breakpointMd */
+@media only screen and (min-width: 950px) {
+
+  .web-app-hero {
+    width: 130%;
+    left: -4rem;
+  }
+
+  .web-app-img-1 {
+    width: 160%;
+    left: 1.6rem;
+  }
+
+  .web-app-img-2 {
+    position: relative;
+    width: 150%;
+    z-index: -1;
+    /* left: 80px; */
+    left: 13%;
+    transform: rotate(0);
+  }
+
+  .web-app-img-5 {
+    width: 80%;
+  }
 
 }

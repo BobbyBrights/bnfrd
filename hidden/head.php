@@ -36,12 +36,9 @@
 	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-	<link rel="stylesheet" type="text/css" href="style/utility-classes-update.css" media="all">
-  <link rel="stylesheet" type="text/css" href="style/style.css" media="all">
-	<link rel="stylesheet" type="text/css" href="style/slider.css" media="all">
-	<link rel="stylesheet" type="text/css" href="style/vars.css" media="all">
-	<link rel="stylesheet" type="text/css" href="style/type.css" media="all">
+	<link rel="stylesheet" type="text/css" href="style/utility-classes.css" media="all">
 	<link rel="stylesheet" type="text/css" href="style/starbucks.css" media="all">
+	<link rel="stylesheet" type="text/css" href="style/type.css" media="all">
 	<!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" media="all"> -->
 
 

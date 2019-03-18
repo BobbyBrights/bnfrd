@@ -5,7 +5,7 @@
 <?php include 'nav.php';?>
 
 <!-- Project Hero Start -->
-	<section class="row salad-section py7 colorWhite o-hidden">
+	<section class="row salad-section py7 colorWhite overflow-hidden">
     <figure class="md-c7 md-last">
       <img class="stores-hero" src="/hidden/img/2-web-app/phone-and-food-2.png" alt="a delicious iced macchiatto">
     </figure>
@@ -89,7 +89,7 @@
           Previous & Favorites
         </h3>
         <h1 class="heading-1 colorTextPrimary pb2 md-pb4">
-          Ordering from previous & favorite stores is easier than ever
+          Ordering from your favorite stores is easier than ever
         </h1>
         <p class="body-1 colorTextSecondary">
           With previous and favorite stores surfaced and sorted based off user behavior, finding your store to start an order is a breeze.
@@ -107,22 +107,6 @@
     <section>
       <img class="width-100 block" src="/hidden/img/3-stores/intro-3.jpg" alt="3 screens from stores">
     </section>
-
-
-    <!-- - - - - - - - - - - - - - - - - - - -->
-    <!-- - - - - - - - - - - - - - - - - - - -->
-    <!-- - - - - - - - Slider - - - - - -  - -->
-    <!-- - - - - - - - - - - - - - - - - - - -->
-    <!-- - - - - - - - - - - - - - - - - - - -->
-
-  <div class="colorBlack10 py16">
-    <div class="my-slider full-width">
-      <img src="/hidden/img/2-web-app/stores-sketch-layout.jpg" alt="a delicious iced macchiatto">
-      <img src="/hidden/img/2-web-app/gift-sketch-layout.jpg" alt="a delicious iced macchiatto">
-      <img src="/hidden/img/2-web-app/review-order-sketch-layout.jpg" alt="a delicious iced macchiatto">
-      <img src="/hidden/img/2-web-app/confirm-store-sketch-layout.jpg" alt="a delicious iced macchiatto">
-    </div>
-  </div>
 
 
   <!-- - - - - - - - 3-Up - - - - - - -  - -->

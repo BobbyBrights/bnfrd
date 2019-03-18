@@ -10,7 +10,7 @@
     <div class="tile-1 sm-c6 md-c4 md-offset-2">
       <figure class="relative"><a href="#">
 				<h3 class="caption colorTextWhitePrimary absolute rotate-90">Product Design</h3>
-        <img class="tiles" src="/img/home/tile-1.png" alt="a delicious iced macchiatto"></a>
+        <img class="tiles" src="/hidden/img/0-home/tile-search.jpg" alt="a delicious iced macchiatto"></a>
       </figure>
       <article class="relative">
         <h2 class="home-heading-1">
@@ -20,7 +20,7 @@
     </div>
     <div class="tile-2 sm-c6 sm-mt15 md-c3 md-offset-1">
       <figure><a href="starbucks-web-app.php">
-        <img class="tiles" src="/img/home/tile-2.png" alt="a delicious iced macchiatto"></a>
+        <img class="tiles" src="/hidden/img/0-home/tile-web-app.jpg" alt="a delicious iced macchiatto"></a>
       </figure>
       <article class="relative">
         <h2 class="home-heading-1">
@@ -32,8 +32,8 @@
 
   <section class="home-row">
     <div class="tile-3 sm-c7 md-c4">
-      <figure><a href="starbucks-stores.php">
-        <img class="tiles" src="/img/home/tile-3.png" alt="a delicious iced macchiatto"></a>
+      <figure><a href="new-stores.php">
+        <img class="tiles" src="/hidden/img/0-home/tile-stores.jpg" alt="a delicious iced macchiatto"></a>
       </figure>
       <article class="relative">
         <h2 class="home-heading-1">
@@ -43,23 +43,38 @@
     </div>
   </section>
 
-  <section class="home-row">
-    <div class="tile-4 sm-c7 sm-offset-4 sm-mt3 md-c6 md-offset-5">
-      <figure><a href="starbucks-design-system.php">
-        <img class="tiles" src="/img/home/tile-4.png" alt="a delicious iced macchiatto"></a>
+	<section class="home-row">
+    <div class="sm-c7 md-c4 md-offset-5 md-mt-neg16">
+      <figure><a href="new-stores.php">
+        <img class="tiles" src="/hidden/img/0-home/tile-gift.jpg" alt="a delicious iced macchiatto"></a>
       </figure>
       <article class="relative">
         <h2 class="home-heading-1">
-          Starbucks<br> Design<br> System <span class="body-2 absolute">2015</span>
+          Gift <span class="body-2 absolute">2017</span>
         </h2>
       </article>
     </div>
   </section>
 
-	<section class="home-row bottom">
-    <div class="tile-5 sm-c5 md-c4 md-offset-1">
+  <section class="home-row">
+    <div class="sm-c7 sm-offset-3 sm-mt3 md-c5 md-offset-3 md-mt12">
+			<a href="starbucks-design-system.php">
+      <figure>
+        <img class="tiles" src="/img/home/tile-4.png" alt="a delicious iced macchiatto">
+      </figure>
+			</a>
+      <article class="relative">
+        <h2 class="home-heading-1">
+          Starbucks Design System <span class="body-2 absolute">2015</span>
+        </h2>
+      </article>
+    </div>
+  </section>
+
+	<section class="home-row bottom md-mt12">
+    <div class="sm-c5 md-c4 md-offset-1">
       <figure><a href="#">
-        <img class="tiles" src="/img/home/tile-5.png" alt="a delicious iced macchiatto"></a>
+        <img class="tiles" src="/hidden/img/0-home/tile-lol.jpg" alt="a delicious iced macchiatto"></a>
       </figure>
       <article class="relative">
         <h2 class="home-heading-1">
@@ -67,7 +82,7 @@
         </h2>
       </article>
     </div>
-		<div class="tile-6 sm-c5 md-c4 md-offset-1">
+		<div class="sm-c5 md-c4 md-offset-1 md-mt16 md-pt10">
       <figure><a href="#">
         <img class="tiles" src="/img/home/tile-6.png" alt="a delicious iced macchiatto"></a>
       </figure>
