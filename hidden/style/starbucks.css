@@ -228,6 +228,21 @@ Text Colors
     transform: rotate(90deg);
 }
 
+.tile img {
+  -moz-transition: all ease 1s;
+  -webkit-transition: all ease 1s;
+  transition: all ease 1s;
+}
+
+.tile:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -moz-transition: all ease 7s;
+  -webkit-transition: all ease 7s;
+  transition: all ease 7s;
+}
+
 /* --breakpointSm */
 @media only screen and (min-width: 480px) {
 
