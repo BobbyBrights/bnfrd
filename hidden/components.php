@@ -5,7 +5,7 @@
 <?php include 'nav.php';?>
 
 
-<section class="special-gray relative">
+<!-- <section class="special-gray relative">
   <img class="width-100" src="/hidden/img/2-web-app/web-app-hero.jpg" alt="a delicious iced macchiatto">
   <article class="absolute offset-6 sm-c12 md-c4 mt4 mt-neg35p align-self-center">
     <h3 class="caption colorPink pb3 md-pb4">
@@ -18,7 +18,7 @@
       Redesigning the Starbucks website to provide customers with a modern digital brand experience.
     </p>
   </article>
-</section>
+</section> -->
 
 <!-- - - - - - - - - - - - - - - - - - - -->
 <!-- - - - - - - - - - - - - - - - - - - -->
