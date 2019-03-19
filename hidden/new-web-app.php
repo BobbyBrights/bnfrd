@@ -101,14 +101,14 @@
     <!-- - - - - - - - - - - - - - - - - - - -->
     <!-- - - - - - - - - - - - - - - - - - - -->
 
-  <!-- <div class="colorBlack10 py16">
+  <div class="colorBlack10 py16">
     <div class="my-slider full-width">
       <img src="/hidden/img/2-web-app/stores-sketch-layout.jpg" alt="a delicious iced macchiatto">
       <img src="/hidden/img/2-web-app/gift-sketch-layout.jpg" alt="a delicious iced macchiatto">
       <img src="/hidden/img/2-web-app/review-order-sketch-layout.jpg" alt="a delicious iced macchiatto">
       <img src="/hidden/img/2-web-app/confirm-store-sketch-layout.jpg" alt="a delicious iced macchiatto">
     </div>
-  </div> -->
+  </div>
 
   <section>
     <img class="width-100" src="/hidden/img/3-stores/intro-3.jpg" alt="3 screens from stores">
