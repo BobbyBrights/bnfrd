@@ -16,6 +16,10 @@ body {
 	overflow-x: hidden;
 }
 
+html {
+  overflow-x:hidden;
+}
+
 ul {
   list-style: none;
 }
@@ -40,11 +44,11 @@ nav {
   overflow-x: hidden;
 } */
 
-.wrapper {
+/* .wrapper {
   overflow-x:hidden;
   width:100%;
   height:100%;
-}
+} */
 /* ----------------------------------------
 Variables
 ---------------------------------------- */
