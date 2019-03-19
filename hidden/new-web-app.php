@@ -4,7 +4,6 @@
 <body>
 <?php include 'nav.php';?>
 
-<div class="wrapper">
 <section class="special-gray relative">
   <img class="width-150 md-width-90" src="/hidden/img/2-web-app/web-app-hero.jpg" alt="a delicious iced macchiatto">
   <article class="pb9 sm-mx4 sm-padding sm-c12 md-c4 mt4 md-mt-neg32p md-absolute md-offset-6 align-self-center">
@@ -113,7 +112,6 @@
   <section>
     <img class="width-100" src="/hidden/img/3-stores/intro-3.jpg" alt="3 screens from stores">
   </section>
-</div>
 
 <?php include 'javascript.php';?>
 </body>
