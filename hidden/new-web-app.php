@@ -4,7 +4,7 @@
 <body>
 <?php include 'nav.php';?>
 
-<section class="special-gray relative">
+<section class="special-gray relative overflow-hidden">
   <img class="width-150 md-width-90" src="/hidden/img/2-web-app/web-app-hero.jpg" alt="a delicious iced macchiatto">
   <article class="pb9 sm-mx4 sm-padding sm-c12 md-c4 mt4 md-mt-neg32p md-absolute md-offset-6 align-self-center">
     <h3 class="caption colorPink pb3 md-pb4">
