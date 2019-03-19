@@ -15,12 +15,13 @@ body {
   color: rgba(0,0,0,.87);
 	overflow-x: hidden;
   overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
-html {
+/* html {
   overflow-x:hidden;
   overflow-y: scroll;
-}
+} */
 
 ul {
   list-style: none;
