@@ -20,9 +20,9 @@ ul {
   list-style: none;
 }
 
-figure {
+/* figure {
 	overflow: hidden;
-}
+} */
 
 nav {
 	width:100%;
@@ -199,25 +199,17 @@ Text Colors
 -------------------------------------------
 ---------------------------------------- */
 
-.tiles {
-	width:100%;
-}
-
-.home-row:nth-of-type(1) {
-	margin-top:72px;
+.tile {
+	margin-bottom: 24px;
 }
 
 .home-row figure {
 	margin-bottom:-24px;
 }
 
-.tile-1 h3 {
+.tile.search h3 {
 	left: -32px!important;
 	top: 68px!important;
-}
-
-.tile-1, .tile-2, .tile-3, .tile-4, .tile-5, .tile-6, .tile-7 {
-	margin-bottom: 24px;
 }
 
 .rotate-90 {
@@ -246,16 +238,20 @@ Text Colors
 /* --breakpointSm */
 @media only screen and (min-width: 480px) {
 
-	figure {
+  .tile {
+  	margin-bottom: 32px;
+  }
+
+  /* .home-row:nth-of-type(1) {
+    margin-top:104px;
+  } */
+
+	/* figure {
 		overflow: visible;
 	}
 
-  .tile-1, .tile-2, .tile-3, .tile-4, .tile-5, .tile-6, .tile-7 {
+  .tile {
   	margin-bottom: 0px;
-  }
-
-  .home-row:nth-of-type(1) {
-  	margin-top:104px;
   }
 
   .tile-3, .tile-5 {
@@ -268,7 +264,7 @@ Text Colors
 
   .tile-1 {
     width:100%;
-  }
+  } */
 
 }
 
@@ -276,7 +272,7 @@ Text Colors
 /* --breakpointMd */
 @media only screen and (min-width: 950px) {
 
-  .home-row:nth-of-type(1) {
+  /* .home-row:nth-of-type(1) {
     margin-top:128px;
   }
 
@@ -295,7 +291,7 @@ Text Colors
 
   .tile-3 > article {
     margin-left: 56px;
-  }
+  } */
 
 }
 
@@ -375,7 +371,7 @@ Text Colors
   }
 
   .salad-section {
-    margin-top:-20%;
+    margin-top:-16%;
   }
 
 }
@@ -489,6 +485,11 @@ Text Colors
   .web-app-img-2 {
     left: 3.2rem;
     width: 100%;
+  }
+
+  .sm-padding {
+    padding-left: 6vw;
+    padding-right: 6vw;
   }
 
 }
