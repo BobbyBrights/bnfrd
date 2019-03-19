@@ -76,6 +76,11 @@ Variables
   max-width:1268px;
 }
 
+.row:before,
+.row:after {
+  content: normal; // IE doesn't support `initial`
+}
+
 .column {
   flex-direction: column;
 }
