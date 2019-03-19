@@ -14,10 +14,12 @@ body {
 	font-family: GT-Walsheim;
   color: rgba(0,0,0,.87);
 	overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 html {
   overflow-x:hidden;
+  overflow-y: scroll;
 }
 
 ul {
