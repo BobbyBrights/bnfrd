@@ -4,21 +4,24 @@
 <body>
 <?php include 'nav.php';?>
 
+<!-- Project Hero Start -->
+	<section class="row salad-section py7 colorWhite">
+    <figure class="md-c7 md-last overflow-visible">
+      <img class="stores-hero" src="/portfolio/img/2-web-app/phone-and-food-2.png" alt="a delicious iced macchiatto">
+    </figure>
+    <article class="sm-c12 md-c5 mt4 md-mt16 md-pt16 align-self-center">
+      <h3 class="caption colorPeriwinkle pb3 md-pb4">
+        starbucks stores
+      </h3>
+      <h1 class="heading-1 colorTextPrimary pb2 md-pb4">
+        Connecting customers to stores on the go
+      </h1>
+      <p class="body-1 colorTextSecondary">
+        Redesigning the Starbucks Stores feature to make it easier for cutomers to find Starbucks that fit their needs.
+      </p>
+    </article>
+  </section>
 
-<section class="special-gray relative overflow-hidden">
-  <img class="width-100" src="/hidden/img/2-web-app/web-app-hero.jpg" alt="a delicious iced macchiatto">
-  <article class="absolute offset-6 sm-c12 md-c4 mt4 mt-neg35p align-self-center">
-    <h3 class="caption colorPink pb3 md-pb4">
-      starbucks web app
-    </h3>
-    <h1 class="heading-1 colorTextPrimary pb2 md-pb4">
-      Redesigning Starbucks.com
-    </h1>
-    <p class="body-1 colorTextSecondary">
-      Redesigning the Starbucks website to provide customers with a modern digital brand experience.
-    </p>
-  </article>
-</section>
 
 <!-- - - - - - - - - - - - - - - - - - - -->
 <!-- - - - - - - - - - - - - - - - - - - -->
@@ -65,31 +68,31 @@
   <!-- - - - - - - - - - - - - - - - - - - -->
 
   <section>
-    <img class="width-100" src="/hidden/img/2-web-app/photo-roastery.jpg" alt="customers in the roastery">
+    <img class="width-100" src="/portfolio/img/2-web-app/photo-roastery.jpg" alt="customers in the roastery">
   </section>
 
 
 
   <!-- - - - - - - - - - - - - - - - - - - -->
   <!-- - - - - - - - - - - - - - - - - - - -->
-  <!-- - - - - - Side By Side - - - - -  - -->
+  <!-- - - - Side By Side (hand Phone)   - -->
   <!-- - - - - - - - - - - - - - - - - - - -->
   <!-- - - - - - - - - - - - - - - - - - - -->
 
 
-  	<section class="row py12 colorWhite">
-      <figure class="sm-c12 md-c8 md-py5 md-last">
-        <img class="web-app-hero" src="/img/web-app/web-app-hero.png" alt="a delicious iced macchiatto">
+  	<section class="row pt12 colorWhite">
+      <figure class="sm-c12 md-c7">
+        <img class="width-80" src="/portfolio/img/3-stores/iPhone-in-hand.jpg" alt="a delicious iced macchiatto">
       </figure>
-      <article class="sm-c12 md-c4 mt4 lg-mt0 align-self-center">
+      <article class="sm-c12 md-c5 mt4 lg-mt0 align-self-center">
         <h3 class="caption colorPink pb3 md-pb4">
-          starbucks web app
+          Previous & Favorites
         </h3>
         <h1 class="heading-1 colorTextPrimary pb2 md-pb4">
-          Same Starbucks experience everywhere
+          Ordering from your favorite stores is easier than ever
         </h1>
         <p class="body-1 colorTextSecondary">
-          Redesigning the Starbucks website to provide customers with a modern digital brand experience.
+          With previous and favorite stores surfaced and sorted based off user behavior, finding your store to start an order is a breeze.
         </p>
       </article>
     </section>
@@ -97,23 +100,33 @@
 
     <!-- - - - - - - - - - - - - - - - - - - -->
     <!-- - - - - - - - - - - - - - - - - - - -->
-    <!-- - - - - - - - Slider - - - - - -  - -->
+    <!-- - - - - - - - 3-Up - - - - - - -  - -->
     <!-- - - - - - - - - - - - - - - - - - - -->
     <!-- - - - - - - - - - - - - - - - - - - -->
 
-  <div class="colorBlack10 py16">
-    <div class="my-slider full-width">
-      <img src="/hidden/img/2-web-app/stores-sketch-layout.jpg" alt="a delicious iced macchiatto">
-      <img src="/hidden/img/2-web-app/gift-sketch-layout.jpg" alt="a delicious iced macchiatto">
-      <img src="/hidden/img/2-web-app/review-order-sketch-layout.jpg" alt="a delicious iced macchiatto">
-      <img src="/hidden/img/2-web-app/confirm-store-sketch-layout.jpg" alt="a delicious iced macchiatto">
-    </div>
-  </div>
+    <section>
+      <img class="width-100 block" src="/portfolio/img/3-stores/intro-3.jpg" alt="3 screens from stores">
+    </section>
 
+
+  <!-- - - - - - - - 3-Up - - - - - - -  - -->
   <section>
-    <img class="width-100" src="/hidden/img/3-stores/intro-3.jpg" alt="3 screens from stores">
+    <img class="width-100 block" src="/portfolio/img/3-stores/intro-3.jpg" alt="3 screens from stores">
+  </section>
+
+
+
+  <!-- - - - - - - - 3-Up - - - - - - -  - -->
+  <section>
+    <img class="width-100 block" src="/portfolio/img/3-stores/filters-3.jpg" alt="3 screens from stores">
+  </section>
+
+  <!-- - - - - - - - 3-Up - - - - - - -  - -->
+  <section>
+    <img class="width-100 block" src="/portfolio/img/3-stores/search-3.png" alt="3 screens from stores">
   </section>
 
 <?php include 'javascript.php';?>
+<?php include 'footer.php';?>
 </body>
 </html>

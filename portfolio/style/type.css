@@ -133,6 +133,13 @@ body {
 Type Styles
 ---------------------------------------- */
 
+.big-heading {
+  font-family:Cooper-BT;
+  font-size: 50px;
+  font-weight: 200;
+	line-height: 1.1;
+}
+
 .heading-1, .home-heading-1 {
 	font-family:Cooper-BT;
   font-size: 40px;
@@ -179,10 +186,15 @@ Type Styles
   	font-size: calc(29px + (47 - 29) * ((100vw - 480px) / (1280 - 480)));
 	}
 
+
 }
 
 /* --breakpointMd */
 @media only screen and (min-width: 950px) {
+
+  .big-heading {
+    font-size: calc(50px + (56 - 50) * ((100vw - 950px) / (1280 - 950)));
+  }
 
   .body-1 {
   font-size: calc(16px + (17 - 16) * ((100vw - 950px) / (1280 - 950)));
