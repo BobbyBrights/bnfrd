@@ -5,8 +5,8 @@
 <?php include 'nav.php';?>
 
 <section class="special-gray relative overflow-hidden">
-  <img class="width-150 md-width-90" src="/hidden/img/2-web-app/web-app-hero.jpg" alt="a delicious iced macchiatto">
-  <article class="pb9 sm-mx4 sm-padding sm-c12 md-c4 mt4 md-mt-neg32p md-absolute md-offset-6 align-self-center">
+  <img class="width-150 md-width-90 md-l6 relative" src="/hidden/img/2-web-app/web-app-hero.jpg" alt="a delicious iced macchiatto">
+  <article class="pb6 sm-pb9 sm-mx4 sm-padding sm-c12 md-c4 mt4 md-mt-neg31p md-absolute md-offset-6 align-self-center">
     <h3 class="caption colorPink pb3 md-pb4">
       starbucks web app
     </h3>
@@ -26,10 +26,10 @@
 <!-- - - - - - - - - - - - - - - - - - - -->
 
   <section>
-    <article class="row justify-content-center colorGrayNatural py8 sm-py12">
+    <article class="row justify-content-center colorGrayNatural py8 md-py12">
       <div class="sm-mt4 md-mt0 md-c4 lg-c3">
         <div class="box inline-block mr5 md-block pb3">
-          <h4 class="caption md-pb2 colorTextPrimary">
+          <h4 class="caption pb1 md-pb2 colorTextPrimary">
             Role
           </h4>
           <p class="body-1 md-pb5 colorTextSecondary">
@@ -37,7 +37,7 @@
           </p>
         </div>
         <div class="box sm-ml4 md-ml0 pb4 inline-block md-block">
-          <h4 class="caption md-pb2 colorTextPrimary">
+          <h4 class="caption pb1 md-pb2 colorTextPrimary">
             Year
           </h4>
           <p class="body-1 colorTextSecondary">
@@ -45,7 +45,7 @@
           </p>
         </div>
       </div>
-      <p class="sm-first body-1 md-c8 colorTextSecondary">
+      <p class="first body-1 md-c8 colorTextSecondary">
         Starbucks stores was the first feature we tackled after finishing the Starbucks Digital Design System.
         The existing feature got very low traffic in the app (x% of visits).
         With a clunky and confusing user experience, lack of suggestions/type ahead in search, no integration with ordering,
@@ -100,7 +100,7 @@
     <!-- - - - - - - - - - - - - - - - - - - -->
     <!-- - - - - - - - - - - - - - - - - - - -->
 
-  <div class="colorBlack10 py16">
+  <div class="colorBlack10 py8 px4 sm-py16">
     <div class="my-slider full-width">
       <img src="/hidden/img/2-web-app/stores-sketch-layout.jpg" alt="a delicious iced macchiatto">
       <img src="/hidden/img/2-web-app/gift-sketch-layout.jpg" alt="a delicious iced macchiatto">
@@ -109,13 +109,10 @@
     </div>
   </div>
 
-  <section>
-    <img class="width-100" src="/hidden/img/3-stores/intro-3.jpg" alt="3 screens from stores">
-  </section>
-
-  <section>
-    <img class="width-100 absolute" src="/hidden/img/3-stores/intro-3.jpg" alt="3 screens from stores">
-    <img class="width-20 z-3" src="/hidden/img/2-web-app/drink-above.png">
+  <section class="relative">
+    <img class="width-100 relative" src="/hidden/img/2-web-app/review-set.jpg" alt="3 screens from stores">
+    <img class="width-20 absolute z-3 t0 ml-neg8p" src="/hidden/img/2-web-app/drink-above.png">
+    <img class="width-20 absolute z-3 r0 mr-neg10p mt-neg18p" src="/hidden/img/2-web-app/drink-above-2.png">
   </section>
 
 

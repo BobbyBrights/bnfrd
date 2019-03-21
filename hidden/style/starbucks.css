@@ -218,10 +218,10 @@ Text Colors
 	margin-bottom:-24px;
 }
 
-.tile.search h3 {
+/* .tile.search h3 {
 	left: -32px!important;
 	top: 68px!important;
-}
+} */
 
 .rotate-90 {
 	-webkit-transform: rotate(90deg);
@@ -244,6 +244,10 @@ Text Colors
   -moz-transition: all ease 7s;
   -webkit-transition: all ease 7s;
   transition: all ease 7s;
+}
+
+.coming-soon:hover {
+  cursor: url('fingers-crossed.svg'), auto;
 }
 
 /* --breakpointSm */
