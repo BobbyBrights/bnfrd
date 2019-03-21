@@ -14,7 +14,7 @@
       Redesigning Starbucks.com
     </h1>
     <p class="body-1 colorTextSecondary">
-      Redesigning the Starbucks website to provide customers with a modern digital brand experience.
+      Web Design / UX / UI
     </p>
   </article>
 </section>
@@ -112,6 +112,12 @@
   <section>
     <img class="width-100" src="/hidden/img/3-stores/intro-3.jpg" alt="3 screens from stores">
   </section>
+
+  <section>
+    <img class="width-100 absolute" src="/hidden/img/3-stores/intro-3.jpg" alt="3 screens from stores">
+    <img class="width-20 z-3" src="/hidden/img/2-web-app/drink-above.png">
+  </section>
+
 
 <?php include 'javascript.php';?>
 </body>
