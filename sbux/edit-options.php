@@ -257,7 +257,7 @@
               </div>
             </div>
           </div>
-          <!-- <div class="product-card px3 pt3 pb4 sm-p5 md-p4 md-mt3 md-pr13">
+          <div class="product-card px3 pt3 pb4 sm-p5 md-p4 md-mt3 md-pr13">
             <div class="title row nowrap c12 middle">
               <div class="product-img pods circle-div">
               </div>
@@ -281,6 +281,7 @@
                 <div class="icon-button heart"></div>
                 <div class="icon-button add"></div>
                 <div class="icon-button minus"></div>
+                <div class="icon-button edit"></div>
               </div>
               <div class="pl3 row nowrap reward-message hide" id="400-reward-message">
                 <p class="colorTextGreen button-text">It’s on us! 400 Star Reward applied</p>
@@ -290,7 +291,7 @@
                 <p class="colorTextGreen button-text">It’s on us! Birthday Reward applied</p>
               </div>
             </div>
-          </div> -->
+          </div>
           <div class="product-card mt2 md-my3 md-p0">
             <div class="row c12 border-bottom-none md-border-bottom px3 sm-px5 sm-mt2 md-px4 md-pb2">
               <div class="subhead-2 vcenter">Reward options</div>
