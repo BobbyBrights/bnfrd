@@ -17,7 +17,7 @@
       </h2>
 		</div>
 		<div class="tile web-app tile-2 sm-c6 sm-mt15 md-c3 md-offset-1">
-      <figure class="overflow-hidden relative"><a href="new-web-app.php">
+      <figure class="overflow-hidden relative"><a href="new-web-app">
         <img class="width-100" src="/portfolio/img/0-home/tile-web-app.jpg" alt="a delicious iced macchiatto">
       </figure>
       <h2 class="home-heading-1 relative">
@@ -28,7 +28,7 @@
 
   <section class="home-row">
 		<div class="tile stores tile-3 sm-c7 md-c4">
-      <figure class="overflow-hidden relative"><a href="new-stores.php">
+      <figure class="overflow-hidden relative"><a href="new-stores">
         <img class="width-100" src="/portfolio/img/0-home/tile-stores.jpg" alt="a delicious iced macchiatto">
       </figure>
       <h2 class="home-heading-1 relative">
