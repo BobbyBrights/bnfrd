@@ -7,7 +7,7 @@
 <!-- Project Hero Start -->
 	<section class="row salad-section py7 colorWhite">
     <figure class="md-c7 md-last overflow-visible">
-      <img class="stores-hero" src="/portfolio/img/2-web-app/phone-and-food-2.png" alt="a delicious iced macchiatto">
+      <img class="stores-hero" src="/portfolio/img/1-stores/phone-and-food-2.png" alt="a delicious iced macchiatto">
     </figure>
     <article class="sm-c12 md-c5 mt4 md-mt16 md-pt16 align-self-center">
       <h3 class="caption colorPeriwinkle pb3 md-pb4">
@@ -68,7 +68,7 @@
   <!-- - - - - - - - - - - - - - - - - - - -->
 
   <section>
-    <img class="width-100" src="/portfolio/img/2-web-app/photo-roastery.jpg" alt="customers in the roastery">
+    <img class="width-100" src="/portfolio/img/1-stores/photo-paris.jpg" alt="customers in the roastery">
   </section>
 
 
