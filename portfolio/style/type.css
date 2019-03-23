@@ -135,14 +135,21 @@ Type Styles
 
 .big-heading {
   font-family:Cooper-BT;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 200;
 	line-height: 1.1;
 }
 
 .heading-1, .home-heading-1 {
 	font-family:Cooper-BT;
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: 200;
+	line-height: 1.1;
+}
+
+.home-heading-1 {
+	font-family:Cooper-BT;
+  font-size: 35px;
   font-weight: 200;
 	line-height: 1.1;
 }
