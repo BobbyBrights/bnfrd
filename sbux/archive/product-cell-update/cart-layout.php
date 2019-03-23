@@ -3,7 +3,7 @@
       <div class="title-row c12">
         <div class="product-img">
         </div>
-        <div class="row product-title  c12 nowrap vcenter">
+        <div class="row product-title  c12 no-wrap vcenter">
           <h1 class="sb-heading sb-heading--small">Latte Macchiato</h1>
           <div class="total-price" id="total-price-150-original">$4.25
           </div>
@@ -52,7 +52,7 @@
       <div class="title-row c12">
         <div class="product-img2">
         </div>
-        <div class="row product-title  c12 nowrap vcenter">
+        <div class="row product-title  c12 no-wrap vcenter">
           <h1 class="sb-heading sb-heading--small">
             Double-Smoked Bacon, Cheddar & Egg Sandwich
           </h1>
@@ -93,7 +93,7 @@
       <div class="title-row c12">
         <div class="product-img3">
         </div>
-        <div class="row product-title  c12 nowrap vcenter">
+        <div class="row product-title  c12 no-wrap vcenter">
           <h1 class="sb-heading sb-heading--small">
             Blonde Roast
           </h1>
@@ -131,7 +131,7 @@
       <div class="title-row c12">
         <div class="product-img4">
         </div>
-        <div class="row product-title c12 nowrap vcenter">
+        <div class="row product-title c12 no-wrap vcenter">
           <h1 class="sb-heading sb-heading--small">
             Chai Créme Frappuccino®
           </h1>

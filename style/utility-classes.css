@@ -145,7 +145,7 @@ Grid
     flex-direction: row;
   }
 
-  .nowrap {
+  .no-wrap {
   	flex-wrap: nowrap;
   }
 

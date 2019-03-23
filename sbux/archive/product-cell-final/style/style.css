@@ -501,8 +501,8 @@ Typography
 .whiteSpace-normal {
   white-space: normal !important;
 }
-.whiteSpace-noWrap {
-  white-space: nowrap !important;
+.whiteSpace-no-wrap {
+  white-space: no-wrap !important;
 }
 .whiteSpace-truncate {
   white-space: nowrap;
@@ -607,7 +607,7 @@ Flexbox
   justify-content: space-between;
 }
 
-.nowrap {
+.no-wrap {
 	flex-wrap: nowrap;
 }
 
@@ -637,7 +637,7 @@ Flexbox
 	align-self: flex-end;
 }
 
-.nowrap {
+.no-wrap {
 	flex-flow: nowrap;
 }
 

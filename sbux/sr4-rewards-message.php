@@ -17,10 +17,10 @@
 			<div class="sb-contentCrateContainer">
         <div class="wide-row">
           <div class="product-card px3 pt3 pb4 sm-p5 md-p4 md-mt3 md-pr13">
-            <div class="title row nowrap c12 middle">
+            <div class="title row no-wrap c12 middle">
               <div class="product-img latte-macchiato circle-div">
               </div>
-              <div class="row c12 middle nowrap">
+              <div class="row c12 middle no-wrap">
                 <h2 class="title-2 pl4">
                   Latte Macchiato
                 </h2>
@@ -50,21 +50,21 @@
                 <div class="icon-button add"></div>
                 <div class="icon-button minus"></div>
               </div>
-              <div class="pl3 row nowrap reward-message hide" id="25-reward-message">
+              <div class="pl3 row no-wrap reward-message hide" id="25-reward-message">
                 <p class="colorTextGreen button-text">25 Star Reward applied toward your drink customizations</p>
                 <p class="button-text colorTextBlack ml-auto pl3">-25<span class="colorTextGold">☆</p>
               </div>
-              <div class="pl3 row nowrap reward-message hide" id="150-reward-message">
+              <div class="pl3 row no-wrap reward-message hide" id="150-reward-message">
                 <p class="colorTextGreen button-text">It’s on us! 150 Star Reward applied</p>
                 <p class="button-text colorTextBlack ml-auto pl3">-150<span class="colorTextGold">☆</p>
               </div>
             </div>
           </div>
           <div class="product-card px3 pt3 pb4 sm-p5 md-p4 md-mt3 md-pr13">
-            <div class="title row nowrap c12 middle">
+            <div class="title row no-wrap c12 middle">
               <div class="product-img grilled-chicken-salad circle-div">
               </div>
-              <div class="row c12 middle nowrap">
+              <div class="row c12 middle no-wrap">
                 <h2 class="title-2 pl4">
                   Grilled Chicken & Cauliflower Tabbouleh
                 </h2>
@@ -85,17 +85,17 @@
                 <div class="icon-button add"></div>
                 <div class="icon-button minus"></div>
               </div>
-              <div class="pl3 row nowrap reward-message hide" id="200-reward-message">
+              <div class="pl3 row no-wrap reward-message hide" id="200-reward-message">
                 <p class="colorTextGreen button-text">It’s on us! 200 Star Reward applied</p>
                 <p class="button-text colorTextBlack ml-auto pl3">-200<span class="colorTextGold">☆</p>
               </div>
             </div>
           </div>
           <div class="product-card px3 pt3 pb4 sm-p5 md-p4 md-mt3 md-pr13">
-            <div class="title row nowrap c12 middle">
+            <div class="title row no-wrap c12 middle">
               <div class="product-img blonde-roast circle-div">
               </div>
-              <div class="row c12 middle nowrap">
+              <div class="row c12 middle no-wrap">
                 <h2 class="title-2 pl4">
                   Blonde Roast
                 </h2>
@@ -116,17 +116,17 @@
                 <div class="icon-button add"></div>
                 <div class="icon-button minus"></div>
               </div>
-              <div class="pl3 row nowrap reward-message hide" id="50-reward-message">
+              <div class="pl3 row no-wrap reward-message hide" id="50-reward-message">
                 <p class="colorTextGreen button-text">It’s on us! 50 Star Reward applied</p>
                 <p class="button-text colorTextBlack ml-auto pl3">-50<span class="colorTextGold">☆</p>
               </div>
             </div>
           </div>
           <div class="product-card px3 pt3 pb4 sm-p5 md-p4 md-mt3 md-pr13">
-            <div class="title row nowrap c12 middle">
+            <div class="title row no-wrap c12 middle">
               <div class="product-img pods circle-div">
               </div>
-              <div class="row c12 middle nowrap">
+              <div class="row c12 middle no-wrap">
                 <h2 class="title-2 pl4">
                   Espresso Roast Verismo® Pods
                 </h2>
@@ -147,11 +147,11 @@
                 <div class="icon-button add"></div>
                 <div class="icon-button minus"></div>
               </div>
-              <div class="pl3 row nowrap reward-message hide" id="400-reward-message">
+              <div class="pl3 row no-wrap reward-message hide" id="400-reward-message">
                 <p class="colorTextGreen button-text">It’s on us! 400 Star Reward applied</p>
                 <p class="button-text colorTextBlack ml-auto pl3">-400<span class="colorTextGold">☆</p>
               </div>
-              <div class="pl3 row nowrap reward-message hide" id="birthday-reward-message">
+              <div class="pl3 row no-wrap reward-message hide" id="birthday-reward-message">
                 <p class="colorTextGreen button-text">It’s on us! Birthday Reward applied</p>
               </div>
             </div>
@@ -282,7 +282,7 @@
   </div>
 
   <div class="top-sheet fixed">
-    <div class="row colorWhite nowrap middle between fixed p2 m1 l0 r0 z-1 lg-l-40p lg-m0 lg-p4 lg-m1">
+    <div class="row colorWhite no-wrap middle between fixed p2 m1 l0 r0 z-1 lg-l-40p lg-m0 lg-p4 lg-m1">
       <div class="icon-button close dismiss-top-sheet first sm-last z-1"></div>
       <div class="subhead-2 centered-text vcenter ml6 sm-ml0 sm-mr6">Rewards & offers</div>
       <div class="pl2 row middle last sm-first">
@@ -328,7 +328,7 @@
           </div>
         </div>
       </div>
-      <div class="colorCeramic p3 border-radius-6 mx3 md-mx0 mt2 row nowrap top">
+      <div class="colorCeramic p3 border-radius-6 mx3 md-mx0 mt2 row no-wrap top">
         <div class="colorBlackWarmer p4 pl5 pt5"></div>
         <div class="ml3">
           <div class="subhead-2">Birthday Reward</div>

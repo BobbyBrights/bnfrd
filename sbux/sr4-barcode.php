@@ -64,7 +64,7 @@
   </div>
 
   <div class="top-sheet">
-    <div class="row colorWhite nowrap middle between fixed p2 m1 l0 r0 z-1 lg-l-40p lg-m0 lg-p4 lg-m1">
+    <div class="row colorWhite no-wrap middle between fixed p2 m1 l0 r0 z-1 lg-l-40p lg-m0 lg-p4 lg-m1">
       <div class="icon-button close dismiss-top-sheet first sm-last z-1"></div>
       <div class="subhead-2 centered-text vcenter ml6 sm-ml0 sm-mr6">Rewards & offers</div>
       <div class="pl2 row middle last sm-first">
@@ -110,7 +110,7 @@
           </div>
         </div>
       </div>
-      <div class="colorCeramic p3 border-radius-6 mx3 md-mx0 mt2 row nowrap top">
+      <div class="colorCeramic p3 border-radius-6 mx3 md-mx0 mt2 row no-wrap top">
         <div class="colorBlackWarmer p4 pl5 pt5"></div>
         <div class="ml3">
           <div class="subhead-2">Birthday Reward</div>

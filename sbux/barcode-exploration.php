@@ -96,14 +96,14 @@
             </div>
           </div>
         </div>
-        <div class="colorCeramic p3 border-radius-6 mx3 md-mx0 mt2 row nowrap top">
+        <div class="colorCeramic p3 border-radius-6 mx3 md-mx0 mt2 row no-wrap top">
           <div class="colorBlackWarmer p4 pl5 pt5"></div>
           <div class="ml3">
             <div class="subhead-2">Birthday Reward</div>
             <div class="body-1 mt1">Lorem ipsum dolor sit amet, omnis utinam laudem cum eu, docendi.</div>
           </div>
         </div>
-        <div class="colorCeramic p3 border-radius-6 mx3 md-mx0 mt2 row nowrap top">
+        <div class="colorCeramic p3 border-radius-6 mx3 md-mx0 mt2 row no-wrap top">
           <div class="colorBlackWarmer p4 pl5 pt5"></div>
           <div class="ml3">
             <div class="subhead-2">Offer available</div>

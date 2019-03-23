@@ -98,7 +98,7 @@ Variables
   flex-direction: row-reverse;
 }
 
-.nowrap {
+.no-wrap {
   flex-wrap: nowrap;
 }
 

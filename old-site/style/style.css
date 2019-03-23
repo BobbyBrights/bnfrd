@@ -270,7 +270,7 @@ Grid
   justify-content: space-between;
 }
 
-.nowrap {
+.no-wrap {
 	flex-wrap: nowrap;
 }
 

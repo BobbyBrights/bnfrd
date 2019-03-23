@@ -17,10 +17,10 @@
 			<div class="sb-contentCrateContainer">
         <div class="wide-row">
           <div class="product-card px3 pt3 pb4 sm-p5 md-mt3 md-pr13">
-            <div class="title row nowrap c12 middle">
+            <div class="title row no-wrap c12 middle">
               <div class="product-img latte-macchiato circle-div">
               </div>
-              <div class="row c12 middle nowrap">
+              <div class="row c12 middle no-wrap">
                 <h2 class="title-2 pl4">
                   Latte Macchiato
                 </h2>
@@ -41,20 +41,20 @@
                 <div class="icon-button add"></div>
                 <div class="icon-button minus"></div>
               </div>
-              <div class="pl3 row nowrap reward-message hide" id="125-reward-message">
+              <div class="pl3 row no-wrap reward-message hide" id="125-reward-message">
                 <p class="colorTextGreen button-text">It’s on us! 125 Star Reward applied</p>
                 <p class="button-text colorTextBlack ml-auto pl3">-125<span class="colorTextGold">☆</p>
               </div>
-              <div class="pl3 row nowrap reward-message hide" id="birthday-reward-message">
+              <div class="pl3 row no-wrap reward-message hide" id="birthday-reward-message">
                 <p class="colorTextGreen button-text">It’s on us! Birthday Reward applied</p>
               </div>
             </div>
           </div>
           <div class="product-card px3 pt3 pb4 sm-p5 md-mt3 md-pr13">
-            <div class="title row nowrap c12 middle">
+            <div class="title row no-wrap c12 middle">
               <div class="product-img double-smoked-bacon circle-div">
               </div>
-              <div class="row c12 middle nowrap">
+              <div class="row c12 middle no-wrap">
                 <h2 class="title-2 pl4">
                   Double-Smoked Bacon, Cheddar & Egg Sandwich
                 </h2>
@@ -78,10 +78,10 @@
             </div>
           </div>
           <div class="product-card px3 pt3 pb4 sm-p5 md-mt3 md-pr13">
-            <div class="title row nowrap c12 middle">
+            <div class="title row no-wrap c12 middle">
               <div class="product-img blonde-roast circle-div">
               </div>
-              <div class="row c12 middle nowrap">
+              <div class="row c12 middle no-wrap">
                 <h2 class="title-2 pl4">
                   Blonde Roast
                 </h2>
@@ -105,10 +105,10 @@
             </div>
           </div>
           <div class="product-card px3 pt3 pb4 sm-p5 md-mt3 md-pr13">
-            <div class="title row nowrap c12 middle">
+            <div class="title row no-wrap c12 middle">
               <div class="product-img chai-creme-frap circle-div">
               </div>
-              <div class="row c12 middle nowrap">
+              <div class="row c12 middle no-wrap">
                 <h2 class="title-2 pl4">
                   Chai Créme Frappuccino®
                 </h2>

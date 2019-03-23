@@ -138,7 +138,7 @@ Other stuff
   flex-direction: row;
 }
 
-.nowrap {
+.no-wrap {
   flex-wrap: nowrap;
 }
 

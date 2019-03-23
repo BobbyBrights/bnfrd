@@ -3,7 +3,7 @@
       <div class="title-row c12">
         <div class="product-img">
         </div>
-        <div class="row product-title c12 nowrap vcenter">
+        <div class="row product-title c12 no-wrap vcenter">
           <div class="sb-heading sb-heading--small">
             Latte Macchiato
           </div>
@@ -41,7 +41,7 @@
       <div class="title-row c12">
         <div class="product-img">
         </div>
-        <div class="row product-title c12 nowrap vcenter">
+        <div class="row product-title c12 no-wrap vcenter">
           <div class="sb-heading sb-heading--small">
             Latte Macchiato
           </div>
@@ -79,7 +79,7 @@
       <div class="title-row c12">
         <div class="product-img2">
         </div>
-        <div class="row product-title c12 nowrap vcenter">
+        <div class="row product-title c12 no-wrap vcenter">
           <div class="sb-heading sb-heading--small">
             Double-Smoked Bacon, Cheddar & Egg Sandwich
           </div>
@@ -115,7 +115,7 @@
       <div class="title-row c12">
         <div class="product-img3">
         </div>
-        <div class="row product-title c12 nowrap vcenter">
+        <div class="row product-title c12 no-wrap vcenter">
           <div class="sb-heading sb-heading--small">
             Espresso Roast Verismo® Pods
           </div>
@@ -149,7 +149,7 @@
       <div class="title-row c12">
         <div class="product-img4">
         </div>
-        <div class="row product-title c12 nowrap vcenter">
+        <div class="row product-title c12 no-wrap vcenter">
           <div class="sb-heading sb-heading--small">
             Chai Crème Frappuccino®
           </div>

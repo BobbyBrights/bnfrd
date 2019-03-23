@@ -146,7 +146,7 @@ Grid
   }
 
   .no-wrap {
-  	flex-wrap: no-wrap;
+  	flex-wrap: nowrap;
   }
 
   /* Alignment (Apply to Items) ///////////*/
