@@ -121,6 +121,30 @@
     <img class="width-100 block" src="/portfolio/img/3-stores/filters-3.jpg" alt="3 screens from stores">
   </section>
 
+	<!-- - - - - - - - - - - - - - - - - - - -->
+  <!-- - - - - - - - - - - - - - - - - - - -->
+  <!-- - - - - - Side By Side - - - - -  - -->
+  <!-- - - - - - - - - - - - - - - - - - - -->
+  <!-- - - - - - - - - - - - - - - - - - - -->
+
+
+  	<section class="row pt8 pb7 colorWhite">
+      <figure class="sm-c12 md-c8 md-py5 md-last">
+        <img class="width-100" src="/portfolio/img/3-stores/coffee-isometric.jpg" alt="a delicious iced macchiatto">
+      </figure>
+      <article class="sm-c12 md-c4 mt4 lg-mt0 align-self-center">
+        <h3 class="caption colorPink pb3 md-pb4">
+          search
+        </h3>
+        <h1 class="heading-1 colorTextPrimary pb2 md-pb4">
+          Using search to plan your Starbucks around your day
+        </h1>
+        <p class="body-1 colorTextSecondary">
+          With previous and favorite stores surfaced and sorted based off user behavior, finding your store to start an order is a breeze.
+        </p>
+      </article>
+    </section>
+
   <!-- - - - - - - - 3-Up - - - - - - -  - -->
   <section>
     <img class="width-100 block" src="/portfolio/img/3-stores/search-3.png" alt="3 screens from stores">

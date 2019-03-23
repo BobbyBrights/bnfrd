@@ -1,5 +1,5 @@
 <div class="colorBlack2 py8">
-  <ul class="flex">
+  <ul class="flex no-wrap">
     <li class="body-1 colorTextSecondary pl4 sm-pl5 md-c3">
         About<br><span class="colorTextPrimary pt1 inline-block">Ben is currently leading web design at Starbucks.</span>
     </li>
