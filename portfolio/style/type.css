@@ -170,7 +170,7 @@ Type Styles
 }
 
 .subhead {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 36px;
 }
@@ -198,6 +198,10 @@ Type Styles
   .home-heading-1 {
   	font-size: calc(29px + (47 - 29) * ((100vw - 480px) / (1280 - 480)));
 	}
+
+  .subhead {
+    font-size: 24px;
+  }
 
 
 }
