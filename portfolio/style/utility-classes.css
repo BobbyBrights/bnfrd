@@ -76,9 +76,18 @@ Variables
   max-width:1268px;
 }
 
+.max-width-1268 {
+	max-width: 1268px;
+}
+
 .row:before,
 .row:after {
   content: normal; // IE doesn't support `initial`
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .column {
@@ -234,6 +243,10 @@ Variables
 
 .flex {
   display: flex;
+}
+
+.circle {
+	border-radius:50000000px;
 }
 
 
@@ -1433,6 +1446,8 @@ Variables
 .width-190 {width:190%;}
 .width-200 {width:200%;}
 
+.height-100vw {height:100vh;}
+
 /* ---------------------------------------------------------------------------------------------------- */
 /* --breakpointSm */
 /* ---------------------------------------------------------------------------------------------------- */
@@ -1926,6 +1941,8 @@ Variables
 	.sm-width-190 {width:190%;}
 	.sm-width-200 {width:200%;}
 
+	.sm-height-100vw {height:100vh;}
+
 }
 
 /* ---------------------------------------------------------------------------------------------------- */
@@ -2414,6 +2431,8 @@ Variables
 	.md-width-190 {width:190%;}
 	.md-width-200 {width:200%;}
 
+	.md-height-100vw {height:100vh;}
+
 }
 
 /* ---------------------------------------------------------------------------------------------------- */
@@ -2901,4 +2920,6 @@ Variables
 	.lg-width-180 {width:180%;}
 	.lg-width-190 {width:190%;}
 	.lg-width-200 {width:200%;}
+
+	.lg-height-100vw {height:100vh;}
 }

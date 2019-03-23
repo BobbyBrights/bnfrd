@@ -162,6 +162,12 @@ Type Styles
   letter-spacing: 0.12em;
 }
 
+.subhead {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
 .body-1 {
   font-size: 16px;
   font-weight: 300;
@@ -207,6 +213,10 @@ Type Styles
   .heading-2 {
   font-size: calc(24px + (28 - 24) * ((100vw - 950px) / (1280 - 950)));
   }
+
+  /* .subhead {
+    font-size: calc(20px + (22 - 20) * ((100vw - 950px) / (1280 - 950)));
+  } */
 
 }
 
