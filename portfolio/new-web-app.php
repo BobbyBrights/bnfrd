@@ -109,10 +109,10 @@
     </div>
   </div>
 
-  <section class="relative">
+  <section class="relative overflow-hidden">
     <img class="width-100 relative" src="/portfolio/img/2-web-app/review-set.jpg" alt="3 screens from stores">
-    <img class="width-20 absolute z-3 t0 ml-neg8p" src="/portfolio/img/2-web-app/drink-above.png">
-    <img class="width-20 absolute z-3 r0 mr-neg10p mt-neg18p" src="/portfolio/img/2-web-app/drink-above-2.png">
+    <img class="width-20 absolute z-2 t0 l0 ml-neg8p" src="/portfolio/img/2-web-app/drink-above.png">
+    <img class="width-20 absolute z-2 r0 b0 mr-neg10p mt-neg18p" src="/portfolio/img/2-web-app/drink-above-2.png">
   </section>
 
 
