@@ -5,8 +5,8 @@
 <?php include 'nav.php';?>
 
 <!-- Project Hero Start -->
-	<section class="row salad-section py7 colorWhite">
-    <figure class="md-c7 md-last overflow-visible">
+	<section class="row salad-section overflow-hidden sm-overflow-visible py7 colorWhite">
+    <figure class="md-c7 md-last">
       <img class="stores-hero" src="/portfolio/img/1-stores/phone-and-food-2.png" alt="a delicious iced macchiatto">
     </figure>
     <article class="sm-c12 md-c5 mt4 md-mt16 md-pt16 align-self-center">
