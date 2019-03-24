@@ -486,6 +486,14 @@ Variables
     z-index:3
   }
 
+	.sm-overflow-hidden {
+		overflow: hidden;
+	}
+
+	.sm-overflow-visible {
+		overflow: visible;
+	}
+
 }
 
 /* ---------------------------------------------------------------------------------------------------- */
@@ -677,6 +685,14 @@ Variables
     z-index:3
   }
 
+	.md-overflow-hidden {
+		overflow: hidden;
+	}
+
+	.md-overflow-visible {
+		overflow: visible;
+	}
+
 }
 
 
@@ -858,6 +874,14 @@ Variables
   .lg-z-3 {
     z-index:3
   }
+
+	.lg-overflow-hidden {
+		overflow: hidden;
+	}
+
+	.lg-overflow-visible {
+		overflow: visible;
+	}
 
 }
 

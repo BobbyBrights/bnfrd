@@ -7,7 +7,7 @@
 <section class="special-gray relative overflow-hidden">
   <img class="width-150 md-width-90 md-l6 relative" src="/portfolio/img/2-web-app/web-app-hero.jpg" alt="a delicious iced macchiatto">
   <article class="pb6 sm-pb9 sm-mx4 sm-padding sm-c12 md-c4 mt4 md-mt-neg31p md-absolute md-offset-6 align-self-center">
-    <h3 class="caption colorPink pb3 md-pb4">
+    <h3 class="caption colorForestGreen pb3 md-pb4">
       starbucks web app
     </h3>
     <h1 class="big-heading colorTextPrimary pb2 md-pb4">
@@ -45,12 +45,12 @@
           </p>
         </div>
       </div>
-      <p class="first body-1 md-c8 colorTextSecondary">
+      <p class="md-first body-1 md-c8 colorTextSecondary">
         Starbucks stores was the first feature we tackled after finishing the Starbucks Digital Design System.
         The existing feature got very low traffic in the app (x% of visits).
         With a clunky and confusing user experience, lack of suggestions/type ahead in search, no integration with ordering,
         lack of consistency across platforms. There was a ton of work to do to improve it.
-         <br><br><a class="colorPeriwinkle" href="https://itunes.apple.com/us/app/starbucks/id331177714?mt=8" target="_blank">Download the app</a>
+         <br><br><a class="colorForestGreen" href="https://app.starbucks.com" target="_blank">Check it out</a>
       </p>
     </article>
   </section>
@@ -81,7 +81,7 @@
         <img class="web-app-hero" src="/img/web-app/web-app-hero.png" alt="a delicious iced macchiatto">
       </figure>
       <article class="sm-c12 md-c4 mt4 lg-mt0 align-self-center">
-        <h3 class="caption colorPink pb3 md-pb4">
+        <h3 class="caption colorForestGreen pb3 md-pb4">
           starbucks web app
         </h3>
         <h1 class="heading-1 colorTextPrimary pb2 md-pb4">

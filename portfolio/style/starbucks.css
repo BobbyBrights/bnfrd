@@ -64,22 +64,22 @@ a {
     text-decoration: none;
     line-height: inherit;
     color: inherit;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -ms-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
 }
 
-a:hover {color: #000000; }
-a:focus {color: #000000; outline: none; }
+a:hover {color: rgba(0,0,0,.87) }
+/* a:focus {color: #000000; outline: none; } */
 
 p { padding:0; }
 p span {color: #46aae3; }
 p a, p a:visited {line-height: inherit; }
 
 i { font-style: italic; line-height: inherit; }
-strong, b { /*font-weight: bold; line-height: inherit;*/color: rgba(0,0,0,.5);  }
+strong, b { font-weight: bold; line-height: inherit; color: rgba(0,0,0,.5);  }
 small { font-size: 70%; line-height: inherit; }
 
 
@@ -196,6 +196,8 @@ Text Colors
 .colorPurple {color: #B38AFF;}
 
 .colorPeriwinkle {color: #96B2FF;}
+
+.colorForestGreen {color: #2F8D66;}
 
 
 
