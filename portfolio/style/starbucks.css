@@ -71,7 +71,7 @@ a {
     transition: all .2s ease;
 }
 
-a:hover {color: rgba(0,0,0,.87) }
+a:hover {color: rgba(0,0,0,.8) }
 /* a:focus {color: #000000; outline: none; } */
 
 p { padding:0; }

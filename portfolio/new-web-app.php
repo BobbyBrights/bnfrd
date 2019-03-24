@@ -50,7 +50,7 @@
         The existing feature got very low traffic in the app (x% of visits).
         With a clunky and confusing user experience, lack of suggestions/type ahead in search, no integration with ordering,
         lack of consistency across platforms. There was a ton of work to do to improve it.
-         <br><br><a class="colorForestGreen" href="https://app.starbucks.com" target="_blank">Check it out</a>
+         <br><br><a class="colorForestGreen bold" href="https://app.starbucks.com" target="_blank">Check it out &nbsp;→</a>
       </p>
     </article>
   </section>
