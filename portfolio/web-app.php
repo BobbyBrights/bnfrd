@@ -62,7 +62,7 @@
   <!-- - - - - - - - - - - - - - - - - - - -->
 
 
-    <div class="colorBlack5">
+    <div class="colorBlack5 overflow-hidden sm-overflow-visible">
     	<section class="row pb8">
         <figure class="sm-c12 md-c7 md-mb7">
           <img class="width-140 r35p sm-width-120 sm-r15p relative md-r35p md-width-140  md-r50p" src="/portfolio/img/2-web-app/phones-angled.jpg" alt="a delicious iced macchiatto">
