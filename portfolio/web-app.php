@@ -126,7 +126,7 @@
     <!-- - - - - - - - - - - - - - - - - - - -->
 
 
-      <section class="row pt5 pb2 md-pt8 md-pb4 colorWhite">
+      <section class="row overflow-hidden sm-overflow-visible pt5 pb2 md-pt8 md-pb4 colorWhite">
         <figure class="sm-c12 md-c7 md-py5 md-last">
           <img class="width-150 relative l5p md-width-160 md-l16p" src="/portfolio/img/2-web-app/macbook-and-drink.jpg" alt="a delicious iced macchiatto">
         </figure>
