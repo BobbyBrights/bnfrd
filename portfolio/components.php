@@ -102,7 +102,7 @@
     <!-- - - - - - - - - - - - - - - - - - - -->
 
   <div class="colorBlack10 py16">
-    <div class="my-slider full-width">
+    <div class="contained-slider full-width">
       <img src="/portfolio/img/2-web-app/stores-sketch-layout.jpg" alt="a delicious iced macchiatto">
       <img src="/portfolio/img/2-web-app/gift-sketch-layout.jpg" alt="a delicious iced macchiatto">
       <img src="/portfolio/img/2-web-app/review-order-sketch-layout.jpg" alt="a delicious iced macchiatto">

@@ -26,7 +26,7 @@
 <!-- - - - - - - - - - - - - - - - - - - -->
 
   <section>
-    <article class="row justify-content-center colorGrayNatural py6 md-py12">
+    <article class="row justify-content-center colorGrayNatural pt6 pb7 md-py12">
       <div class="sm-mt4 md-mt0 md-c4 lg-c3">
         <div class="box inline-block mr5 md-block pb3">
           <h4 class="caption pb1 md-pb2 colorTextPrimary">
@@ -55,6 +55,30 @@
     </article>
   </section>
 
+  <!-- - - - - - - - - - - - - - - - - - - -->
+  <!-- - - - - - - - - - - - - - - - - - - -->
+  <!-- - - - Side By Side (hand Phone)   - -->
+  <!-- - - - - - - - - - - - - - - - - - - -->
+  <!-- - - - - - - - - - - - - - - - - - - -->
+
+
+  	<section class="row colorBlack5 pb8">
+      <figure class="sm-c12 md-c7 md-mb7">
+        <img class="width-140 r35p sm-width-120 sm-r15p relative md-r35p md-width-140  md-r50p" src="/portfolio/img/2-web-app/phones-angled.jpg" alt="a delicious iced macchiatto">
+      </figure>
+      <article class="mt4 sm-c12 md-c5 lg-mt0 align-self-center">
+        <h3 class="caption colorForestGreen pb3 md-pb4">
+          Filters
+        </h3>
+        <h1 class="heading-1 colorTextPrimary pb2 md-pb4">
+          Helping users find stores that fit their needs
+        </h1>
+        <p class="body-1 colorTextSecondary">
+          If you’re looking for a store with a drive-thru or a limited item. You’re burning the midnight oil and need a store open late. With filters you can find the store that fits your needs.
+        </p>
+      </article>
+    </section>
+
 
 
   <!-- - - - - - - - - - - - - - - - - - - -->
@@ -76,7 +100,7 @@
   <!-- - - - - - - - - - - - - - - - - - - -->
 
 
-  	<section class="row pt8 pb7 colorWhite">
+  	<!-- <section class="row pt8 pb7 colorWhite">
       <figure class="sm-c12 md-c8 md-py5 md-last">
         <img class="web-app-hero" src="/img/web-app/web-app-hero.png" alt="a delicious iced macchiatto">
       </figure>
@@ -91,7 +115,31 @@
           Redesigning the Starbucks website to provide customers with a modern digital brand experience.
         </p>
       </article>
-    </section>
+    </section> -->
+
+    <!-- - - - - - - - - - - - - - - - - - - -->
+    <!-- - - - - - - - - - - - - - - - - - - -->
+    <!-- - - - - - Drink and Macbook - - - - -->
+    <!-- - - - - - - - - - - - - - - - - - - -->
+    <!-- - - - - - - - - - - - - - - - - - - -->
+
+
+      <section class="row pt5 pb7 md-py8 colorWhite">
+        <figure class="sm-c12 md-c7 md-py5 md-last">
+          <img class="width-150 relative l5p md-width-160 md-l16p" src="/portfolio/img/2-web-app/macbook-and-drink.jpg" alt="a delicious iced macchiatto">
+        </figure>
+        <article class="sm-c12 md-c5 mt4 lg-mt0 align-self-center">
+          <h3 class="caption colorForestGreen pb3 md-pb4">
+            ordering
+          </h3>
+          <h1 class="heading-1 colorTextPrimary pb2 md-pb4">
+            Ordering on the web
+          </h1>
+          <p class="body-1 colorTextSecondary">
+            Taking cues from our native apps, we created an ordering experience that is intuitive and delightful. Customers can easily customize their orders, place previous orders, and favorite items they love.
+          </p>
+        </article>
+      </section>
 
 
     <!-- - - - - - - - - - - - - - - - - - - -->
@@ -100,14 +148,29 @@
     <!-- - - - - - - - - - - - - - - - - - - -->
     <!-- - - - - - - - - - - - - - - - - - - -->
 
-  <div class="colorBlack10 py8 px4 sm-py16">
-    <div class="my-slider full-width">
+  <!-- <div class="colorBlack5 py8 px4 sm-py16">
+    <div class="contained-slider full-width">
       <img src="/portfolio/img/2-web-app/stores-sketch-layout.jpg" alt="a delicious iced macchiatto">
       <img src="/portfolio/img/2-web-app/gift-sketch-layout.jpg" alt="a delicious iced macchiatto">
       <img src="/portfolio/img/2-web-app/review-order-sketch-layout.jpg" alt="a delicious iced macchiatto">
       <img src="/portfolio/img/2-web-app/confirm-store-sketch-layout.jpg" alt="a delicious iced macchiatto">
     </div>
+  </div> -->
+
+  <!-- - - - - - - - - - - - - - - - - - - -->
+  <!-- - - - - - - - - - - - - - - - - - - -->
+  <!-- - - - - - - - Slider - - - - - -  - -->
+  <!-- - - - - - - - - - - - - - - - - - - -->
+  <!-- - - - - - - - - - - - - - - - - - - -->
+
+<div class="py8 px4 sm-py16">
+  <div class="contained-slider full-width">
+    <img src="/portfolio/img/2-web-app/slider-frap.jpg" alt="a delicious iced macchiatto">
+    <img src="/portfolio/img/2-web-app/slider-bacon.jpg" alt="a delicious iced macchiatto">
+    <img src="/portfolio/img/2-web-app/slider-brew.jpg" alt="a delicious iced macchiatto">
+    <img src="/portfolio/img/2-web-app/slider-mocha.jpg" alt="a delicious iced macchiatto">
   </div>
+</div>
 
   <section class="relative overflow-hidden">
     <img class="width-100 relative" src="/portfolio/img/2-web-app/review-set.jpg" alt="3 screens from stores">
@@ -117,5 +180,6 @@
 
 
 <?php include 'javascript.php';?>
+<?php include 'footer.php';?>
 </body>
 </html>

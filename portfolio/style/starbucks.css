@@ -209,7 +209,7 @@ Text Colors
 -------------------------------------------
 ---------------------------------------- */
 
-.my-slider {
+.contained-slider {
   /* height: auto;
   margin:auto;
   position: relative; */
@@ -217,7 +217,7 @@ Text Colors
   max-width: 1106px; */
 }
 
-/* .my-slider.full-width {
+/* .contained-slider.full-width {
   width:unset;
   max-width: unset;
 } */

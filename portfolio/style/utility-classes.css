@@ -309,7 +309,7 @@ Variables
     padding-right: 6vw;
   }
 
-  .my-slider {
+  .contained-slider {
     margin-right: 6vw;
     margin-left: 6vw;
   }
@@ -507,7 +507,7 @@ Variables
     padding-right: 12vw;
   }
 
-  .my-slider {
+  .contained-slider {
     margin-left: 12vw;
     margin-right: 12vw;
   }
@@ -1305,6 +1305,32 @@ Variables
 .mr-neg91p {margin-right:-91%;} .mr-neg92p {margin-right:-92%;} .mr-neg93p {margin-right:-93%;} .mr-neg94p {margin-right:-94%;} .mr-neg95p {margin-right:-95%;} .mr-neg96p {margin-right:-96%;} .mr-neg97p {margin-right:-97%;} .mr-neg98p {margin-right:-98%;} .mr-neg99p {margin-right:-99%;}
 .mr-neg100p {margin-right:-100%;}
 
+.l1p {left:1%;} .l2p {left:2%;} .l3p {left:3%;} .l4p {left:4%;} .l5p {left:5%;} .l6p {left:6%;} .l7p {left:7%;} .l8p {left:8%;} .l9p {left:9%;}
+.l10p {left:10%;} .l11p {left:11%;} .l12p {left:12%;} .l13p {left:13%;} .l14p {left:14%;} .l15p {left:15%;} .l16p {left:16%;} .l17p {left:17%;} .l18p {left:18%;}
+.l19p {left:19%;} .l20p {left:20%;} .l21p {left:21%;} .l22p {left:22%;} .l23p {left:23%;} .l24p {left:24%;} .l25p {left:25%;} .l26p {left:26%;} .l27p {left:27%;}
+.l28p {left:28%;} .l29p {left:29%;} .l30p {left:30%;} .l31p {left:31%;} .l32p {left:32%;} .l33p {left:33%;} .l34p {left:34%;} .l35p {left:35%;} .l36p {left:36%;}
+.l37p {left:37%;} .l38p {left:38%;} .l39p {left:39%;} .l40p {left:40%;} .l41p {left:41%;} .l42p {left:42%;} .l43p {left:43%;} .l44p {left:44%;} .l45p {left:45%;}
+.l46p {left:46%;} .l47p {left:47%;} .l48p {left:48%;} .l49p {left:49%;} .l50p {left:50%;} .l51p {left:51%;} .l52p {left:52%;} .l53p {left:53%;} .l54p {left:54%;}
+.l55p {left:55%;} .l56p {left:56%;} .l57p {left:57%;} .l58p {left:58%;} .l59p {left:59%;} .l60p {left:60%;} .l61p {left:61%;} .l62p {left:62%;} .l63p {left:63%;}
+.l64p {left:64%;} .l65p {left:65%;} .l66p {left:66%;} .l67p {left:67%;} .l68p {left:68%;} .l69p {left:69%;} .l70p {left:70%;} .l71p {left:71%;} .l72p {left:72%;}
+.l73p {left:73%;} .l74p {left:74%;} .l75p {left:75%;} .l76p {left:76%;} .l77p {left:77%;} .l78p {left:78%;} .l79p {left:79%;} .l80p {left:80%;} .l81p {left:81%;}
+.l82p {left:82%;} .l83p {left:83%;} .l84p {left:84%;} .l85p {left:85%;} .l86p {left:86%;} .l87p {left:87%;} .l88p {left:88%;} .l89p {left:89%;} .l90p {left:90%;}
+.l91p {left:91%;} .l92p {left:92%;} .l93p {left:93%;} .l94p {left:94%;} .l95p {left:95%;} .l96p {left:96%;} .l97p {left:97%;} .l98p {left:98%;} .l99p {left:99%;}
+.l100p {left:100%;}
+
+.r1p {right:1%;} .r2p {right:2%;} .r3p {right:3%;} .r4p {right:4%;} .r5p {right:5%;} .r6p {right:6%;} .r7p {right:7%;} .r8p {right:8%;} .r9p {right:9%;}
+.r10p {right:10%;} .r11p {right:11%;} .r12p {right:12%;} .r13p {right:13%;} .r14p {right:14%;} .r15p {right:15%;} .r16p {right:16%;} .r17p {right:17%;} .r18p {right:18%;}
+.r19p {right:19%;} .r20p {right:20%;} .r21p {right:21%;} .r22p {right:22%;} .r23p {right:23%;} .r24p {right:24%;} .r25p {right:25%;} .r26p {right:26%;} .r27p {right:27%;}
+.r28p {right:28%;} .r29p {right:29%;} .r30p {right:30%;} .r31p {right:31%;} .r32p {right:32%;} .r33p {right:33%;} .r34p {right:34%;} .r35p {right:35%;} .r36p {right:36%;}
+.r37p {right:37%;} .r38p {right:38%;} .r39p {right:39%;} .r40p {right:40%;} .r41p {right:41%;} .r42p {right:42%;} .r43p {right:43%;} .r44p {right:44%;} .r45p {right:45%;}
+.r46p {right:46%;} .r47p {right:47%;} .r48p {right:48%;} .r49p {right:49%;} .r50p {right:50%;} .r51p {right:51%;} .r52p {right:52%;} .r53p {right:53%;} .r54p {right:54%;}
+.r55p {right:55%;} .r56p {right:56%;} .r57p {right:57%;} .r58p {right:58%;} .r59p {right:59%;} .r60p {right:60%;} .r61p {right:61%;} .r62p {right:62%;} .r63p {right:63%;}
+.r64p {right:64%;} .r65p {right:65%;} .r66p {right:66%;} .r67p {right:67%;} .r68p {right:68%;} .r69p {right:69%;} .r70p {right:70%;} .r71p {right:71%;} .r72p {right:72%;}
+.r73p {right:73%;} .r74p {right:74%;} .r75p {right:75%;} .r76p {right:76%;} .r77p {right:77%;} .r78p {right:78%;} .r79p {right:79%;} .r80p {right:80%;} .r81p {right:81%;}
+.r82p {right:82%;} .r83p {right:83%;} .r84p {right:84%;} .r85p {right:85%;} .r86p {right:86%;} .r87p {right:87%;} .r88p {right:88%;} .r89p {right:89%;} .r90p {right:90%;}
+.r91p {right:91%;} .r92p {right:92%;} .r93p {right:93%;} .r94p {right:94%;} .r95p {right:95%;} .r96p {right:96%;} .r97p {right:97%;} .r98p {right:98%;} .r99p {right:99%;}
+.r100p {right:100%;}
+
 .t-unset {top:unset;}
 .t0 {top: 0px;}
 .t1 {top: 4px;}
@@ -1798,6 +1824,32 @@ Variables
 	.sm-mt-neg91p {margin-top:-91%;} .sm-mt-neg92p {margin-top:-92%;} .sm-mt-neg93p {margin-top:-93%;} .sm-mt-neg94p {margin-top:-94%;} .sm-mt-neg95p {margin-top:-95%;} .sm-mt-neg96p {margin-top:-96%;} .sm-mt-neg97p {margin-top:-97%;} .sm-mt-neg98p {margin-top:-98%;} .sm-mt-neg99p {margin-top:-99%;}
 	.sm-mt-neg100p {margin-top:-100%;}
 
+	.sm-l1p {left:1%;} .sm-l2p {left:2%;} .sm-l3p {left:3%;} .sm-l4p {left:4%;} .sm-l5p {left:5%;} .sm-l6p {left:6%;} .sm-l7p {left:7%;} .sm-l8p {left:8%;} .sm-l9p {left:9%;}
+	.sm-l10p {left:10%;} .sm-l11p {left:11%;} .sm-l12p {left:12%;} .sm-l13p {left:13%;} .sm-l14p {left:14%;} .sm-l15p {left:15%;} .sm-l16p {left:16%;} .sm-l17p {left:17%;} .sm-l18p {left:18%;}
+	.sm-l19p {left:19%;} .sm-l20p {left:20%;} .sm-l21p {left:21%;} .sm-l22p {left:22%;} .sm-l23p {left:23%;} .sm-l24p {left:24%;} .sm-l25p {left:25%;} .sm-l26p {left:26%;} .sm-l27p {left:27%;}
+	.sm-l28p {left:28%;} .sm-l29p {left:29%;} .sm-l30p {left:30%;} .sm-l31p {left:31%;} .sm-l32p {left:32%;} .sm-l33p {left:33%;} .sm-l34p {left:34%;} .sm-l35p {left:35%;} .sm-l36p {left:36%;}
+	.sm-l37p {left:37%;} .sm-l38p {left:38%;} .sm-l39p {left:39%;} .sm-l40p {left:40%;} .sm-l41p {left:41%;} .sm-l42p {left:42%;} .sm-l43p {left:43%;} .sm-l44p {left:44%;} .sm-l45p {left:45%;}
+	.sm-l46p {left:46%;} .sm-l47p {left:47%;} .sm-l48p {left:48%;} .sm-l49p {left:49%;} .sm-l50p {left:50%;} .sm-l51p {left:51%;} .sm-l52p {left:52%;} .sm-l53p {left:53%;} .sm-l54p {left:54%;}
+	.sm-l55p {left:55%;} .sm-l56p {left:56%;} .sm-l57p {left:57%;} .sm-l58p {left:58%;} .sm-l59p {left:59%;} .sm-l60p {left:60%;} .sm-l61p {left:61%;} .sm-l62p {left:62%;} .sm-l63p {left:63%;}
+	.sm-l64p {left:64%;} .sm-l65p {left:65%;} .sm-l66p {left:66%;} .sm-l67p {left:67%;} .sm-l68p {left:68%;} .sm-l69p {left:69%;} .sm-l70p {left:70%;} .sm-l71p {left:71%;} .sm-l72p {left:72%;}
+	.sm-l73p {left:73%;} .sm-l74p {left:74%;} .sm-l75p {left:75%;} .sm-l76p {left:76%;} .sm-l77p {left:77%;} .sm-l78p {left:78%;} .sm-l79p {left:79%;} .sm-l80p {left:80%;} .sm-l81p {left:81%;}
+	.sm-l82p {left:82%;} .sm-l83p {left:83%;} .sm-l84p {left:84%;} .sm-l85p {left:85%;} .sm-l86p {left:86%;} .sm-l87p {left:87%;} .sm-l88p {left:88%;} .sm-l89p {left:89%;} .sm-l90p {left:90%;}
+	.sm-l91p {left:91%;} .sm-l92p {left:92%;} .sm-l93p {left:93%;} .sm-l94p {left:94%;} .sm-l95p {left:95%;} .sm-l96p {left:96%;} .sm-l97p {left:97%;} .sm-l98p {left:98%;} .sm-l99p {left:99%;}
+	.sm-l100p {left:100%;}
+
+	.sm-r1p {right:1%;} .sm-r2p {right:2%;} .sm-r3p {right:3%;} .sm-r4p {right:4%;} .sm-r5p {right:5%;} .sm-r6p {right:6%;} .sm-r7p {right:7%;} .sm-r8p {right:8%;} .sm-r9p {right:9%;}
+	.sm-r10p {right:10%;} .sm-r11p {right:11%;} .sm-r12p {right:12%;} .sm-r13p {right:13%;} .sm-r14p {right:14%;} .sm-r15p {right:15%;} .sm-r16p {right:16%;} .sm-r17p {right:17%;} .sm-r18p {right:18%;}
+	.sm-r19p {right:19%;} .sm-r20p {right:20%;} .sm-r21p {right:21%;} .sm-r22p {right:22%;} .sm-r23p {right:23%;} .sm-r24p {right:24%;} .sm-r25p {right:25%;} .sm-r26p {right:26%;} .sm-r27p {right:27%;}
+	.sm-r28p {right:28%;} .sm-r29p {right:29%;} .sm-r30p {right:30%;} .sm-r31p {right:31%;} .sm-r32p {right:32%;} .sm-r33p {right:33%;} .sm-r34p {right:34%;} .sm-r35p {right:35%;} .sm-r36p {right:36%;}
+	.sm-r37p {right:37%;} .sm-r38p {right:38%;} .sm-r39p {right:39%;} .sm-r40p {right:40%;} .sm-r41p {right:41%;} .sm-r42p {right:42%;} .sm-r43p {right:43%;} .sm-r44p {right:44%;} .sm-r45p {right:45%;}
+	.sm-r46p {right:46%;} .sm-r47p {right:47%;} .sm-r48p {right:48%;} .sm-r49p {right:49%;} .sm-r50p {right:50%;} .sm-r51p {right:51%;} .sm-r52p {right:52%;} .sm-r53p {right:53%;} .sm-r54p {right:54%;}
+	.sm-r55p {right:55%;} .sm-r56p {right:56%;} .sm-r57p {right:57%;} .sm-r58p {right:58%;} .sm-r59p {right:59%;} .sm-r60p {right:60%;} .sm-r61p {right:61%;} .sm-r62p {right:62%;} .sm-r63p {right:63%;}
+	.sm-r64p {right:64%;} .sm-r65p {right:65%;} .sm-r66p {right:66%;} .sm-r67p {right:67%;} .sm-r68p {right:68%;} .sm-r69p {right:69%;} .sm-r70p {right:70%;} .sm-r71p {right:71%;} .sm-r72p {right:72%;}
+	.sm-r73p {right:73%;} .sm-r74p {right:74%;} .sm-r75p {right:75%;} .sm-r76p {right:76%;} .sm-r77p {right:77%;} .sm-r78p {right:78%;} .sm-r79p {right:79%;} .sm-r80p {right:80%;} .sm-r81p {right:81%;}
+	.sm-r82p {right:82%;} .sm-r83p {right:83%;} .sm-r84p {right:84%;} .sm-r85p {right:85%;} .sm-r86p {right:86%;} .sm-r87p {right:87%;} .sm-r88p {right:88%;} .sm-r89p {right:89%;} .sm-r90p {right:90%;}
+	.sm-r91p {right:91%;} .sm-r92p {right:92%;} .sm-r93p {right:93%;} .sm-r94p {right:94%;} .sm-r95p {right:95%;} .sm-r96p {right:96%;} .sm-r97p {right:97%;} .sm-r98p {right:98%;} .sm-r99p {right:99%;}
+	.sm-r100p {right:100%;}
+
   .sm-t-unset {top:unset;}
   .sm-t0 {top: 0px;}
   .sm-t1 {top: 4px;}
@@ -2287,6 +2339,32 @@ Variables
 	.md-mt-neg82p {margin-top:-82%;} .md-mt-neg83p {margin-top:-83%;} .md-mt-neg84p {margin-top:-84%;} .md-mt-neg85p {margin-top:-85%;} .md-mt-neg86p {margin-top:-86%;} .md-mt-neg87p {margin-top:-87%;} .md-mt-neg88p {margin-top:-88%;} .md-mt-neg89p {margin-top:-89%;} .md-mt-neg90p {margin-top:-90%;}
 	.md-mt-neg91p {margin-top:-91%;} .md-mt-neg92p {margin-top:-92%;} .md-mt-neg93p {margin-top:-93%;} .md-mt-neg94p {margin-top:-94%;} .md-mt-neg95p {margin-top:-95%;} .md-mt-neg96p {margin-top:-96%;} .md-mt-neg97p {margin-top:-97%;} .md-mt-neg98p {margin-top:-98%;} .md-mt-neg99p {margin-top:-99%;}
 	.md-mt-neg100p {margin-top:-100%;}
+
+	.md-l1p {left:1%;} .md-l2p {left:2%;} .md-l3p {left:3%;} .md-l4p {left:4%;} .md-l5p {left:5%;} .md-l6p {left:6%;} .md-l7p {left:7%;} .md-l8p {left:8%;} .md-l9p {left:9%;}
+	.md-l10p {left:10%;} .md-l11p {left:11%;} .md-l12p {left:12%;} .md-l13p {left:13%;} .md-l14p {left:14%;} .md-l15p {left:15%;} .md-l16p {left:16%;} .md-l17p {left:17%;} .md-l18p {left:18%;}
+	.md-l19p {left:19%;} .md-l20p {left:20%;} .md-l21p {left:21%;} .md-l22p {left:22%;} .md-l23p {left:23%;} .md-l24p {left:24%;} .md-l25p {left:25%;} .md-l26p {left:26%;} .md-l27p {left:27%;}
+	.md-l28p {left:28%;} .md-l29p {left:29%;} .md-l30p {left:30%;} .md-l31p {left:31%;} .md-l32p {left:32%;} .md-l33p {left:33%;} .md-l34p {left:34%;} .md-l35p {left:35%;} .md-l36p {left:36%;}
+	.md-l37p {left:37%;} .md-l38p {left:38%;} .md-l39p {left:39%;} .md-l40p {left:40%;} .md-l41p {left:41%;} .md-l42p {left:42%;} .md-l43p {left:43%;} .md-l44p {left:44%;} .md-l45p {left:45%;}
+	.md-l46p {left:46%;} .md-l47p {left:47%;} .md-l48p {left:48%;} .md-l49p {left:49%;} .md-l50p {left:50%;} .md-l51p {left:51%;} .md-l52p {left:52%;} .md-l53p {left:53%;} .md-l54p {left:54%;}
+	.md-l55p {left:55%;} .md-l56p {left:56%;} .md-l57p {left:57%;} .md-l58p {left:58%;} .md-l59p {left:59%;} .md-l60p {left:60%;} .md-l61p {left:61%;} .md-l62p {left:62%;} .md-l63p {left:63%;}
+	.md-l64p {left:64%;} .md-l65p {left:65%;} .md-l66p {left:66%;} .md-l67p {left:67%;} .md-l68p {left:68%;} .md-l69p {left:69%;} .md-l70p {left:70%;} .md-l71p {left:71%;} .md-l72p {left:72%;}
+	.md-l73p {left:73%;} .md-l74p {left:74%;} .md-l75p {left:75%;} .md-l76p {left:76%;} .md-l77p {left:77%;} .md-l78p {left:78%;} .md-l79p {left:79%;} .md-l80p {left:80%;} .md-l81p {left:81%;}
+	.md-l82p {left:82%;} .md-l83p {left:83%;} .md-l84p {left:84%;} .md-l85p {left:85%;} .md-l86p {left:86%;} .md-l87p {left:87%;} .md-l88p {left:88%;} .md-l89p {left:89%;} .md-l90p {left:90%;}
+	.md-l91p {left:91%;} .md-l92p {left:92%;} .md-l93p {left:93%;} .md-l94p {left:94%;} .md-l95p {left:95%;} .md-l96p {left:96%;} .md-l97p {left:97%;} .md-l98p {left:98%;} .md-l99p {left:99%;}
+	.md-l100p {left:100%;}
+
+	.md-r1p {right:1%;} .md-r2p {right:2%;} .md-r3p {right:3%;} .md-r4p {right:4%;} .md-r5p {right:5%;} .md-r6p {right:6%;} .md-r7p {right:7%;} .md-r8p {right:8%;} .md-r9p {right:9%;}
+	.md-r10p {right:10%;} .md-r11p {right:11%;} .md-r12p {right:12%;} .md-r13p {right:13%;} .md-r14p {right:14%;} .md-r15p {right:15%;} .md-r16p {right:16%;} .md-r17p {right:17%;} .md-r18p {right:18%;}
+	.md-r19p {right:19%;} .md-r20p {right:20%;} .md-r21p {right:21%;} .md-r22p {right:22%;} .md-r23p {right:23%;} .md-r24p {right:24%;} .md-r25p {right:25%;} .md-r26p {right:26%;} .md-r27p {right:27%;}
+	.md-r28p {right:28%;} .md-r29p {right:29%;} .md-r30p {right:30%;} .md-r31p {right:31%;} .md-r32p {right:32%;} .md-r33p {right:33%;} .md-r34p {right:34%;} .md-r35p {right:35%;} .md-r36p {right:36%;}
+	.md-r37p {right:37%;} .md-r38p {right:38%;} .md-r39p {right:39%;} .md-r40p {right:40%;} .md-r41p {right:41%;} .md-r42p {right:42%;} .md-r43p {right:43%;} .md-r44p {right:44%;} .md-r45p {right:45%;}
+	.md-r46p {right:46%;} .md-r47p {right:47%;} .md-r48p {right:48%;} .md-r49p {right:49%;} .md-r50p {right:50%;} .md-r51p {right:51%;} .md-r52p {right:52%;} .md-r53p {right:53%;} .md-r54p {right:54%;}
+	.md-r55p {right:55%;} .md-r56p {right:56%;} .md-r57p {right:57%;} .md-r58p {right:58%;} .md-r59p {right:59%;} .md-r60p {right:60%;} .md-r61p {right:61%;} .md-r62p {right:62%;} .md-r63p {right:63%;}
+	.md-r64p {right:64%;} .md-r65p {right:65%;} .md-r66p {right:66%;} .md-r67p {right:67%;} .md-r68p {right:68%;} .md-r69p {right:69%;} .md-r70p {right:70%;} .md-r71p {right:71%;} .md-r72p {right:72%;}
+	.md-r73p {right:73%;} .md-r74p {right:74%;} .md-r75p {right:75%;} .md-r76p {right:76%;} .md-r77p {right:77%;} .md-r78p {right:78%;} .md-r79p {right:79%;} .md-r80p {right:80%;} .md-r81p {right:81%;}
+	.md-r82p {right:82%;} .md-r83p {right:83%;} .md-r84p {right:84%;} .md-r85p {right:85%;} .md-r86p {right:86%;} .md-r87p {right:87%;} .md-r88p {right:88%;} .md-r89p {right:89%;} .md-r90p {right:90%;}
+	.md-r91p {right:91%;} .md-r92p {right:92%;} .md-r93p {right:93%;} .md-r94p {right:94%;} .md-r95p {right:95%;} .md-r96p {right:96%;} .md-r97p {right:97%;} .md-r98p {right:98%;} .md-r99p {right:99%;}
+	.md-r100p {right:100%;}
 
   .md-t-unset {top: unset;}
   .md-t0 {top: 0px;}

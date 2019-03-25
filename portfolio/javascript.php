@@ -6,7 +6,7 @@
 
 <script>
 
-// $('.my-slider').slick({
+// $('.contained-slider').slick({
 //   dots: true,
 //   infinite: true,
 //   speed: 500,
@@ -15,7 +15,7 @@
 //   autoplay: true
 // });
 
-$('.my-slider.full-width').slick({
+$('.contained-slider.full-width').slick({
   dots: true,
   infinite: true,
   speed: 500,

@@ -4,13 +4,13 @@
         About<br><span class="colorTextPrimary pt1 inline-block">Ben is currently leading web design at Starbucks.</span>
     </li>
     <li class="body-1 colorTextSecondary pr4 sm-pr5 md-c3">
-        Reach out <br> <span class="colorTextPrimary pt1 inline-block">hello@benford.xyz<br>425.780.2214</span>
+        Say hi <br> <span class="colorTextPrimary pt1 inline-block">ford.ben.90@gmail.com<br>425.780.2214</span>
     </li>
   </ul>
   <div class="flex now-wrap colorTextSecondary pl4 sm-pl5 mt6">
     <div class="body-2">© Ben Ford 2017</div>
-    <div class="body-1 ml-auto">
+    <!-- <div class="body-1 ml-auto">
       Facebook  Linkedin  Instragram
-    </div>
+    </div> -->
   </div>
 </div>
