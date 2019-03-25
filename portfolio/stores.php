@@ -102,7 +102,7 @@
 		<!-- - - - - - - - - - - - - - - - - - - -->
 
 		<section>
-			<img class="width-100 block" src="/portfolio/img/1-stores/intro-3.jpg" alt="3 screens from stores">
+			<img class="width-100 block max-width-1268 xl-margin-auto" src="/portfolio/img/1-stores/intro-3.jpg" alt="3 screens from stores">
 		</section>
 
 
@@ -135,7 +135,7 @@
 
   <!-- - - - - - - - 3-Up - - - - - - -  - -->
   <section>
-    <img class="width-100 block" src="/portfolio/img/1-stores/filters-3.jpg" alt="3 screens from stores">
+    <img class="width-100 block max-width-1268 xl-margin-auto" src="/portfolio/img/1-stores/filters-3.jpg" alt="3 screens from stores">
   </section>
 
 	<!-- - - - - - - - - - - - - - - - - - - -->
@@ -164,7 +164,7 @@
 
   <!-- - - - - - - - 3-Up - - - - - - -  - -->
   <section>
-    <img class="width-100 block" src="/portfolio/img/1-stores/search-3.png" alt="3 screens from stores">
+    <img class="width-100 block max-width-1268 xl-margin-auto" src="/portfolio/img/1-stores/search-3.png" alt="3 screens from stores">
   </section>
 
 <?php include 'javascript.php';?>

@@ -234,7 +234,16 @@ Text Colors
 }
 
 .slick-dots {
-  bottom: -64px;
+  bottom: -40px;
+}
+
+/* --breakpointSm */
+@media only screen and (min-width: 480px) {
+
+  .slick-dots {
+    bottom: -64px;
+  }
+
 }
 
 
