@@ -29,9 +29,9 @@
 <!-- - - - - - - - - - - - - - - - - - - -->
 <!-- - - - - - - - - - - - - - - - - - - -->
 
-  <section>
-    <article class="row justify-content-center colorGrayNatural py8 sm-py12">
-      <div class="sm-mt4 md-mt0 md-c4 lg-c3">
+  <section class="colorBlack5">
+    <article class="row justify-content-center colorGrayNatural py8 md-py14">
+      <div class="md-c4 lg-c3">
         <div class="inline-block mr5 md-block pb3">
           <h4 class="caption pb1 md-pb2 colorTextPrimary">
             Role
@@ -78,7 +78,7 @@
 	<!-- - - - - - - - - - - - - - - - - - - -->
 
 
-		<section class="row pt8 pb7 colorWhite">
+		<section class="row pt4 pb6 colorWhite">
 			<figure class="flex justify-content-center sm-c12 md-c7 md-py5 md-last">
 				<img class="width-70 sm-width-50 md-width-70 align-self-center" src="/portfolio/img/1-stores/single-phone.png" alt="a delicious iced macchiatto">
 			</figure>
@@ -101,8 +101,8 @@
 		<!-- - - - - - - - - - - - - - - - - - - -->
 		<!-- - - - - - - - - - - - - - - - - - - -->
 
-		<section>
-			<img class="width-100 block max-width-1268 xl-margin-auto" src="/portfolio/img/1-stores/intro-3.jpg" alt="3 screens from stores">
+		<section class="colorBlack5">
+			<img class="width-100 block max-width-1680 xl-margin-auto" src="/portfolio/img/1-stores/intro-3.jpg" alt="3 screens from stores">
 		</section>
 
 
@@ -114,9 +114,9 @@
   <!-- - - - - - - - - - - - - - - - - - - -->
 
 
-  	<section class="row pt12 colorWhite">
+  	<section class="row py6 md-pb0 colorWhite">
       <figure class="sm-c12 md-c7">
-        <img class="width-80" src="/portfolio/img/1-stores/iPhone-in-hand.jpg" alt="a delicious iced macchiatto">
+        <img class="width-80 block" src="/portfolio/img/1-stores/iPhone-in-hand.jpg" alt="a delicious iced macchiatto">
       </figure>
       <article class="sm-c12 md-c5 mt4 lg-mt0 align-self-center">
         <h3 class="caption colorPeriwinkle pb3 md-pb4">
@@ -134,8 +134,8 @@
 
 
   <!-- - - - - - - - 3-Up - - - - - - -  - -->
-  <section>
-    <img class="width-100 block max-width-1268 xl-margin-auto" src="/portfolio/img/1-stores/filters-3.jpg" alt="3 screens from stores">
+  <section class="colorBlack5">
+    <img class="width-100 block max-width-1680 xl-margin-auto" src="/portfolio/img/1-stores/filters-3.jpg" alt="3 screens from stores">
   </section>
 
 	<!-- - - - - - - - - - - - - - - - - - - -->
@@ -164,7 +164,7 @@
 
   <!-- - - - - - - - 3-Up - - - - - - -  - -->
   <section>
-    <img class="width-100 block max-width-1268 xl-margin-auto" src="/portfolio/img/1-stores/search-3.png" alt="3 screens from stores">
+    <img class="width-100 block max-width-1680 xl-margin-auto" src="/portfolio/img/1-stores/search-3.png" alt="3 screens from stores">
   </section>
 
 <?php include 'javascript.php';?>

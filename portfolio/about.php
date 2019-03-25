@@ -13,7 +13,7 @@
 	<figure class="flex justify-content-center sm-c12 md-c5 md-mt0 md-last align-self-center">
 		<img class="width-100 align-self-center sm-width-50 md-width-100 circle" src="img/portrait.jpg" alt="picture">
 	</figure>
-	<article class="mt6 sm-c9 md-c7 md-mt0 md-align-self-center">
+	<article class="mt6 mb6 sm-mb10 sm-c9 md-c7 md-my0 md-align-self-center">
 		<!-- <h3 class="caption colorPink pb3 md-pb4">
 			about ben
 		</h3> -->
@@ -25,22 +25,8 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- JS -->
-<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
-<script type='text/javascript' src='/js/main.js'></script>
+<?php include 'javascript.php';?>
+<?php include 'footer.php';?>
 
 <!-- Analytics -->
 

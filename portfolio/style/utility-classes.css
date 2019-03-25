@@ -80,6 +80,10 @@ Variables
 	max-width: 1268px;
 }
 
+.max-width-1680 {
+	max-width: 1680px;
+}
+
 .row:before,
 .row:after {
   content: normal; // IE doesn't support `initial`

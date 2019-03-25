@@ -165,7 +165,7 @@
   <!-- - - - - - - - - - - - - - - - - - - -->
   <!-- - - - - - - - - - - - - - - - - - - -->
 
-<div class="py8 sm-px4 sm-py16">
+<div class="py8 sm-px4 sm-py14">
   <div class="contained-slider full-width max-width-1268 xl-margin-auto">
     <img src="/portfolio/img/2-web-app/slider-frap.jpg" alt="a delicious iced macchiatto">
     <img src="/portfolio/img/2-web-app/slider-bacon.jpg" alt="a delicious iced macchiatto">
@@ -181,7 +181,7 @@
 <!-- - - - - - - - - - - - - - - - - - - -->
 
 
-  <section class="row pt5 pb2 md-pt8 md-pb4 colorWhite">
+  <section class="row pb5 pt1 md-pt8 colorWhite">
     <article class="sm-c12 align-self-center text-align-center">
       <h1 class="heading-1 colorTextPrimary pb2 md-pb4">
         The Starbucks PWA takes advantage of many of the new capabilities and brings a modern web experience to their customers.
@@ -192,7 +192,7 @@
     </article>
   </section>
 
-  <section class="relative overflow-hidden sm-overflow-visible max-width-1268 xl-margin-auto">
+  <section class="relative overflow-hidden sm-overflow-visible max-width-1680 xl-margin-auto">
     <img class="width-100 relative" src="/portfolio/img/2-web-app/review-set.jpg" alt="3 screens from stores">
     <img class="width-20 absolute z-2 t0 l0 ml-neg8p" src="/portfolio/img/2-web-app/drink-above.png">
     <img class="width-20 absolute z-2 r0 b0 mr-neg10p mt-neg18p" src="/portfolio/img/2-web-app/drink-above-2.png">

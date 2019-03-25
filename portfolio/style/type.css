@@ -246,4 +246,8 @@ Type Styles
     font-size: 28px;
   }
 
+  .big-heading {
+    font-size: 56px;
+  }
+
 }
