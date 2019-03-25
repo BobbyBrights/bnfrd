@@ -46,10 +46,7 @@
         </div>
       </div>
       <p class="md-first body-1 md-c8 colorTextSecondary">
-        Starbucks stores was the first feature we tackled after finishing the Starbucks Digital Design System.
-        The existing feature got very low traffic in the app (x% of visits).
-        With a clunky and confusing user experience, lack of suggestions/type ahead in search, no integration with ordering,
-        lack of consistency across platforms. There was a ton of work to do to improve it.
+        Starbucks had an online presence that was largely informational and inconsistent with its native apps. With web seeing more than double the traffic of the Starbucks native apps, we saw an opportunity to bring mobile ordering and other successful native features to the web.
          <br><br><a class="colorForestGreen bold" href="https://app.starbucks.com" target="_blank">Check it out &nbsp;→</a>
       </p>
     </article>
@@ -69,13 +66,13 @@
         </figure>
         <article class="mt4 sm-c12 md-c5 lg-mt0 align-self-center">
           <h3 class="caption colorForestGreen pb3 md-pb4">
-            Filters
+            brand experience
           </h3>
           <h1 class="heading-1 colorTextPrimary pb2 md-pb4">
-            Helping users find stores that fit their needs
+            Extending the Starbucks experience to the web
           </h1>
           <p class="body-1 colorTextSecondary">
-            If you’re looking for a store with a drive-thru or a limited item. You’re burning the midnight oil and need a store open late. With filters you can find the store that fits your needs.
+            Using the in-store experience as our north star, we created an experience where users can reload their Starbucks cards, send gifts, order, and locate stores.
           </p>
         </article>
       </section>

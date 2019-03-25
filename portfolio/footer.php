@@ -8,7 +8,7 @@
     </li>
   </ul>
   <div class="flex now-wrap colorTextSecondary pl4 sm-pl5 mt6">
-    <div class="body-2">© Ben Ford 2017</div>
+    <div class="body-2">© Ben Ford 2019</div>
     <!-- <div class="body-1 ml-auto">
       Facebook  Linkedin  Instragram
     </div> -->

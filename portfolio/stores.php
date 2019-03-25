@@ -50,14 +50,16 @@
         </div>
       </div>
       <p class="md-first body-1 md-c8 colorTextSecondary">
-        Starbucks stores was the first feature we tackled after finishing the Starbucks Digital Design System.
-        The existing feature got very low traffic in the app (x% of visits).
-        With a clunky and confusing user experience, lack of suggestions/type ahead in search, no integration with ordering,
-        lack of consistency across platforms. There was a ton of work to do to improve it.
+        Stores was the first feature we tackled after designing the Starbucks Digital Design System.
+				Using data highlighting existing problems, we redesigned the experience so customers could easily find nearby stores, limited products, and order ahead at stores that fit their needs.
+
+
+
          <br><br><a class="colorPeriwinkle bold" href="https://itunes.apple.com/us/app/starbucks/id331177714?mt=8" target="_blank">Download App &nbsp;→</a>
       </p>
     </article>
   </section>
+
 
 
 
@@ -90,7 +92,7 @@
 					Ordering from previous & favorite stores
 				</h1>
 				<p class="body-1 colorTextSecondary">
-					With previous and favorite stores surfaced and sorted based off user behavior, finding your store to start an order is a breeze.
+					With previous and favorite stores surfaced and sorted based off user behavior, customers can quickly find their store to start an order.
 				</p>
 			</article>
 		</section>
@@ -114,11 +116,11 @@
   <!-- - - - - - - - - - - - - - - - - - - -->
 
 
-  	<section class="row py6 md-pb0 colorWhite">
+  	<section class="row py6 md-pb0 md-pt12 colorWhite">
       <figure class="sm-c12 md-c7">
-        <img class="width-80 block" src="/portfolio/img/1-stores/iPhone-in-hand.jpg" alt="a delicious iced macchiatto">
+        <img class="width-80 block" src="/portfolio/img/1-stores/filters-hand.jpg" alt="a delicious iced macchiatto">
       </figure>
-      <article class="sm-c12 md-c5 mt4 lg-mt0 align-self-center">
+      <article class="sm-c12 md-c5 mt4 md-mt-neg9 align-self-center">
         <h3 class="caption colorPeriwinkle pb3 md-pb4">
           Filters
         </h3>
@@ -126,7 +128,7 @@
           Helping users find stores that fit their needs
         </h1>
         <p class="body-1 colorTextSecondary">
-          If you’re looking for a store with a drive-thru or a limited item. You’re burning the midnight oil and need a store open late. With filters you can find the store that fits your needs.
+          Whether users are looking for a store with a drive-thru, or they're burning the midnight oil and need a store open late, they can find the store that fits their needs.
         </p>
       </article>
     </section>
@@ -157,7 +159,7 @@
           Finding the closest Starbucks
         </h1>
         <p class="body-1 colorTextSecondary">
-          With previous and favorite stores surfaced and sorted based off user behavior, finding your store to start an order is a breeze.
+          The redesigned search experience provides customers with suggestions and previous searches. No matter where they are or might be going, they can find a store in their area.
         </p>
       </article>
     </section>
