@@ -29,7 +29,7 @@
 <!-- - - - - - - - - - - - - - - - - - - -->
 <!-- - - - - - - - - - - - - - - - - - - -->
 
-  <section class="colorBlack5">
+  <section class="colorBlack2">
     <article class="row justify-content-center py8 md-py14">
       <div class="md-c4 lg-c3">
         <div class="inline-block mr5 md-block pb3">
