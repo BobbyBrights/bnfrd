@@ -30,7 +30,7 @@
 <!-- - - - - - - - - - - - - - - - - - - -->
 
   <section class="colorBlack5">
-    <article class="row justify-content-center colorGrayNatural py8 md-py14">
+    <article class="row justify-content-center py8 md-py14">
       <div class="md-c4 lg-c3">
         <div class="inline-block mr5 md-block pb3">
           <h4 class="caption pb1 md-pb2 colorTextPrimary">
