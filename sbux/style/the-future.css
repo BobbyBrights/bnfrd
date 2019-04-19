@@ -1,0 +1,169 @@
+.page-content {
+  max-width: 1280px;
+}
+
+.left-crate-container {
+  position: relative;
+  z-index: 1;
+  top: 66px;
+  bottom: 0;
+  /* left: 0; */
+  width: 100%;
+  /* min-width: 40vw; */
+  height:400px;
+}
+
+.right-crate-container {
+  background:var(--colorGrayNatural);
+  /* margin-left:40%; */
+  right: 0;
+  position: relative;
+  width: 100%;
+  margin-top: 51px;
+}
+
+.left-card {
+  flex-basis:100%;
+  background: darkseagreen;
+}
+
+.nav-container {
+  top:0px;
+}
+
+.nav {
+  max-width: 1280px;
+  height:64px;
+}
+
+.carousel-dots {
+  bottom:24px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  margin: 8px;
+}
+
+.dot.unselected {
+  border: solid 1px rgba(0,0,0,.4);
+}
+
+.full-content, .full-content-flex {
+  display: none;
+}
+
+.sb-navbar-siren {
+  margin:auto;
+}
+
+
+
+/* --breakpointSm */
+@media only screen and (min-width: 480px) {
+
+
+
+
+}
+
+
+/* --breakpointMd */
+@media only screen and (min-width: 768px) {
+
+  .nav {
+    height:85px;
+  }
+
+  .right-crate-container {
+    margin-top: 72px;
+  }
+
+  .left-crate-container {
+    top: 87px;
+  }
+
+  .page-content {
+    max-width: 768px;
+    margin:auto;
+  }
+
+
+
+}
+
+
+/* --breakpointLg */
+@media only screen and (min-width: 1024px) {
+
+  .full-content {
+    display: block;
+  }
+
+  .full-content-flex {
+    display: flex;
+  }
+
+  .sb-navbar-siren {
+    margin:unset;
+  }
+
+  .phone-content {
+    display:none;
+  }
+
+  .right-crate-container {
+    margin-top: 85px;
+
+    background:var(--colorGrayNatural);
+    /* margin-left:40%; */
+    right: 0;
+    position: absolute;
+    width: 60%;
+    max-width: 768px;
+
+  }
+
+  .left-crate-container {
+    position: fixed;
+    z-index: 1;
+    top: 85px;
+    bottom: 0;
+    width: 40%;
+    max-width: 512px;
+    height:unset;
+  }
+
+
+  .left-card {
+    flex-basis:100%;
+    background: darkseagreen;
+  }
+
+  .page-content {
+    max-width: 1280px;
+  }
+
+
+}
+
+
+/* --breakpointXl */
+@media only screen and (min-width: 1280px) {
+
+  .page-content {
+    margin:auto;
+  }
+
+  .nav {
+    margin:auto;
+  }
+
+  /* .left-card {
+    margin: 16px;
+    border-radius: 6px;
+  } */
+
+
+}

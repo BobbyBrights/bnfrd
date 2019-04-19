@@ -508,6 +508,7 @@ Icon Buttons
 .icon-button, .icon {
   width: 48px;
   height: 48px;
+	min-width:48px;
   position:relative;
   background: none;
   border-radius: 400px;
@@ -583,6 +584,10 @@ Icon Buttons
 
 .badge {
   background-image:url('/sbux/img/icons/badge.svg'), url('/img/icons/badge.svg');
+}
+
+.bag-full {
+  background-image:url('/sbux/img/icons/bag-full.svg'), url('/img/icons/bag-full.svg');
 }
 
 .barista {
@@ -823,6 +828,14 @@ Icon Buttons
   background-image:url('/sbux/img/graphics/barcode.png'), url('/img/graphics/barcode.png');
 	width:177px;
 	height:42px;
+	background-size: contain;
+	background-repeat:no-repeat;
+}
+
+.account-img {
+  background-image:url('/sbux/img/graphics/account-img.png'), url('/img/graphics/account-img.png');
+	width:32px;
+	height:32px;
 	background-size: contain;
 	background-repeat:no-repeat;
 }

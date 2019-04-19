@@ -28,6 +28,11 @@
   background-image:url('/sbux/img/icons/badge.svg'), url('/img/icons/badge.svg');
 }
 
+.bag-full {
+  background-image:url('/sbux/img/icons/bag-full.svg'), url('/img/icons/bag-full.svg');
+}
+
+
 .barista {
   background-image:url('/sbux/img/icons/barista.svg'), url('/img/icons/barista.svg');
 }
