@@ -37,7 +37,7 @@
     </nav>
   </div>
 
-  <div class="drop-down-container colorWhite z-2 fixed shadow" id="drop-down-id">
+  <div class="drop-down-container colorWhite z-2 fixed shadow">
     <div class="drop-down">
       <div class="drop-down-content flex pt4 pb5">
         <ul class="menu-list">
