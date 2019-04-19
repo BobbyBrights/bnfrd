@@ -3,18 +3,18 @@
 <?php include 'header.php';?>
 <body>
 
-  <div class="nav-container colorWhite width-100 shadow z-2 fixed">
+  <div class="nav-container colorWhite width-100 z-3 fixed">
     <nav class="nav px3 flex">
-      <div class="left-content flex c12">
+      <div class="flex c12">
 
         <div class="icon-button hamburger vcenter phone-content"></div>
         <div class="sb-navbar-siren vcenter"></div>
 
-        <ul class="row vcenter text-noUnderline text-sm colorTextBlackSoft ml3">
+        <ul class="nav-list row vcenter text-noUnderline text-sm colorTextBlackSoft ml3">
           <!-- <li class="py5 px3">Drinks</li>
           <li class="py5 px3">Food</li>
           <li class="py5 px3">At Home Coffee</li> -->
-          <li class="py5 px3 full-content">Menu</li>
+          <li class="py5 menu px3 full-content">Menu</li>
           <li class="py5 px3 full-content">Card</li>
           <li class="py5 px3 full-content">Gift</li>
           <li class="py5 px3 full-content">Stores</li>
@@ -37,6 +37,38 @@
     </nav>
   </div>
 
+  <div class="drop-down-container colorWhite z-2 fixed shadow" id="drop-down-id">
+    <div class="drop-down">
+      <div class="drop-down-content flex pt4 pb5">
+        <ul class="menu-list">
+          <li class="text-sm colorTextBlack p3">Drinks</li>
+          <li class="text-sm colorTextBlackSoft p3">Hot Coffees</li>
+          <li class="text-sm colorTextBlackSoft p3">Hot Teas</li>
+          <li class="text-sm colorTextBlackSoft p3">Hot Drinks</li>
+          <li class="text-sm colorTextBlackSoft p3">Frappuccino®</li>
+          <li class="text-sm colorTextBlackSoft p3">Cold Coffees</li>
+          <li class="text-sm colorTextBlackSoft p3">Iced Teas</li>
+          <li class="text-sm colorTextBlackSoft p3">Cold Drinks</li>
+        </ul>
+        <ul class="menu-list ml4">
+          <li class="text-sm colorTextBlack p3">Food</li>
+          <li class="text-sm colorTextBlackSoft p3">Hot Breakfast</li>
+          <li class="text-sm colorTextBlackSoft p3">Bakery</li>
+          <li class="text-sm colorTextBlackSoft p3">Lunch</li>
+          <li class="text-sm colorTextBlackSoft p3">Snacks & Sweets</li>
+          <li class="text-sm colorTextBlackSoft p3">Yogurts & Custards</li>
+        </ul>
+        <ul class="menu-list ml4">
+          <li class="text-sm colorTextBlack p3">At Home Coffee</li>
+          <li class="text-sm colorTextBlackSoft p3">Whole Bean</li>
+          <li class="text-sm colorTextBlackSoft p3">Verismo® Pods</li>
+          <li class="text-sm colorTextBlackSoft p3">Via® Instant</li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
   <div class="page-content relative">
 
     <div class="left-crate-container flex z-1">
@@ -51,13 +83,14 @@
     </div>
 
     <div class="right-crate-container p3 lg-pl0 z-neg1 absolute">
-      <div class="card py12"></div>
-      <div class="card mt3 py12"></div>
-      <div class="card mt3 py12"></div>
-      <div class="card mt3 py12"></div>
-      <div class="card mt3 py12"></div>
-      <div class="card mt3 py12"></div>
-      <div class="card mt3 py12"></div>
+      <div class="card-no-shadow py12"></div>
+      <div class="card-no-shadow mt3 py12"></div>
+      <div class="card-no-shadow mt3 py12"></div>
+      <div class="card-no-shadow mt3 py12"></div>
+      <div class="card-no-shadow mt3 py12"></div>
+      <div class="card-no-shadow mt3 py12"></div>
+      <div class="card-no-shadow mt3 py12"></div>
+      <div class="card-no-shadow mt3 py12"></div>
     </div>
 
   </div>

@@ -1,3 +1,7 @@
+body {
+  background:white;
+}
+
 .page-content {
   max-width: 1280px;
 }
@@ -14,7 +18,6 @@
 }
 
 .right-crate-container {
-  background:var(--colorGrayNatural);
   /* margin-left:40%; */
   right: 0;
   position: relative;
@@ -29,6 +32,7 @@
 
 .nav-container {
   top:0px;
+  border-bottom: solid 1px rgba(0,0,0,.12);
 }
 
 .nav {
@@ -57,6 +61,53 @@
 .sb-navbar-siren {
   margin:auto;
 }
+
+.drop-down-container {
+  width:100%;
+  top:86px;
+  transition: opacity .2s ease;
+  opacity:0;
+  display:none;
+}
+
+.drop-down {
+  max-width: 1280px;
+}
+
+.nav-list li {
+  border-bottom:1px solid rgba(0,0,0,0);
+}
+
+.nav-list li:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, .87);
+  transition: all .3s ease;
+}
+
+.nav-list li:first-child:hover {
+  border-bottom:1px solid green;
+}
+
+.menu-list li {
+  transition: all .3s ease;
+}
+
+.menu-list li:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, .87);
+  transition: all .3s ease;
+}
+
+.menu.active {
+  border-bottom:1px solid green;
+  cursor: pointer;
+  color: rgba(0, 0, 0, .87);
+  transition: all .3s ease;
+}
+
+
+
+
 
 
 
@@ -115,8 +166,6 @@
 
   .right-crate-container {
     margin-top: 85px;
-
-    background:var(--colorGrayNatural);
     /* margin-left:40%; */
     right: 0;
     position: absolute;
@@ -143,6 +192,14 @@
 
   .page-content {
     max-width: 1280px;
+  }
+
+  .drop-down {
+    margin: auto;
+  }
+
+  .drop-down-content {
+    margin-left:82px;
   }
 
 

@@ -300,6 +300,69 @@ $('#paypal').on('click', function() {
   $(this).toggleClass('transformed');
 });
 
+
+
+/* Nav for Future Page */
+
+$(".drop-down-container").hover(
+  function() {
+    $(".nav-list .menu").toggleClass('active');
+  }, function() {
+    $(".nav-list .menu").toggleClass('active');
+  }
+);
+
+
+function showNav () {
+$(".drop-down-container")
+  .qcss({ display: 'block' })
+  .delay(2)
+  .qcss({ opacity: '1' })
+};
+
+function hideNav () {
+$(".drop-down-container")
+  .qcss({ opacity: '0' })
+  .delay(200)
+  .qcss({ display: 'none' })
+};
+
+// $(".drop-down-container").hover(
+//   function() {
+//
+//   }, function() {
+//     hideNav();
+//   }
+// );
+
+$(".drop-down-container").mouseleave(function() {
+  hideNav();
+});
+
+$(".menu").on("mouseover", function() {
+showNav();
+});
+//
+$(".drop-down-container").on("mouseleave", function() {
+hideNav();
+});
+
+$(".nav-list li").not(".menu").on("mouseover", function() {
+hideNav();
+});
+
+$(".sb-navbar-siren").on("mouseover", function() {
+hideNav();
+});
+
+$("page-content").on("mouseover", function() {
+hideNav();
+});
+
+
+
+
+
 </script>
 </body>
 </html>
