@@ -149,6 +149,7 @@ input, button, submit { border:none; }
 .sb-contentCrate {
 	padding-top: 126px;
 	height:100%;
+	background: #f7f7f7;
 }
 
 .sb-navbar .row ul li:nth-child(4) {
